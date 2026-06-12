@@ -1,18 +1,19 @@
-"use client";
+'use client';
 
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiCheckCircle } from 'react-icons/fi';
+import { config } from '@/lib/games.config';
+
+const gameName = config.game.name;
 
 const reasons = [
-  'Optimized specifically for Fisch game, providing the best gaming experience',
-  'Safe and reliable, using advanced simulation technology',
-  'Regular updates to ensure compatibility with game versions',
-  'Rich customization options to meet different needs',
-  'User-friendly interface, simple and easy to use',
-  'Professional technical support to solve your problems',
-  'Active user community to share experiences and tips',
-  'Efficient resource collection to accelerate game progress'
+  `Up-to-date guides and tools for ${gameName}`,
+  'Accurate information verified by the community',
+  'All tools run in your browser — no downloads needed',
+  'Updated regularly to match the latest game patches',
+  'Beginner-friendly content that helps you get started fast',
+  'Comprehensive tier lists and calculators to optimize your gameplay',
 ];
 
 export default function Why() {
@@ -20,18 +21,17 @@ export default function Why() {
     <section id="why" className="section bg-white dark:bg-gray-900">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="heading">Why Choose Our Fisch Macro</h2>
+            <h2 className="heading">Why Choose {gameName}</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-              Our Fisch Macro is the most professional, safest, and most efficient Fisch game assistance tool currently on the market, providing you with an excellent gaming experience.
+              {config.seo.siteDescription}
             </p>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {reasons.map((reason, index) => (
                 <motion.div
@@ -49,7 +49,6 @@ export default function Why() {
             </div>
           </motion.div>
 
-          {/* Testimonials/Reviews */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -60,30 +59,32 @@ export default function Why() {
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mr-3">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold">J</span>
+                  <span className="text-blue-600 dark:text-blue-400 font-bold">A</span>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white">John D.</h4>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Experienced Fisch Player</p>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Alex R.</h4>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Roblox Player</p>
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                &quot;After using Fisch Macro, my game efficiency increased by 200%! No longer need to spend a lot of time on repetitive tasks, can focus on other interesting parts of the game.&quot;
+                &quot;This site has everything I need — codes, tier lists, and guides all in one place.
+                The calculator is especially useful.&quot;
               </p>
             </div>
 
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mr-3">
-                  <span className="text-blue-600 dark:text-blue-400 font-bold">M</span>
+                  <span className="text-blue-600 dark:text-blue-400 font-bold">S</span>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white">Mike S.</h4>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Roblox Gaming Enthusiast</p>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Sam K.</h4>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Gaming Enthusiast</p>
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                &quot;This is the best Fisch Macro I&apos;ve used, with a friendly interface, powerful features, and most importantly, very safe. I&apos;ve been using it for over a year without any issues.&quot;
+                &quot;I come back every week for the updated codes. The tier list helped me figure out
+                which items are worth my time.&quot;
               </p>
             </div>
           </motion.div>
@@ -91,4 +92,4 @@ export default function Why() {
       </div>
     </section>
   );
-} 
+}

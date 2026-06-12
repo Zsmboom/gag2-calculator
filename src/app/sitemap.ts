@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { config } from '@/lib/games.config';
 import itemsData from '@/data/items.json';
 
+export const dynamic = 'force-static';
+
 type ItemEntry = { slug?: string };
 
 function withTrailingSlash(path: string): string {

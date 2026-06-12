@@ -28,16 +28,16 @@ interface ShareButtonsProps {
 }
 
 export default function ShareButtons({
-  url = 'https://fischmacroo.com',
-  title = 'Fisch Macro - Automation Tool for Roblox Fisch Game',
-  description = 'Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.',
+  url = '',
+  title = '',
+  description = '',
   className = '',
   iconSize = 32,
   round = true
 }: ShareButtonsProps) {
   return (
     <div className={`flex flex-wrap gap-3 ${className}`}>
-      <FacebookShareButton url={url} hashtag="#FischMacro" className="p-1">
+      <FacebookShareButton url={url} className="p-1">
         <FacebookIcon size={iconSize} round={round} />
       </FacebookShareButton>
 
@@ -66,4 +66,4 @@ export default function ShareButtons({
       </WeiboShareButton>
     </div>
   );
-} 
+}

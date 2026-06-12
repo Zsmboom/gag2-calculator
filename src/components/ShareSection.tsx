@@ -10,15 +10,15 @@ export default function ShareSection() {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">Share with Friends</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            If you find Fisch Macro helpful, please share it with your friends and other Roblox Fisch game players!
+            If you find this site helpful, please share it with your friends and other Roblox players!
           </p>
         </div>
-        
+
         <div className="flex justify-center">
-          <ShareButtons 
-            url="https://fischmacroo.com" 
-            title="Fisch Macro - Automation Tool for Roblox Fisch Game" 
-            description="Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience."
+          <ShareButtons
+            url="https://example.com"
+            title="Guides & Tools"
+            description="Guides, codes, tier lists and calculators for Roblox games."
             className="justify-center"
             iconSize={40}
           />
@@ -26,4 +26,4 @@ export default function ShareSection() {
       </div>
     </section>
   );
-} 
+}
