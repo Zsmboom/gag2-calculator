@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- 背景 -->
+  <rect width="180" height="180" rx="40" fill="#3B82F6" />
+  
+  <!-- 鱼身 -->
+  <path 
+    d="M45,90 C65,65 95,45 135,90 C95,135 65,115 45,90 Z" 
+    fill="#DBEAFE" 
+    stroke="#2563EB" 
+    stroke-width="4"
+  />
+  
+  <!-- 鱼尾 -->
+  <path 
+    d="M45,90 C25,65 25,115 45,90 Z" 
+    fill="#DBEAFE" 
+    stroke="#2563EB" 
+    stroke-width="4"
+  />
+  
+  <!-- 鱼眼 -->
+  <circle cx="115" cy="80" r="10" fill="#1E40AF" />
+  <circle cx="115" cy="80" r="4" fill="white" />
+  
+  <!-- 鱼鳍 -->
+  <path 
+    d="M90,90 C70,55 55,70 70,90" 
+    fill="none" 
+    stroke="#DBEAFE" 
+    stroke-width="4"
+  />
+  
+  <path 
+    d="M90,90 C70,125 55,110 70,90" 
+    fill="none" 
+    stroke="#DBEAFE" 
+    stroke-width="4"
+  />
+</svg> 

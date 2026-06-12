@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --secondary: #10b981;
+  --background: #ffffff;
+  --foreground: #171717;
+  --accent: #f59e0b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+  
+  .btn-secondary {
+    @apply bg-green-500 text-white hover:bg-green-600;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .heading {
+    @apply text-3xl md:text-4xl font-bold mb-6;
+  }
+  
+  .subheading {
+    @apply text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto;
+  }
+  
+  .download-btn::after {
+    content: attr(data-text);
+  }
+  
+  .virus-check-btn::after {
+    content: attr(data-text);
+  }
+  
+  .github-btn::after {
+    content: attr(data-text);
+  }
+}
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+  /* Improve touch targets */
+  button, 
+  [role="button"],
+  .btn {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Reduce motion */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* Improve form elements */
+  input,
+  select,
+  textarea {
+    @apply text-base;
+    font-size: 16px !important; /* Prevent iOS zoom */
+  }
+}

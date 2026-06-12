@@ -1,0 +1,14 @@
+# Generic Roblox game tool site — replace the host with your real domain.
+User-agent: *
+Allow: /
+
+# Block binary / download paths from crawlers.
+Disallow: /downloads/
+Disallow: /*.ahk$
+Disallow: /*.rar$
+Disallow: /*.zip$
+
+# Allow the LLM-facing info file.
+Allow: /llms.txt
+
+Sitemap: https://game-slug.gg/sitemap.xml

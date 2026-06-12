@@ -1,0 +1,11 @@
+{
+  "_comment": "Replace this with real items. Schema: { slug, name, tier, description?, stats?, howToGet?, patchNotes? }. tier ∈ S | A | B | C | D.",
+  "items": [
+    {
+      "slug": "example-item",
+      "name": "Example Item",
+      "tier": "A",
+      "description": "Placeholder — Codex, replace this with a real item from the game."
+    }
+  ]
+}

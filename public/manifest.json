@@ -1,0 +1,13 @@
+{
+  "name": "Game Name Guide & Tools",
+  "short_name": "Game Name",
+  "description": "Game Name — guides, codes, tier list, calculator. Updated daily.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/apple-touch-icon.svg", "sizes": "180x180", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,46 @@
+# Fisch Macro 项目结构与信息
+
+## 项目概述
+这是一个基于Next.js的网站项目，为Fisch Macro提供展示和信息平台。该项目使用TypeScript和React开发。
+
+## 主要技术栈
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## 项目结构
+- `/src/app`: 应用页面和路由
+- `/src/components`: 可复用的UI组件
+- `/src/lib`: 工具库和辅助函数
+- `/public`: 静态资源
+
+## 主要组件
+- Header: 网站顶部导航
+- Footer: 网站底部信息
+- HowTo: 使用指南组件
+- Features: 功能特性展示
+- Download: 下载相关功能
+- FAQ: 常见问题解答
+- Hero: 主页英雄区域
+- WhatIs: 产品介绍区域
+
+## 页面路由
+- /: 主页
+- /How-To-Use-Fisch-Macro-For-Android/: Android使用指南
+- /How-To-AFK-Farm-In-Roblox-Fisch/: Roblox挂机指南
+- /about/: 关于页面
+- /contact/: 联系页面
+- /privacy/: 隐私政策
+- /disclaimer/: 免责声明
+- /blog/: 博客
+- /search-preview/: 搜索预览
+
+## 项目目的
+该网站旨在为Fisch Macro提供官方信息、使用指南、下载渠道以及技术支持。
+
+## 版本控制
+项目使用Git进行版本控制。
+
+## 构建与部署
+项目使用Vercel进行构建和部署。 

@@ -1,0 +1,29 @@
+{
+  "game": { "name": "Game Name", "slug": "game-slug", "robloxId": "" },
+  "seo": {
+    "siteTitle": "Game Name Guide & Tools",
+    "siteDescription": "The ultimate Game Name companion — guides, codes, tier lists, calculators. Updated daily.",
+    "baseUrl": "https://game-slug.gg",
+    "primaryKeywords": ["Game Name", "Game Name Roblox", "Game Name codes"],
+    "secondaryKeywords": ["Game Name calculator", "Game Name tier list", "Game Name guide"]
+  },
+  "pages": [
+    { "path": "/", "title": "Home", "description": "Home page", "priority": 1.0, "isHub": true },
+    { "path": "/calculator", "title": "Calculator", "description": "Game Name Calculator", "priority": 0.9, "isHub": true },
+    { "path": "/codes", "title": "Codes", "description": "Game Name Codes", "priority": 0.9, "isHub": true },
+    { "path": "/tier-list", "title": "Tier List", "description": "Game Name Tier List", "priority": 0.9, "isHub": true },
+    { "path": "/beginner-guide", "title": "Beginner Guide", "description": "Game Name Guide", "priority": 0.8 },
+    { "path": "/updates", "title": "Updates", "description": "Game Name Updates", "priority": 0.8 },
+    { "path": "/about", "title": "About", "description": "About", "priority": 0.4 },
+    { "path": "/privacy", "title": "Privacy Policy", "description": "Privacy Policy", "priority": 0.3 },
+    { "path": "/disclaimer", "title": "Disclaimer", "description": "Disclaimer", "priority": 0.3 }
+  ],
+  "calculator": { "type": "stat", "dataFile": "calculator-stat.json", "logicDescription": "" },
+  "features": [
+    { "title": "Feature 1", "description": "Description 1" },
+    { "title": "Feature 2", "description": "Description 2" }
+  ],
+  "faqs": [
+    { "question": "What is this site?", "answer": "This is a fan-made guide." }
+  ]
+}

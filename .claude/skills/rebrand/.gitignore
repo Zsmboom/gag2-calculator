@@ -1,0 +1,17 @@
+# Rebrand Skill - .env 文件
+# 本文件不会被 Git 跟踪
+.env
+*.env
+api-keys.env
+
+# 临时文件
+temp-*.png
+temp-*.jpg
+temp-*.svg
+
+# 备份文件
+*.backup
+*.bak
+
+# 测试输出
+test-output/

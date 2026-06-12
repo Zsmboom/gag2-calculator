@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Launching Fisch Macro from AutoHotkey</title>
+  <desc id="desc">A game-style desktop scene showing a Fisch Macro file opened with AutoHotkey and a macro interface ready to start.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="0.52" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf3ff"/>
+    </linearGradient>
+    <linearGradient id="run" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="rod" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#92400e"/>
+      <stop offset="1" stop-color="#431407"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#06152d" flood-opacity="0.32"/>
+    </filter>
+    <pattern id="pixels" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0v34" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#pixels)"/>
+  <g opacity="0.72">
+    <circle cx="94" cy="90" r="5" fill="#fef08a"/>
+    <circle cx="690" cy="86" r="7" fill="#fef08a"/>
+    <circle cx="648" cy="170" r="4" fill="#ffffff"/>
+    <circle cx="170" cy="176" r="4" fill="#ffffff"/>
+    <path d="M232 86l12 6-12 6-12-6z" fill="#93c5fd"/>
+    <path d="M594 250l15 8-15 8-15-8z" fill="#fde68a"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="85" y="92" width="630" height="416" rx="26" fill="#0f172a"/>
+    <rect x="111" y="119" width="578" height="360" rx="16" fill="url(#window)"/>
+    <rect x="111" y="119" width="578" height="52" rx="16" fill="#dbeafe"/>
+    <path d="M111 153h578v28H111z" fill="#dbeafe"/>
+    <circle cx="142" cy="145" r="7" fill="#ef4444"/>
+    <circle cx="164" cy="145" r="7" fill="#facc15"/>
+    <circle cx="186" cy="145" r="7" fill="#22c55e"/>
+    <text x="221" y="153" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f3b67">Fisch Macro Launcher</text>
+
+    <g transform="translate(150 218)">
+      <rect x="0" y="0" width="186" height="196" rx="18" fill="#eff6ff"/>
+      <rect x="46" y="28" width="94" height="104" rx="12" fill="#ffffff" stroke="#93c5fd" stroke-width="5"/>
+      <path d="M112 28v32h28" fill="#dbeafe"/>
+      <rect x="60" y="74" width="66" height="12" rx="6" fill="#ef4444"/>
+      <rect x="60" y="98" width="48" height="10" rx="5" fill="#60a5fa"/>
+      <text x="93" y="164" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f3b67">FischMacro.ahk</text>
+    </g>
+
+    <g transform="translate(386 208)">
+      <rect x="0" y="0" width="252" height="224" rx="18" fill="#ffffff"/>
+      <rect x="0" y="0" width="252" height="44" rx="18" fill="#eff6ff"/>
+      <path d="M0 26h252v24H0z" fill="#eff6ff"/>
+      <text x="24" y="29" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f3b67">Macro Status</text>
+      <rect x="24" y="70" width="204" height="20" rx="10" fill="#dcfce7"/>
+      <rect x="24" y="70" width="156" height="20" rx="10" fill="#22c55e"/>
+      <text x="24" y="118" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#486078">Fishing loop configured</text>
+      <text x="24" y="146" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#486078">Auto shake enabled</text>
+      <text x="24" y="174" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#486078">Roblox window detected</text>
+      <rect x="58" y="188" width="136" height="42" rx="13" fill="url(#run)"/>
+      <path d="M112 199l31 10-31 10z" fill="#ffffff"/>
+      <text x="132" y="216" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Start</text>
+    </g>
+
+    <path d="M334 310c42-7 58-7 74 0" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M372 289l36 21-36 21" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(83 455)" filter="url(#shadow)">
+    <path d="M0 28h382l44 62H-28z" fill="#9a5428"/>
+    <path d="M-28 90h454v24H-46z" fill="#5b2e1a"/>
+    <g fill="#4b2619">
+      <rect x="30" y="101" width="25" height="54" rx="6"/>
+      <rect x="226" y="101" width="25" height="54" rx="6"/>
+      <rect x="358" y="101" width="25" height="54" rx="6"/>
+    </g>
+  </g>
+
+  <g transform="translate(535 395)" filter="url(#shadow)">
+    <rect x="28" y="65" width="92" height="20" rx="7" fill="#2563eb"/>
+    <rect x="40" y="14" width="66" height="66" rx="10" fill="#ffd08a"/>
+    <rect x="34" y="10" width="78" height="21" rx="6" fill="#6b3f25"/>
+    <rect x="55" y="37" width="9" height="9" rx="2" fill="#172554"/>
+    <rect x="86" y="37" width="9" height="9" rx="2" fill="#172554"/>
+    <rect x="64" y="58" width="24" height="6" rx="3" fill="#9f4636"/>
+    <rect x="36" y="84" width="30" height="72" rx="8" fill="#22c55e"/>
+    <rect x="78" y="84" width="30" height="72" rx="8" fill="#16a34a"/>
+    <rect x="4" y="83" width="28" height="66" rx="8" fill="#ffd08a" transform="rotate(18 18 116)"/>
+    <rect x="113" y="72" width="28" height="75" rx="8" fill="#ffd08a" transform="rotate(-38 127 110)"/>
+    <path d="M132 66c38-68 88-103 150-106" fill="none" stroke="url(#rod)" stroke-width="7" stroke-linecap="round"/>
+    <line x1="281" y1="-38" x2="281" y2="64" stroke="#e0f2fe" stroke-width="3" stroke-linecap="round"/>
+    <rect x="34" y="151" width="34" height="18" rx="5" fill="#172554"/>
+    <rect x="77" y="151" width="34" height="18" rx="5" fill="#172554"/>
+  </g>
+
+  <g transform="translate(655 464)" filter="url(#shadow)">
+    <path d="M0 34c25-35 67-39 99-7-24 27-63 32-99 7z" fill="#fde047"/>
+    <path d="M86 27l33-20-8 36z" fill="#fb923c"/>
+    <circle cx="29" cy="26" r="5" fill="#143047"/>
+  </g>
+</svg>
