@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `Privacy Policy | ${config.seo.siteTitle}`,
+  title: `Privacy Policy`,
   description: `Privacy policy for ${gameName} — how we collect, use, and protect your data.`,
   alternates: { canonical: `${config.seo.baseUrl}/privacy/` },
 };
@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow">
         <div className="container mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold mb-8">Privacy Policy</h1>
 

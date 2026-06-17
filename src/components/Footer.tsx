@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiGithub, FiTwitter, FiMail } from 'react-icons/fi';
+import { FiMessageCircle, FiPlay, FiMail } from 'react-icons/fi';
 import ShareButtons from './ShareButtons';
 import { config } from '@/lib/games.config';
 
@@ -26,25 +26,25 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4 mb-4">
               <a
-                href="https://github.com"
+                href="https://discord.gg/growagarden"
                 className="text-gray-400 hover:text-white p-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="GitHub"
+                aria-label="Discord"
               >
-                <FiGithub className="h-5 w-5" />
+                <FiMessageCircle className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.roblox.com/games/97598239454123/Grow-a-Garden-2"
                 className="text-gray-400 hover:text-white p-2"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Twitter"
+                aria-label="Roblox game page"
               >
-                <FiTwitter className="h-5 w-5" />
+                <FiPlay className="h-5 w-5" />
               </a>
               <a
-                href={`mailto:contact@example.com`}
+                href={`mailto:contact@gag2-calculator.com`}
                 className="text-gray-400 hover:text-white p-2"
                 aria-label="Email"
               >

@@ -60,3 +60,10 @@ Thumbs.db
 # Config files
 iniclick.ini
 /dist/
+
+# Local macro binaries (not part of the website)
+/temp/
+
+# Claude Code local files
+.claude/settings.local.json
+.claude/launch.json

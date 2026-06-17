@@ -81,6 +81,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="antialiased">
+        <a href="#main-content" className="skip-link">Skip to content</a>
         {children}
       </body>
     </html>

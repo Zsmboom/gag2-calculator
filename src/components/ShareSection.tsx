@@ -2,6 +2,7 @@
 
 import React from 'react';
 import ShareButtons from './ShareButtons';
+import { config } from '@/lib/games.config';
 
 export default function ShareSection() {
   return (
@@ -16,9 +17,9 @@ export default function ShareSection() {
 
         <div className="flex justify-center">
           <ShareButtons
-            url="https://example.com"
-            title="Guides & Tools"
-            description="Guides, codes, tier lists and calculators for Roblox games."
+            url={config.seo.baseUrl}
+            title={config.seo.siteTitle}
+            description={config.seo.siteDescription}
             className="justify-center"
             iconSize={40}
           />

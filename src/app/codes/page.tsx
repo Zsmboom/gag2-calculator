@@ -8,7 +8,7 @@ import CopyButton from '@/components/CopyButton';
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `${gameName} Codes (Working) | ${config.seo.siteTitle}`,
+  title: `${gameName} Codes (Working)`,
   description: `All working ${gameName} codes — updated daily. Redeem for free rewards.`,
   alternates: { canonical: `${config.seo.baseUrl}/codes/` },
 };
@@ -26,7 +26,7 @@ export default function CodesPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
             <div className="text-center mb-12">

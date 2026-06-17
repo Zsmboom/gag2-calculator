@@ -3,6 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FiShare2 } from 'react-icons/fi';
 import ShareButtons from './ShareButtons';
+import { config } from '@/lib/games.config';
 
 export default function HeaderShareButton() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,9 +40,9 @@ export default function HeaderShareButton() {
             <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Share this site</h3>
           </div>
           <ShareButtons
-            url="https://example.com"
-            title="Guides & Tools"
-            description="Guides, codes, tier lists and calculators for Roblox games."
+            url={config.seo.baseUrl}
+            title={config.seo.siteTitle}
+            description={config.seo.siteDescription}
             iconSize={40}
             className="justify-center gap-3"
           />

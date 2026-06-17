@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: page.priority,
   }));
 
-  const items = (itemsData as { items: ItemEntry[] }).items ?? [];
+  const items = (((itemsData as unknown) as { items: ItemEntry[] }).items ?? []);
   const itemEntries: MetadataRoute.Sitemap = items
     .filter((it) => !!it.slug)
     .map((it) => ({

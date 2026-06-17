@@ -22,6 +22,18 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
@@ -35,9 +47,9 @@ body {
   .container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
-  
+
   .btn {
-    @apply px-4 py-2 rounded-md font-medium transition-all duration-200;
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
   }
   
   .btn-primary {
@@ -76,22 +88,12 @@ body {
 /* Mobile Optimizations */
 @media (max-width: 640px) {
   /* Improve touch targets */
-  button, 
+  button,
   [role="button"],
   .btn {
     @apply min-h-[44px] min-w-[44px];
   }
-  
-  /* Reduce motion */
-  @media (prefers-reduced-motion: reduce) {
-    * {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      scroll-behavior: auto !important;
-    }
-  }
-  
+
   /* Improve form elements */
   input,
   select,
@@ -99,4 +101,34 @@ body {
     @apply text-base;
     font-size: 16px !important; /* Prevent iOS zoom */
   }
+}
+
+/* Visible focus for keyboard users */
+a,
+button,
+input,
+select,
+textarea,
+[role="button"] {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-gray-900;
+}
+
+/* Native select dark mode (Windows) */
+select {
+  background-color: #ffffff;
+  color: #171717;
+}
+@media (prefers-color-scheme: dark) {
+  select {
+    background-color: #111827;
+    color: #e5e7eb;
+  }
+}
+
+/* Skip link */
+.skip-link {
+  @apply sr-only;
+}
+.skip-link:focus {
+  @apply not-sr-only absolute left-4 top-4 z-50 rounded-md bg-blue-600 px-4 py-2 text-white;
 }

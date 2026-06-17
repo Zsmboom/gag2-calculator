@@ -19,7 +19,7 @@ interface GoogleSearchPreviewProps {
 export default function GoogleSearchPreview({
   title = "Site Title",
   description = "Site description goes here.",
-  url = "https://example.com",
+  url = "https://gag2-calculator.com",
   rating = 4.5,
   ratingCount = 1000,
   downloadCount = "1,000+",

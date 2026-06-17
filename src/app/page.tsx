@@ -6,18 +6,21 @@ import Why from '@/components/Why';
 import FAQ from '@/components/FAQ';
 import ShareSection from '@/components/ShareSection';
 import Footer from '@/components/Footer';
+import GoogleSearchSchema from '@/components/GoogleSearchSchema';
+import { config } from '@/lib/games.config';
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main>
+      <main id="main-content">
         <Hero />
         <Features />
         <HowTo />
         <Why />
         <FAQ />
         <ShareSection />
+        <GoogleSearchSchema faqs={config.faqs} />
       </main>
       <Footer />
     </div>

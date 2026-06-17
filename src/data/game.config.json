@@ -1,29 +1,54 @@
 {
-  "game": { "name": "Game Name", "slug": "game-slug", "robloxId": "" },
+  "game": {
+    "name": "Grow a Garden 2",
+    "slug": "grow-a-garden-2",
+    "robloxId": "97598239454123",
+    "developer": "Strawberreh Squad / Splitting Point Studios",
+    "genre": "Farming Simulator / PvP Raiding",
+    "lastUpdated": "2026-06-16"
+  },
   "seo": {
-    "siteTitle": "Game Name Guide & Tools",
-    "siteDescription": "The ultimate Game Name companion — guides, codes, tier lists, calculators. Updated daily.",
-    "baseUrl": "https://game-slug.gg",
-    "primaryKeywords": ["Game Name", "Game Name Roblox", "Game Name codes"],
-    "secondaryKeywords": ["Game Name calculator", "Game Name tier list", "Game Name guide"]
+    "siteTitle": "Grow a Garden 2 Guides & Tools",
+    "siteDescription": "Complete Grow a Garden 2 wiki guide covering crop values, mutation multipliers, active codes, seed prices, pets, gear, and night stealing. Updated daily with community data.",
+    "baseUrl": "https://gag2-calculator.com",
+    "primaryKeywords": ["Grow a Garden 2", "GAG2", "Grow a Garden 2 Roblox", "Grow a Garden 2 codes", "Grow a Garden 2 guide"],
+    "secondaryKeywords": ["Grow a Garden 2 calculator", "Grow a Garden 2 tier list", "GAG2 crop values", "Grow a Garden 2 mutations", "GAG2 seeds"]
   },
   "pages": [
-    { "path": "/", "title": "Home", "description": "Home page", "priority": 1.0, "isHub": true },
-    { "path": "/calculator", "title": "Calculator", "description": "Game Name Calculator", "priority": 0.9, "isHub": true },
-    { "path": "/codes", "title": "Codes", "description": "Game Name Codes", "priority": 0.9, "isHub": true },
-    { "path": "/tier-list", "title": "Tier List", "description": "Game Name Tier List", "priority": 0.9, "isHub": true },
-    { "path": "/beginner-guide", "title": "Beginner Guide", "description": "Game Name Guide", "priority": 0.8 },
-    { "path": "/updates", "title": "Updates", "description": "Game Name Updates", "priority": 0.8 },
+    { "path": "/", "title": "Home", "description": "Grow a Garden 2 home", "priority": 1.0, "isHub": true },
+    { "path": "/calculator", "title": "Calculator", "description": "Grow a Garden 2 Profit Calculator", "priority": 0.9, "isHub": true },
+    { "path": "/codes", "title": "Codes", "description": "Grow a Garden 2 Codes", "priority": 0.9, "isHub": true },
+    { "path": "/tier-list", "title": "Tier List", "description": "Grow a Garden 2 Crop Tier List", "priority": 0.9, "isHub": true },
+    { "path": "/beginner-guide", "title": "Beginner Guide", "description": "Grow a Garden 2 Beginner Guide", "priority": 0.8, "isHub": true },
+    { "path": "/mutations", "title": "Mutations", "description": "Grow a Garden 2 Mutation Multipliers", "priority": 0.7 },
+    { "path": "/pets", "title": "Pets", "description": "Grow a Garden 2 Pet Catalog", "priority": 0.7 },
+    { "path": "/gear", "title": "Gear", "description": "Grow a Garden 2 Gear & Tools", "priority": 0.7 },
+    { "path": "/seeds", "title": "Seeds", "description": "Grow a Garden 2 Seed Shop Prices", "priority": 0.7 },
+    { "path": "/weather", "title": "Weather", "description": "Grow a Garden 2 Weather Events", "priority": 0.7 },
+    { "path": "/night-stealing", "title": "Night Stealing", "description": "Grow a Garden 2 Night Stealing Guide", "priority": 0.7 },
+    { "path": "/updates", "title": "Updates", "description": "Grow a Garden 2 Updates", "priority": 0.8 },
     { "path": "/about", "title": "About", "description": "About", "priority": 0.4 },
     { "path": "/privacy", "title": "Privacy Policy", "description": "Privacy Policy", "priority": 0.3 },
     { "path": "/disclaimer", "title": "Disclaimer", "description": "Disclaimer", "priority": 0.3 }
   ],
-  "calculator": { "type": "stat", "dataFile": "calculator-stat.json", "logicDescription": "" },
+  "calculator": {
+    "type": "profit",
+    "dataFile": "items.json",
+    "logicDescription": "Sell Value = Base Value (1kg) × Weight² × Mutation Multiplier × (1 + Friend Boost%) × Quantity. Mutations are mutually exclusive in GAG2 — only one applies per crop. Values are community-estimated."
+  },
   "features": [
-    { "title": "Feature 1", "description": "Description 1" },
-    { "title": "Feature 2", "description": "Description 2" }
+    { "title": "Active Codes", "description": "Working Grow a Garden 2 codes like TEAMGREENBEAN, updated the moment they drop on Discord.", "icon": "FiGift" },
+    { "title": "36-Crop Tier List", "description": "Every crop ranked by rarity — Super to Common — with 1kg values, floor values, and harvest types.", "icon": "FiList" },
+    { "title": "Profit Calculator", "description": "Estimate exact sell prices with the community-verified formula: weight, mutations, and friend boost.", "icon": "FiCalculator" },
+    { "title": "Mutation Multipliers", "description": "All 7 confirmed GAG2 mutations from Bloodlit (×80) to Gold (×10), plus weather triggers.", "icon": "FiZap" },
+    { "title": "Pet Catalog", "description": "Spawn mechanics, abilities, and costs for every pet — from Deer to the server-alert Space Dragon.", "icon": "FiHeart" },
+    { "title": "Seed Shop Prices", "description": "Full seed price list in Sheckles and Robux, restock odds, and investment strategy by game phase.", "icon": "FiDroplet" }
   ],
   "faqs": [
-    { "question": "What is this site?", "answer": "This is a fan-made guide." }
+    { "question": "What is Grow a Garden 2?", "answer": "Grow a Garden 2 (GAG2) is the sequel to the popular Roblox farming game, developed by Strawberreh Squad / Splitting Point Studios. It adds a day/night cycle, guilds, weather, mutations, and offline growth — and nothing carries over from GAG1." },
+    { "question": "Are mutations stackable in Grow a Garden 2?", "answer": "No. Unlike GAG1, mutations in GAG2 are mutually exclusive — only one mutation applies per crop at a time. The highest confirmed multiplier is Bloodlit at ×80 during a Blood Moon." },
+    { "question": "How do I redeem codes in Grow a Garden 2?", "answer": "Codes are redeemed through the Discord bot, not in-game. The current working code is TEAMGREENBEAN, which grants 3× Green Bean Seeds. Join the official Discord for new codes." },
+    { "question": "Can my crops be stolen?", "answer": "Yes. During the 2-minute night phase of the 10-minute day/night cycle, other players can loot your unattended garden. Harvest high-value crops before logging off or deploy defensive pets and gear." },
+    { "question": "What is the best crop to start with?", "answer": "Start with Carrot (1 Sheckle) for fast first cash, then rush Bamboo (700 Sheckles) — it can be planted densely and pairs perfectly with weather-triggered mutations. Romanesco (99 Sheckles) has the best ROI in the game at 15×." }
   ]
 }

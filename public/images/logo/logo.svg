@@ -1,7 +1,12 @@
-<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#ffffff" fill-opacity="0"/>
-  <text x="10" y="40" font-family="Arial, sans-serif" font-size="30px" font-weight="bold">
-    <tspan fill="#3b82f6">Fisch</tspan>
-    <tspan fill="#10b981">Macro</tspan>
-  </text>
-</svg> 
+<svg width="220" height="56" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Grow a Garden 2">
+  <rect width="100%" height="100%" fill="#ffffff" fill-opacity="0" />
+  <g transform="translate(6 6)">
+    <circle cx="22" cy="22" r="22" fill="#16a34a" />
+    <path d="M22 38 V18" fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round" />
+    <path d="M22 24 C14 20 8 20 3 26 C9 32 18 32 22 27 Z" fill="#bbf7d0" />
+    <path d="M22 20 C30 14 38 14 43 22 C35 28 26 28 22 22 Z" fill="#dcfce7" />
+    <circle cx="22" cy="16" r="2.6" fill="#fde047" />
+  </g>
+  <text x="58" y="26" font-family="Inter, system-ui, sans-serif" font-size="17" font-weight="800" fill="#16a34a">Grow a Garden 2</text>
+  <text x="58" y="44" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#6b7280">Guides &amp; Tools</text>
+</svg>

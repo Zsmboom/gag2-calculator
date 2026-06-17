@@ -8,7 +8,7 @@ const gameName = config.game.name;
 const calculatorType = config.calculator?.type ?? 'stat';
 
 export const metadata: Metadata = {
-  title: `${gameName} Calculator | ${config.seo.siteTitle}`,
+  title: `${gameName} Calculator`,
   description: `${gameName} ${calculatorType} calculator — fast, free, and updated for the latest patch.`,
   alternates: { canonical: `${config.seo.baseUrl}/calculator/` },
 };
@@ -17,7 +17,7 @@ export default function CalculatorPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
             <div className="text-center mb-12">
@@ -41,16 +41,20 @@ export default function CalculatorPage() {
             <h2 className="heading text-center">{gameName} Calculator — FAQ</h2>
             <div className="max-w-3xl mx-auto space-y-4">
               <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-sm">
-                <h3 className="font-semibold text-lg mb-2">Is this calculator accurate?</h3>
+                <h3 className="font-semibold text-lg mb-2">How accurate is this calculator?</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  The {gameName} calculator uses the latest in-game formulas. Results are estimates —
-                  actual values may vary by ±1–2% based on server-side rounding.
+                  It uses the community-verified {gameName} formula: Base Value × Weight² × Mutation
+                  × Friend Boost × Quantity. Values are community-estimated and actual results may
+                  vary slightly due to server-side rounding and per-crop curve differences (exponent
+                  2.0–3.4).
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-sm">
-                <h3 className="font-semibold text-lg mb-2">Do I need to log in?</h3>
+                <h3 className="font-semibold text-lg mb-2">Can I stack mutations?</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  No login required. The {gameName} calculator runs entirely in your browser.
+                  No. Unlike the original Grow a Garden, mutations in {gameName} are mutually
+                  exclusive — only one mutation applies per crop. The calculator reflects this: pick
+                  the single mutation on your harvest.
                 </p>
               </div>
             </div>
@@ -64,18 +68,18 @@ export default function CalculatorPage() {
                   mainEntity: [
                     {
                       '@type': 'Question',
-                      name: `Is this ${gameName} calculator accurate?`,
+                      name: `How accurate is the ${gameName} calculator?`,
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: `The ${gameName} calculator uses the latest in-game formulas. Results are estimates and may vary by ±1–2%.`,
+                        text: `It uses the community-verified formula: Base Value × Weight² × Mutation × Friend Boost × Quantity. Values are estimates and may vary slightly due to per-crop curve differences.`,
                       },
                     },
                     {
                       '@type': 'Question',
-                      name: 'Do I need to log in?',
+                      name: 'Can I stack mutations in Grow a Garden 2?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'No login required. Everything runs in the browser.',
+                        text: 'No. Mutations in GAG2 are mutually exclusive — only one mutation applies per crop at a time.',
                       },
                     },
                   ],

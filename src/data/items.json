@@ -1,11 +1,329 @@
 {
-  "_comment": "Replace this with real items. Schema: { slug, name, tier, description?, stats?, howToGet?, patchNotes? }. tier ∈ S | A | B | C | D.",
+  "_comment": "Grow a Garden 2 crop database. 36 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
   "items": [
     {
-      "slug": "example-item",
-      "name": "Example Item",
-      "tier": "A",
-      "description": "Placeholder — Codex, replace this with a real item from the game."
+      "slug": "moon-bloom",
+      "name": "Moon Bloom",
+      "tier": "Super",
+      "baseValue": 9000,
+      "description": "One of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (65M Sheckles) but extremely high returns. Endgame-only crop.",
+      "stats": { "Rarity": "Super", "1kg Value": "9,000", "Floor": "8,100", "Seed Cost": "65,000,000🪙 / 1,349💎", "Harvest": "TBD" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.35% — extremely rare. Requires a maxed economy (Sprinklers, pets, defense)."
+    },
+    {
+      "slug": "dragons-breath",
+      "name": "Dragon's Breath",
+      "tier": "Super",
+      "baseValue": 3400,
+      "description": "The most expensive seed in the game (90M Sheckles) and the other Super-rarity crop. Single harvest — each seed produces one high-value crop.",
+      "stats": { "Rarity": "Super", "1kg Value": "3,400", "Floor": "3,100", "Seed Cost": "90,000,000🪙 / 1,499💎", "Harvest": "Single" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.275% — extremely rare. Absolute endgame crop; needs extreme defense."
+    },
+    {
+      "slug": "lotus",
+      "name": "Lotus",
+      "tier": "Mythic",
+      "baseValue": 6500,
+      "description": "A Mythic crop with excellent value (6,500 S/1kg) at a surprisingly low seed cost of just 899 Sheckles. Single harvest, but the value/seed ratio is extremely favorable (~7.2× ROI).",
+      "stats": { "Rarity": "Mythic", "1kg Value": "6,500", "Floor": "5,900", "Seed Cost": "899🪙", "Harvest": "Single" },
+      "howToGet": "Buy from the Seed Shop. Best value-per-Sheckle among high-tier crops — great candidate for mutation farming."
+    },
+    {
+      "slug": "venus-flytrap",
+      "name": "Venus Flytrap",
+      "tier": "Mythic",
+      "baseValue": 3000,
+      "description": "A high-value single-harvest crop that also attacks thieves at night — a rare dual-purpose plant. Worth the premium seed cost.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "3,000", "Floor": "2,700", "Seed Cost": "7,000,000🪙 / 799💎", "Harvest": "Single", "Defensive": "Eats thieves" },
+      "howToGet": "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~1.43%."
+    },
+    {
+      "slug": "ghost-pepper",
+      "name": "Ghost Pepper",
+      "tier": "Mythic",
+      "baseValue": 2500,
+      "description": "A Mythic multi-harvest crop obtained from the Ghost Pepper Pack (99💎 per roll, 1% drop). Multi-harvest makes it one of the best long-term Mythic investments.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "2,500", "Floor": "2,300", "Seed Cost": "99💎 (Ghost Pepper Pack, 1%)", "Harvest": "Multi" },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 1% drop rate — rarest pack reward)."
+    },
+    {
+      "slug": "beanstalk",
+      "name": "Beanstalk",
+      "tier": "Mythic",
+      "baseValue": 2000,
+      "description": "A Robux-only Mythic crop with multi-harvest and good base value. Only purchasable with Robux (1,199💎), making it a premium seed.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "2,000", "Floor": "1,800", "Seed Cost": "1,199💎", "Harvest": "Multi" },
+      "howToGet": "Purchase with Robux only (1,199💎). Not available for Sheckles."
+    },
+    {
+      "slug": "romanesco",
+      "name": "Romanesco",
+      "tier": "Mythic",
+      "baseValue": 1500,
+      "description": "THE best ROI crop in the game. A Mythic multi-harvest crop costing only 99 Sheckles per seed, producing 1,500 S at base weight — a 15× value/seed ratio. Likely the most under-priced seed in GAG2.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "1,500", "Floor": "1,400", "Seed Cost": "99🪙", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop for just 99 Sheckles. One seed = infinite harvests."
+    },
+    {
+      "slug": "pomegranate",
+      "name": "Pomegranate",
+      "tier": "Mythic",
+      "baseValue": 900,
+      "description": "A Mythic multi-harvest crop. High seed cost (12M) but multi-harvest provides sustained income — a good late-game earner when paired with mutations.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "900", "Floor": "812", "Seed Cost": "12,000,000🪙 / 999💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.9%."
+    },
+    {
+      "slug": "poison-apple",
+      "name": "Poison Apple",
+      "tier": "Mythic",
+      "baseValue": 900,
+      "description": "A Mythic single-harvest crop. High seed cost but 900 S base value, with possible defensive poison properties.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "900", "Floor": "812", "Seed Cost": "25,000,000🪙 / 1,299💎", "Harvest": "Single" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.5%."
+    },
+    {
+      "slug": "horned-melon",
+      "name": "Horned Melon",
+      "tier": "Mythic",
+      "baseValue": 200,
+      "description": "A Mythic multi-harvest crop obtainable only from the Ghost Pepper Pack (30% drop).",
+      "stats": { "Rarity": "Mythic", "1kg Value": "200", "Floor": "180", "Seed Cost": "99💎 (Ghost Pepper Pack, 30%)", "Harvest": "Multi" },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 30% drop)."
+    },
+    {
+      "slug": "sunflower",
+      "name": "Sunflower",
+      "tier": "Legendary",
+      "baseValue": 1800,
+      "description": "A Legendary multi-harvest crop, notable as the only crop that can receive the exclusive Dawnbound mutation (event-exclusive). A specialty crop for collectors and mutation farmers.",
+      "stats": { "Rarity": "Legendary", "1kg Value": "1,800", "Floor": "1,600", "Seed Cost": "5,000,000🪙 / 599💎", "Harvest": "Multi", "Special": "Dawnbound mutation" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~1.7%."
+    },
+    {
+      "slug": "poison-ivy",
+      "name": "Poison Ivy",
+      "tier": "Legendary",
+      "baseValue": 1700,
+      "description": "A Legendary multi-harvest crop at only 99 Sheckles per seed. Excellent value (17× ROI) with multi-harvest regrowth — one of the best early mid-game investments.",
+      "stats": { "Rarity": "Legendary", "1kg Value": "1,700", "Floor": "1,500", "Seed Cost": "99🪙", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop for 99 Sheckles. Also a 4% drop from the Ghost Pepper Pack."
+    },
+    {
+      "slug": "cherry",
+      "name": "Cherry",
+      "tier": "Legendary",
+      "baseValue": 350,
+      "description": "A Legendary multi-harvest crop. Mid-range Legendary entry point at 1.2M Sheckles with solid long-term value from regrowth.",
+      "stats": { "Rarity": "Legendary", "1kg Value": "350", "Floor": "316", "Seed Cost": "1,200,000🪙 / 479💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~2.2%."
+    },
+    {
+      "slug": "acorn",
+      "name": "Acorn",
+      "tier": "Legendary",
+      "baseValue": 200,
+      "description": "A Legendary multi-harvest crop.",
+      "stats": { "Rarity": "Legendary", "1kg Value": "200", "Floor": "180", "Seed Cost": "700,000🪙 / 379💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~2.9%."
+    },
+    {
+      "slug": "dragon-fruit",
+      "name": "Dragon Fruit",
+      "tier": "Legendary",
+      "baseValue": 150,
+      "description": "A popular Legendary crop — the first serious high-tier investment for transitioning from mid to late game. Reasonable seed cost (120K) with multi-harvest returns.",
+      "stats": { "Rarity": "Legendary", "1kg Value": "150", "Floor": "135", "Seed Cost": "120,000🪙 / 239💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~4%."
+    },
+    {
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "tier": "Epic",
+      "baseValue": 13000,
+      "description": "Has the highest base sell value of any crop in GAG2. Despite the 15K seed cost, its 13K base value at 1kg makes it a strong mid-game investment. Multi-harvest provides recurring income.",
+      "stats": { "Rarity": "Epic", "1kg Value": "13,000", "Floor": "11,700", "Seed Cost": "15,000🪙 / 69💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop once you have 15K🪙 saved. Pair with Frozen (×40) or Electric (×70) mutations for extreme returns."
+    },
+    {
+      "slug": "glow-mushroom",
+      "name": "Glow Mushroom",
+      "tier": "Epic",
+      "baseValue": 700,
+      "description": "An Epic multi-harvest crop obtainable only from the Ghost Pepper Pack (15% drop).",
+      "stats": { "Rarity": "Epic", "1kg Value": "700", "Floor": "632", "Seed Cost": "99💎 (Ghost Pepper Pack, 15%)", "Harvest": "Multi" },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 15% drop, avg weight 7.00kg)."
+    },
+    {
+      "slug": "mango",
+      "name": "Mango",
+      "tier": "Epic",
+      "baseValue": 90,
+      "description": "An Epic multi-harvest crop.",
+      "stats": { "Rarity": "Epic", "1kg Value": "90", "Floor": "81", "Seed Cost": "300,000🪙 / 199💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
+    },
+    {
+      "slug": "coconut",
+      "name": "Coconut",
+      "tier": "Epic",
+      "baseValue": 60,
+      "description": "An Epic multi-harvest crop with decent mid-game value.",
+      "stats": { "Rarity": "Epic", "1kg Value": "60", "Floor": "54", "Seed Cost": "70,000🪙 / 149💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
+    },
+    {
+      "slug": "grape",
+      "name": "Grape",
+      "tier": "Epic",
+      "baseValue": 45,
+      "description": "An Epic multi-harvest crop.",
+      "stats": { "Rarity": "Epic", "1kg Value": "45", "Floor": "41", "Seed Cost": "50,000🪙 / 139💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~6.6%."
+    },
+    {
+      "slug": "banana",
+      "name": "Banana",
+      "tier": "Epic",
+      "baseValue": 35,
+      "description": "An Epic multi-harvest crop. Reliable but unremarkable value for its cost.",
+      "stats": { "Rarity": "Epic", "1kg Value": "35", "Floor": "32", "Seed Cost": "30,000🪙 / 119💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~9%."
+    },
+    {
+      "slug": "green-bean",
+      "name": "Green Bean",
+      "tier": "Epic",
+      "baseValue": 10,
+      "description": "The crop linked to the only active code (TEAMGREENBEAN). Despite Epic rarity, its base value (10 S) is low, but multi-harvest makes it a long-term passive earner.",
+      "stats": { "Rarity": "Epic", "1kg Value": "10", "Floor": "9", "Seed Cost": "20,000🪙 / 99💎", "Harvest": "Multi", "Code": "TEAMGREENBEAN grants 3 seeds" },
+      "howToGet": "Buy from the Seed Shop, or redeem the code TEAMGREENBEAN for 3 free seeds. Restock chance ~15%."
+    },
+    {
+      "slug": "bamboo",
+      "name": "Bamboo",
+      "tier": "Rare",
+      "baseValue": 800,
+      "description": "The best early-to-mid game crop in GAG2. Priced at only 700 Sheckles, it produces 800 S of base value and can be planted densely — ideal for mutation farming.",
+      "stats": { "Rarity": "Rare", "1kg Value": "800", "Floor": "722", "Seed Cost": "700🪙 / 17💎", "Harvest": "Single" },
+      "howToGet": "Buy from the Seed Shop for 700🪙. Plant densely in tight clusters and wait for weather mutations. Single harvest — replant immediately."
+    },
+    {
+      "slug": "baby-cactus",
+      "name": "Baby Cactus",
+      "tier": "Rare",
+      "baseValue": 70,
+      "description": "A Rare single-harvest crop from the Ghost Pepper Pack (50% drop — the most common pack reward). A smaller, cheaper version of Cactus.",
+      "stats": { "Rarity": "Rare", "1kg Value": "70", "Floor": "63", "Seed Cost": "99💎 (Ghost Pepper Pack, 50%)", "Harvest": "Single" },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 50% drop)."
+    },
+    {
+      "slug": "cactus",
+      "name": "Cactus",
+      "tier": "Rare",
+      "baseValue": 40,
+      "description": "A defensive crop that also produces income. Thieves get pricked trying to steal — a good early defensive plant.",
+      "stats": { "Rarity": "Rare", "1kg Value": "40", "Floor": "36", "Seed Cost": "5,000🪙 / 79💎", "Harvest": "Single" },
+      "howToGet": "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~10%."
+    },
+    {
+      "slug": "corn",
+      "name": "Corn",
+      "tier": "Rare",
+      "baseValue": 34,
+      "description": "A Rare multi-harvest crop recommended for stable mid-game income. Reliable returns between Bamboo cycling and saving up for Mushroom.",
+      "stats": { "Rarity": "Rare", "1kg Value": "34", "Floor": "31", "Seed Cost": "3,000🪙 / 69💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~10%."
+    },
+    {
+      "slug": "pineapple",
+      "name": "Pineapple",
+      "tier": "Rare",
+      "baseValue": 30,
+      "description": "A Rare multi-harvest crop. A solid mid-game option with reliable multi-harvest income once you can afford the 10K seed cost.",
+      "stats": { "Rarity": "Rare", "1kg Value": "30", "Floor": "27", "Seed Cost": "10,000🪙 / 99💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~8%."
+    },
+    {
+      "slug": "pumpkin",
+      "name": "Pumpkin",
+      "tier": "Uncommon",
+      "baseValue": 350,
+      "description": "An Uncommon multi-harvest crop with a surprising 350 S base value. Excellent value for its ~34 Sheckle seed cost — one of the best early-game value crops.",
+      "stats": { "Rarity": "Uncommon", "1kg Value": "350", "Floor": "316", "Seed Cost": "~34🪙", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~15%."
+    },
+    {
+      "slug": "tulip",
+      "name": "Tulip",
+      "tier": "Uncommon",
+      "baseValue": 60,
+      "description": "An Uncommon single-harvest crop. Good 60 S value at a cheap 40🪙 seed, but single harvest means replanting each time.",
+      "stats": { "Rarity": "Uncommon", "1kg Value": "60", "Floor": "54", "Seed Cost": "40🪙 / 4💎", "Harvest": "Single" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~18%."
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "tier": "Uncommon",
+      "baseValue": 12,
+      "description": "An Uncommon multi-harvest crop. A stepping stone between basic crops and more valuable mid-game options like Bamboo.",
+      "stats": { "Rarity": "Uncommon", "1kg Value": "12", "Floor": "11", "Seed Cost": "400🪙 / 29💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~18%."
+    },
+    {
+      "slug": "tomato",
+      "name": "Tomato",
+      "tier": "Uncommon",
+      "baseValue": 9,
+      "description": "An Uncommon multi-harvest crop. One of the recommended early purchases after Carrot — the next step up at 200 Sheckles.",
+      "stats": { "Rarity": "Uncommon", "1kg Value": "9", "Floor": "8", "Seed Cost": "200🪙 / 15💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~20%."
+    },
+    {
+      "slug": "carrot",
+      "name": "Carrot",
+      "tier": "Common",
+      "baseValue": 5,
+      "description": "The cheapest seed in the game (1 Sheckle). Multi-harvest with a 5× value/seed cost ratio. The perfect starter crop.",
+      "stats": { "Rarity": "Common", "1kg Value": "5", "Floor": "5", "Seed Cost": "1🪙 / 3💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop for 1🪙. Restock chance ~30% — very common."
+    },
+    {
+      "slug": "blueberry",
+      "name": "Blueberry",
+      "tier": "Common",
+      "baseValue": 5,
+      "description": "A Common multi-harvest crop. Slightly more expensive than Carrot (25 vs 1) but same base value — good for early diversification.",
+      "stats": { "Rarity": "Common", "1kg Value": "5", "Floor": "5", "Seed Cost": "25🪙 / 12💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~20%."
+    },
+    {
+      "slug": "strawberry",
+      "name": "Strawberry",
+      "tier": "Common",
+      "baseValue": 3,
+      "description": "A Common multi-harvest crop with the lowest base value at 3 S/1kg. A quick starter crop.",
+      "stats": { "Rarity": "Common", "1kg Value": "3", "Floor": "3", "Seed Cost": "10🪙 / 7💎", "Harvest": "Multi" },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~25%."
+    },
+    {
+      "slug": "thorn-rose",
+      "name": "Thorn Rose",
+      "tier": "TBD",
+      "baseValue": 140,
+      "description": "A crop with unconfirmed rarity. Decent value, with possible defensive properties based on the thorn name.",
+      "stats": { "Rarity": "TBD", "1kg Value": "140", "Floor": "126", "Seed Cost": "229🪙", "Harvest": "TBD" },
+      "howToGet": "Buy from the Seed Shop for 229🪙. Mechanics still being researched."
+    },
+    {
+      "slug": "pinetree",
+      "name": "Pinetree",
+      "tier": "TBD",
+      "baseValue": 100,
+      "description": "A crop with unconfirmed rarity. Good base value (100 S) at a very low seed cost (99🪙). Status and mechanics TBD.",
+      "stats": { "Rarity": "TBD", "1kg Value": "100", "Floor": "90", "Seed Cost": "99🪙", "Harvest": "TBD" },
+      "howToGet": "Buy from the Seed Shop for 99🪙. Mechanics still being researched."
     }
   ]
 }

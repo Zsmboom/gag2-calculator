@@ -5,20 +5,35 @@ import { config } from '@/lib/games.config';
 import itemsData from '@/data/items.json';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Picture from '@/components/Picture';
 
 const gameName = config.game.name;
+
+type Tier = 'Super' | 'Mythic' | 'Legendary' | 'Epic' | 'Rare' | 'Uncommon' | 'Common' | 'TBD';
+
+const TIER_STYLES: Record<Tier, string> = {
+  Super: 'bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-900/40 dark:text-fuchsia-300',
+  Mythic: 'bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300',
+  Legendary: 'bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300',
+  Epic: 'bg-pink-100 text-pink-700 dark:bg-pink-900/40 dark:text-pink-300',
+  Rare: 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300',
+  Uncommon: 'bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300',
+  Common: 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200',
+  TBD: 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/40 dark:text-yellow-300',
+};
 
 type Item = {
   slug: string;
   name: string;
-  tier: 'S' | 'A' | 'B' | 'C' | 'D';
+  tier: Tier;
+  baseValue?: number;
   description?: string;
   stats?: Record<string, string | number>;
   howToGet?: string;
   patchNotes?: string;
 };
 
-const items: Item[] = ((itemsData as { items: Item[] }).items ?? []).filter(
+const items: Item[] = (((itemsData as unknown) as { items: Item[] }).items ?? []).filter(
   (it) => it && it.slug
 );
 
@@ -30,11 +45,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const item = items.find((it) => it.slug === slug);
   if (!item) {
-    return { title: `Not found | ${config.seo.siteTitle}` };
+    return { title: `Not found` };
   }
   return {
-    title: `${item.name} — ${gameName} Tier ${item.tier} | ${config.seo.siteTitle}`,
-    description: item.description ?? `${item.name} stats, how to get it, and where it ranks in the ${gameName} tier list.`,
+    title: `${item.name} — ${gameName} ${item.tier} Crop`,
+    description: item.description ?? `${item.name} value, seed cost, harvest type, and how to get it in the ${gameName} crop tier list.`,
     alternates: { canonical: `${config.seo.baseUrl}/tier-list/${item.slug}/` },
   };
 }
@@ -46,28 +61,58 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
     notFound();
   }
 
+  const tierStyle = TIER_STYLES[item.tier] ?? TIER_STYLES.Common;
+  const hasCropImage = typeof item.slug === 'string';
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
             <Link
               href="/tier-list/"
               className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
             >
-              ← Back to {gameName} tier list
+              ← Back to {gameName} crop tier list
             </Link>
 
             <div className="mt-6 max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="inline-flex items-center justify-center w-12 h-12 rounded-md font-bold text-lg bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
-                  {item.tier}
-                </span>
-                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
-                  {item.name}
-                </h1>
+              <div className="flex items-center gap-4 mb-6">
+                {hasCropImage ? (
+                  <div className="w-16 h-16 rounded-md overflow-hidden bg-gray-100 dark:bg-gray-700 flex-shrink-0">
+                    <Picture
+                      src={`/images/crops/${item.slug}.webp`}
+                      alt={item.name}
+                      width={64}
+                      height={64}
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                ) : null}
+                <div>
+                  <span
+                    className={
+                      'inline-flex items-center justify-center min-w-[5rem] h-8 px-2 rounded-md font-bold text-sm mb-1 ' +
+                      tierStyle
+                    }
+                  >
+                    {item.tier}
+                  </span>
+                  <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
+                    {item.name}
+                  </h1>
+                </div>
               </div>
+
+              {typeof item.baseValue === 'number' ? (
+                <div className="mb-6 rounded-md bg-blue-50 dark:bg-blue-900/30 p-4">
+                  <p className="text-sm text-gray-600 dark:text-gray-300">Base sell value (1kg)</p>
+                  <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                    {item.baseValue.toLocaleString()} Sheckles
+                  </p>
+                </div>
+              ) : null}
 
               {item.description ? (
                 <p className="text-gray-600 dark:text-gray-300 mb-6">{item.description}</p>

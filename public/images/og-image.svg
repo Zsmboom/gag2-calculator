@@ -15,9 +15,9 @@
   </g>
 
   <!-- Title -->
-  <text x="240" y="290" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Game Name</text>
+  <text x="240" y="290" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="800" fill="#ffffff">Grow a Garden 2</text>
   <text x="240" y="360" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="500" fill="#dbeafe">Guide · Codes · Tier List · Calculator</text>
 
   <!-- Footer line -->
-  <text x="80" y="540" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#bfdbfe">game-slug.gg — Updated daily</text>
+  <text x="80" y="540" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#bfdbfe">gag2-calculator.com — Updated daily</text>
 </svg>

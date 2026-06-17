@@ -1,3 +1,10 @@
 {
-  "codes": []
+  "codes": [
+    {
+      "code": "TEAMGREENBEAN",
+      "reward": "3× Green Bean Seeds",
+      "status": "active",
+      "addedAt": "2026-06-12"
+    }
+  ]
 }

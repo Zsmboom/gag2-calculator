@@ -1,14 +1,8 @@
-# Generic Roblox game tool site — replace the host with your real domain.
+# Grow a Garden 2 fan site — guides, codes, tier list, calculator.
 User-agent: *
 Allow: /
-
-# Block binary / download paths from crawlers.
-Disallow: /downloads/
-Disallow: /*.ahk$
-Disallow: /*.rar$
-Disallow: /*.zip$
 
 # Allow the LLM-facing info file.
 Allow: /llms.txt
 
-Sitemap: https://game-slug.gg/sitemap.xml
+Sitemap: https://gag2-calculator.com/sitemap.xml

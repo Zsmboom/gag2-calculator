@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `Disclaimer | ${config.seo.siteTitle}`,
+  title: `Disclaimer`,
   description: `Legal disclaimer for ${gameName} — a fan-made guide and tools hub for Roblox ${gameName}.`,
   alternates: { canonical: `${config.seo.baseUrl}/disclaimer/` },
 };
@@ -15,7 +15,7 @@ export default function Disclaimer() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+      <main id="main-content" className="flex-grow">
         <div className="container mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold mb-8">Disclaimer</h1>
 

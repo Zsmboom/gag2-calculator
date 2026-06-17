@@ -1,5 +1,19 @@
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#4f46e5"/>
-  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="26.666666666666668px" 
-    fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Team Working</text>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Our team maintaining Grow a Garden 2 data</title>
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16a34a"/>
+      <stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg1)"/>
+  <circle cx="300" cy="170" r="80" fill="#ffffff" opacity="0.12"/>
+  <g transform="translate(258 110)">
+    <rect x="34" y="80" width="16" height="60" rx="5" fill="#ffffff"/>
+    <circle cx="42" cy="70" r="22" fill="#ffffff"/>
+    <rect x="20" y="44" width="44" height="16" rx="5" fill="#15803d"/>
+    <path d="M42 96 C30 88 22 88 14 96 C22 104 34 104 42 98 Z" fill="#bbf7d0"/>
+  </g>
+  <text x="50%" y="290" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Community-Driven Data</text>
+  <text x="50%" y="322" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#dcfce7" text-anchor="middle">Updated daily from wiki, Discord &amp; game patches</text>
 </svg>

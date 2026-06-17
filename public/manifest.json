@@ -1,7 +1,7 @@
 {
-  "name": "Game Name Guide & Tools",
-  "short_name": "Game Name",
-  "description": "Game Name — guides, codes, tier list, calculator. Updated daily.",
+  "name": "Grow a Garden 2 Guides & Tools",
+  "short_name": "Grow a Garden 2",
+  "description": "Grow a Garden 2 — crop values, mutation multipliers, codes, tier list, and profit calculator. Updated daily.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

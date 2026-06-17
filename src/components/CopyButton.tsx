@@ -47,7 +47,7 @@ export default function CopyButton({ value, className = '', label = 'Copy' }: Co
         className
       }
     >
-      {copied ? 'Copied!' : label}
+      <span aria-live="polite">{copied ? 'Copied!' : label}</span>
     </button>
   );
 }
