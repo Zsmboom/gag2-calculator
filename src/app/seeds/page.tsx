@@ -21,8 +21,11 @@ const PRICES = [
   { seed: 'Blueberry', rarity: 'Common', sheckles: '25', robux: '12💎', harvest: 'Multi' },
   { seed: 'Pumpkin', rarity: 'Uncommon', sheckles: '~34', robux: '—', harvest: 'Multi' },
   { seed: 'Tulip', rarity: 'Uncommon', sheckles: '40', robux: '4💎', harvest: 'Single' },
+  { seed: 'Tomato', rarity: 'Uncommon', sheckles: '200', robux: '15💎', harvest: 'Multi' },
   { seed: 'Thorn Rose', rarity: 'TBD', sheckles: '229', robux: '—', harvest: 'TBD' },
   { seed: 'Pinetree', rarity: 'TBD', sheckles: '99', robux: '—', harvest: 'TBD' },
+  { seed: 'Horned Melon', rarity: 'Mythic', sheckles: 'Pack only', robux: '99💎', harvest: 'Multi' },
+  { seed: 'Glow Mushroom', rarity: 'Epic', sheckles: 'Pack only', robux: '99💎', harvest: 'Multi' },
   { seed: 'Apple', rarity: 'Uncommon', sheckles: '400', robux: '29💎', harvest: 'Multi' },
   { seed: 'Bamboo', rarity: 'Rare', sheckles: '700', robux: '17💎', harvest: 'Single' },
   { seed: 'Corn', rarity: 'Rare', sheckles: '2,500', robux: '69💎', harvest: 'Multi' },
@@ -166,13 +169,19 @@ export default function SeedsPage() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-4">Special Packs</h2>
+                <h2 className="text-2xl font-semibold mb-4">Ghost Pepper Pack</h2>
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
-                  <h3 className="font-semibold mb-2">Ghost Pepper Pack</h3>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                    The Ghost Pepper Pack is a 99💎 roll in the Item Shop that awards one random seed from
+                    the pool below. Ghost Pepper itself is <strong>not sold separately</strong> — the only
+                    way to farm it is through this pack.
+                  </p>
                   <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-1 text-sm">
-                    <li>Random seed pack — chance to get rare seeds</li>
-                    <li>Price: 99💎 per roll</li>
-                    <li>Drops: Baby Cactus (50%), Horned Melon (30%), Glow Mushroom (15%), Poison Ivy (4%), Ghost Pepper (1%)</li>
+                    <li><strong>Baby Cactus</strong> (Rare) — 50% drop rate</li>
+                    <li><strong>Horned Melon</strong> (Mythic) — 30% drop rate</li>
+                    <li><strong>Glow Mushroom</strong> (Epic) — 15% drop rate</li>
+                    <li><strong>Poison Ivy</strong> (Legendary) — 4% drop rate</li>
+                    <li><strong>Ghost Pepper</strong> (Mythic, multi-harvest) — 1% drop rate</li>
                   </ul>
                 </div>
               </div>

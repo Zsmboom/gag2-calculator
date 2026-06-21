@@ -33,6 +33,10 @@ const LEGENDARY = [
   { pet: 'Moon Tiger', rarity: 'Legendary', broadcast: 'Yes', use: 'Strong ability' },
 ];
 
+const UTILITY = [
+  { item: 'Pet Teleporters', rarity: '—', cost: 'Robux only', ability: 'Instantly teleport to any Legendary, Mythic, or Super pet location on the map' },
+];
+
 const STRATEGY = [
   { phase: 'Early', pet: 'Deer (10K)', use: 'Speed up early growth' },
   { phase: 'Mid', pet: 'Bee', use: 'Garden defense' },
@@ -134,6 +138,30 @@ export default function PetsPage() {
               </div>
 
               <div>
+                <h2 className="text-2xl font-semibold mb-4">Pet Teleporters</h2>
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                  <table className="w-full">
+                    <thead className="bg-gray-100 dark:bg-gray-700">
+                      <tr>
+                        <th className={thClass}>Item</th>
+                        <th className={thClass}>Cost</th>
+                        <th className={thClass}>Ability</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {UTILITY.map((u) => (
+                        <tr key={u.item} className="border-t border-gray-200 dark:border-gray-700">
+                          <td className={`${tdClass} font-medium`}>{u.item}</td>
+                          <td className={tdClass}>{u.cost}</td>
+                          <td className={tdClass}>{u.ability}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
                 <h2 className="text-2xl font-semibold mb-4">Spawn Mechanics</h2>
                 <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
                   <li>Pets spawn randomly across the game map</li>
@@ -162,6 +190,33 @@ export default function PetsPage() {
                           <td className={tdClass}>{s.use}</td>
                         </tr>
                       ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold mb-4">Pet Population Statistics</h2>
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                  <table className="w-full">
+                    <thead className="bg-gray-100 dark:bg-gray-700">
+                      <tr>
+                        <th className={thClass}>Type</th>
+                        <th className={thClass}>Estimated Players</th>
+                        <th className={thClass}>Rarity</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-t border-gray-200 dark:border-gray-700">
+                        <td className={`${tdClass} font-medium`}>Big Pet</td>
+                        <td className={tdClass}>~112,000</td>
+                        <td className={tdClass}>Uncommon</td>
+                      </tr>
+                      <tr className="border-t border-gray-200 dark:border-gray-700">
+                        <td className={`${tdClass} font-medium`}>Mega Pet</td>
+                        <td className={tdClass}>~750</td>
+                        <td className={tdClass}>Legendary</td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>

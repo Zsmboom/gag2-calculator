@@ -40,6 +40,19 @@ const WEATHER = [
   { weather: 'Oil Rain', mutation: 'Oil', mult: '×15' },
 ];
 
+const BASE_WEATHER = [
+  { weather: 'Rain / Thunderstorm / Sprinklers', mutation: 'Wet', mult: '×2' },
+  { weather: 'Frost / Polar Bear Pet', mutation: 'Chilled', mult: '×2' },
+  { weather: 'Lunar Glow (hourly at night)', mutation: 'Moonlit', mult: '×2' },
+  { weather: 'Bee Swarm / Bee Pet', mutation: 'Pollinated', mult: '×3' },
+  { weather: 'Sandstorm', mutation: 'Sandy', mult: '×3' },
+  { weather: 'Blood Moon', mutation: 'Bloodlit', mult: '×4 (GAG1; GAG2 = ×80)' },
+  { weather: 'Tornado', mutation: 'Twisted', mult: '×5' },
+  { weather: 'Tropical Rain', mutation: 'Drenched', mult: '×5' },
+  { weather: 'Acid Rain', mutation: 'Acidic', mult: '×12' },
+  { weather: 'Oil Rain / Pet Trait', mutation: 'Oil', mult: '×15' },
+];
+
 const STRATEGY = [
   { phase: 'Early', target: 'Gold (×10)', method: 'Mass plant for 1% natural chance' },
   { phase: 'Mid', target: 'Frozen (×40)', method: 'Frost weather + pre-soak crops (Wet)' },
@@ -118,6 +131,34 @@ export default function MutationsPage() {
                           <td className={`${tdClass} font-medium`}>{w.weather}</td>
                           <td className={tdClass}>{w.mutation}</td>
                           <td className={`${tdClass} font-bold`}>{w.mult}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold mb-4">Base Weather Mutations (GAG1→GAG2)</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  These base mutations exist in GAG1 and are being verified for GAG2. Some (Wet, Moonlit,
+                  Sandy) are confirmed; others are community-estimated.
+                </p>
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                  <table className="w-full">
+                    <thead className="bg-gray-100 dark:bg-gray-700">
+                      <tr>
+                        <th className={thClass}>Trigger</th>
+                        <th className={thClass}>Mutation</th>
+                        <th className={thClass}>Multiplier</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {BASE_WEATHER.map((b) => (
+                        <tr key={b.mutation} className="border-t border-gray-200 dark:border-gray-700">
+                          <td className={`${tdClass} font-medium`}>{b.weather}</td>
+                          <td className={tdClass}>{b.mutation}</td>
+                          <td className={`${tdClass} font-bold`}>{b.mult}</td>
                         </tr>
                       ))}
                     </tbody>

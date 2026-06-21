@@ -27,6 +27,7 @@ const DEFENSE = [
   { item: 'Freeze Ray', effect: 'Freezes thieves in place' },
   { item: 'Power Hose', effect: 'Blasts thieves away from your garden' },
   { item: 'Defensive Pets', effect: 'Bee (attacks), Gnome (scares)' },
+  { item: 'Pet Teleporters', effect: 'Teleports you to Legendary/Mythic/Super pet locations (Robux)' },
 ];
 
 const PRIORITY = [

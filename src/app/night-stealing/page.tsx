@@ -110,7 +110,14 @@ export default function NightStealingPage() {
                 </p>
               </div>
             </div>
-          </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                <h2 className="text-xl font-semibold mb-3">Double or Nothing</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  When selling crops at the shop (Aurora Event added June 2026), you have the option to risk the sale for a <strong>Double or Nothing</strong> gamble. Accepting doubles your Sheckles if you win, but you lose everything if you lose. Best used on moderate-value crops where you can afford to lose.
+                </p>
+              </div>
+            </div>
         </section>
       </main>
       <Footer />

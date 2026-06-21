@@ -16,6 +16,7 @@ const thClass = 'px-4 py-3 text-left text-sm font-semibold';
 const tdClass = 'px-4 py-3 text-sm';
 
 const WEATHER = [
+  { weather: 'Aurora Borealis', mutation: 'Aurora', mult: '×1.5', notes: 'Night weather event (Aurora Event 2026-06-20)' },
   { weather: 'Rain', mutation: 'Wet', mult: '×2', notes: 'Common weather' },
   { weather: 'Thunderstorm', mutation: 'Wet → Electric', mult: '×2 → ×70', notes: 'Highest non-event mutation' },
   { weather: 'Frost', mutation: 'Chilled → Frozen', mult: '×2 → ×40', notes: 'Crop must already be Wet' },
@@ -76,7 +77,48 @@ export default function WeatherPage() {
                   <li><strong>Rain / Thunderstorm</strong> — Plant large batches and wait for the Electric proc (×70). Thunderstorms are the highest non-event mutation source.</li>
                   <li><strong>Frost</strong> — Ensure some crops are already Wet beforehand to trigger Frozen (×40). Pre-soak with Rain or Sprinklers.</li>
                   <li><strong>Blood Moon</strong> — Time your largest harvest for this event. It fires every 4 hours and gives the maximum ×80 Bloodlit multiplier.</li>
+                  <li><strong>Aurora Borealis</strong> — Low multiplier (×1.5) but easy to trigger during the night cycle. Consistent bonus income opportunity.</li>
                 </ul>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold mb-4">Defense Plants</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  Several plants double as defensive tools that attack thieves during the night phase:
+                </p>
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                  <table className="w-full">
+                    <thead className="bg-gray-100 dark:bg-gray-700">
+                      <tr>
+                        <th className={thClass}>Plant</th>
+                        <th className={thClass}>Rarity</th>
+                        <th className={thClass}>Defense Effect</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-t border-gray-200 dark:border-gray-700">
+                        <td className={`${tdClass} font-medium`}>Venus Flytrap</td>
+                        <td className={tdClass}>Mythic</td>
+                        <td className={tdClass}>Attacks and eats thieves on contact</td>
+                      </tr>
+                      <tr className="border-t border-gray-200 dark:border-gray-700">
+                        <td className={`${tdClass} font-medium`}>Venom Spitter 🆕</td>
+                        <td className={tdClass}>Mythic</td>
+                        <td className={tdClass}>Defensive plant added in Aurora Event. Shoots at thieves, multiple harvests.</td>
+                      </tr>
+                      <tr className="border-t border-gray-200 dark:border-gray-700">
+                        <td className={`${tdClass} font-medium`}>Cactus</td>
+                        <td className={tdClass}>Rare</td>
+                        <td className={tdClass}>Damages thieves on contact</td>
+                      </tr>
+                      <tr className="border-t border-gray-200 dark:border-gray-700">
+                        <td className={`${tdClass} font-medium`}>Dragon&apos;s Breath</td>
+                        <td className={tdClass}>Super</td>
+                        <td className={tdClass}>Extremely high damage — deters most thieves</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
 
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
