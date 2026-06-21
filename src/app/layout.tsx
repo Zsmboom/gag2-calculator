@@ -82,6 +82,8 @@ export default function RootLayout({
       <head>
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />
+        {/* AdSense site verification */}
+        <meta name="google-adsense-account" content="ca-pub-3825534897375588" />
       </head>
       <body className="antialiased">
         <a href="#main-content" className="skip-link">Skip to content</a>
@@ -98,6 +100,11 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825534897375588"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
       </body>
     </html>
   );
