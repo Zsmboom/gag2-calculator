@@ -21,6 +21,8 @@ const SPRINKLERS = [
 ];
 
 const DEFENSE = [
+  { item: 'Megaphone', effect: 'Defends against thieves (8K Sheckles)' },
+  { item: 'Player Magnet', effect: 'Attracts items and deters thieves (7M Sheckles)' },
   { item: 'Vine Wrapper', effect: 'Tangles thieves, slowing them down' },
   { item: 'Freeze Ray', effect: 'Freezes thieves in place' },
   { item: 'Power Hose', effect: 'Blasts thieves away from your garden' },

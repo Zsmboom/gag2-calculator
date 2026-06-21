@@ -31,6 +31,53 @@ export default function UpdatesPage() {
                   <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
                     Latest
                   </span>
+                  <time dateTime="2026-06-20">
+                    2026-06-20
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Aurora Event — Mythic Plants, Pets &amp; New Gear</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  The Aurora Event brought several major additions to {gameName}:
+                </p>
+                <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
+                  <li><strong>Venom Spitter</strong> — Mythic defensive plant (seed ~30M Sheckles)</li>
+                  <li><strong>Bear</strong> — Mythic defensive pet, attacks thieves aggressively (Aurora Event pet)</li>
+                  <li><strong>Aurora mutation</strong> — ×1.5 multiplier, triggered by Aurora Borealis night weather event</li>
+                  <li><strong>Megaphone</strong> — new defense gear (8K Sheckles)</li>
+                  <li><strong>Player Magnet</strong> — new defense gear (7M Sheckles)</li>
+                  <li><strong>Pet Teleporters</strong> — Robux-only teleporters for pets</li>
+                  <li><strong>Double or Nothing</strong> — harvest minigame with risk/reward mechanic</li>
+                  <li><strong>Anti-cheat enabled</strong> — server-side anti-cheat now active on all servers</li>
+                </ul>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 px-2 py-0.5 font-semibold">
+                    Update
+                  </span>
+                  <time dateTime="2026-06-19">
+                    2026-06-19
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Update 1 / Secret Update — QoL &amp; Systems</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  Update 1 quietly introduced several quality-of-life and systems additions:
+                </p>
+                <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
+                  <li><strong>gag.gg integration</strong> — official {gameName} website linked in-game</li>
+                  <li><strong>Golden Carrots currency</strong> — new currency system for premium rewards</li>
+                  <li><strong>Lucky Swiper</strong> — free daily reward system</li>
+                  <li><strong>Voting system</strong> — vote for server features and events</li>
+                  <li><strong>Inventory tracker</strong> — improved inventory management UI</li>
+                </ul>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
+                    Latest
+                  </span>
                   <time dateTime="2026-06-12">
                     2026-06-12
                   </time>

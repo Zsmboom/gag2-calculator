@@ -16,6 +16,7 @@ const thClass = 'px-4 py-3 text-left text-sm font-semibold';
 const tdClass = 'px-4 py-3 text-sm';
 
 const CONFIRMED = [
+  { name: 'Aurora', mult: '×1.5', rarity: 'Mythic', how: 'Aurora Borealis night weather event' },
   { name: 'Bloodlit', mult: '×80', rarity: 'Legendary', how: 'Blood Moon event (every 4h Lunar Glow variation)' },
   { name: 'Electric', mult: '×70', rarity: 'Legendary', how: 'Thunderstorm weather (rare)' },
   { name: 'Frozen', mult: '×40', rarity: 'Epic', how: 'Frost event — crop must already be Wet' },
@@ -26,6 +27,7 @@ const CONFIRMED = [
 ];
 
 const WEATHER = [
+  { weather: 'Aurora Borealis', mutation: 'Aurora', mult: '×1.5' },
   { weather: 'Rain', mutation: 'Wet', mult: '×2' },
   { weather: 'Thunderstorm', mutation: 'Wet → Electric', mult: '×2 → ×70' },
   { weather: 'Frost', mutation: 'Chilled → Frozen', mult: '×2 → ×40' },
@@ -98,8 +100,8 @@ export default function MutationsPage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-4">Weather-Triggered Mutations</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  These weather events trigger base mutations. The high-value ones (Electric, Frozen,
-                  Bloodlit) come from chaining a base weather state with a follow-up event.
+                  These weather events trigger base mutations. The high-value ones (Aurora, Electric,
+                  Frozen, Bloodlit) come from chaining a base weather state with a follow-up event.
                 </p>
                 <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
                   <table className="w-full">

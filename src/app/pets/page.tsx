@@ -22,6 +22,7 @@ const SUPPORT = [
 ];
 
 const DEFENSIVE = [
+  { pet: 'Bear', rarity: 'Mythic', ability: 'Attacks thieves aggressively' },
   { pet: 'Bee', rarity: 'Rare', ability: 'Attacks thieves, triggers Pollinated mutation' },
   { pet: 'Gnome', rarity: 'Rare', ability: 'Scares away thieves' },
   { pet: 'Venus Dragonfly', rarity: 'Rare', ability: 'Aggressive defensive pet' },
