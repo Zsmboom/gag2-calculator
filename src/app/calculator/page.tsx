@@ -2,14 +2,15 @@ import type { Metadata } from 'next';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import CalculatorClient from './CalculatorClient';
 
 const gameName = config.game.name;
 const calculatorType = config.calculator?.type ?? 'stat';
 
 export const metadata: Metadata = {
-  title: `${gameName} Calculator`,
-  description: `${gameName} ${calculatorType} calculator — fast, free, and updated for the latest patch.`,
+  title: `Grow a Garden 2 Calculator \u2014 Free GAG2 Profit Calculator`,
+  description: `Free Grow a Garden 2 profit calculator. Estimate sell prices with the community-verified formula: weight, mutations, and friend boost. Instant browser-side results.`,
   alternates: { canonical: `${config.seo.baseUrl}/calculator/` },
 };
 
@@ -20,6 +21,7 @@ export default function CalculatorPage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
+            <Breadcrumbs segments={[{ label: 'Calculator', href: '/calculator/' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Calculator</h1>
               <p className="subheading">

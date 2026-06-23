@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { FiStar } from 'react-icons/fi';
 import { config } from '@/lib/games.config';
 
@@ -25,16 +26,17 @@ export default function Features() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div
+            <Link
               key={index}
-              className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+              href={feature.path ?? '#'}
+              className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow block"
             >
               <div className="mb-4">{renderIcon(index)}</div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
                 {feature.title}
               </h3>
               <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

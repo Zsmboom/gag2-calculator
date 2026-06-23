@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 const gameName = config.game.name;
 
@@ -18,6 +19,7 @@ export default function BeginnerGuidePage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
+            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/beginner-guide/' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Beginner Guide</h1>
               <p className="subheading">

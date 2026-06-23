@@ -6,6 +6,7 @@ import itemsData from '@/data/items.json';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Picture from '@/components/Picture';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 const gameName = config.game.name;
 
@@ -70,13 +71,12 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Link
-              href="/tier-list/"
-              className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
-            >
-              ← Back to {gameName} crop tier list
-            </Link>
-
+            <Breadcrumbs
+              segments={[
+                { label: 'Tier List', href: '/tier-list/' },
+                { label: item.name, href: `/tier-list/${item.slug}/` },
+              ]}
+            />
             <div className="mt-6 max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
               <div className="flex items-center gap-4 mb-6">
                 {hasCropImage ? (

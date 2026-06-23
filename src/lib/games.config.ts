@@ -14,6 +14,7 @@ export type GameFeature = {
   title: string;
   description: string;
   icon?: string;
+  path?: string;
 };
 
 export type GameFaq = {
@@ -58,12 +59,14 @@ export const defaultConfig: GameSiteConfig = {
     lastUpdated: "2026-06-16",
   },
   seo: {
-    siteTitle: "Grow a Garden 2 Guides & Tools",
+    siteTitle:
+      "Grow a Garden 2 Calculator & Guides \u2014 GAG2 Tier List, Codes, Wiki",
     siteDescription:
-      "Complete Grow a Garden 2 wiki guide covering crop values, mutation multipliers, active codes, seed prices, pets, gear, and night stealing. Updated daily with community data.",
+      "Free Grow a Garden 2 calculator, active GAG2 codes, crop tier list, mutation multipliers, and complete wiki. Plan profits, time harvests, and master night stealing.",
     baseUrl: "https://gag2-calculator.com",
     primaryKeywords: [
       "Grow a Garden 2",
+      "Grow a Garden 2 calculator",
       "GAG2",
       "Grow a Garden 2 Roblox",
       "Grow a Garden 2 codes",
@@ -78,8 +81,8 @@ export const defaultConfig: GameSiteConfig = {
     ],
   },
   pages: [
-    { path: "/", title: "Home", description: "Grow a Garden 2 home", priority: 1.0, isHub: true },
-    { path: "/calculator", title: "Calculator", description: "Grow a Garden 2 Profit Calculator", priority: 0.9, isHub: true },
+    { path: "/", title: "Grow a Garden 2 Calculator & Wiki \u2014 GAG2 Codes, Tier List, Secrets", description: "Free Grow a Garden 2 calculator, active GAG2 codes, crop tier list, mutation multipliers, and complete wiki. Plan profits, time harvests, and master night stealing.", priority: 1.0, isHub: true },
+    { path: "/calculator", title: "Grow a Garden 2 Calculator \u2014 Free GAG2 Profit Calculator", description: "Free Grow a Garden 2 profit calculator. Estimate sell prices with the community-verified formula: weight, mutations, and friend boost. Instant browser-side results.", priority: 0.9, isHub: true },
     { path: "/codes", title: "Codes", description: "Grow a Garden 2 Codes", priority: 0.9, isHub: true },
     { path: "/tier-list", title: "Tier List", description: "Grow a Garden 2 Crop Tier List", priority: 0.9, isHub: true },
     { path: "/beginner-guide", title: "Beginner Guide", description: "Grow a Garden 2 Beginner Guide", priority: 0.8, isHub: true },
@@ -110,31 +113,37 @@ export const defaultConfig: GameSiteConfig = {
       title: "Active Codes",
       description: "Working Grow a Garden 2 codes like TEAMGREENBEAN, updated the moment they drop on Discord.",
       icon: "FiGift",
+      path: "/codes/",
     },
     {
       title: "36-Crop Tier List",
       description: "Every crop ranked by rarity — Super to Common — with 1kg values, floor values, and harvest types.",
       icon: "FiList",
+      path: "/tier-list/",
     },
     {
       title: "Profit Calculator",
       description: "Estimate exact sell prices with the community-verified formula: weight, mutations, and friend boost.",
       icon: "FiCalculator",
+      path: "/calculator/",
     },
     {
       title: "Mutation Multipliers",
       description: "All 7 confirmed GAG2 mutations from Bloodlit (×80) to Gold (×10), plus weather triggers.",
       icon: "FiZap",
+      path: "/mutations/",
     },
     {
       title: "Pet Catalog",
       description: "Spawn mechanics, abilities, and costs for every pet — from Deer to the server-alert Space Dragon.",
       icon: "FiHeart",
+      path: "/pets/",
     },
     {
       title: "Seed Shop Prices",
       description: "Full seed price list in Sheckles and Robux, restock odds, and investment strategy by game phase.",
       icon: "FiDroplet",
+      path: "/seeds/",
     },
   ],
   faqs: [

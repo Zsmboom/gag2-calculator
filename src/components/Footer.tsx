@@ -8,6 +8,7 @@ const baseUrl = config.seo.baseUrl;
 const description = config.seo.siteDescription;
 
 const hubPages = config.pages.filter((p) => p.isHub);
+const resourcePages = config.pages.filter((p) => !p.isHub && !['/privacy/', '/disclaimer/', '/about/'].includes(p.path));
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -68,6 +69,23 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {hubPages.map((page) => (
+                <li key={page.path}>
+                  <Link
+                    href={page.path}
+                    className="text-gray-400 hover:text-white py-2 block"
+                  >
+                    {page.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Tools and Resources */}
+          <div className="col-span-1">
+            <h3 className="text-lg font-semibold mb-4">Tools and Resources</h3>
+            <ul className="space-y-2">
+              {resourcePages.map((page) => (
                 <li key={page.path}>
                   <Link
                     href={page.path}
