@@ -60,7 +60,7 @@ export const defaultConfig: GameSiteConfig = {
   },
   seo: {
     siteTitle:
-      "Grow a Garden 2 Calculator & Guides \u2014 GAG2 Tier List, Codes, Wiki",
+      "Grow a Garden 2 Guides & Tools [2026.6]",
     siteDescription:
       "Free Grow a Garden 2 calculator, active GAG2 codes, crop tier list, mutation multipliers, and complete wiki. Plan profits, time harvests, and master night stealing.",
     baseUrl: "https://gag2-calculator.com",
