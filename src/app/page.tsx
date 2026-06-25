@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import HowTo from '@/components/HowTo';
+import WhatsNew from '@/components/WhatsNew';
 import Why from '@/components/Why';
 import FAQ from '@/components/FAQ';
 import ShareSection from '@/components/ShareSection';
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Features />
         <HowTo />
+        <WhatsNew />
         <Why />
         <FAQ />
         <ShareSection />
