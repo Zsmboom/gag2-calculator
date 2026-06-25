@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -133,6 +134,20 @@ export default function GearPage() {
                     </tbody>
                   </table>
                 </div>
+              </div>
+
+              <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+                <p className="text-gray-600 dark:text-gray-300">
+                  Pair your gear with the right{' '}
+                  <Link href="/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    defensive pets
+                  </Link>
+                  . Learn night raiding on the{' '}
+                  <Link href="/night-stealing/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    night stealing guide
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

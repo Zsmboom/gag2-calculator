@@ -42,12 +42,12 @@
     "logicDescription": "Sell Value = Base Value (1kg) × Weight² × Mutation Multiplier × (1 + Friend Boost%) × Quantity. Mutations are mutually exclusive in GAG2 — only one applies per crop. Values are community-estimated."
   },
   "features": [
-    { "title": "Active Codes", "description": "Working Grow a Garden 2 codes like TEAMGREENBEAN, updated the moment they drop on Discord.", "icon": "FiGift" },
-    { "title": "36-Crop Tier List", "description": "Every crop ranked by rarity — Super to Common — with 1kg values, floor values, and harvest types.", "icon": "FiList" },
-    { "title": "Profit Calculator", "description": "Estimate exact sell prices with the community-verified formula: weight, mutations, and friend boost.", "icon": "FiCalculator" },
-    { "title": "Mutation Multipliers", "description": "All 7 confirmed GAG2 mutations from Bloodlit (×80) to Gold (×10), plus weather triggers.", "icon": "FiZap" },
-    { "title": "Pet Catalog", "description": "Spawn mechanics, abilities, and costs for every pet — from Deer to the server-alert Space Dragon.", "icon": "FiHeart" },
-    { "title": "Seed Shop Prices", "description": "Full seed price list in Sheckles and Robux, restock odds, and investment strategy by game phase.", "icon": "FiDroplet" }
+    { "title": "Active Codes", "path": "/codes/", "description": "Working Grow a Garden 2 codes like TEAMGREENBEAN, updated the moment they drop on Discord.", "icon": "FiGift" },
+    { "title": "36-Crop Tier List", "path": "/crops/", "description": "Every crop ranked by rarity — Super to Common — with 1kg values, floor values, and harvest types.", "icon": "FiList" },
+    { "title": "Profit Calculator", "path": "/calculator/", "description": "Estimate exact sell prices with the community-verified formula: weight, mutations, and friend boost.", "icon": "FiCalculator" },
+    { "title": "Mutation Multipliers", "path": "/mutations/", "description": "All confirmed GAG2 mutations and weather triggers, with community-verified multiplier values.", "icon": "FiZap" },
+    { "title": "Pet Catalog", "path": "/pets/", "description": "Spawn mechanics, abilities, and costs for every pet — from Deer to the server-alert Space Dragon.", "icon": "FiHeart" },
+    { "title": "Seed Shop Prices", "path": "/seeds/", "description": "Full seed price list in Sheckles and Robux, restock odds, and investment strategy by game phase.", "icon": "FiDroplet" }
   ],
   "faqs": [
     { "question": "What is Grow a Garden 2?", "answer": "Grow a Garden 2 (GAG2) is the sequel to the popular Roblox farming game, developed by Strawberreh Squad / Splitting Point Studios. It adds a day/night cycle, guilds, weather, mutations, and offline growth — and nothing carries over from GAG1." },

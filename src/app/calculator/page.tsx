@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -88,6 +89,22 @@ export default function CalculatorPage() {
                 }),
               }}
             />
+          </div>
+        </section>
+
+        <section className="section bg-white dark:bg-gray-900">
+          <div className="container max-w-3xl">
+            <p className="text-gray-600 dark:text-gray-300 text-center">
+              View the full{' '}
+              <Link href="/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                mutation multiplier list
+              </Link>{' '}
+              and{' '}
+              <Link href="/crops/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                crop database
+              </Link>
+              .
+            </p>
           </div>
         </section>
       </main>

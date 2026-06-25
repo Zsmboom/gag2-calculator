@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -15,14 +16,14 @@ const thClass = 'px-4 py-3 text-left text-sm font-semibold';
 const tdClass = 'px-4 py-3 text-sm';
 
 const SUPPORT = [
-  { pet: 'Deer', rarity: 'Common', cost: '~10K', ability: '+10% plant growth speed' },
+  { pet: 'Deer', rarity: 'Common', cost: '50K', ability: '+10% plant growth speed' },
   { pet: 'Frog', rarity: 'Common', cost: '~10K', ability: 'Increases mutation chance' },
-  { pet: 'Owl', rarity: 'Legendary', cost: '—', ability: 'Night vision + rare spawn alerts' },
-  { pet: 'Golden Dragonfly', rarity: 'Legendary', cost: '~3M', ability: 'Doubles Gold mutation proc rate' },
+  { pet: 'Owl', rarity: 'Uncommon', cost: '25K', ability: 'Night vision + rare spawn alerts' },
+  { pet: 'Golden Dragonfly', rarity: 'Legendary', cost: '~3M', ability: 'Doubles the chance for plants and fruit to turn Gold (×10 value). Spawn chance 0.6%. Costs 9M🪙 in the shop. Endgame investment — pair with Gold mutation strategy.' },
 ];
 
 const DEFENSIVE = [
-  { pet: 'Bear', rarity: 'Mythic', ability: 'Attacks thieves aggressively' },
+  { pet: 'Bear', rarity: 'Mythic', ability: 'Tackles intruders, pins them down, then throws them away. One of the best defensive Mythic pets. Buy for 5M🪙 when it spawns on the map.' },
   { pet: 'Bee', rarity: 'Rare', ability: 'Attacks thieves, triggers Pollinated mutation' },
   { pet: 'Gnome', rarity: 'Rare', ability: 'Scares away thieves' },
   { pet: 'Turtle 🐢', rarity: 'Rare', ability: '+10 backpack space, slows walk speed by 2 (stacks). Spawns on map (~5%), buy for 70K🪙.' },
@@ -220,6 +221,33 @@ export default function PetsPage() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+                <h2 className="text-2xl font-semibold mb-4">Related Pages</h2>
+                <div className="flex flex-col gap-2 text-gray-600 dark:text-gray-300">
+                  <p>
+                    See how pets affect your farming strategy on the{' '}
+                    <Link href="/beginner-guide/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                      beginner guide
+                    </Link>
+                    .
+                  </p>
+                  <p>
+                    Check the{' '}
+                    <Link href="/gear/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                      gear page
+                    </Link>{' '}
+                    for defensive equipment that works with your pets.
+                  </p>
+                  <p>
+                    Visit the{' '}
+                    <Link href="/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                      mutations page
+                    </Link>{' '}
+                    to understand how pet abilities interact with mutations.
+                  </p>
                 </div>
               </div>
             </div>
