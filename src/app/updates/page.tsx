@@ -31,6 +31,51 @@ export default function UpdatesPage() {
                   <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
                     Latest
                   </span>
+                  <time dateTime="2026-06-25">
+                    2026-06-25
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Picture Frame Crate Update</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Picture Frame Crate added. Allows players to use picture banners as decorative props, customizable via Roblox decal IDs.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 px-2 py-0.5 font-semibold">
+                    Update
+                  </span>
+                  <time dateTime="2026-06-24">
+                    2026-06-24
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Turtle Update — New Pet</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Turtle added. A slow Rare pet that helps store fruits for safekeeping.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300 px-2 py-0.5 font-semibold">
+                    Update
+                  </span>
+                  <time dateTime="2026-06-22">
+                    2026-06-22
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Strawberry Sniper — New Gear</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Strawberry Sniper gear added. Fires strawberry projectiles to knock other players backward.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
+                    Latest
+                  </span>
                   <time dateTime="2026-06-20">
                     2026-06-20
                   </time>
