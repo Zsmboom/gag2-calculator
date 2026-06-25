@@ -17,20 +17,19 @@ const tdClass = 'px-4 py-3 text-sm';
 
 const CONFIRMED = [
   { name: 'Aurora', mult: '×1.5', rarity: 'Mythic', how: 'Aurora Borealis night weather event' },
-  { name: 'Bloodlit', mult: '×80', rarity: 'Legendary', how: 'Blood Moon event (every 4h Lunar Glow variation)' },
-  { name: 'Electric', mult: '×70', rarity: 'Legendary', how: 'Thunderstorm weather (rare)' },
-  { name: 'Frozen', mult: '×40', rarity: 'Epic', how: 'Frost event — crop must already be Wet' },
-  { name: 'Rainbow', mult: '×30', rarity: 'Epic', how: 'Rainbow Seed trigger / natural 0.1%' },
-  { name: 'Starstruck', mult: '×25', rarity: 'Epic', how: 'Unknown event' },
+  { name: 'Bloodlit', mult: '×80 (unconfirmed)', rarity: 'Legendary', how: 'Blood Moon event (every 4h Lunar Glow variation)' },
+  { name: 'Electric', mult: '×25 (Beebom 2026)', rarity: 'Legendary', how: 'Thunderstorm weather (rare)' },
+  { name: 'Frozen', mult: '×3 (Beebom 2026)', rarity: 'Epic', how: 'Frost event — crop must already be Wet' },
+  { name: 'Rainbow', mult: '×10 (Beebom 2026)', rarity: 'Epic', how: 'Rainbow Seed trigger / natural 0.1%' },
+  { name: 'Starstruck', mult: 'TBA', rarity: 'Epic', how: 'Unknown event' },
   { name: 'Gold', mult: '×10', rarity: 'Rare', how: 'Gold Seed trigger / natural 1% / Dragonfly pet' },
-  { name: 'Chained', mult: '×4', rarity: 'Rare', how: 'Unknown' },
 ];
 
 const WEATHER = [
   { weather: 'Aurora Borealis', mutation: 'Aurora', mult: '×1.5' },
   { weather: 'Rain', mutation: 'Wet', mult: '×2' },
-  { weather: 'Thunderstorm', mutation: 'Wet → Electric', mult: '×2 → ×70' },
-  { weather: 'Frost', mutation: 'Chilled → Frozen', mult: '×2 → ×40' },
+  { weather: 'Thunderstorm', mutation: 'Wet → Electric', mult: '×2 → ×25 (Beebom 2026)' },
+  { weather: 'Frost', mutation: 'Chilled → Frozen', mult: '×2 → ×3 (Beebom 2026)' },
   { weather: 'Blood Moon', mutation: 'Bloodlit', mult: '×80' },
   { weather: 'Lunar Glow', mutation: 'Moonlit', mult: '×2' },
   { weather: 'Sandstorm', mutation: 'Sandy', mult: '×3' },
@@ -55,8 +54,8 @@ const BASE_WEATHER = [
 
 const STRATEGY = [
   { phase: 'Early', target: 'Gold (×10)', method: 'Mass plant for 1% natural chance' },
-  { phase: 'Mid', target: 'Frozen (×40)', method: 'Frost weather + pre-soak crops (Wet)' },
-  { phase: 'Late', target: 'Electric (×70)', method: 'Wait for Thunderstorm event' },
+  { phase: 'Mid', target: 'Frozen (×3)', method: 'Frost weather + pre-soak crops (Wet)' },
+  { phase: 'Late', target: 'Electric (×25)', method: 'Wait for Thunderstorm event' },
   { phase: 'Endgame', target: 'Bloodlit (×80)', method: 'Time your harvest for Blood Moon (every 4h)' },
 ];
 

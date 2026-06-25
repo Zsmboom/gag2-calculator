@@ -16,31 +16,42 @@ const thClass = 'px-4 py-3 text-left text-sm font-semibold';
 const tdClass = 'px-4 py-3 text-sm';
 
 const SUPPORT = [
-  { pet: 'Deer', rarity: 'Common', cost: '50K', ability: '+10% plant growth speed' },
-  { pet: 'Frog', rarity: 'Common', cost: '~10K', ability: 'Increases mutation chance' },
-  { pet: 'Owl', rarity: 'Uncommon', cost: '25K', ability: 'Night vision + rare spawn alerts' },
-  { pet: 'Golden Dragonfly', rarity: 'Legendary', cost: '~3M', ability: 'Doubles the chance for plants and fruit to turn Gold (×10 value). Spawn chance 0.6%. Costs 9M🪙 in the shop. Endgame investment — pair with Gold mutation strategy.' },
+  { pet: 'Frog', rarity: 'Common', cost: '10K', ability: '+5 jump height' },
+  { pet: 'Bunny', rarity: 'Common', cost: '20K', ability: '+5 walk speed' },
+  { pet: 'Owl', rarity: 'Uncommon', cost: '25K', ability: 'Extends night view by 12.5%, hoots when rare pet spawns' },
+  { pet: 'Deer', rarity: 'Rare', cost: '50K', ability: '+10% plant growth speed' },
 ];
 
 const DEFENSIVE = [
-  { pet: 'Bear', rarity: 'Mythic', ability: 'Tackles intruders, pins them down, then throws them away. One of the best defensive Mythic pets. Buy for 5M🪙 when it spawns on the map.' },
-  { pet: 'Bee', rarity: 'Rare', ability: 'Attacks thieves, triggers Pollinated mutation' },
+  { pet: 'Bee', rarity: 'Legendary', ability: 'Patrols garden and swarms intruders to defend fruit' },
+  { pet: 'Turtle 🐢', rarity: 'Rare', ability: '+10 backpack space, slows walk speed by 2 (stacks). Buy for 70K🪙' },
+  { pet: 'Bear', rarity: 'Mythic', ability: 'Tackles intruders, pins them down, then throws them away. Buy for 5M🪙' },
   { pet: 'Gnome', rarity: 'Rare', ability: 'Scares away thieves' },
-  { pet: 'Turtle 🐢', rarity: 'Rare', ability: '+10 backpack space, slows walk speed by 2 (stacks). Spawns on map (~5%), buy for 70K🪙.' },
   { pet: 'Venus Dragonfly', rarity: 'Rare', ability: 'Aggressive defensive pet' },
 ];
 
-const LEGENDARY = [
-  { pet: 'Space Dragon', rarity: 'Legendary', broadcast: 'Yes', use: 'Highest value' },
-  { pet: 'Moon Tiger', rarity: 'Legendary', broadcast: 'Yes', use: 'Strong ability' },
+const UTILITY = [
+  { pet: 'Robin', rarity: 'Legendary', cost: '75K', ability: 'Flies around eating ripe fruit, sometimes drops seeds' },
+  { pet: 'Monkey', rarity: 'Mythic', cost: '3M', ability: 'Brings ripe fruit straight to you' },
+  { pet: 'Raccoon', rarity: 'Super', cost: '15M', ability: 'Sneaks out at night to steal from empty gardens, +25 steal limit' },
 ];
 
-const UTILITY = [
+const MUTATION_ENHANCING = [
+  { pet: 'Golden Dragonfly', rarity: 'Mythic', cost: '9M', ability: 'Doubles chance for plants/fruit to turn Gold (×10)' },
+  { pet: 'Unicorn', rarity: 'Mythic', cost: '12M', ability: 'Doubles chance for plants/fruit to turn Rainbow' },
+];
+
+const GUILD_REWARD = [
+  { pet: 'Black Dragon', rarity: 'Super', ability: 'Flies around garden breathing fire on thieves' },
+  { pet: 'Ice Serpent', rarity: 'Super', ability: 'Flies around garden breathing frost on thieves' },
+];
+
+const TELEPORTERS = [
   { item: 'Pet Teleporters', rarity: '—', cost: 'Robux only', ability: 'Instantly teleport to any Legendary, Mythic, or Super pet location on the map' },
 ];
 
 const STRATEGY = [
-  { phase: 'Early', pet: 'Deer (10K)', use: 'Speed up early growth' },
+  { phase: 'Early', pet: 'Deer (50K)', use: 'Speed up early growth' },
   { phase: 'Mid', pet: 'Bee', use: 'Garden defense' },
   { phase: 'Late', pet: 'Owl', use: 'Rare spawn tracking' },
   { phase: 'Endgame', pet: 'Golden Dragonfly', use: 'Maximize Gold mutation output' },
@@ -114,24 +125,74 @@ export default function PetsPage() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-4">Legendary Pets (Server Alert on Spawn)</h2>
+                <h2 className="text-2xl font-semibold mb-4">Utility / Loot Pets</h2>
                 <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
                   <table className="w-full">
                     <thead className="bg-gray-100 dark:bg-gray-700">
                       <tr>
                         <th className={thClass}>Pet</th>
                         <th className={thClass}>Rarity</th>
-                        <th className={thClass}>Server Broadcast</th>
-                        <th className={thClass}>Speculated Use</th>
+                        <th className={thClass}>Cost</th>
+                        <th className={thClass}>Ability</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {LEGENDARY.map((p) => (
+                      {UTILITY.map((p) => (
                         <tr key={p.pet} className="border-t border-gray-200 dark:border-gray-700">
                           <td className={`${tdClass} font-medium`}>{p.pet}</td>
                           <td className={tdClass}>{p.rarity}</td>
-                          <td className={tdClass}>{p.broadcast}</td>
-                          <td className={tdClass}>{p.use}</td>
+                          <td className={tdClass}>{p.cost}</td>
+                          <td className={tdClass}>{p.ability}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold mb-4">Mutation-Enhancing Pets</h2>
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                  <table className="w-full">
+                    <thead className="bg-gray-100 dark:bg-gray-700">
+                      <tr>
+                        <th className={thClass}>Pet</th>
+                        <th className={thClass}>Rarity</th>
+                        <th className={thClass}>Cost</th>
+                        <th className={thClass}>Ability</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {MUTATION_ENHANCING.map((p) => (
+                        <tr key={p.pet} className="border-t border-gray-200 dark:border-gray-700">
+                          <td className={`${tdClass} font-medium`}>{p.pet}</td>
+                          <td className={tdClass}>{p.rarity}</td>
+                          <td className={tdClass}>{p.cost}</td>
+                          <td className={tdClass}>{p.ability}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold mb-4">Guild Reward Pets</h2>
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                  <table className="w-full">
+                    <thead className="bg-gray-100 dark:bg-gray-700">
+                      <tr>
+                        <th className={thClass}>Pet</th>
+                        <th className={thClass}>Rarity</th>
+                        <th className={thClass}>Ability</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {GUILD_REWARD.map((p) => (
+                        <tr key={p.pet} className="border-t border-gray-200 dark:border-gray-700">
+                          <td className={`${tdClass} font-medium`}>{p.pet}</td>
+                          <td className={tdClass}>{p.rarity}</td>
+                          <td className={tdClass}>{p.ability}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -151,7 +212,7 @@ export default function PetsPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {UTILITY.map((u) => (
+                      {TELEPORTERS.map((u) => (
                         <tr key={u.item} className="border-t border-gray-200 dark:border-gray-700">
                           <td className={`${tdClass} font-medium`}>{u.item}</td>
                           <td className={tdClass}>{u.cost}</td>
