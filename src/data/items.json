@@ -2,6 +2,16 @@
   "_comment": "Grow a Garden 2 crop database. 36 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
   "items": [
     {
+      "slug": "mega-seed",
+      "name": "Mega Seed",
+      "tier": "TBD",
+      "description": "A seed variant introduced in the Mega Moon Update on 2026-06-27. Mega Seeds can create giant versions of non-limited crops, but exact value, size, and drop-rate data is still being verified.",
+      "stats": { "Rarity": "TBD", "1kg Value": "TBD", "Floor": "TBD", "Seed Cost": "TBD", "Harvest": "Varies by crop", "Special": "Creates giant non-limited crop variants" },
+      "howToGet": "Watch for the Mega Moon event at night. The blue moon greatly increases the chance of obtaining Mega Seeds, but the exact source and drop method are still being confirmed.",
+      "patchNotes": "Added in the Mega Moon Update (2026-06-27). Source: Beebom patch notes and community reporting.",
+      "hasImage": false
+    },
+    {
       "slug": "moon-bloom",
       "name": "Moon Bloom",
       "tier": "Super",
@@ -159,7 +169,7 @@
       "name": "Mango",
       "tier": "Epic",
       "baseValue": 90,
-      "description": "An Epic multi-harvest crop.",
+      "description": "An Epic multi-harvest crop with a high seed price and steady regrowth value for late mid-game orchards.",
       "stats": { "Rarity": "Epic", "1kg Value": "90", "Floor": "81", "Seed Cost": "300,000🪙 / 199💎", "Harvest": "Multi" },
       "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
     },
@@ -177,7 +187,7 @@
       "name": "Grape",
       "tier": "Epic",
       "baseValue": 45,
-      "description": "An Epic multi-harvest crop.",
+      "description": "An Epic multi-harvest crop that offers reliable recurring income once you can afford its 50K Sheckle seed cost.",
       "stats": { "Rarity": "Epic", "1kg Value": "45", "Floor": "41", "Seed Cost": "50,000🪙 / 139💎", "Harvest": "Multi" },
       "howToGet": "Buy from the Seed Shop. Restock chance ~6.6%."
     },
@@ -324,6 +334,16 @@
       "description": "A crop with unconfirmed rarity. Good base value (100 S) at a very low seed cost (99🪙). Status and mechanics TBD.",
       "stats": { "Rarity": "TBD", "1kg Value": "100", "Floor": "90", "Seed Cost": "99🪙", "Harvest": "TBD" },
       "howToGet": "Buy from the Seed Shop for 99🪙. Mechanics still being researched."
+    },
+    {
+      "slug": "venom-spitter",
+      "name": "Venom Spitter",
+      "tier": "Mythic",
+      "description": "A Mythic defensive plant added in the Aurora Event. It attacks thieves and supports multiple harvests, but its exact sell value is still unverified.",
+      "stats": { "Rarity": "Mythic", "1kg Value": "TBD", "Floor": "TBD", "Seed Cost": "~30,000,000🪙", "Harvest": "Multi", "Special": "Active defense — attacks thieves" },
+      "howToGet": "Buy from the Defense Plant Shop or Seed Shop during the Aurora Event window. Exact availability and final price are still being verified.",
+      "patchNotes": "Added in the Aurora Event (2026-06-20).",
+      "hasImage": false
     }
   ]
 }

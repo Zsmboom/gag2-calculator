@@ -92,6 +92,7 @@ export const defaultConfig: GameSiteConfig = {
     { path: "/gear", title: "Gear", description: "Grow a Garden 2 Gear & Tools", priority: 0.7 },
     { path: "/seeds", title: "Seeds", description: "Grow a Garden 2 Seed Shop Prices", priority: 0.7 },
     { path: "/weather", title: "Weather", description: "Grow a Garden 2 Weather Events", priority: 0.7 },
+    { path: "/mega-moon", title: "Mega Moon", description: "Grow a Garden 2 Mega Moon Event & Mega Seed Guide", priority: 0.7 },
     { path: "/night-stealing", title: "Night Stealing", description: "Grow a Garden 2 Night Stealing Guide", priority: 0.7 },
     { path: "/guilds", title: "Guilds", description: "Grow a Garden 2 Guild System & Rewards", priority: 0.6 },
     { path: "/bargain-system", title: "Bargain System", description: "Grow a Garden 2 Sell Bonus Mechanic", priority: 0.5 },
@@ -144,6 +145,12 @@ export const defaultConfig: GameSiteConfig = {
       description: "Full seed price list in Sheckles and Robux, restock odds, and investment strategy by game phase.",
       icon: "FiDroplet",
       path: "/seeds/",
+    },
+    {
+      title: "Mega Moon Event",
+      description: "Track the blue moon night event, Mega Seed behavior, and which values are still being verified.",
+      icon: "FiZap",
+      path: "/mega-moon/",
     },
   ],
   faqs: [

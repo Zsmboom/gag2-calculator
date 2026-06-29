@@ -81,6 +81,18 @@ export default function WeatherPage() {
                 </ul>
               </div>
 
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                <h2 className="text-xl font-semibold mb-3">Mega Moon Note</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Mega Moon is a night event that improves Mega Seed chances, not a standard
+                  mutation multiplier. Track its current data on the{' '}
+                  <Link href="/mega-moon/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    Mega Moon guide
+                  </Link>
+                  .
+                </p>
+              </div>
+
               <div>
                 <h2 className="text-2xl font-semibold mb-4">Defense Plants</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">

@@ -15,6 +15,16 @@ export const metadata: Metadata = {
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
 const tdClass = 'px-4 py-3 text-sm';
 
+function seedSlug(seed: string): string {
+  return seed
+    .toLowerCase()
+    .replace(/dragon's breath/g, 'dragons-breath')
+    .replace(/['\s]+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 const PRICES = [
   { seed: 'Carrot', rarity: 'Common', sheckles: '1', robux: '3💎', harvest: 'Multi' },
   { seed: 'Strawberry', rarity: 'Common', sheckles: '10', robux: '7💎', harvest: 'Multi' },
@@ -47,8 +57,10 @@ const PRICES = [
   { seed: 'Venus Flytrap', rarity: 'Mythic', sheckles: '7,000,000', robux: '799💎', harvest: 'Single' },
   { seed: 'Pomegranate', rarity: 'Mythic', sheckles: '12,000,000', robux: '999💎', harvest: 'Multi' },
   { seed: 'Poison Apple', rarity: 'Mythic', sheckles: '25,000,000', robux: '1,299💎', harvest: 'Single' },
+  { seed: 'Venom Spitter', rarity: 'Mythic', sheckles: '~30,000,000', robux: 'TBD', harvest: 'Multi' },
   { seed: 'Moon Bloom', rarity: 'Super', sheckles: '65,000,000', robux: '1,349💎', harvest: 'TBD' },
   { seed: "Dragon's Breath", rarity: 'Super', sheckles: '90,000,000', robux: '1,499💎', harvest: 'Single' },
+  { seed: 'Mega Seed', rarity: 'TBD', sheckles: 'TBD', robux: 'TBD', harvest: 'Varies' },
 ];
 
 const RESTOCK = [
@@ -76,8 +88,10 @@ const RESTOCK = [
   { crop: 'Venus Flytrap', rarity: 'Mythic', chance: '1.43%' },
   { crop: 'Pomegranate', rarity: 'Mythic', chance: '0.9%' },
   { crop: 'Poison Apple', rarity: 'Mythic', chance: '0.5%' },
+  { crop: 'Venom Spitter', rarity: 'Mythic', chance: 'Event / TBD' },
   { crop: 'Moon Bloom', rarity: 'Super', chance: '0.35%' },
   { crop: "Dragon's Breath", rarity: 'Super', chance: '0.275%' },
+  { crop: 'Mega Seed', rarity: 'TBD', chance: 'Mega Moon / TBD' },
 ];
 
 const STRATEGY = [
@@ -129,7 +143,7 @@ export default function SeedsPage() {
                       {PRICES.map((p) => (
                         <tr key={p.seed} className="border-t border-gray-200 dark:border-gray-700">
                           <td className={`${tdClass} font-medium`}>
-                            <Link href={`/tier-list/${p.seed.toLowerCase().replace(/['\s]+/g, '-').replace(/[^a-z0-9-]/g, '')}/`} className="text-blue-600 dark:text-blue-400 hover:underline">
+                            <Link href={`/tier-list/${seedSlug(p.seed)}/`} className="text-blue-600 dark:text-blue-400 hover:underline">
                               {p.seed}
                             </Link>
                           </td>
@@ -183,6 +197,20 @@ export default function SeedsPage() {
                     <li><strong>Poison Ivy</strong> (Legendary) — 4% drop rate</li>
                     <li><strong>Ghost Pepper</strong> (Mythic, multi-harvest) — 1% drop rate</li>
                   </ul>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-semibold mb-4">Mega Moon Seeds</h2>
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                    Mega Seed was added in the June 27 Mega Moon Update. It can create giant versions
+                    of non-limited crops, but the exact source, drop rate, and value behavior are
+                    still being verified.
+                  </p>
+                  <Link href="/mega-moon/" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                    Read the Mega Moon guide
+                  </Link>
                 </div>
               </div>
 

@@ -7,6 +7,12 @@ import Link from 'next/link';
 export default function WhatsNew() {
   const updates = [
     {
+      title: 'Mega Moon Update',
+      description: 'Blue moon night event added Jun 27. Mega Seeds can create giant non-limited crop variants; exact value data is still TBD.',
+      link: '/mega-moon/',
+      date: 'Jun 27',
+    },
+    {
       title: 'Pet Catalog Expanded',
       description: '7 new pets added (Bunny, Robin, Monkey, Unicorn, Raccoon, Black Dragon, Ice Serpent). All prices sourced from Beebom.',
       link: '/pets/',

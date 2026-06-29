@@ -32,6 +32,7 @@ type Item = {
   stats?: Record<string, string | number>;
   howToGet?: string;
   patchNotes?: string;
+  hasImage?: boolean;
 };
 
 const items: Item[] = (((itemsData as unknown) as { items: Item[] }).items ?? []).filter(
@@ -63,7 +64,7 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
   }
 
   const tierStyle = TIER_STYLES[item.tier] ?? TIER_STYLES.Common;
-  const hasCropImage = typeof item.slug === 'string';
+  const hasCropImage = item.hasImage !== false && typeof item.slug === 'string';
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -79,8 +80,8 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
             />
             <div className="mt-6 max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
               <div className="flex items-center gap-4 mb-6">
-                {hasCropImage ? (
-                  <div className="w-16 h-16 rounded-md overflow-hidden bg-gray-100 dark:bg-gray-700 flex-shrink-0">
+                <div className="w-16 h-16 rounded-md overflow-hidden bg-gray-100 dark:bg-gray-700 flex-shrink-0">
+                  {hasCropImage ? (
                     <Picture
                       src={`/images/crops/${item.slug}.webp`}
                       alt={item.name}
@@ -88,8 +89,12 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
                       height={64}
                       className="object-cover w-full h-full"
                     />
-                  </div>
-                ) : null}
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-xs font-semibold text-gray-500 dark:text-gray-300 text-center px-2">
+                      No image
+                    </div>
+                  )}
+                </div>
                 <div>
                   <span
                     className={

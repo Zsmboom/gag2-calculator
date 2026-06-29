@@ -1,66 +1,20 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { config } from '@/lib/games.config';
+import itemsData from '@/data/items.json';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `${gameName} Crops — Complete 36-Crop Database`,
-  description: `All 36 ${gameName} crops ranked by value. Super, Mythic, Legendary, Epic, Rare, and Common tiers with 1kg sell prices, floor values, seed costs, and harvest types.`,
+  title: `${gameName} Crops — Complete Crop Database`,
+  description: `All ${gameName} crops ranked by value. Super, Mythic, Legendary, Epic, Rare, and Common tiers with 1kg sell prices, floor values, seed costs, and harvest types.`,
   alternates: { canonical: `${config.seo.baseUrl}/crops/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
 const tdClass = 'px-4 py-3 text-sm';
-
-const CROPS = [
-  // SUPER
-  { name: 'Moon Bloom', tier: 'Super', value: '9,000', floor: '8,100', seedCost: '65M 🪙 / 1,349 💎', harvest: 'TBD', slug: 'moon-bloom' },
-  { name: "Dragon's Breath", tier: 'Super', value: '3,400', floor: '3,100', seedCost: '90M 🪙 / 1,499 💎', harvest: 'Single', slug: 'dragons-breath' },
-  // MYTHIC
-  { name: 'Lotus', tier: 'Mythic', value: '6,500', floor: '5,900', seedCost: '899 🪙', harvest: 'Single', slug: 'lotus' },
-  { name: 'Venus Flytrap', tier: 'Mythic', value: '3,000', floor: '2,700', seedCost: '7M 🪙 / 799 💎', harvest: 'Single', slug: 'venus-flytrap' },
-  { name: 'Ghost Pepper', tier: 'Mythic', value: '2,500', floor: '2,300', seedCost: '99 💎 Pack (1%)', harvest: 'Multi', slug: 'ghost-pepper' },
-  { name: 'Beanstalk', tier: 'Mythic', value: '2,000', floor: '1,800', seedCost: '1,199 💎', harvest: 'Multi', slug: 'beanstalk' },
-  { name: 'Romanesco', tier: 'Mythic', value: '1,500', floor: '1,400', seedCost: '99 🪙', harvest: 'Multi', slug: 'romanesco' },
-  { name: 'Pomegranate', tier: 'Mythic', value: '900', floor: '812', seedCost: '12M 🪙 / 999 💎', harvest: 'Multi', slug: 'pomegranate' },
-  { name: 'Poison Apple', tier: 'Mythic', value: '900', floor: '812', seedCost: '25M 🪙 / 1,299 💎', harvest: 'Single', slug: 'poison-apple' },
-  { name: 'Horned Melon', tier: 'Mythic', value: '200', floor: '180', seedCost: '99 💎 Pack (30%)', harvest: 'Multi', slug: 'horned-melon' },
-  // LEGENDARY
-  { name: 'Sunflower', tier: 'Legendary', value: '1,800', floor: '1,600', seedCost: '5M 🪙 / 599 💎', harvest: 'Multi', slug: 'sunflower' },
-  { name: 'Poison Ivy', tier: 'Legendary', value: '1,700', floor: '1,500', seedCost: '99 💎 Pack (4%)', harvest: 'Multi', slug: 'poison-ivy' },
-  { name: 'Cherry', tier: 'Legendary', value: '350', floor: '316', seedCost: '1.2M 🪙 / 479 💎', harvest: 'Multi', slug: 'cherry' },
-  { name: 'Acorn', tier: 'Legendary', value: '200', floor: '180', seedCost: '700K 🪙 / 379 💎', harvest: 'Multi', slug: 'acorn' },
-  { name: 'Dragon Fruit', tier: 'Legendary', value: '150', floor: '135', seedCost: '120K 🪙 / 239 💎', harvest: 'Multi', slug: 'dragon-fruit' },
-  // EPIC
-  { name: 'Mushroom', tier: 'Epic', value: '13,000', floor: '11,700', seedCost: '15K 🪙 / 69 💎', harvest: 'Multi', slug: 'mushroom' },
-  { name: 'Glow Mushroom', tier: 'Epic', value: '700', floor: '632', seedCost: '99 💎 Pack (15%)', harvest: 'Multi', slug: 'glow-mushroom' },
-  { name: 'Mango', tier: 'Epic', value: '90', floor: '81', seedCost: '300K 🪙 / 199 💎', harvest: 'Multi', slug: 'mango' },
-  { name: 'Coconut', tier: 'Epic', value: '60', floor: '54', seedCost: '70K 🪙 / 149 💎', harvest: 'Multi', slug: 'coconut' },
-  { name: 'Grape', tier: 'Epic', value: '45', floor: '41', seedCost: '50K 🪙 / 139 💎', harvest: 'Multi', slug: 'grape' },
-  { name: 'Banana', tier: 'Epic', value: '35', floor: '32', seedCost: '30K 🪙 / 119 💎', harvest: 'Multi', slug: 'banana' },
-  { name: 'Green Bean', tier: 'Epic', value: '10', floor: '9', seedCost: '20K 🪙 / 99 💎', harvest: 'Multi', slug: 'green-bean' },
-  // RARE
-  { name: 'Bamboo', tier: 'Rare', value: '800', floor: '722', seedCost: '700 🪙 / 17 💎', harvest: 'Single', slug: 'bamboo' },
-  { name: 'Baby Cactus', tier: 'Rare', value: '70', floor: '63', seedCost: '99 💎 Pack (50%)', harvest: 'Single', slug: 'baby-cactus' },
-  { name: 'Cactus', tier: 'Rare', value: '40', floor: '36', seedCost: '5K 🪙 / 79 💎', harvest: 'Single', slug: 'cactus' },
-  { name: 'Corn', tier: 'Rare', value: '34', floor: '31', seedCost: '3K 🪙 / 69 💎', harvest: 'Multi', slug: 'corn' },
-  { name: 'Pineapple', tier: 'Rare', value: '30', floor: '27', seedCost: '10K 🪙 / 99 💎', harvest: 'Multi', slug: 'pineapple' },
-  // UNCOMMON
-  { name: 'Pumpkin', tier: 'Uncommon', value: '350', floor: '316', seedCost: '~34 🪙', harvest: 'Multi', slug: 'pumpkin' },
-  { name: 'Tulip', tier: 'Uncommon', value: '60', floor: '54', seedCost: '40 🪙 / 4 💎', harvest: 'Single', slug: 'tulip' },
-  { name: 'Apple', tier: 'Uncommon', value: '12', floor: '11', seedCost: '400 🪙 / 29 💎', harvest: 'Multi', slug: 'apple' },
-  { name: 'Tomato', tier: 'Uncommon', value: '9', floor: '8', seedCost: '200 🪙 / 15 💎', harvest: 'Multi', slug: 'tomato' },
-  // COMMON
-  { name: 'Carrot', tier: 'Common', value: '5', floor: '5', seedCost: '1 🪙 / 3 💎', harvest: 'Multi', slug: 'carrot' },
-  { name: 'Blueberry', tier: 'Common', value: '5', floor: '5', seedCost: '25 🪙 / 12 💎', harvest: 'Multi', slug: 'blueberry' },
-  { name: 'Strawberry', tier: 'Common', value: '3', floor: '3', seedCost: '10 🪙 / 7 💎', harvest: 'Multi', slug: 'strawberry' },
-  // TBD
-  { name: 'Thorn Rose', tier: 'TBD', value: '140', floor: '126', seedCost: '229 🪙', harvest: 'TBD', slug: 'thorn-rose' },
-  { name: 'Pinetree', tier: 'TBD', value: '100', floor: '90', seedCost: '99 🪙', harvest: 'TBD', slug: 'pinetree' },
-];
 
 const TIER_ORDER = ['Super', 'Mythic', 'Legendary', 'Epic', 'Rare', 'Uncommon', 'Common', 'TBD'];
 
@@ -74,6 +28,30 @@ const TIER_COLORS: Record<string, string> = {
   Common: 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300',
   TBD: 'bg-gray-100 text-gray-500 dark:bg-gray-800 dark:text-gray-400',
 };
+
+type CropItem = {
+  slug: string;
+  name: string;
+  tier: string;
+  baseValue?: number;
+  stats?: Record<string, string | number>;
+};
+
+const CROPS = (((itemsData as unknown) as { items: CropItem[] }).items ?? [])
+  .filter((item) => item.slug && item.name && item.tier)
+  .map((item) => ({
+    slug: item.slug,
+    name: item.name,
+    tier: item.tier,
+    value: typeof item.baseValue === 'number'
+      ? item.baseValue.toLocaleString()
+      : String(item.stats?.['1kg Value'] ?? 'TBD'),
+    floor: String(item.stats?.Floor ?? 'TBD'),
+    seedCost: String(item.stats?.['Seed Cost'] ?? 'TBD'),
+    harvest: String(item.stats?.Harvest ?? 'TBD'),
+    sortValue: typeof item.baseValue === 'number' ? item.baseValue : -1,
+  }))
+  .sort((a, b) => b.sortValue - a.sortValue);
 
 export default function CropsPage() {
   const grouped = TIER_ORDER.map((tier) => ({
@@ -90,7 +68,7 @@ export default function CropsPage() {
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Crop Database</h1>
               <p className="subheading">
-                All 36 crops with 1kg sell prices, seed costs, rarity tiers, and harvest types —
+                All {CROPS.length} crops with 1kg sell prices, seed costs, rarity tiers, and harvest types —
                 the most complete reference for {gameName} farming.
               </p>
             </div>
@@ -106,7 +84,7 @@ export default function CropsPage() {
                       {crops.length} crop{crops.length > 1 ? 's' : ''}
                     </span>
                   </h2>
-                  <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+                  <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
                     <table className="w-full">
                       <thead className="bg-gray-50 dark:bg-gray-700">
                         <tr>

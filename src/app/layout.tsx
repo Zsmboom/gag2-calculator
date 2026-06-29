@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { config } from "@/lib/games.config";
 
 const GA_MEASUREMENT_ID = "G-DG8RPNJQPE";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
 
 const { siteTitle, siteDescription, baseUrl, primaryKeywords, secondaryKeywords } = config.seo;
 const allKeywords = [...primaryKeywords, ...secondaryKeywords];
@@ -78,7 +71,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
       <head>
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />

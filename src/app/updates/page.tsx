@@ -31,6 +31,34 @@ export default function UpdatesPage() {
                   <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
                     Latest
                   </span>
+                  <time dateTime="2026-06-27">
+                    2026-06-27
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Mega Moon Update — Mega Seeds</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  The first monthly update added the Mega Moon event: a blue moon can appear at
+                  night and greatly increase the chance of getting Mega Seeds.
+                </p>
+                <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
+                  <li><strong>Mega Moon</strong> — night event with a blue moon visual cue</li>
+                  <li><strong>Mega Seed</strong> — new seed variant for giant versions of non-limited crops</li>
+                  <li><strong>Data status</strong> — exact drop rate, size multiplier, and sell-value behavior are still being verified</li>
+                </ul>
+                <p className="text-gray-600 dark:text-gray-300 mt-4">
+                  See the{' '}
+                  <a href="/mega-moon/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    Mega Moon guide
+                  </a>
+                  {' '}for the current confirmed details.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
+                    Update
+                  </span>
                   <time dateTime="2026-06-25">
                     2026-06-25
                   </time>
