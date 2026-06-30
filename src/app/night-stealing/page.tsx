@@ -8,7 +8,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Night Stealing — Guide & Defense Strategies`,
   description: `Complete ${gameName} night stealing guide. Day/night cycle, how stealing works, and every defense method ranked by effectiveness — from staying in your garden to private servers.`,
-  alternates: { canonical: `${config.seo.baseUrl}/night-stealing/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/night-stealing/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';

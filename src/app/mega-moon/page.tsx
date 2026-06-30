@@ -106,11 +106,11 @@ export default function MegaMoonPage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   Mega Moon is an event mechanic, not a normal mutation. For regular mutation
                   multipliers, use the{' '}
-                  <Link href="/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     mutation guide
                   </Link>
                   , and for weather-triggered effects, check the{' '}
-                  <Link href="/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     weather page
                   </Link>
                   .

@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Pets — Full Pet Catalog & Guide`,
   description: `Discover all ${gameName} pets. Learn spawn mechanics, buy prices, and abilities from Deer (growth boost) to Golden Dragonfly (doubles Gold). Legendary spawns trigger a server-wide alert.`,
-  alternates: { canonical: `${config.seo.baseUrl}/pets/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/pets/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -290,21 +290,21 @@ export default function PetsPage() {
                 <div className="flex flex-col gap-2 text-gray-600 dark:text-gray-300">
                   <p>
                     See how pets affect your farming strategy on the{' '}
-                    <Link href="/beginner-guide/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/guide/" className="text-blue-600 dark:text-blue-400 hover:underline">
                       beginner guide
                     </Link>
                     .
                   </p>
                   <p>
                     Check the{' '}
-                    <Link href="/gear/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/systems/gear/" className="text-blue-600 dark:text-blue-400 hover:underline">
                       gear page
                     </Link>{' '}
                     for defensive equipment that works with your pets.
                   </p>
                   <p>
                     Visit the{' '}
-                    <Link href="/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
                       mutations page
                     </Link>{' '}
                     to understand how pet abilities interact with mutations.

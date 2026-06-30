@@ -1,10 +1,12 @@
 import type { MetadataRoute } from 'next';
 import { config } from '@/lib/games.config';
 import itemsData from '@/data/items.json';
+import npcsData from '@/data/npcs.json';
 
 export const dynamic = 'force-static';
 
 type ItemEntry = { slug?: string };
+type NpcEntry = { slug?: string };
 
 function withTrailingSlash(path: string): string {
   if (path === '/' || path.endsWith('/')) return path;
@@ -26,11 +28,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const itemEntries: MetadataRoute.Sitemap = items
     .filter((it) => !!it.slug)
     .map((it) => ({
-      url: `${baseUrl}/tier-list/${it.slug}/`,
+      url: `${baseUrl}/systems/seeds/${it.slug}/`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    }));
+  const npcs = (((npcsData as unknown) as { npcs: NpcEntry[] }).npcs ?? []);
+  const npcEntries: MetadataRoute.Sitemap = npcs
+    .filter((npc) => !!npc.slug)
+    .map((npc) => ({
+      url: `${baseUrl}/systems/npcs/${npc.slug}/`,
       lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.6,
     }));
 
-  return [...pageEntries, ...itemEntries];
+  return [...pageEntries, ...itemEntries, ...npcEntries];
 }

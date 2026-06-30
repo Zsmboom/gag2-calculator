@@ -27,7 +27,7 @@ type Item = {
   slug: string;
   name: string;
   tier: Tier;
-  baseValue?: number;
+  baseValue?: number | string;
   description?: string;
   stats?: Record<string, string | number>;
   howToGet?: string;

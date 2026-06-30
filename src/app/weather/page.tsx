@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Weather Events — Complete Guide & Mutation Triggers`,
   description: `Complete ${gameName} weather events guide. Every weather type, the mutation it triggers, its multiplier, and strategy tips for Rain, Thunderstorm, Frost, and Blood Moon.`,
-  alternates: { canonical: `${config.seo.baseUrl}/weather/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/weather/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -137,7 +137,7 @@ export default function WeatherPage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   Mutations are mutually exclusive in {gameName} — only one applies per crop. See the
                   full multiplier breakdown on the{' '}
-                  <Link href="/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     mutations page
                   </Link>
                   .

@@ -96,7 +96,7 @@ export default function CalculatorPage() {
           <div className="container max-w-3xl">
             <p className="text-gray-600 dark:text-gray-300 text-center">
               View the full{' '}
-              <Link href="/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+              <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
                 mutation multiplier list
               </Link>{' '}
               and{' '}

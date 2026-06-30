@@ -13,21 +13,21 @@ export default function WhatsNew() {
       date: 'Jun 27',
     },
     {
-      title: 'Pet Catalog Expanded',
-      description: '7 new pets added (Bunny, Robin, Monkey, Unicorn, Raccoon, Black Dragon, Ice Serpent). All prices sourced from Beebom.',
-      link: '/pets/',
+      title: 'Auctioneer NPC Added',
+      description: 'New Dutch auction NPC sells 6 random premium items every 20 minutes. Prices drop over time while stock remains.',
+      link: '/systems/npcs/auctioneer/',
+      date: 'Jun 28',
+    },
+    {
+      title: 'Systems Hub Added',
+      description: 'New /systems/ hub connects seeds, pets, mutations, gear, weather, guilds, NPCs, and offline growth.',
+      link: '/systems/',
       date: null,
     },
     {
-      title: 'Mutation Multipliers Corrected',
-      description: 'Electric ×70→×25, Frozen ×40→×3, Rainbow ×30→×10, verified against Beebom data.',
-      link: '/mutations/',
-      date: null,
-    },
-    {
-      title: 'Turtle Pet Added',
-      description: 'Shadow dropped Jun 24. +10 backpack, -2 walk speed. 70K🪙.',
-      link: '/pets/',
+      title: 'Venom Spitter Detail',
+      description: 'Missing Mythic defensive crop detail page added with Aurora Event source notes and TBD value markers.',
+      link: '/systems/seeds/venom-spitter/',
       date: null,
     },
     {
@@ -39,7 +39,7 @@ export default function WhatsNew() {
     {
       title: 'Strawberry Sniper Gear',
       description: 'New gear item, fires strawberry projectiles to knock back thieves.',
-      link: '/gear/',
+      link: '/systems/gear/',
       date: 'Jun 22',
     },
   ];

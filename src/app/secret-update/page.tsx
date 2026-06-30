@@ -105,7 +105,7 @@ export default function SecretUpdatePage() {
                   <li>Highest total harvest value</li>
                   <li>Most rare items in inventory</li>
                   <li>Weekly guild rankings (see also the{' '}
-                    <Link href="/guilds/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/systems/guilds/" className="text-blue-600 dark:text-blue-400 hover:underline">
                       guild page
                     </Link>
                     )</li>
@@ -191,15 +191,15 @@ export default function SecretUpdatePage() {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   For in-game mechanics, see{' '}
-                  <Link href="/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     weather events
                   </Link>
                   ,{' '}
-                  <Link href="/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     pet catalog
                   </Link>
                   , and{' '}
-                  <Link href="/guilds/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/guilds/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     guild system
                   </Link>
                   .

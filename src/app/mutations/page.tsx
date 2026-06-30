@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Mutations — All Multipliers & How to Get Them`,
   description: `Complete ${gameName} mutation guide. Confirmed multipliers from Bloodlit (×80) to Gold (×10), weather triggers, and the key GAG1 vs GAG2 difference: mutations are mutually exclusive.`,
-  alternates: { canonical: `${config.seo.baseUrl}/mutations/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/mutations/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -200,7 +200,7 @@ export default function MutationsPage() {
                     profit calculator
                   </Link>
                   , and see the full weather breakdown on the{' '}
-                  <Link href="/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     weather page
                   </Link>
                   .

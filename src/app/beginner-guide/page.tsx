@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Beginner Guide`,
   description: `New to ${gameName}? Start here — beginner-friendly walkthrough covering the basics, early-game priorities, and the most common mistakes.`,
-  alternates: { canonical: `${config.seo.baseUrl}/beginner-guide/` },
+  alternates: { canonical: `${config.seo.baseUrl}/guide/` },
 };
 
 export default function BeginnerGuidePage() {
@@ -19,7 +19,7 @@ export default function BeginnerGuidePage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/beginner-guide/' }]} />
+            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/guide/' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Beginner Guide</h1>
               <p className="subheading">

@@ -36,9 +36,13 @@ type Item = {
   slug: string;
   name: string;
   tier: Tier;
-  baseValue?: number;
+  baseValue?: number | string;
   description?: string;
 };
+
+function numericValue(value: number | string | undefined): number {
+  return typeof value === 'number' ? value : -1;
+}
 
 const rawItems = (((itemsData as unknown) as { items: Item[] }).items ?? [])
   .filter((it) => it && it.slug && it.tier)
@@ -54,7 +58,7 @@ const rawItems = (((itemsData as unknown) as { items: Item[] }).items ?? [])
 const items: Item[] = [...rawItems].sort((a, b) => {
   const tierDiff = TIER_ORDER[a.tier] - TIER_ORDER[b.tier];
   if (tierDiff !== 0) return tierDiff;
-  return (b.baseValue ?? -1) - (a.baseValue ?? -1);
+  return numericValue(b.baseValue) - numericValue(a.baseValue);
 });
 
 export default function TierListPage() {

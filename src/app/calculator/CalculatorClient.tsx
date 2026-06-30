@@ -17,7 +17,9 @@ type CropItem = {
 
 const MUTATIONS: { name: string; mult: number }[] = [
   { name: 'None', mult: 1 },
+  { name: 'Aurora', mult: 1.5 },
   { name: 'Chained', mult: 4 },
+  { name: 'Dawnbound', mult: 10 },
   { name: 'Gold', mult: 10 },
   { name: 'Starstruck', mult: 25 },
   { name: 'Rainbow', mult: 30 },
@@ -141,9 +143,14 @@ export default function CalculatorClient({
       <div className="mt-6 rounded-md bg-gray-50 dark:bg-gray-900/50 p-4 text-sm text-gray-600 dark:text-gray-300">
         <p className="font-semibold mb-1">Formula</p>
         <code className="block text-xs break-words">
-          {baseValue.toLocaleString()} × {weight}² × {mutation.mult} × (1 + {friendBoost}%) × {quantity}
+          BaseFormula({weight}kg) × {mutation.mult} × (1 + {friendBoost}%) × {quantity}
         </code>
         <p className="mt-3 text-gray-500 dark:text-gray-400">{logicDescription}</p>
+        <p className="mt-3 text-gray-500 dark:text-gray-400">
+          Obsidian source note: per-crop curves may use a power fit (coefficient × weight^exp,
+          exp 2.0-3.4) or a quadratic fit. This browser calculator keeps the current community
+          weight² model for consistent instant estimates while flagging unverified curve data.
+        </p>
       </div>
 
       {crops.length === 0 ? (

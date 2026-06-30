@@ -1,0 +1,58 @@
+{
+  "npcs": [
+    {
+      "slug": "sam",
+      "name": "Sam",
+      "location": "Seed Shop",
+      "role": "Seed vendor",
+      "added": "Launch",
+      "description": "Sam is the Seed Shop vendor. He sells rotating plantable seeds from Common to Legendary tiers. Check Sam first whenever you log in because seed stock changes quickly and early access to stronger crops can define your whole session.",
+      "strategy": "Use Sam to move from Carrot and Tomato into Bamboo, then into rare and mythic seeds once your Sheckles economy is stable."
+    },
+    {
+      "slug": "george",
+      "name": "George",
+      "location": "Gear Shop",
+      "role": "Gear vendor",
+      "added": "Launch",
+      "description": "George runs the Gear Shop. He sells sprinklers, watering cans, and farming tools priced in Sheckles or Robux. Gear from George affects crop grow speed, crop weight, and garden defense.",
+      "strategy": "Prioritize sprinklers after your first profitable seeds because crop weight scales directly into sell value."
+    },
+    {
+      "slug": "charlotte",
+      "name": "Charlotte",
+      "location": "Props Shop",
+      "role": "Props vendor",
+      "added": "Launch",
+      "description": "Charlotte runs the Props Shop. She sells decorative and cosmetic props for player gardens and is located near the map center close to the Sell Stand and Guild Stand.",
+      "strategy": "Treat props as cosmetic once your farming loop is stable; avoid spending early Sheckles here if you still need seeds, sprinklers, or defense."
+    },
+    {
+      "slug": "steven",
+      "name": "Steven",
+      "location": "Sell Stand",
+      "role": "Crop buyer",
+      "added": "Launch",
+      "description": "Steven is the Sell Stand NPC. Bring harvested crops to Steven to earn Sheckles. Payout depends on crop base value, weight, mutations, friend boost, and active sell multipliers.",
+      "strategy": "Sell high-value harvests after checking mutation and boost conditions; do not leave major crops unattended through the night cycle."
+    },
+    {
+      "slug": "gilbert",
+      "name": "Gilbert",
+      "location": "Guild Stand",
+      "role": "Guild manager",
+      "added": "Launch",
+      "description": "Gilbert handles guild creation, the global guild leaderboard, and guild rewards. Creating a guild costs 99 Robux, and guilds are a GAG2-exclusive feature not found in Grow a Garden 1.",
+      "strategy": "Join an active guild early if you want weekly rewards without paying the creation cost yourself."
+    },
+    {
+      "slug": "auctioneer",
+      "name": "Auctioneer",
+      "location": "Auction Stand",
+      "role": "Dutch auction vendor",
+      "added": "2026-06-28",
+      "description": "The Auctioneer was added in the June 28, 2026 update. Located at the Auction Stand, this NPC sells 6 random premium items that restock every 20 minutes. Items can include super sprinklers, super watering cans, mythical seeds, and super seeds.",
+      "strategy": "The Auctioneer uses Dutch auction pricing: items start extremely expensive and drop over time. Buy early if you need a rare item and can afford the premium, or wait for the price to fall and risk another player buying it first."
+    }
+  ]
+}

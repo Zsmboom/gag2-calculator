@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Seeds — Complete Seed Shop Prices & Guide`,
   description: `Complete ${gameName} seed shop guide. All seed prices in Sheckles and Robux, restock odds, the Ghost Pepper Pack, and recommended purchase strategy by game phase.`,
-  alternates: { canonical: `${config.seo.baseUrl}/seeds/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/seeds/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';

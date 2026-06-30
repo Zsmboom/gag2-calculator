@@ -13,23 +13,25 @@ export default function Hero() {
           {/* Text Content */}
           <div className="text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Welcome to <span className="text-blue-600 dark:text-blue-400">{gameName}</span>
+              <span className="text-blue-600 dark:text-blue-400 [overflow-wrap:anywhere]">
+                grow-a-garden-2 calculator[2026.07]
+              </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
               {description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 justify-center md:justify-start">
               <Link
-                href="/beginner-guide/"
+                href="/guide/"
                 className="btn btn-primary text-center py-3 sm:py-2 min-h-[50px] sm:min-h-[44px] flex items-center justify-center"
               >
                 Get Started
               </Link>
               <Link
-                href="/tier-list/"
+                href="/systems/seeds/"
                 className="btn bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 text-center py-3 sm:py-2 min-h-[50px] sm:min-h-[44px] flex items-center justify-center"
               >
-                View Tier List
+                View Seeds
               </Link>
             </div>
           </div>
@@ -51,25 +53,25 @@ export default function Hero() {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              {config.features.length}+
+              843M+
             </p>
-            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Features</p>
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Visits</p>
           </div>
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              {config.faqs.length}+
+              550K+
             </p>
-            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">FAQs</p>
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Favorites</p>
           </div>
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              {config.pages.filter((p) => p.isHub).length}
+              520K
             </p>
-            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Tools</p>
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Current Players</p>
           </div>
           <div className="p-2 sm:p-4">
-            <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">24/7</p>
-            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Updated</p>
+            <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">38</p>
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Crops</p>
           </div>
         </div>
       </div>

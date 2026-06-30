@@ -22,13 +22,15 @@ A Next.js (App Router, static export) fan site for the Roblox game Grow a Garden
 - `/calculator` — Profit calculator (Sell = BaseValue × weight² × Mutation × FriendBoost × Quantity)
 - `/codes` — Active codes (TEAMGREENBEAN)
 - `/tier-list` — 36 crops ranked by GAG2 rarity (Super → Common), each with a detail page
-- `/beginner-guide` — Quick start walkthrough
-- `/mutations` — 7 confirmed mutation multipliers + weather triggers
-- `/pets` — Pet catalog and spawn mechanics
-- `/gear` — Sprinklers, defense, raid tools
-- `/seeds` — Seed shop prices and restock odds
-- `/weather` — 10 weather events and their mutation triggers
-- `/night-stealing` — Day/night cycle and defense strategies
+- `/guide` — Quick start walkthrough
+- `/systems` — Systems hub for game mechanics
+- `/systems/seeds` — 38-crop database, seed prices, and seed packs
+- `/systems/npcs` — Sam, George, Charlotte, Steven, Gilbert, and Auctioneer
+- `/systems/mutations` — Mutation multipliers + weather triggers
+- `/systems/pets` — Pet catalog and spawn mechanics
+- `/systems/gear` — Sprinklers, defense, raid tools
+- `/systems/weather` — Weather events and mutation triggers
+- `/systems/night-stealing` — Day/night cycle and defense strategies
 - `/updates`, `/about`, `/privacy`, `/disclaimer`
 
 ## Configuration

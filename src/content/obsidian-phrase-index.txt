@@ -1,0 +1,1556 @@
+Obsidian manifest phrase index for content completeness checks.
+
+FILE: calculator/content.md
+Full Original Content
+🧮 Grow a Garden 2 — Calculator Guide
+Core Formula (Community-Verified, 2026-06-16)
+BaseFormula (Per-Crop)
+Mutation Multipliers
+Friend Boost
+Bargain Bonus
+Competitor Calculator Comparison
+Required Data for a Calculator
+⚠️ Data Contradictions Found
+Breadcrumb: Roblox GAG2 Calculator Guide
+Core Formula (Community Verified, 2026 06 16)
+Sell Value = BaseFormula(weight) × Mutation Mult × (1 + FriendBoost%) × Quantity
+Power fit: coeff × weight^exp Quadratic fit: a·w² + b·w + c
+Where exp ranges from 2.0 to ~3.4 depending on the crop.
+Mutation × : : : : None 1 Gold 10 Rainbow 30 Frozen 40 Electric 70 Bloodlit 80
+Critical: Mutations are mutually exclusive (only one per crop) in GAG2.
+Formula: (1 + FriendBoost%) Each online friend adds a flat % bonus to sell price
+Some sources claim a ×1.08 Bargain bonus at final sell stage Being verified for accuracy
+Calculator Model Accuracy Special Features : : : : : : : : growagardencalculate.com Power exp 2.0–3.4, per crop Community fit Individual curves per crop gag2cal
+To build the most accurate GAG2 calculator, we need per crop:
+{ name: string, rarity: "Common" "Uncommon" "Rare" "Epic" "Legendary" "Mythic" "Super", base value 1kg: number, curve exp: number (2.0–3.4), single harvest: boo
+Source Weight Formula Mutation Multipliers : : : : growagarden2wiki.net weight² Gold×10, Frozen×40 growagardencalculate.com power fit (exp 2.0–3.4) Rainbow×30, 
+These are all community estimated values — none have official game confirmation. A calculator that independently verified data would have a competitive advantag
+
+FILE: changelog.md
+Type : Bug fix — missing seed detail page Summary : Found and fixed missing venom spitter.md — referenced in site architecture and items.json but had no corresp
+Files Added systems/seeds/venom spitter.md — New Venom Spitter detail page (Mythic defensive crop, Aurora Event)
+Files Modified systems/seeds/list.md — Added Venom Spitter row to seed table (Mythic, ~30M Sheckles, Multi) site architecture.md — Page count 59→60, v1.8 entry 
+Known Gaps Venom Spitter exact 1kg value — TBD (data not yet available) All existing gaps from v1.7 remain
+Type : Data update — Hypno Bloom & Auctioneer Update (Jun 28) Summary : Added NPC system (6 NPCs total), Seed Pack reference, enriched Hypno Bloom detail, updat
+Files Added systems/npcs/list.md — New NPC system list (Sam, George, Charlotte, Steven, Gilbert, Auctioneer) systems/npcs/auctioneer.md — New Auctioneer detail 
+Files Modified homepage/content.md — Stats updated (visits 174M→843M, added favorites, 36→37 crops) systems/seeds/hypnobloom.md — Enriched with sell value examp
+New Data NPCs: 6 total (Sam/George/Charlotte/Steven/Gilbert/Auctioneer) — 5 new detail pages created Seed Packs: Ghost Pepper Pack (5 drops, 1 50%), Rare Seed P
+Known Gaps Hypno Bloom ability exact range/duration — not documented on wiki either (community gap) High tier Seed Pack (Super/Secret/Mythic/Legendary) drop % —
+Type : Data update — Update 1.06.0 (Hypno Bloom) Summary : Added Hypno Bloom (Super rarity crop) discovered during routine update check. Data sourced from growa
+Files Added systems/seeds/hypnobloom.md — New detail page for Hypno Bloom
+Files Modified reference data/items.json — Added Hypno Bloom entry (36 → 37 crops)
+New Data Items/Pets: 1 added (Hypno Bloom) New source: growagarden2wiki.net (added to sources.md)
+Known Gaps Hypno Bloom exact ability duration/range not yet documented Secret Auction Update (mentioned in YouTube, Jun 28) — no media coverage yet, pending fur
+Type : Delta update — Mega Moon Update Summary : Added Mega Moon event mechanics, Mega Seed variants. Updated items.json and pages/updates.md.
+Files Modified : data/items.json — Added Mega Seed entries systems/mutations/list.md — Updated mutation multipliers updates/content.md — Added Mega Moon event p
+Type : Data quality audit Summary : Marked mutation multipliers as multi source conflict. Added 5 new data sources.
+Files Modified : systems/mutations/list.md — Added conflict markers sources.md — Added 5 new sources
+Type : Delta update — Strawberry Sniper / Turtle / Picture Frame Summary : Added 3 new update records.
+Files Modified : updates/content.md — Added 3 patch notes
+
+FILE: codes/content.md
+Full Original Content
+🎁 Grow a Garden 2 — Active Codes
+Current Working Codes
+How to Redeem
+Important Notes
+Where Codes Are Announced
+Grow a Garden 2 — 兑换码页内容
+Codes Data (structured)
+Code Reward Added Success Rate Status : : : : : : TEAMGREENBEAN 3× Green Bean Seeds Launch 100% ✅ Active
+1. Open the Settings gear icon (top left corner of game screen) 2. Click Redeem Code 3. Enter the code (exact case) 4. Click Redeem
+GAG2 code system is different from GAG1 — codes are distributed through Discord bot (social/event codes) Codes may expire quickly — check the official Discord f
+Channel Description : : 💬 [Official Discord](https://discord.gg/growagarden) Primary source — bot distributed codes 🐦 X/Twitter Developer announcements 📰 Roblox
+兑换码 奖励 状态 添加日期 : : : : TEAMGREENBEAN 3× Green Bean Seeds ✅ active 2026 06 12
+注意：原版 Grow a Garden 的兑换码（STARBUD、RDCAward 等）不适用于 GAG2。
+Code Status Reward Source TEAMGREENBEAN active 3× Green Bean Seeds ?
+
+FILE: guide/content.md
+Full Original Content
+🚀 Grow a Garden 2 — Quick Start Guide
+Step 1: Plant Your First Crops
+Step 2: Recommended Progression
+Step 3: Basic Controls
+Step 4: Early Strategy Tips
+Important Notes
+1. Visit the Seed Shop and buy your first seeds 2. Start with Carrot (costs only 1 Sheckle) 3. Plant in your garden plots 4. Wait for crops to grow (they grow o
+Phase Sheckles Target Crop Seed Cost Why 🟢 Early 0–10K Carrot → Tomato 1 → 200 Fast first cash 🟢 Early 10K–100K Bamboo 700 Dense planting + weather mutations = 
+Action Key : : Move WASD Harvest / Interact E Open Door / Shop E Backpack B Settings / Codes ⚙️ (top left)
+1. Rush Bamboo (700🪙) — Plant densely, wait for weather triggered mutations 2. Use Friend Boost — Have friends join your server for extra sell % 3. Don't over i
+⚠️ Description : : 🚫 GAG2 is a completely separate game from GAG1. No items or progress transfer. 🌙 Crops can be stolen at night. Harvest before logging off or 
+
+FILE: homepage/content.md
+Full Original Content
+🌱 Grow a Garden 2 — Game Hub
+Quick Facts
+Game Premise
+📚 Documentation
+🆕 Getting Started
+💰 Economy & Values
+🌾 Database
+⚡ Game Mechanics
+📚 Reference
+🛠️ Tools
+🔗 External Resources
+Attribute Value Full Name Grow a Garden 2 (GAG2) Developer Strawberreh Squad / Splitting Point Studios Platform Roblox Genre Farming Simulator / PvP Raiding Rel
+Grow a Garden 2 is the sequel to the popular Roblox farming game. Key new features:
+Day/Night Cycle — Farm by day, steal crops from other gardens at night Guild System — Team up for weekly rewards Map Pets — Pets spawn randomly on the map with 
+💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (37 crops)
+🌾 Database 🌽 All Crops (37 entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog ⚙️ Gear & Tools
+⚡ Game Mechanics 🌙 Night Stealing 🛡️ Guilds 🌤️ Weather Events 💵 Bargain System ⏰ Offline Growth
+📚 Reference 📚 Data Sources & Update Guide
+Resource Link 🎮 Game Page [Roblox](https://www.roblox.com/games/97598239454123/Grow a Garden 2) 💬 Official Discord [Discord.gg](https://discord.gg/growagarden) 
+
+FILE: reference-data/calculator-logic.md
+: : : Bloodlit ×80 Blood Moon 事件 Electric ×70 雷暴天气 Frozen ×40 Frost 事件（作物必须是 Wet 状态） Rainbow ×30 Rainbow Seed / 自然 0.1% Starstruck ×25 未知事件 Dawnbound ×10 Sunflo
+基础价值：从 Seed Shop 界面提取 突变倍率：社区测试 + YouTube 视频 重量：随机范围，按作物类型分布
+
+FILE: reference-data/seed-packs.md
+Grow a Garden 2 — Seed Pack Drop Reference
+Crop Rarity Drop Chance Odds : : : : : : : : 1 Baby Cactus Rare 50% 1 in 2 2 Horned Melon Rare 30% 1 in 3 3 Glow Mushroom Epic 15% 1 in 7 4 Poison Ivy Legendary
+Source: Seeds Shop — 99 Robux/roll (bulk: 10 roll bundle 799 Robux, best value) Confirmed: In game on launch day (2026 06 12)
+Crop Drop Chance : : : : 1 Banana 10.3% 2 Cactus 10.03% 3 Corn 9.9% 4 Grape 9.15% 5 Pineapple 8.91% 6 Coconut 7.81% 7 Apple 7.51% 8 Mango 6.25% ... (27 drops to
+Source: Vote reward on gag.gg (free) Status: Unverified — community sourced drop rates
+Super Seed Pack — 24 drops (Source TBA) Secret Seed Pack — 22 drops (Source TBA) Mythic Seed Pack — 27 drops (Source TBA) Legendary Seed Pack — 27 drops (Source
+GAG2 Wiki: https://growagarden2wiki.net/seed packs/ (accessed 2026 06 30) https://growagarden2wiki.net/seed packs/ghost pepper pack/ (accessed 2026 06 30) https
+
+FILE: site-architecture.md
+Total pages: 61 Page hierarchy and relationships. Migrated from v1.x structure on 2026 06 29
+Homepage (/) ← "Grow a Garden 2 guide" │ ├── /calculator/ ← "Grow a Garden 2 calculator" │ ├── /codes/ ← "Grow a Garden 2 codes" │ ├── /guide/ ← "Grow a Garden 
+Folder Page count Target keywords Has detail pages? homepage/ 1 Grow a Garden 2 guide — systems/ 1 Grow a Garden 2 systems — calculator/ 1 Grow a Garden 2 calcu
+System Items count Detail page decision Reason Seeds 38 ✅ Create detail pages Each seed has name, price, growth time, rarity, and description (3+ sentences) Pet
+Date Version Changes 2026 06 29 v1.6 Added Hypno Bloom (Super rarity) — new detail page + items.json + site architecture sync 2026 06 30 v1.7 Added Auctioneer N
+Changed Pages (v1.7) systems/npcs/list.md — 🆕 new NPC system list (6 NPCs) systems/npcs/auctioneer.md — 🆕 new Auctioneer detail page systems/npcs/sam.md — 🆕 new
+Changed Pages (v1.8) systems/seeds/venom spitter.md — 🆕 new detail page (was missing) systems/seeds/list.md — 🔄 added Venom Spitter row site architecture.md — 🔄
+Changed Pages (v1.9) systems/content.md — 🆕 new systems hub/landing page (English) site architecture.md — 🔄 page count 60→61, seeds: 38→39, details: 37→38
+Migrated from v1.x to v2.x structure on 2026 06 29 Old data preserved at: ~/Desktop/龙虾ob/龙虾专用/roblox/grow a garden 2/ 36 original crop pages migrated as detail 
+
+FILE: sources.md
+Field Value URL https://www.roblox.com/games/97598239454123/Grow a Garden 2 Accessed 2026 06 21 Content collected Game description, developer, genre, visits cou
+Field Value URL https://www.rolimons.com/game/97598239454123 Accessed 2026 06 21 Content collected Online peaks, average play time, CCU history
+Field Value URL https://www.ign.com/articles/grow a garden 2 codes Accessed 2026 06 21 Content collected Codes
+Field Value URL https://progameguides.com/roblox/grow a garden 2 codes/ Accessed 2026 06 22 Content collected Codes, Aurora Event guide
+Field Value URL https://beebom.com/grow a garden 2 codes/ Accessed 2026 06 22 Content collected Codes, patch notes, day/night cycle, seed tier list
+Field Value URL https://www.youtube.com/@KreekCraft Accessed 2026 06 21 Content collected Update 1 coverage, Secret Update content
+Field Value URL https://www.youtube.com/@FoltynFamily Accessed 2026 06 21 Content collected Gameplay demo, content showcase
+Field Value URL https://beebom.com/grow a garden 2 update patch notes/ Accessed 2026 06 25 Content collected Turtle Update, Picture Frame Update, Strawberry Sni
+Field Value URL https://beebom.com/grow a garden 2 mutations/ Accessed 2026 06 25 Content collected Mutation multiplier table (multi source conflict with GAG1)
+Field Value URL https://beebom.com/grow a garden 2 plants tier list/ Accessed 2026 06 25 Content collected 31 seeds ranking + sell price
+Field Value URL https://beebom.com/grow a garden 2 pets/ Accessed 2026 06 25 Content collected 14 pet full table (Updated Jun 24, includes Turtle)
+Field Value URL https://bloxxer.gg/blogs/grow a garden 2/pets guide Accessed 2026 06 25 Content collected 8 main pets spawn chance, price, rarity
+Field Value URL https://www.sportskeeda.com/roblox news/grow garden 2 turtle pet guide Accessed 2026 06 25 Content collected Turtle independent guide: 70K, +10 
+Field Value URL ~/.openclaw/agents/main/workspace/gag2 calculator/src/data/ Accessed 2026 06 21 Content collected items.json, codes.json, game.config.json
+Field Value URL https://growagarden2wiki.net/crops/hypnobloom/ Accessed 2026 06 29 Content collected Hypno Bloom full stats: price, rarity, weight, growth time,
+Field Value URL https://growagarden2.fandom.com/wiki/Hypnobloom Accessed 2026 06 29 Content collected Hypno Bloom basic info, update 1.06.0 reference
+Field Value URL https://growagarden2wiki.net/updates/ Accessed 2026 06 30 Content collected Hypno Bloom & Auctioneer Update (Jun 28), Seed Pack rebalance detail
+Field Value URL https://growagarden2wiki.net/npcs/auctioneer/ Accessed 2026 06 30 Content collected Auctioneer NPC full description: Dutch auction pricing, 20 m
+Field Value URL https://growagarden2wiki.net/seed packs/ Accessed 2026 06 30 Content collected Ghost Pepper Pack drop table (5 items, 1 50%), Rare Seed Pack (27
+
+FILE: systems/bargain-system/list.md
+Full Original Content
+💵 Bargain System
+Overview
+Current Data
+Breadcrumb: Roblox GAG2 Mechanics Bargain
+GAG2 introduces a Bargain mechanic that provides a bonus to sell value when harvesting crops. This system did not exist in GAG1.
+Variable Value Source : : : : Bonus multiplier ×1.08 gag2calculator.com Trigger condition Unknown Being researched Active timing Believed to be sell stage —
+Note: Bargain mechanics are in early discovery. Data may change.
+
+FILE: systems/content.md
+Full Original Content
+🌿 Grow a Garden 2 — Game Systems
+🌾 Farming & Economy
+🌤️ Environment & Events
+👥 Social & Progression
+Grow a Garden 2 introduces a rich set of interconnected systems that build on the original Grow a Garden. From farming and economy to PvP raiding and guild comp
+System Description [Seeds & Crops](/systems/seeds/) Complete database of all 38 crops — rarity, sell value, growth time, harvest type, and seed shop prices [Pet
+System Description [Weather](/systems/weather/) Weather events — Blood Moon, Aurora Borealis, rain, and their effects on crops [Day/Night Cycle](/systems/night 
+System Description [Guilds](/systems/guilds/) Create or join a guild (99 Robux) — compete on the global leaderboard for weekly rewards [NPCs](/systems/npcs/) Al
+Browse individual system pages above for detailed stats, strategies, and data.
+
+FILE: systems/gear/list.md
+Full Original Content
+⚙️ Grow a Garden 2 — Gear & Tools
+🌊 Sprinklers (Most Important)
+🛡️ Defense Gear
+🔮 Special Items
+🔫 Raid Tools
+📋 Priority Investment Order
+Grow a Garden 2 — 装备与工具
+Purchased from the Gear Shop and Props Shop. Sprinklers are the most important equipment.
+Name Effect Price : : : : : Basic Sprinkler Increases nearby crop weight (higher harvest value) Low Advanced Sprinkler Stronger growth boost Medium Super Sprink
+Sprinklers increase crop weight — weight scales exponentially with value (power law: weight^exp). This is the most important investment after seeds.
+Item Effect Price : : : : : Megaphone Defends against thieves 8K 🪙 Player Magnet Attracts items and deters thieves 7M 🪙 Vine Wrapper Tangles thieves, slowing th
+Strawberry Sniper added in minor update 2026 06 22. Source: Beebom Patch Notes.
+Item Effect Price : : : : : Pet Teleporters Teleports you to Legendary/Mythic/Super pet locations Robux only
+Tool Use : : : Night only tools Required for stealing from other gardens Various Gear Shop items Utility for farming and raiding
+Order Item Why : : : : : 🥇 1st Sprinklers Increases crop weight → exponential value gain 🥇 2nd Raid tools Needed for night stealing 🥈 3rd Defense gear Protects 
+装备 价格 效果 版本 : : : : : : Megaphone 🆕 8K 🪙 新增装备 Aurora Event Player Magnet 🆕 7M 🪙 新增装备 Aurora Event Pet Teleporters 🆕 Robux 传送至 Legendary/Mythic/Super 宠物 Aurora E
+
+FILE: systems/guilds/list.md
+Full Original Content
+🛡️ Guilds
+Overview
+Known Features
+Strategy
+Breadcrumb: Roblox GAG2 Mechanics Guilds
+Guilds are a system in GAG2 that allow players to team up and compete for weekly leaderboard rewards .
+Form or join a guild with other players Create a guild costs 99 Robux Compete in weekly leaderboard rankings 9 reward tiers — higher ranking = better rewards To
+Join an active guild early for the weekly rewards The Ice Serpent is one of the rarest obtainable pets — guild competition is the primary source Coordinate with
+
+FILE: systems/mutations/list.md
+Full Original Content
+💫 Grow a Garden 2 — Mutation System
+⚠️ Critical: GAG2 vs GAG1 Differences
+⚠️ Data Quality Warning: Multipliers From Multiple Sources Conflict
+✅ Confirmed or Community-Estimated GAG2 Mutation Multipliers
+📋 Weather-Triggered Mutations (Base Multipliers)
+🧮 Value Formula
+📊 Mutation Farming Strategy
+❓ Unconfirmed for GAG2
+Mutation Details
+Grow a Garden 2 — 突变倍率指南
+已确认突变
+天气-突变关联
+Mega Moon Event
+Mega Moon 事件 & Mega Seed 变体
+Mega Moon 事件
+Mega Seed 变体
+YouTube 视频参考
+已知信息汇总
+⚠️ 数据缺口
+相关链接
+Aspect GAG1 (Original) GAG2 : : : : Mutation stacking ✅ Stackable (additive formula) ❌ Mutually exclusive (one per crop) Gold type Variant (×20, separate multip
+⚠️ Data Quality Warning: Multipliers From Multiple Sources Conflict
+The high multipliers (×70 Electric, ×40 Frozen, ×30 Rainbow, ×80 Bloodlit) listed below are GAG1 values carried over without GAG2 verification . Beebom (gaming 
+Mutation Beebom (GAG2) Current Listed Verdict : : : : : : : : Rainbow ×10 ×30 ⚠️ Unconfirmed — may be ×10 Electric ×25 ×70 ⚠️ Unconfirmed — may be ×25 Frozen ×3
+Until community verification confirms GAG2 specific values, treat the high multipliers as estimated/placeholder.
+✅ Confirmed or Community Estimated GAG2 Mutation Multipliers
+Mutation Multiplier Rarity How to Get Confidence : : : : : : : : : Bloodlit 🔥 ×80 (❓) 🟣 Legendary Blood Moon event (every 4h Lunar Glow variation) ⚠️ GAG1 data,
+📋 Weather Triggered Mutations (Base Multipliers)
+These exist in GAG1; being verified for GAG2:
+Mutation × Trigger : : : : : Wet ×2 Rain / Thunderstorm / Sprinklers Chilled ×2 Frost weather / Polar Bear pet Moonlit ×2 Night — Lunar Glow event Pollinated ×3
+Crop Value = BaseFormula(weight) × Mutation Mult × (1 + FriendBoost%) × Quantity
+Where BaseFormula(weight) is a per crop fitted curve: Power fit: coeff × weight^exp (exp ranges 2.0–3.4 per crop) Quadratic fit: a·w² + b·w + c (for some crops)
+Mutations are MUTUALLY EXCLUSIVE. Only one applies at a time. This is the biggest change from GAG1.
+Phase Target Mutation Method : : : 🟢 Early Gold (×10) Mass plant for 1% natural chance 🟡 Mid Frozen (×40 ❓) Frost weather + pre soak crops (Wet) 🔴 Late Electric
+⚠️ Strategy assumes GAG1 values. Actual GAG2 multipliers may be lower.
+Beebom lists Rainbow as ×10 (same as Gold), not ×30 Beebom lists Electric as ×25, not ×70 Beebom lists Frozen as ×3, not ×40 Starstruck and Bloodlit multipliers
+突变 倍率 稀有度 触发方式 : : : : : : Bloodlit ×80 Legendary Blood Moon 事件（每4小时 Lunar Glow 变体） Electric ×70 Legendary 雷暴天气（稀有） Frozen ×40 Epic Frost 事件——作物必须先为 Wet 状态 Rain
+天气 突变链 倍率链 : : Rain Wet → 无突变 — Thunderstorm Wet → Electric ×2 → ×70 Frost Wet → Frozen ×2 → ×40 Blood Moon Bloodlit ×80 Aurora Borealis 🆕 Aurora ×1.5
+首次月度大版本更新 — 2026 06 27 上线 数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 27, 2026）
+属性 值 触发条件 夜间（游戏内 2 分钟夜间周期） 效果 蓝月出现时 Mega 种子掉落概率大幅提升 种子来源 未知 — 🔴 待确认（种子商店刷新 / 天气事件 / 特殊宝箱） 持续时间 整个夜间周期 与 Aurora 事件的兼容性 🔴 待确认 — 是否可在同个夜间共存
+
+FILE: systems/night-stealing/list.md
+Full Original Content
+🌙 Night Stealing
+Day/Night Cycle
+How Stealing Works
+How to Defend
+Night Stealing Page
+Grow a Garden 2 — 夜间偷窃指南
+基础机制
+防御策略
+夜间偷窃技巧
+Breadcrumb: Roblox GAG2 Mechanics Night Stealing
+Phase Duration : : : : ☀️ Day 7 min 30 sec 🌅 Dusk 30 sec 🌙 Night 2 min Total 10 min cycle
+1. At night, walk up to another player's unattended garden 2. Press E to loot crops 3. Stolen items cannot be teleported — you must walk back to your base
+Method Cost Effectiveness : : : : : Stay inside your garden Free ✅ Best — garden locks at night Harvest before logging off Free ✅ Safe Private server 💎 Paid ✅ 1
+基础机制 10分钟昼夜循环中的2分钟夜间时段 夜间可以偷窃他人的花园 离线时作物仍在生长但无人防守
+防御策略 1. 高价值作物睡前收获 — 避免被偷 2. 种植防御植物 — Venus Flytrap、Cactus、Poison Ivy 3. 使用防御宠物 — Bee、Gnome、Venus Dragonfly、 Bear （Aurora Event 新增） 4. 使用防御装备 — Player Magnet 吸引敌
+夜间偷窃技巧 优先偷 Mythic/Super 稀有度的作物 关注 Legendary 宠物刷新全服警报 多人协作提高偷窃效率
+
+FILE: systems/npcs/auctioneer.md
+Full Original Content
+Auctioneer — Grow a Garden 2
+Key Stats
+How the Dutch Auction Works
+Items Available
+Strategy
+Source Data
+The Auctioneer is an NPC in Grow a Garden 2 who runs a Dutch auction stand with 6 random premium items. Added on June 28, 2026 as part of the Hypno Bloom & Auct
+Field Value Role Auction Location Auction Stand Added 2026 06 28 Restock Cycle Every 20 minutes Items Per Cycle 6 random premium items
+1. When the Auction Stand restocks, each of the 6 items starts at an extremely high price (potentially billions of Sheckles) 2. The price gradually decreases ov
+The Auctioneer sells premium items that can include:
+Super Sprinklers Super Watering Cans Mythical Seeds Super Seeds
+Buy early if you need a rare item and can afford the premium price Wait for a discount if you're patient, but risk someone else buying the stock first Check the
+growagarden2wiki.net: https://growagarden2wiki.net/npcs/auctioneer/ (accessed 2026 06 30)
+
+FILE: systems/npcs/charlotte.md
+Full Original Content
+Charlotte — Grow a Garden 2 Props Shop Vendor
+Key Stats
+What Charlotte Sells
+Location
+Source Data
+Charlotte — Grow a Garden 2 Props Shop Vendor
+Charlotte is the Props Shop NPC in Grow a Garden 2. She sells decorative and cosmetic props for player gardens. The Props Shop is in the map center near the Sel
+Field Value Role Shop Location Props Shop Added Launch (2026 06 12)
+Charlotte runs the Props Shop and is the only NPC that sells decorative and cosmetic items for player gardens. Specific prop items and their prices are not yet 
+Charlotte is located at the Props Shop in the center of the map, near the Sell Stand and Guild Stand. The central location makes it convenient to visit after se
+GAG2 Wiki: https://growagarden2wiki.net/npcs/charlotte/ (accessed 2026 06 30)
+
+FILE: systems/npcs/george.md
+Full Original Content
+George — Grow a Garden 2 Gear Shop Vendor
+Key Stats
+What George Sells
+Location
+Source Data
+George — Grow a Garden 2 Gear Shop Vendor
+George is the Gear Shop NPC in Grow a Garden 2. He sells sprinklers, watering cans, and other farming tools priced in Sheckles or Robux. Gear from George affect
+Field Value Role Shop Location Gear Shop Added Launch (2026 06 12)
+George's inventory includes: Sprinklers — Automate crop watering Watering Cans — Manual watering tools (including Super variants) Farming Tools — Various gear t
+Items are priced in either Sheckles (🪙) or Robux (💎).
+George is located at the Gear Shop, a dedicated shop area in the game map.
+GAG2 Wiki: https://growagarden2wiki.net/npcs/george/ (accessed 2026 06 30)
+
+FILE: systems/npcs/gilbert.md
+Full Original Content
+Gilbert — Grow a Garden 2 Guild Stand NPC
+Key Stats
+What Gilbert Does
+Location
+Source Data
+Gilbert — Grow a Garden 2 Guild Stand NPC
+Gilbert is the Guild Stand NPC in Grow a Garden 2. He handles guild creation, the global guild leaderboard, and guild rewards. Guilds are a GAG2 exclusive featu
+Field Value Role Guild Location Guild Stand Added Launch (2026 06 12)
+Create a Guild — Costs 99 Robux . Requires a main title, sub label, and description. View Current Guild — Check your active guild's status and members. Global G
+Gilbert is located at the Guild Stand in the center of the map, near the Sell Stand and Props Shop.
+GAG2 Wiki: https://growagarden2wiki.net/npcs/gilbert/ (accessed 2026 06 30)
+
+FILE: systems/npcs/list.md
+Full Original Content
+🧑‍🌾 Grow a Garden 2 — NPCs
+NPC List
+Sam (Seed Shop)
+George (Gear Shop)
+Charlotte (Props Shop)
+Steven (Sell Stand)
+Gilbert (Guild Stand)
+Auctioneer
+Source Data
+NPC Location Role Added : : Sam Seed Shop Seed vendor — sells rotating plantable seeds from Common to Legendary Launch George Gear Shop Gear vendor — sells spri
+Sam (Seed Shop) The Seed Shop vendor. Sells rotating plantable seeds from Common to Legendary tiers. Check the live stock tracker on the wiki to see Sam's curre
+George (Gear Shop) The Gear Shop NPC. Sells sprinklers, watering cans, and other farming tools priced in Sheckles or Robux. Gear from George affects crop grow s
+Charlotte (Props Shop) The Props Shop NPC. Sells decorative and cosmetic props for player gardens. Located in the map center near the Sell Stand and Guild Stand
+Steven (Sell Stand) The Sell Stand NPC. Bring harvested crops to him to earn Sheckles. Payout depends on crop base value, weight, mutations, and active server s
+Gilbert (Guild Stand) The Guild Stand NPC. Handles guild creation (costs 99 Robux), the global guild leaderboard, and guild rewards. Guilds are a GAG2 exclusive
+Auctioneer The Auctioneer is a new NPC added in the June 28, 2026 update. Located at the Auction Stand, they sell 6 random premium items that restock every 20 m
+Pricing mechanism: Dutch auction — each item starts at an extremely high price (potentially billions of Sheckles) and gradually decreases over time. Rarer items
+Strategy: Buy early if you need a rare item and can afford the premium, or wait for the price to drop and risk someone else buying it first.
+growagarden2wiki.net: https://growagarden2wiki.net/npcs/auctioneer/ (accessed 2026 06 30)
+
+FILE: systems/npcs/sam.md
+Full Original Content
+Sam — Grow a Garden 2 Seed Shop Vendor
+Key Stats
+What Sam Sells
+Location
+Source Data
+Sam is the Seed Shop vendor in Grow a Garden 2 and usually the first NPC new players interact with. He sells rotating plantable seeds from common to legendary t
+Field Value Role Seller Location Seed Shop Added Launch (2026 06 12)
+Sam sells plantable seeds that rotate on a stock timer. His inventory can include seeds from Common to Legendary tiers depending on the current rotation. Checki
+Sam is located at the Seed Shop. The Seed Shop is where most players start — it stocks seeds that can be planted in your garden. Seed stock refreshes every ~4 5
+GAG2 Wiki: https://growagarden2wiki.net/npcs/sam/ (accessed 2026 06 30)
+
+FILE: systems/npcs/steven.md
+Full Original Content
+Steven — Grow a Garden 2 Sell Stand NPC
+Key Stats
+How the Sell Stand Works
+Location
+Source Data
+Steven is the Sell Stand NPC in Grow a Garden 2. Bring harvested crops to him to earn Sheckles. Payout depends on crop base value, weight, mutations, and active
+Field Value Role Seller (buyer) Location Sell Stand Added Launch (2026 06 12)
+Steven buys your harvested crops for Sheckles. The final payout is calculated from:
+Crop Base Value — The 1kg base value of the crop Weight — Higher weight = higher payout (non linear curve) Mutations — Active mutations multiply the sell price 
+Steven is located at the Sell Stand in the center of the map, near the Props Shop and Guild Stand.
+GAG2 Wiki: https://growagarden2wiki.net/npcs/steven/ (accessed 2026 06 30)
+
+FILE: systems/offline-growth/list.md
+Full Original Content
+⏰ Offline Growth
+How It Works
+Best Practices
+Breadcrumb: Roblox GAG2 Mechanics Offline Growth
+GAG2's crops continue growing while you're offline . This means:
+No need to stay online waiting for crops to mature Every login brings a new harvest Crops can still be stolen while you're offline
+Action Why : : ✅ Harvest high value crops before logging off Prevents theft loss ✅ Deploy defensive pets before closing Partial protection ✅ Use Private Server 
+During Chinese night hours (Asia/Shanghai GMT+8), fewer players are active — but Roblox is global, so theft is still possible.
+
+FILE: systems/pets/list.md
+Full Original Content
+🐾 Grow a Garden 2 — Pet Catalog
+Full Pet List (14 confirmed)
+Additional Pets (Limited Data)
+📊 Value Reference
+Spawn Mechanics
+Pet Investment Strategy
+Grow a Garden 2 — 宠物目录
+增益型宠物
+防御型宠物
+传说宠物
+⚠️ GAG2 differs from GAG1: Pets spawn randomly on the map rather than in a dedicated shop. Legendary+ spawns trigger a server wide alert.
+Pet Rarity Price (🪙) Spawn Chance Ability Source : : : : : : : : : : : Frog 🐸 Common 10K — +5 jump height Beebom Bunny 🐰 Common 20K — +5 walk speed Beebom Owl 🦉
+Note: Prices may vary between sources (Beebom vs Bloxxer). Raccoon price varies 5M 15M. Spawn chance data from Bloxxer.gg. Pets marked 0% spawn are not currentl
+Pet Rarity Ability Source : : : : : : Gnome 🧌 Rare Scares away thieves Community Venus Dragonfly Rare Aggressive defensive pet Community Space Dragon 🐉 Legendar
+⚠️ These may be variants, event exclusive, or unconfirmed. Data pending verification.
+When buying pets from the in game shop, all pets are purchaseable directly with Sheckles. The most expensive are Super rarity (Ice Serpent 20M, Raccoon 15M). Ch
+Pets spawn randomly across the game map at fixed percentage chances Higher rarity = rarer but more powerful Big version pets cost double with enhanced abilities
+Phase Recommended Pet Use : : : : 🟢 Early Deer (50K) Speed up early growth 🟡 Mid Bee (1M) Garden defense 🔴 Late Turtle (70K) Inventory expansion for bulk harves
+宠物 稀有度 价格 能力 : : : : : : Deer Common ~10K +10% 植物生长速度 Frog Common ~10K 增加突变概率 Owl Legendary — 夜视 + 稀有刷新警报 Golden Dragonfly Legendary ~3M 双倍 Gold 突变触发率
+宠物 稀有度 能力 : : : : Bee Rare 攻击小偷，触发 Pollinated 突变 Gnome Rare 吓跑小偷 Venus Dragonfly Rare 激进防御宠物 Bear 🐻🆕 Mythic 攻击型防御——攻击偷菜者（Aurora Event 新增）
+
+FILE: systems/seeds/acorn.md
+Full Original Content
+🌰 Acorn
+Structured Stats
+How to Get
+Attribute Value : : Rarity Legendary 1kg Value 200 S Floor 180 S Seed 700K🪙 / 379💎 Harvest Multi
+Field Value Rarity Legendary Base Value (1kg) 200 Rarity Legendary 1kg Value 200 Floor 180 Seed Cost 700,000🪙 / 379💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~2.9%.
+
+FILE: systems/seeds/apple.md
+Full Original Content
+🍎 Apple
+Structured Stats
+How to Get
+Attribute Value : : Rarity Uncommon 1kg Value 12 S Floor 11 S Seed 400🪙 / 29💎 Harvest Multi
+An Uncommon multi harvest crop. Stepping stone between basic crops and more valuable mid game options like Bamboo.
+Field Value Rarity Uncommon Base Value (1kg) 12 Rarity Uncommon 1kg Value 12 Floor 11 Seed Cost 400🪙 / 29💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~18%.
+
+FILE: systems/seeds/baby-cactus.md
+Full Original Content
+🌵 Baby Cactus
+Ghost Pepper Pack
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Baby Cactus
+Attribute Value : : Rarity Rare 1kg Value 70 S Floor 63 S Seed 99💎 (Ghost Pepper Pack, 50%) Harvest Single
+A Rare single harvest crop from the Ghost Pepper Pack (50% drop). Smaller, cheaper version of Cactus.
+Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 50% (most common pack reward) Obtainment: Ghost Pepper Pack only
+Field Value Rarity Rare Base Value (1kg) 70 Rarity Rare 1kg Value 70 Floor 63 Seed Cost 99💎 (Ghost Pepper Pack, 50%) Harvest Single
+Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 50% drop).
+
+FILE: systems/seeds/bamboo.md
+Full Original Content
+🎋 Bamboo
+Basic Info
+Description
+Strategy
+Growth Notes
+Structured Stats
+How to Get
+Attribute Value : : Rarity Rare 🟢 Avg Value (1kg) 800 S Floor Value 722 S Seed Cost 700🪙 / 17💎 Harvest Type Single
+Bamboo is the best early to mid game crop in GAG2. Priced at only 700 Sheckles, it produces 800 S of base value at 1kg — an immediate profit. It can be planted 
+Important: Bamboo has a unique curve exponent of ~1.75 (vs ~2.65 for most crops), meaning its weight value curve is flatter. This favors rapid cycling over weig
+1. Save 700🪙 → buy Bamboo as soon as possible 2. Plant densely in tight clusters 3. Wait for weather mutations (Gold ×10 or Frozen ×40 = massive returns) 4. Sin
+This is the crop that the game's FAQ explicitly recommends as early mid transition crop: "Rush Bamboo (700 sheckles) as your early scaling crop — plant in tight
+Field Value Rarity Rare Base Value (1kg) 800 Rarity Rare 1kg Value 800 Floor 722 Seed Cost 700🪙 / 17💎 Harvest Single
+Buy from the Seed Shop for 700🪙. Plant densely in tight clusters and wait for weather mutations. Single harvest — replant immediately.
+
+FILE: systems/seeds/banana.md
+Full Original Content
+🍌 Banana
+Structured Stats
+How to Get
+Attribute Value : : Rarity Epic 1kg Value 35 S Floor 32 S Seed 30K🪙 / 119💎 Harvest Multi
+Epic multi harvest crop. Reliable but unremarkable value for its cost.
+Field Value Rarity Epic Base Value (1kg) 35 Rarity Epic 1kg Value 35 Floor 32 Seed Cost 30,000🪙 / 119💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~9%.
+
+FILE: systems/seeds/beanstalk.md
+Full Original Content
+🌱 Beanstalk — Crop
+Info
+Structured Stats
+How to Get
+Attribute Value : : Rarity Mythic 1kg Value 2,000 S Floor 1,800 S Seed 1,199💎 (Robux only) Harvest Multi
+A Robux only Mythic crop with multi harvest and good base value. Only purchasable with Robux (1,199💎), making it a premium seed.
+Field Value Rarity Mythic Base Value (1kg) 2000 Rarity Mythic 1kg Value 2,000 Floor 1,800 Seed Cost 1,199💎 Harvest Multi
+Purchase with Robux only (1,199💎). Not available for Sheckles.
+
+FILE: systems/seeds/blueberry.md
+Full Original Content
+🫐 Blueberry
+Structured Stats
+How to Get
+Attribute Value : : Rarity Common 1kg Value 5 S Floor 5 S Seed 25🪙 / 12💎 Harvest Multi
+A Common multi harvest crop. Slightly more expensive than Carrot (25 vs 1) but same base value. Good for early diversification.
+Field Value Rarity Common Base Value (1kg) 5 Rarity Common 1kg Value 5 Floor 5 Seed Cost 25🪙 / 12💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~20%.
+
+FILE: systems/seeds/cactus.md
+Full Original Content
+🌵 Cactus — Crop
+Structured Stats
+How to Get
+Attribute Value : : Rarity Rare 1kg Value 40 S Floor 36 S Seed 5K🪙 / 79💎 Harvest Multi
+A defensive crop that also produces income. Multi harvest — regrows after each harvest. Good early defensive plant — thieves get pricked trying to steal.
+Field Value Rarity Rare Base Value (1kg) 40 Rarity Rare 1kg Value 40 Floor 36 Seed Cost 5,000🪙 / 79💎 Harvest Single
+Buy from the Seed Shop or Defense Plant Shop. Restock chance ~10%.
+
+FILE: systems/seeds/carrot.md
+Full Original Content
+🥕 Carrot — Crop
+Structured Stats
+How to Get
+Attribute Value : : Rarity Common 1kg Value 5 S Floor 5 S Seed 1🪙 / 3💎 Harvest Multi
+The cheapest seed in the game (1 Sheckle). Multi harvest. 5× value/seed cost. Perfect starter crop.
+Field Value Rarity Common Base Value (1kg) 5 Rarity Common 1kg Value 5 Floor 5 Seed Cost 1🪙 / 3💎 Harvest Multi
+Buy from the Seed Shop for 1🪙. Restock chance ~30% — very common.
+
+FILE: systems/seeds/cherry.md
+Full Original Content
+🍒 Cherry — Crop
+Structured Stats
+How to Get
+Attribute Value : : Rarity Legendary 1kg Value 350 S Floor 316 S Seed 1.2M🪙 / 479💎 Harvest Multi
+A Legendary multi harvest crop. Mid range Legendary entry point at 1.2M Sheckles. Solid long term value with multi harvest regrowth.
+Field Value Rarity Legendary Base Value (1kg) 350 Rarity Legendary 1kg Value 350 Floor 316 Seed Cost 1,200,000🪙 / 479💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~2.2%.
+
+FILE: systems/seeds/coconut.md
+Full Original Content
+🥥 Coconut
+Structured Stats
+How to Get
+Attribute Value : : Rarity Epic 1kg Value 60 S Floor 54 S Seed 70K🪙 / 149💎 Harvest Multi
+Epic multi harvest crop. Decent mid game value.
+Field Value Rarity Epic Base Value (1kg) 60 Rarity Epic 1kg Value 60 Floor 54 Seed Cost 70,000🪙 / 149💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~5%.
+
+FILE: systems/seeds/corn.md
+Full Original Content
+🌽 Corn — Crop
+Structured Stats
+How to Get
+Attribute Value : : Rarity Rare 1kg Value 34 S Floor 31 S Seed 3K🪙 / 69💎 Harvest Multi
+A Rare multi harvest crop recommended for stable mid game income. Provides reliable returns between Bamboo cycling and saving up for Mushroom.
+Field Value Rarity Rare Base Value (1kg) 34 Rarity Rare 1kg Value 34 Floor 31 Seed Cost 3,000🪙 / 69💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~10%.
+
+FILE: systems/seeds/dragon-fruit.md
+Full Original Content
+🐉 Dragon Fruit — Crop
+Info
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Dragon Fruit
+Attribute Value : : Rarity Legendary 1kg Value 150 S Floor 135 S Seed 120K🪙 / 239💎 Harvest Multi
+A popular Legendary crop that is the first serious high tier investment for transitioning from mid to late game. Reasonable seed cost (120K) with multi harvest 
+Field Value Rarity Legendary Base Value (1kg) 150 Rarity Legendary 1kg Value 150 Floor 135 Seed Cost 120,000🪙 / 239💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~4%.
+
+FILE: systems/seeds/dragons-breath.md
+Full Original Content
+🐉 Dragon's Breath
+Basic Info
+Description
+Strategy
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Dragon's Breath
+Attribute Value : : Rarity Super 💎 Avg Value (1kg) 3,400 S Floor Value 3,100 S Seed Cost 90,000,000🪙 / 1,499💎 Harvest Type Single
+Dragon's Breath is the most expensive seed in the game (90M Sheckles) and the other Super rarity crop in GAG2. Single harvest — each seed produces one high valu
+Absolute endgame crop — only viable with maxed economy Requires extreme defense (defensive plants + pets + gear) Single harvest means each seed is a calculated 
+Field Value Rarity Super Base Value (1kg) 3400 Rarity Super 1kg Value 3,400 Floor 3,100 Seed Cost 90,000,000🪙 / 1,499💎 Harvest Single
+Buy from the Seed Shop. Restock chance ~0.275% — extremely rare. Absolute endgame crop; needs extreme defense.
+
+FILE: systems/seeds/ghost-pepper.md
+Full Original Content
+🌶️ Ghost Pepper — Crop
+Ghost Pepper Pack
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Ghost Pepper
+Attribute Value : : Rarity Mythic 1kg Value 2,500 S Floor 2,300 S Seed 99💎 (Ghost Pepper Pack, 1%) Harvest Multi
+A Mythic multi harvest crop. Seed obtained from the Ghost Pepper Pack (special seed pack). Multi harvest means it regrows, making it one of the best long term i
+Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 1% (rarest pack reward) Note: This crop names the pack, but is ironically the rarest drop from it.
+Field Value Rarity Mythic Base Value (1kg) 2500 Rarity Mythic 1kg Value 2,500 Floor 2,300 Seed Cost 99💎 (Ghost Pepper Pack, 1%) Harvest Multi
+Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 1% drop rate — rarest pack reward).
+
+FILE: systems/seeds/glow-mushroom.md
+Full Original Content
+🌟 Glow Mushroom — Crop
+Ghost Pepper Pack
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Glow Mushroom
+Attribute Value : : Rarity Epic 1kg Value 700 S Floor 632 S Seed 99💎 (Ghost Pepper Pack, 15%) Harvest Multi
+An Epic crop obtainable only from the Ghost Pepper Pack (15% drop). Multi harvest.
+Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 15% Avg weight: 7.00 kg Min weight: 4.90 kg Obtainment: Ghost Pepper Pack only (not Seed Shop)
+Field Value Rarity Epic Base Value (1kg) 700 Rarity Epic 1kg Value 700 Floor 632 Seed Cost 99💎 (Ghost Pepper Pack, 15%) Harvest Multi
+Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 15% drop, avg weight 7.00kg).
+
+FILE: systems/seeds/grape.md
+Full Original Content
+🍇 Grape
+Structured Stats
+How to Get
+Attribute Value : : Rarity Epic 1kg Value 45 S Floor 41 S Seed 50K🪙 / 139💎 Harvest Multi
+Field Value Rarity Epic Base Value (1kg) 45 Rarity Epic 1kg Value 45 Floor 41 Seed Cost 50,000🪙 / 139💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~6.6%.
+
+FILE: systems/seeds/green-bean.md
+Full Original Content
+🫘 Green Bean — Crop
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Green Bean
+Attribute Value : : Rarity Epic 1kg Value 10 S Floor 9 S Seed 20K🪙 / 99💎 Harvest Multi Code TEAMGREENBEAN gives 3 seeds
+The crop linked to the only active code ( TEAMGREENBEAN ). Despite Epic rarity, its base value (10 S) is surprisingly low. Multi harvest makes it a long term pa
+Field Value Rarity Epic Base Value (1kg) 10 Rarity Epic 1kg Value 10 Floor 9 Seed Cost 20,000🪙 / 99💎 Harvest Multi Code TEAMGREENBEAN grants 3 seeds
+Buy from the Seed Shop, or redeem the code TEAMGREENBEAN for 3 free seeds. Restock chance ~15%.
+
+FILE: systems/seeds/horned-melon.md
+Full Original Content
+🍈 Horned Melon
+Ghost Pepper Pack
+Structured Stats
+How to Get
+Attribute Value : : Rarity Mythic 1kg Value 200 S Floor 180 S Seed 99💎 (Ghost Pepper Pack, 30% chance) Harvest Multi
+A Rare crop obtainable only from the Ghost Pepper Pack. Multi harvest.
+Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 30% Restock: Item Shop only (not Seed Shop)
+Field Value Rarity Mythic Base Value (1kg) 200 Rarity Mythic 1kg Value 200 Floor 180 Seed Cost 99💎 (Ghost Pepper Pack, 30%) Harvest Multi
+Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 30% drop).
+
+FILE: systems/seeds/hypnobloom.md
+Full Original Content
+Ability
+Structured Stats
+How to Get
+Source Data
+Hypno Bloom is a Super rarity multi harvest crop in Grow a Garden 2, added in Update 1.06.0 on June 27, 2026. It costs 90,000,000 Sheckles or 1,599 Robux per se
+Like Moon Bloom's low gravity launch, Hypno Bloom has a crowd control effect: intruders approaching the plant are affected by a disruption that affects their mo
+Field Value Rarity Super Seed Price 90,000,000🪙 / 1,599💎 Base Value (1kg) 9,500 Floor Value 8,574 Average Weight 9 kg Minimum Weight 6.3 kg Huge Chance 1% Plant
+Buy from the Seed Shop for 90,000,000 Sheckles or 1,599 Robux. Restock chance ~0.275% — extremely rare, on par with Dragon's Breath. Requires a maxed economy.
+growagarden2wiki.net: https://growagarden2wiki.net/crops/hypnobloom/ (accessed 2026 06 29) Fandom Wiki: https://growagarden2.fandom.com/wiki/Hypnobloom (accesse
+
+FILE: systems/seeds/list.md
+Full Original Content
+🌰 Grow a Garden 2 — Seed Shop & Prices
+Shop Info
+✅ Certified Price List (Sheckles)
+Seed Shop Restock Odds
+Special Packs
+Ghost Pepper Pack
+Defense Plant Shop
+Ability Mushroom Shop
+🎯 Seed Investment Strategy
+Crop List
+🌽 Grow a Garden 2 — Complete Crop Database
+🔄 Harvest Types
+📊 Complete Crop List
+SUPER
+MYTHIC
+LEGENDARY
+EPIC
+RARE
+UNCOMMON
+COMMON
+RARITY TBD
+💰 Best Bang-for-Buck (Value ÷ Seed Cost)
+Value Table
+💎 Grow a Garden 2 — Crop Value Table
+🧮 How Crop Value Is Calculated
+📊 Full Value Table (Sorted by Value, Descending)
+📈 Value Calculation Examples
+📊 Best Value-for-Money Crops
+Restock cycle: Every ~4–5 minutes Currency: Sheckles (🪙) / Robux (💎) Categories: Farming seeds, Defense plants, Ability Mushrooms, Ghost Pepper Pack
+Seed Rarity Sheckles Price Robux Price Harvest Type : : : : : : : : : : Carrot Common 1 3💎 Multi Strawberry Common 10 7💎 Multi Blueberry Common 25 12💎 Multi Pum
+Crop Rarity Restock Chance Typical Supply : : : : : : : : Carrot Common 30% Very Common Strawberry Common 25% Very Common Blueberry Common 20% Common Tomato Unc
+Ghost Pepper Pack Random seed pack — chance to get rare seeds Price: 99💎 per roll
+Defense Plant Shop Sells defensive plants separately: Cactus, Venus Flytrap, Dragon's Breath, etc.
+Ability Mushroom Shop Sells buff type mushrooms (functionality being researched).
+Phase Target Why 🟢 Early Bamboo (700🪙) Plant densely, wait for weather mutations 🟡 Mid Mushroom (15K🪙) Highest Epic base value at 13K/1kg 🔴 Late Dragon Fruit (1
+🌽 Grow a Garden 2 — Complete Crop Database
+Source: growagarden2wiki.net (community tested, unverified estimates) Last updated: 2026 06 16 Total entries: 36 crops
+Multi harvest : Regrows after harvesting — can be repeatedly harvested Single harvest : Die after first harvest — must replant
+SUPER Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 1 🌼 Moon Bloom — 9,000 8,100 65M🪙 / 1,349💎 TBD 2 🐉 Dragon's Breath — 3,4
+MYTHIC Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 3 🌸 Lotus — 6,500 5,900 899🪙 Single 4 🪴 Venus Flytrap Venus Fly Trap 3,
+LEGENDARY Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 11 🌻 Sunflower — 1,800 1,600 5M🪙 / 599💎 Multi 12 🌿 Poison Ivy — 1,70
+EPIC Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 16 🍄 Mushroom — 13,000 🥇 11,700 15K🪙 / 69💎 Multi 17 🌟 Glow Mushroom — 700
+RARE Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 23 🎋 Bamboo — 800 722 700🪙 / 17💎 Single ✅ 24 🌵 Baby Cactus — 70 63 99💎 Pa
+UNCOMMON Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 28 🎃 Pumpkin — 350 316 ~34🪙 Multi 29 🌷 Tulip — 60 54 40🪙 / 4💎 Single 
+COMMON Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 32 🥕 Carrot — 5 5 1🪙 / 3💎 Multi 33 🫐 Blueberry — 5 5 25🪙 / 12💎 Multi 34
+RARITY TBD Crop Alt Name Avg Value (1kg) Floor Seed Cost : : : : : : : : : : : : 35 🌹 Thorn Rose — 140 126 229🪙 36 🌲 Pinetree — 100 90 99🪙
+💰 Best Bang for Buck (Value ÷ Seed Cost)
+Crop 1kg Value Seed Cost Ratio Notes : : : : : : Carrot 5 1 5.00× Best starter ROI Bamboo 800 700 1.14× Best mid game, dense plantable Thorn Rose 140 229 0.61× 
+
+FILE: systems/seeds/lotus.md
+Full Original Content
+🌸 Lotus
+Basic Info
+Description
+Strategy
+Structured Stats
+How to Get
+Attribute Value : : Rarity Mythic 🟣 Avg Value (1kg) 6,500 S Floor Value 5,900 S Seed Cost 899🪙 Harvest Type Single
+Lotus is a Mythic rarity crop with excellent value (6,500 S/1kg) at a surprisingly low seed cost of just 899 Sheckles. Single harvest means it dies after harves
+Best value per Sheckle among high tier crops — 6,500/899 = 7.2× ROI before mutations Single harvest — replant after each harvest Great candidate for mutation fa
+Field Value Rarity Mythic Base Value (1kg) 6500 Rarity Mythic 1kg Value 6,500 Floor 5,900 Seed Cost 899🪙 Harvest Single
+Buy from the Seed Shop. Best value per Sheckle among high tier crops — great candidate for mutation farming.
+
+FILE: systems/seeds/mango.md
+Full Original Content
+🥭 Mango
+Structured Stats
+How to Get
+Attribute Value : : Rarity Epic 1kg Value 90 S Floor 81 S Seed 300K🪙 / 199💎 Harvest Multi
+Field Value Rarity Epic Base Value (1kg) 90 Rarity Epic 1kg Value 90 Floor 81 Seed Cost 300,000🪙 / 199💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~5%.
+
+FILE: systems/seeds/moon-bloom.md
+Full Original Content
+🌼 Moon Bloom
+Basic Info
+Description
+Strategy
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Moon Bloom
+Attribute Value : : Rarity Super 💎 Avg Value (1kg) 9,000 S Floor Value 8,100 S Seed Cost 65,000,000🪙 / 1,349💎 Harvest Type TBD
+Moon Bloom is one of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (65M Sheckles) but provides extremely high returns.
+Reserve for absolute endgame farming Requires full economic support (Sprinklers, pets, defense) Heavy protection needed
+Field Value Rarity Super Base Value (1kg) 9000 Rarity Super 1kg Value 9,000 Floor 8,100 Seed Cost 65,000,000🪙 / 1,349💎 Harvest TBD
+Buy from the Seed Shop. Restock chance ~0.35% — extremely rare. Requires a maxed economy (Sprinklers, pets, defense).
+
+FILE: systems/seeds/mushroom.md
+Full Original Content
+🍄 Mushroom
+Basic Info
+Description
+Strategy
+Structured Stats
+How to Get
+Attribute Value : : Rarity Epic 🟡 Avg Value (1kg) 13,000 S Floor Value 11,700 S Seed Cost 15,000🪙 / 69💎 Harvest Type Multi harvest
+Mushroom has the highest base sell value of any crop in GAG2. Despite the 15K seed cost, its 13K base value at 1kg makes it a strong mid game investment. Multi 
+Purchase once you have 15K🪙+ saved Pair with Frozen (×40) or Electric (×70) mutations for extreme returns Deploy defensive pets/gear — high value crops attract 
+Field Value Rarity Epic Base Value (1kg) 13000 Rarity Epic 1kg Value 13,000 Floor 11,700 Seed Cost 15,000🪙 / 69💎 Harvest Multi
+Buy from the Seed Shop once you have 15K🪙 saved. Pair with Frozen (×40) or Electric (×70) mutations for extreme returns.
+
+FILE: systems/seeds/pineapple.md
+Full Original Content
+🍍 Pineapple
+Structured Stats
+How to Get
+Attribute Value : : Rarity Rare 1kg Value 30 S Floor 27 S Seed 10K🪙 / 99💎 Harvest Multi
+A Rare multi harvest crop. Seasoning option for mid game. Reliable multi harvest income once you can afford the 10K seed cost.
+Field Value Rarity Rare Base Value (1kg) 30 Rarity Rare 1kg Value 30 Floor 27 Seed Cost 10,000🪙 / 99💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~8%.
+
+FILE: systems/seeds/pinetree.md
+Full Original Content
+🌲 Pinetree
+Structured Stats
+How to Get
+Attribute Value : : Rarity TBD 1kg Value 100 S Floor 90 S Seed 99🪙 Harvest TBD
+A crop with unconfirmed rarity. Good base value (100 S) at a very low seed cost (99🪙). Status and mechanics TBD.
+Field Value Rarity TBD Base Value (1kg) 100 Rarity TBD 1kg Value 100 Floor 90 Seed Cost 99🪙 Harvest TBD
+Buy from the Seed Shop for 99🪙. Mechanics still being researched.
+
+FILE: systems/seeds/poison-apple.md
+Full Original Content
+🍏 Poison Apple
+Structured Stats
+How to Get
+Attribute Value : : Rarity Mythic 1kg Value 900 S Floor 812 S Seed 25M🪙 / 1,299💎 Harvest Single
+Mythic single harvest crop. High seed cost but 900 S base value may have defensive poison properties.
+Field Value Rarity Mythic Base Value (1kg) 900 Rarity Mythic 1kg Value 900 Floor 812 Seed Cost 25,000,000🪙 / 1,299💎 Harvest Single
+Buy from the Seed Shop. Restock chance ~0.5%.
+
+FILE: systems/seeds/poison-ivy.md
+Full Original Content
+🌿 Poison Ivy — Crop
+Ghost Pepper Pack
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Poison Ivy
+Attribute Value : : Rarity Legendary 1kg Value 1,700 S Floor 1,500 S Seed 99🪙 Harvest Multi
+A Legendary multi harvest crop at only 99 Sheckles per seed. Excellent value (1,700/99 = 17× ROI). Multi harvest regrowth means one seed keeps producing. One of
+Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 4% (rare pack reward)
+Field Value Rarity Legendary Base Value (1kg) 1700 Rarity Legendary 1kg Value 1,700 Floor 1,500 Seed Cost 99🪙 Harvest Multi
+Buy from the Seed Shop for 99 Sheckles. Also a 4% drop from the Ghost Pepper Pack.
+
+FILE: systems/seeds/pomegranate.md
+Full Original Content
+🍎 Pomegranate — Crop
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Pomegranate
+Attribute Value : : Rarity Mythic 1kg Value 900 S Floor 812 S Seed 12M🪙 / 999💎 Harvest Multi
+A Mythic multi harvest crop. High seed cost (12M) but multi harvest provides sustained income. Good late game sustained earner when paired with mutations.
+Field Value Rarity Mythic Base Value (1kg) 900 Rarity Mythic 1kg Value 900 Floor 812 Seed Cost 12,000,000🪙 / 999💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~0.9%.
+
+FILE: systems/seeds/pumpkin.md
+Full Original Content
+🎃 Pumpkin
+Structured Stats
+How to Get
+Attribute Value : : Rarity Uncommon 1kg Value 350 S Floor 316 S Seed ~34🪙 Harvest Multi
+An Uncommon multi harvest crop with a very surprising 350 S base value. Excellent value for its seed cost (~34 Sheckles). One of the best early game value crops
+Field Value Rarity Uncommon Base Value (1kg) 350 Rarity Uncommon 1kg Value 350 Floor 316 Seed Cost ~34🪙 Harvest Multi
+Buy from the Seed Shop. Restock chance ~15%.
+
+FILE: systems/seeds/romanesco.md
+Full Original Content
+🥦 Romanesco — Crop
+Info
+Structured Stats
+How to Get
+Attribute Value : : Rarity Mythic 1kg Value 1,500 S Floor 1,400 S Seed 99🪙 (only 99 Sheckles!) Harvest Multi
+THE best ROI crop in the game. A Mythic rarity multi harvest crop that costs only 99 Sheckles per seed, producing 1,500 S at base weight. That's a 15× value/see
+Multi harvest means it regrows — one seed = infinite harvests. This is likely the most under priced seed in GAG2.
+Field Value Rarity Mythic Base Value (1kg) 1500 Rarity Mythic 1kg Value 1,500 Floor 1,400 Seed Cost 99🪙 Harvest Multi
+Buy from the Seed Shop for just 99 Sheckles. One seed = infinite harvests.
+
+FILE: systems/seeds/strawberry.md
+Full Original Content
+🍓 Strawberry — Crop
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Strawberry
+Attribute Value : : Rarity Common 1kg Value 3 S Floor 3 S Seed 10🪙 / 7💎 Harvest Multi
+The cheapest Common seed (10 Sheckles), multi harvest, but lowest base value at 3 S/1kg. Quick starter crop.
+Field Value Rarity Common Base Value (1kg) 3 Rarity Common 1kg Value 3 Floor 3 Seed Cost 10🪙 / 7💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~25%.
+
+FILE: systems/seeds/sunflower.md
+Full Original Content
+🌻 Sunflower — Crop
+Info
+Structured Stats
+How to Get
+Attribute Value : : Rarity Legendary 1kg Value 1,800 S Floor 1,600 S Seed 5M🪙 / 599💎 Harvest Multi Special Can receive Dawnbound mutation
+A Legendary multi harvest crop. Notable for being the only crop that can receive the exclusive Dawnbound mutation (event exclusive). An interesting specialty cr
+Field Value Rarity Legendary Base Value (1kg) 1800 Rarity Legendary 1kg Value 1,800 Floor 1,600 Seed Cost 5,000,000🪙 / 599💎 Harvest Multi Special Dawnbound muta
+Buy from the Seed Shop. Restock chance ~1.7%.
+
+FILE: systems/seeds/thorn-rose.md
+Full Original Content
+🌹 Thorn Rose
+Structured Stats
+How to Get
+Attribute Value : : Rarity TBD 1kg Value 140 S Floor 126 S Seed 229🪙 Harvest TBD
+A crop with unconfirmed rarity. Decent value, may have defensive properties based on the thorn name.
+Field Value Rarity TBD Base Value (1kg) 140 Rarity TBD 1kg Value 140 Floor 126 Seed Cost 229🪙 Harvest TBD
+Buy from the Seed Shop for 229🪙. Mechanics still being researched.
+
+FILE: systems/seeds/tomato.md
+Full Original Content
+🍅 Tomato — Crop
+Structured Stats
+How to Get
+Attribute Value : : Rarity Uncommon 1kg Value 9 S Floor 8 S Seed 200🪙 / 15💎 Harvest Multi
+An Uncommon multi harvest crop. One of the recommended early purchases after Carrot. At 200 Sheckles, it's the next step up after basic crops.
+Field Value Rarity Uncommon Base Value (1kg) 9 Rarity Uncommon 1kg Value 9 Floor 8 Seed Cost 200🪙 / 15💎 Harvest Multi
+Buy from the Seed Shop. Restock chance ~20%.
+
+FILE: systems/seeds/tulip.md
+Full Original Content
+🌷 Tulip
+Structured Stats
+How to Get
+Attribute Value : : Rarity Uncommon 1kg Value 60 S Floor 54 S Seed 40🪙 / 4💎 Harvest Single
+An Uncommon single harvest crop. Good 60 S at cheap 40🪙 seed, but single harvest means replanting each time.
+Field Value Rarity Uncommon Base Value (1kg) 60 Rarity Uncommon 1kg Value 60 Floor 54 Seed Cost 40🪙 / 4💎 Harvest Single
+Buy from the Seed Shop. Restock chance ~18%.
+
+FILE: systems/seeds/venom-spitter.md
+Full Original Content
+Structured Stats
+How to Get
+Source Data
+Venom Spitter is a Mythic rarity defensive crop in Grow a Garden 2, added in the Aurora Event (2026 06 20). It functions as an active defense plant that attacks
+Field Value Rarity Mythic Seed Price ~30,000,000🪙 Base Value (1kg) TBD Floor Value TBD Harvest Type Multi Special Active defense — attacks thieves
+Buy from the Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD.
+Beebom: https://beebom.com/grow a garden 2 update patch notes/ (accessed 2026 06 25)
+
+FILE: systems/seeds/venus-flytrap.md
+Full Original Content
+🪴 Venus Flytrap — Crop
+Info
+Structured Stats
+How to Get
+Breadcrumb: Roblox GAG2 Crops Venus Flytrap
+Attribute Value : : Rarity Mythic 1kg Value 3,000 S Floor 2,700 S Seed 7M🪙 / 799💎 Harvest Single Defensive ✅ Eats thieves
+A high value single harvest crop that also attacks thieves at night — rare dual purpose plant. Worth the premium seed cost.
+Field Value Rarity Mythic Base Value (1kg) 3000 Rarity Mythic 1kg Value 3,000 Floor 2,700 Seed Cost 7,000,000🪙 / 799💎 Harvest Single Defensive Eats thieves
+Buy from the Seed Shop or Defense Plant Shop. Restock chance ~1.43%.
+
+FILE: systems/weather/list.md
+Full Original Content
+🌤️ Weather Events
+Weather Event Table
+Aurora Borealis 极光事件 — 详细机制
+昼夜循环详细时间
+Strategy by Weather
+Weather Page Overview
+Grow a Garden 2 — 天气事件
+Breadcrumb: Roblox GAG2 Mechanics Weather
+Weather Triggered Mutation × Notes : : : : : : Rain Wet 2 Common weather Thunderstorm Wet → Electric ⚡ 2→70 Can trigger highest non event mutation Frost Chilled
+来源: Beebom, Pro Game Guides (2026 06 20)
+触发条件 : 夜间随机触发 Aurora Borealis 天气事件 效果 : 对部分作物施加 Aurora 突变，×1.5 价值乘数 新种子 — Venom Spitter : Mythic 防御型植物，可攻击偷菜者，多次收获 新宠物 — Bear : Mythic 级，主动攻击入侵花园的窃贼 新装备 : Megap
+阶段 时长 说明 : : : : : 白天 7分30秒 种植、收获、交易 黄昏 30秒 过渡期 夜间 2分钟 可偷窃他人花园 完整周期 10分钟 —
+Rain / Thunderstorm — Plant large batches and wait for Electric proc (×70) Frost — Ensure some crops are Wet beforehand to trigger Frozen Blood Moon — Time your
+天气 效果 突变触发 稀有度 : : : : Rain Wet 突变 ×2 Wet 常见 Thunderstorm Wet → Electric ×70 Electric 稀有 Frost Wet → Frozen ×40 Frozen 稀有 Blood Moon Bloodlit ×80 Bloodlit 传说级 R
+
+FILE: updates/content.md
+Full Original Content
+Grow a Garden 2 — 更新日志
+v1.5 — Mega Moon Update（2026-06-27）
+v1.4 — Picture Frame Crate Update（2026-06-25）
+v1.2 — Turtle Update（2026-06-24）
+v1.1 — Strawberry Sniper 更新（2026-06-22）
+v1.0 — Aurora Event（2026-06-20）
+v1.0 — Update 1 / Secret Update（~2026-06-18）
+v1.0 — 正式发布（2026-06-12）
+Secret Update Content
+GAG2 网站秘密更新（Secret Website Update）
+概述
+新增功能
+⏰ 昼夜计时器
+🌾 种子库存页面
+🔔 库存通知
+🏆 排行榜
+🐾 最稀有宠物展示
+🥕 金胡萝卜（Golden Carrots）
+👍👎 社区投票
+🎰 Lucky Swiper
+与游戏的关系
+新增内容： Mega Moon 事件 — 夜间出现蓝月，大幅增加 Mega 种子获取概率 Mega Seed — 全新种子变体。获得任意非限制作物的巨大版本
+数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 27, 2026）
+v1.4 — Picture Frame Crate Update（2026 06 25）
+新增内容： Picture Frame Crate — 新箱子，可将图片横幅用作装饰道具。支持通过 Roblox Decal ID 自定义图像。
+数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）
+新增内容： Turtle（海龟） — 新宠物。速度较慢，但能帮助储存水果（果实在其中安全存放）。
+数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）
+新增内容： Strawberry Sniper — 新装备。发射草莓弹射物，将玩家击退。
+数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）
+新增内容： Venom Spitter — Mythic 防御植物，攻击偷菜者，多次收获，种子约 30M Sheckles Bear — Mythic 宠物，主动攻击入侵花园的窃贼 Aurora 突变 — ×1.5 倍率，Aurora Borealis 夜间天气事件触发 Megaphone — 新装备（8K Sheck
+Ghost Pepper 包（限时商店，R$99/roll）： 种子 掉落率 稀有度 : : : : : Baby Cactus 50% Rare Horned Melon 30% Mythic Glow Mushroom 15% Epic Poison Ivy 4% Legendary Ghost Pepper 1%
+宠物体型统计数据： ~112,000 名玩家拥有 Big Pet ~750 名玩家拥有 Mega Pet（原称 Huge）— 游戏中最稀有物品
+v1.0 — Update 1 / Secret Update（~2026 06 18）
+gag.gg 网站新增功能： ⏰ 昼夜计时器 — 实时显示游戏内白天/黑夜 🌾 种子库存页 — 显示每种种子是否有货、数量及上次出现时间 🔔 官方库存通知 — 稀有种子到货时浏览器推送通知 🏆 排行榜 — 顶级园丁排名 🐾 最稀有宠物展示 — Mega Owl、Mega Fox、Rainbow Bee、Big Unic
+Grow a Garden 2 正式发布，由 Strawberreh Squad / Splitting Point Studios 开发。
+核心特性： Day/Night Cycle — 白天7分30秒 + 黄昏30秒 + 夜间2分钟 = 10分钟完整周期 Guild System — 公会每周排行榜奖励（9个奖励等级，最高奖励 Ice Serpent 宠物） Weather System — 11种天气事件触发突变 Mutations（互斥）— Gold
+来源: Beebom, Pro Game Guides (2026 06 20), gag.gg 发布日期: ~2026 06 18
+Grow a Garden 2 的官方网站 [gag.gg](https://gag.gg) 迎来一次重大功能更新，引入了一系列新的网站功能和货币系统，不与游戏直接关联，但为玩家提供实用工具。
+🌾 种子库存页面 显示每种种子是否有货、当前数量及上次出现在商店的时间。方便追踪稀有种子刷新。
+🔔 库存通知 当稀有种子（如龙息、月花等）到货时，通过浏览器推送通知提醒玩家。不必一直刷商店。
+
+REFERENCE: codes.json
+{
+  "codes": [
+    {
+      "code": "TEAMGREENBEAN",
+      "reward": "3× Green Bean Seeds",
+      "status": "active",
+      "addedAt": "2026-06-12"
+    }
+  ]
+}
+
+REFERENCE: items.json
+{
+  "_comment": "Grow a Garden 2 crop database. 37 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
+  "items": [
+    {
+      "slug": "mega-seed",
+      "name": "Mega Seed (Variants — see mechanics/mega-moon.md)",
+      "tier": "TBD",
+      "baseValue": "TBD",
+      "description": "A new seed variant introduced in the Mega Moon Update (2026-06-27). Creates a large version of any non-limited crop. Specific multiplier and value data not yet available. See mechanics/mega-moon.md for details.",
+      "stats": {
+        "Rarity": "TBD",
+        "1kg Value": "TBD",
+        "Seed Cost": "TBD",
+        "Harvest": "TBD"
+      },
+      "howToGet": "Mega Moon Event — a blue moon at night increases the chance to get Mega seeds.",
+      "_source": "https://beebom.com/grow-a-garden-2-update-patch-notes/",
+      "_confidence": "reasonable_inference"
+    },
+    {
+      "slug": "hypnobloom",
+      "name": "Hypno Bloom",
+      "tier": "Super",
+      "baseValue": 9500,
+      "description": "A Super-rarity multi-harvest crop added in Update 1.06.0 (June 27, 2026). Produces 2 fruits per plant. Has a crowd-control ability that disrupts intruder movement. Nearly 4x the value of Ghost Pepper at comparable weight.",
+      "stats": {
+        "Rarity": "Super",
+        "1kg Value": "9,500",
+        "Floor": "8,574",
+        "Seed Cost": "90,000,000🪙 / 1,599💎",
+        "Harvest": "Multi (2 fruits)",
+        "Avg Weight": "9 kg",
+        "Growth": "23m 20s",
+        "Fruit Regrowth": "5m 33s"
+      },
+      "howToGet": "Buy from the Seed Shop for 90M Sheckles or 1,599 Robux. Restock chance ~0.275%. Updated Jun 28, 2026 per growagarden2wiki.net."
+    },
+    {
+      "slug": "moon-bloom",
+      "name": "Moon Bloom",
+      "tier": "Super",
+      "baseValue": 9000,
+      "description": "One of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (65M Sheckles) but extremely high returns. Endgame-only crop.",
+      "stats": {
+        "Rarity": "Super",
+        "1kg Value": "9,000",
+        "Floor": "8,100",
+        "Seed Cost": "65,000,000🪙 / 1,349💎",
+        "Harvest": "TBD"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.35% — extremely rare. Requires a maxed economy (Sprinklers, pets, defense)."
+    },
+    {
+      "slug": "dragons-breath",
+      "name": "Dragon's Breath",
+      "tier": "Super",
+      "baseValue": 3400,
+      "description": "The most expensive seed in the game (90M Sheckles) and the other Super-rarity crop. Single harvest — each seed produces one high-value crop.",
+      "stats": {
+        "Rarity": "Super",
+        "1kg Value": "3,400",
+        "Floor": "3,100",
+        "Seed Cost": "90,000,000🪙 / 1,499💎",
+        "Harvest": "Single"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.275% — extremely rare. Absolute endgame crop; needs extreme defense."
+    },
+    {
+      "slug": "lotus",
+      "name": "Lotus",
+      "tier": "Mythic",
+      "baseValue": 6500,
+      "description": "A Mythic crop with excellent value (6,500 S/1kg) at a surprisingly low seed cost of just 899 Sheckles. Single harvest, but the value/seed ratio is extremely favorable (~7.2× ROI).",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "6,500",
+        "Floor": "5,900",
+        "Seed Cost": "899🪙",
+        "Harvest": "Single"
+      },
+      "howToGet": "Buy from the Seed Shop. Best value-per-Sheckle among high-tier crops — great candidate for mutation farming."
+    },
+    {
+      "slug": "venus-flytrap",
+      "name": "Venus Flytrap",
+      "tier": "Mythic",
+      "baseValue": 3000,
+      "description": "A high-value single-harvest crop that also attacks thieves at night — a rare dual-purpose plant. Worth the premium seed cost.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "3,000",
+        "Floor": "2,700",
+        "Seed Cost": "7,000,000🪙 / 799💎",
+        "Harvest": "Single",
+        "Defensive": "Eats thieves"
+      },
+      "howToGet": "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~1.43%."
+    },
+    {
+      "slug": "ghost-pepper",
+      "name": "Ghost Pepper",
+      "tier": "Mythic",
+      "baseValue": 2500,
+      "description": "A Mythic multi-harvest crop obtained from the Ghost Pepper Pack (99💎 per roll, 1% drop). Multi-harvest makes it one of the best long-term Mythic investments.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "2,500",
+        "Floor": "2,300",
+        "Seed Cost": "99💎 (Ghost Pepper Pack, 1%)",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 1% drop rate — rarest pack reward)."
+    },
+    {
+      "slug": "beanstalk",
+      "name": "Beanstalk",
+      "tier": "Mythic",
+      "baseValue": 2000,
+      "description": "A Robux-only Mythic crop with multi-harvest and good base value. Only purchasable with Robux (1,199💎), making it a premium seed.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "2,000",
+        "Floor": "1,800",
+        "Seed Cost": "1,199💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Purchase with Robux only (1,199💎). Not available for Sheckles."
+    },
+    {
+      "slug": "romanesco",
+      "name": "Romanesco",
+      "tier": "Mythic",
+      "baseValue": 1500,
+      "description": "THE best ROI crop in the game. A Mythic multi-harvest crop costing only 99 Sheckles per seed, producing 1,500 S at base weight — a 15× value/seed ratio. Likely the most under-priced seed in GAG2.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "1,500",
+        "Floor": "1,400",
+        "Seed Cost": "99🪙",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop for just 99 Sheckles. One seed = infinite harvests."
+    },
+    {
+      "slug": "pomegranate",
+      "name": "Pomegranate",
+      "tier": "Mythic",
+      "baseValue": 900,
+      "description": "A Mythic multi-harvest crop. High seed cost (12M) but multi-harvest provides sustained income — a good late-game earner when paired with mutations.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "900",
+        "Floor": "812",
+        "Seed Cost": "12,000,000🪙 / 999💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.9%."
+    },
+    {
+      "slug": "poison-apple",
+      "name": "Poison Apple",
+      "tier": "Mythic",
+      "baseValue": 900,
+      "description": "A Mythic single-harvest crop. High seed cost but 900 S base value, with possible defensive poison properties.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "900",
+        "Floor": "812",
+        "Seed Cost": "25,000,000🪙 / 1,299💎",
+        "Harvest": "Single"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~0.5%."
+    },
+    {
+      "slug": "horned-melon",
+      "name": "Horned Melon",
+      "tier": "Mythic",
+      "baseValue": 200,
+      "description": "A Mythic multi-harvest crop obtainable only from the Ghost Pepper Pack (30% drop).",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "200",
+        "Floor": "180",
+        "Seed Cost": "99💎 (Ghost Pepper Pack, 30%)",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 30% drop)."
+    },
+    {
+      "slug": "sunflower",
+      "name": "Sunflower",
+      "tier": "Legendary",
+      "baseValue": 1800,
+      "description": "A Legendary multi-harvest crop, notable as the only crop that can receive the exclusive Dawnbound mutation (event-exclusive). A specialty crop for collectors and mutation farmers.",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "1,800",
+        "Floor": "1,600",
+        "Seed Cost": "5,000,000🪙 / 599💎",
+        "Harvest": "Multi",
+        "Special": "Dawnbound mutation"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~1.7%."
+    },
+    {
+      "slug": "poison-ivy",
+      "name": "Poison Ivy",
+      "tier": "Legendary",
+      "baseValue": 1700,
+      "description": "A Legendary multi-harvest crop at only 99 Sheckles per seed. Excellent value (17× ROI) with multi-harvest regrowth — one of the best early mid-game investments.",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "1,700",
+        "Floor": "1,500",
+        "Seed Cost": "99🪙",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop for 99 Sheckles. Also a 4% drop from the Ghost Pepper Pack."
+    },
+    {
+      "slug": "cherry",
+      "name": "Cherry",
+      "tier": "Legendary",
+      "baseValue": 350,
+      "description": "A Legendary multi-harvest crop. Mid-range Legendary entry point at 1.2M Sheckles with solid long-term value from regrowth.",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "350",
+        "Floor": "316",
+        "Seed Cost": "1,200,000🪙 / 479💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~2.2%."
+    },
+    {
+      "slug": "acorn",
+      "name": "Acorn",
+      "tier": "Legendary",
+      "baseValue": 200,
+      "description": "A Legendary multi-harvest crop.",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "200",
+        "Floor": "180",
+        "Seed Cost": "700,000🪙 / 379💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~2.9%."
+    },
+    {
+      "slug": "dragon-fruit",
+      "name": "Dragon Fruit",
+      "tier": "Legendary",
+      "baseValue": 150,
+      "description": "A popular Legendary crop — the first serious high-tier investment for transitioning from mid to late game. Reasonable seed cost (120K) with multi-harvest returns.",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "150",
+        "Floor": "135",
+        "Seed Cost": "120,000🪙 / 239💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~4%."
+    },
+    {
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "tier": "Epic",
+      "baseValue": 13000,
+      "description": "Has the highest base sell value of any crop in GAG2. Despite the 15K seed cost, its 13K base value at 1kg makes it a strong mid-game investment. Multi-harvest provides recurring income.",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "13,000",
+        "Floor": "11,700",
+        "Seed Cost": "15,000🪙 / 69💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop once you have 15K🪙 saved. Pair with Frozen (×40) or Electric (×70) mutations for extreme returns."
+    },
+    {
+      "slug": "glow-mushroom",
+      "name": "Glow Mushroom",
+      "tier": "Epic",
+      "baseValue": 700,
+      "description": "An Epic multi-harvest crop obtainable only from the Ghost Pepper Pack (15% drop).",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "700",
+        "Floor": "632",
+        "Seed Cost": "99💎 (Ghost Pepper Pack, 15%)",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 15% drop, avg weight 7.00kg)."
+    },
+    {
+      "slug": "mango",
+      "name": "Mango",
+      "tier": "Epic",
+      "baseValue": 90,
+      "description": "An Epic multi-harvest crop.",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "90",
+        "Floor": "81",
+        "Seed Cost": "300,000🪙 / 199💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
+    },
+    {
+      "slug": "coconut",
+      "name": "Coconut",
+      "tier": "Epic",
+      "baseValue": 60,
+      "description": "An Epic multi-harvest crop with decent mid-game value.",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "60",
+        "Floor": "54",
+        "Seed Cost": "70,000🪙 / 149💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
+    },
+    {
+      "slug": "grape",
+      "name": "Grape",
+      "tier": "Epic",
+      "baseValue": 45,
+      "description": "An Epic multi-harvest crop.",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "45",
+        "Floor": "41",
+        "Seed Cost": "50,000🪙 / 139💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~6.6%."
+    },
+    {
+      "slug": "banana",
+      "name": "Banana",
+      "tier": "Epic",
+      "baseValue": 35,
+      "description": "An Epic multi-harvest crop. Reliable but unremarkable value for its cost.",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "35",
+        "Floor": "32",
+        "Seed Cost": "30,000🪙 / 119💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~9%."
+    },
+    {
+      "slug": "green-bean",
+      "name": "Green Bean",
+      "tier": "Epic",
+      "baseValue": 10,
+      "description": "The crop linked to the only active code (TEAMGREENBEAN). Despite Epic rarity, its base value (10 S) is low, but multi-harvest makes it a long-term passive earner.",
+      "stats": {
+        "Rarity": "Epic",
+        "1kg Value": "10",
+        "Floor": "9",
+        "Seed Cost": "20,000🪙 / 99💎",
+        "Harvest": "Multi",
+        "Code": "TEAMGREENBEAN grants 3 seeds"
+      },
+      "howToGet": "Buy from the Seed Shop, or redeem the code TEAMGREENBEAN for 3 free seeds. Restock chance ~15%."
+    },
+    {
+      "slug": "bamboo",
+      "name": "Bamboo",
+      "tier": "Rare",
+      "baseValue": 800,
+      "description": "The best early-to-mid game crop in GAG2. Priced at only 700 Sheckles, it produces 800 S of base value and can be planted densely — ideal for mutation farming.",
+      "stats": {
+        "Rarity": "Rare",
+        "1kg Value": "800",
+        "Floor": "722",
+        "Seed Cost": "700🪙 / 17💎",
+        "Harvest": "Single"
+      },
+      "howToGet": "Buy from the Seed Shop for 700🪙. Plant densely in tight clusters and wait for weather mutations. Single harvest — replant immediately."
+    },
+    {
+      "slug": "baby-cactus",
+      "name": "Baby Cactus",
+      "tier": "Rare",
+      "baseValue": 70,
+      "description": "A Rare single-harvest crop from the Ghost Pepper Pack (50% drop — the most common pack reward). A smaller, cheaper version of Cactus.",
+      "stats": {
+        "Rarity": "Rare",
+        "1kg Value": "70",
+        "Floor": "63",
+        "Seed Cost": "99💎 (Ghost Pepper Pack, 50%)",
+        "Harvest": "Single"
+      },
+      "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 50% drop)."
+    },
+    {
+      "slug": "cactus",
+      "name": "Cactus",
+      "tier": "Rare",
+      "baseValue": 40,
+      "description": "A defensive crop that also produces income. Thieves get pricked trying to steal — a good early defensive plant.",
+      "stats": {
+        "Rarity": "Rare",
+        "1kg Value": "40",
+        "Floor": "36",
+        "Seed Cost": "5,000🪙 / 79💎",
+        "Harvest": "Single"
+      },
+      "howToGet": "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~10%."
+    },
+    {
+      "slug": "corn",
+      "name": "Corn",
+      "tier": "Rare",
+      "baseValue": 34,
+      "description": "A Rare multi-harvest crop recommended for stable mid-game income. Reliable returns between Bamboo cycling and saving up for Mushroom.",
+      "stats": {
+        "Rarity": "Rare",
+        "1kg Value": "34",
+        "Floor": "31",
+        "Seed Cost": "3,000🪙 / 69💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~10%."
+    },
+    {
+      "slug": "pineapple",
+      "name": "Pineapple",
+      "tier": "Rare",
+      "baseValue": 30,
+      "description": "A Rare multi-harvest crop. A solid mid-game option with reliable multi-harvest income once you can afford the 10K seed cost.",
+      "stats": {
+        "Rarity": "Rare",
+        "1kg Value": "30",
+        "Floor": "27",
+        "Seed Cost": "10,000🪙 / 99💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~8%."
+    },
+    {
+      "slug": "pumpkin",
+      "name": "Pumpkin",
+      "tier": "Uncommon",
+      "baseValue": 350,
+      "description": "An Uncommon multi-harvest crop with a surprising 350 S base value. Excellent value for its ~34 Sheckle seed cost — one of the best early-game value crops.",
+      "stats": {
+        "Rarity": "Uncommon",
+        "1kg Value": "350",
+        "Floor": "316",
+        "Seed Cost": "~34🪙",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~15%."
+    },
+    {
+      "slug": "tulip",
+      "name": "Tulip",
+      "tier": "Uncommon",
+      "baseValue": 60,
+      "description": "An Uncommon single-harvest crop. Good 60 S value at a cheap 40🪙 seed, but single harvest means replanting each time.",
+      "stats": {
+        "Rarity": "Uncommon",
+        "1kg Value": "60",
+        "Floor": "54",
+        "Seed Cost": "40🪙 / 4💎",
+        "Harvest": "Single"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~18%."
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "tier": "Uncommon",
+      "baseValue": 12,
+      "description": "An Uncommon multi-harvest crop. A stepping stone between basic crops and more valuable mid-game options like Bamboo.",
+      "stats": {
+        "Rarity": "Uncommon",
+        "1kg Value": "12",
+        "Floor": "11",
+        "Seed Cost": "400🪙 / 29💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~18%."
+    },
+    {
+      "slug": "tomato",
+      "name": "Tomato",
+      "tier": "Uncommon",
+      "baseValue": 9,
+      "description": "An Uncommon multi-harvest crop. One of the recommended early purchases after Carrot — the next step up at 200 Sheckles.",
+      "stats": {
+        "Rarity": "Uncommon",
+        "1kg Value": "9",
+        "Floor": "8",
+        "Seed Cost": "200🪙 / 15💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~20%."
+    },
+    {
+      "slug": "carrot",
+      "name": "Carrot",
+      "tier": "Common",
+      "baseValue": 5,
+      "description": "The cheapest seed in the game (1 Sheckle). Multi-harvest with a 5× value/seed cost ratio. The perfect starter crop.",
+      "stats": {
+        "Rarity": "Common",
+        "1kg Value": "5",
+        "Floor": "5",
+        "Seed Cost": "1🪙 / 3💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop for 1🪙. Restock chance ~30% — very common."
+    },
+    {
+      "slug": "blueberry",
+      "name": "Blueberry",
+      "tier": "Common",
+      "baseValue": 5,
+      "description": "A Common multi-harvest crop. Slightly more expensive than Carrot (25 vs 1) but same base value — good for early diversification.",
+      "stats": {
+        "Rarity": "Common",
+        "1kg Value": "5",
+        "Floor": "5",
+        "Seed Cost": "25🪙 / 12💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~20%."
+    },
+    {
+      "slug": "strawberry",
+      "name": "Strawberry",
+      "tier": "Common",
+      "baseValue": 3,
+      "description": "A Common multi-harvest crop with the lowest base value at 3 S/1kg. A quick starter crop.",
+      "stats": {
+        "Rarity": "Common",
+        "1kg Value": "3",
+        "Floor": "3",
+        "Seed Cost": "10🪙 / 7💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Restock chance ~25%."
+    },
+    {
+      "slug": "thorn-rose",
+      "name": "Thorn Rose",
+      "tier": "TBD",
+      "baseValue": 140,
+      "description": "A crop with unconfirmed rarity. Decent value, with possible defensive properties based on the thorn name.",
+      "stats": {
+        "Rarity": "TBD",
+        "1kg Value": "140",
+        "Floor": "126",
+        "Seed Cost": "229🪙",
+        "Harvest": "TBD"
+      },
+      "howToGet": "Buy from the Seed Shop for 229🪙. Mechanics still being researched."
+    },
+    {
+      "slug": "pinetree",
+      "name": "Pinetree",
+      "tier": "TBD",
+      "baseValue": 100,
+      "description": "A crop with unconfirmed rarity. Good base value (100 S) at a very low seed cost (99🪙). Status and mechanics TBD.",
+      "stats": {
+        "Rarity": "TBD",
+        "1kg Value": "100",
+        "Floor": "90",
+        "Seed Cost": "99🪙",
+        "Harvest": "TBD"
+      },
+      "howToGet": "Buy from the Seed Shop for 99🪙. Mechanics still being researched."
+    },
+    {
+      "slug": "venom-spitter",
+      "name": "Venom Spitter",
+      "tier": "Mythic",
+      "baseValue": "TBD",
+      "description": "Mythic defensive plant that attacks thieves. Multi-harvest. Added in Aurora Event (2026-06-20). Seed costs ~30M Sheckles.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "TBD",
+        "Floor": "TBD",
+        "Seed Cost": "~30,000,000🪙",
+        "Harvest": "Multi",
+        "Special": "Active defense — attacks thieves"
+      },
+      "howToGet": "Buy from Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Offline Growth — Crops Keep Growing While You're Away`,
   description: `How ${gameName} offline growth works. Crops continue growing while you're offline, plus best practices to minimize theft risk and maximize overnight profits.`,
-  alternates: { canonical: `${config.seo.baseUrl}/offline-growth/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/offline-growth/` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -125,15 +125,15 @@ export default function OfflineGrowthPage() {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   For night stealing mechanics, see the{' '}
-                  <Link href="/night-stealing/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/night-stealing/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     night stealing guide
                   </Link>
                   . For defensive pets and gear, see the{' '}
-                  <Link href="/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     pet catalog
                   </Link>{' '}
                   and{' '}
-                  <Link href="/gear/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/gear/" className="text-blue-600 dark:text-blue-400 hover:underline">
                     gear page
                   </Link>
                   .
