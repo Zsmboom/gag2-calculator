@@ -44,12 +44,13 @@ images:
 | **Platform** | Roblox |
 | **Genre** | Farming Simulator / PvP Raiding |
 | **Release Date** | 2026-06-12 (official launch) |
-| **Current Players** | ~520,000 (2026-06-30) |
-| **24h Peak** | 550,000+ |
-| **Total Visits** | 843M+ |
-| **Favorites** | 550,000+ |
-| **Rating** | 93% (140K+ ratings) |
-| **Avg Play Time** | 23.1 min |
+| **Current Players** | ~493,000 (2026-07-02) |
+| **24h Peak** | 531,549 |
+| **All-Time Peak CCU** | 929,371 |
+| **Total Visits** | 907M+ |
+| **Favorites** | 560K+ |
+| **Rating** | 89% (620K+ ratings) |
+| **Avg Play Time** | 27.46 min |
 
 ## Game Premise
 
@@ -72,10 +73,10 @@ Grow a Garden 2 is the sequel to the popular Roblox farming game. Key new featur
 
 ### 💰 Economy & Values
 - 🎁 Active Codes
-- 💎 Crop Value Table (37 crops)
+- 💎 Crop Value Table (38 crops)
 
 ### 🌾 Database
-- 🌽 All Crops (37 entries)
+- 🌽 All Crops (38 entries)
 - 🌰 Seed Shop & Prices
 - 💫 Mutation System & Multipliers
 - 🐾 Pet Catalog

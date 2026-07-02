@@ -81,7 +81,7 @@ export default function SecretUpdatePage() {
                   last-seen timestamps. Track rare seed restocks without being in-game.
                 </p>
                 <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-1">
-                  <li>Shows availability for all 36 crops</li>
+                  <li>Shows availability for all 38 crops</li>
                   <li>Timestamps last appearance in the shop</li>
                   <li>Ideal for tracking Moon Bloom, Dragon&apos;s Breath, and other Super/Mythic seeds</li>
                 </ul>

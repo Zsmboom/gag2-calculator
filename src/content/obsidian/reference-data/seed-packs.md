@@ -1,6 +1,24 @@
 # Grow a Garden 2 — Seed Pack Drop Reference
 
-## Ghost Pepper Pack (Robux Gacha)
+## Full Seed Pack Reference (11 Packs Total)
+
+| Pack | Tier | Price | Source | Drops | Drop Rates |
+|:-----|:----:|:-----:|:-------|:-----:|:----------:|
+| **Common Seed Pack** | COMMON | 129 R$ | Tutorial Reward | TBA | TBA |
+| **Common Seed Pack (Exclusive)** | COMMON | 129 R$ | One-time Purchase | TBA | TBA |
+| **Uncommon Seed Pack** | UNCOMMON | TBA | Vote Reward (gag.gg) | 27 drops | TBA |
+| **Starter Pack** | RARE | 149 R$ | Limited Bundle | Bundle | Bundle |
+| **Rare Seed Pack** | RARE | TBA | Vote Reward (gag.gg) | 27 drops | See table below |
+| **Ghost Pepper Pack** | EPIC | 99 R$/roll | Seeds Shop (Robux gacha) | 5 drops | See table below |
+| **Premium Seed Pack** | EPIC | 99 R$ | Unobtainable | TBA | TBA |
+| **Legendary Seed Pack** | LEGENDARY | TBA | Source TBA | 27 drops | TBA |
+| **Mythic Seed Pack** | MYTHIC | TBA | Source TBA | 27 drops | TBA |
+| **Secret Seed Pack** | SUPER | TBA | Source TBA | 22 drops | TBA |
+| **Super Seed Pack** | SUPER | TBA | Source TBA | 24 drops | TBA |
+
+> **Note**: Higher-tier pack drop rates (Super/Secret/Mythic/Legendary) are marked "Source TBA" on the GAG2 Wiki. Only Ghost Pepper Pack has confirmed percentages.
+
+### Ghost Pepper Pack (Seeds Shop, 99 R$/roll)
 
 | # | Crop | Rarity | Drop Chance | Odds |
 |:-:|------|:------:|:-----------:|:----:|
@@ -13,7 +31,7 @@
 **Source:** Seeds Shop — 99 Robux/roll (bulk: 10-roll bundle 799 Robux, best value)
 **Confirmed:** In-game on launch day (2026-06-12)
 
-## Rare Seed Pack (Vote Reward)
+### Rare Seed Pack (Vote Reward)
 
 | # | Crop | Drop Chance |
 |:-:|------|:-----------:|

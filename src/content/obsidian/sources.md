@@ -144,7 +144,21 @@
 | Accessed | 2026-06-30 |
 | Content collected | Auctioneer NPC full description: Dutch auction pricing, 20-min restock, items list |
 
-## GAG2 Wiki — Seed Packs
+## Game8 Wiki
+
+| Field | Value |
+|-------|-------|
+| URL | https://game8.co/games/Grow-a-Garden-2 |
+| Accessed | 2026-07-02 |
+| Content collected | Codes, pets, plants, weather, crates guides — discovered during update check |
+
+## GAG2 Wiki — Summer Harvest Event
+
+| Field | Value |
+|-------|-------|
+| URL | https://growagarden2wiki.net/updates/ |
+| Accessed | 2026-07-02 |
+| Content collected | Summer Harvest Event announcement (Jun 30) — 3 leaked crops (Watermelon, Citrus Fruit, Kiwi), Big Rainbow T-Rex pet, delivery point table |
 
 | Field | Value |
 |-------|-------|

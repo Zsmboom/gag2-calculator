@@ -56,7 +56,7 @@ export const defaultConfig: GameSiteConfig = {
     robloxId: "97598239454123",
     developer: "Strawberreh Squad / Splitting Point Studios",
     genre: "Farming Simulator / PvP Raiding",
-    lastUpdated: "2026-06-30",
+    lastUpdated: "2026-07-02",
   },
   seo: {
     siteTitle:

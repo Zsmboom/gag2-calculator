@@ -1,4 +1,29 @@
 ---
+## v2.0 — 2026-07-02
+
+**Type**: Major data update — Summer Harvest Event discovered + stats refresh
+**Summary**: Discovered upcoming Summer Harvest Event (3 leaked crops, Big Rainbow T-Rex), added Hypno Bloom & Auctioneer Update details, refreshed homepage stats (907M visits, 560K favorites, 929K peak CCU), expanded seed packs reference to all 11 types, added Game8 source
+
+### Files Modified (3)
+- **homepage/content.md** — Stats refreshed: 843M→907M visits, 550K→560K favorites, added all-time peak CCU (929K), avg play time 23.1→27.46 min, rating 93%→89%; crop count corrected 37→38
+- **updates/content.md** — Added v1.7 (Summer Harvest Event, Jun 30), v1.6 (Hypno Bloom & Auctioneer Update, Jun 28)
+- **reference-data/seed-packs.md** — Expanded from 2 packs to full 11-pack reference table with tiers/prices/sources
+- **sources.md** — Added Game8 Wiki source, added GAG2 Wiki Summer Harvest Event source entry
+
+### New Data
+- Summer Harvest Event: 3 leaked crops (Watermelon, Citrus Fruit, Kiwi), Big Rainbow T-Rex pet, delivery point table
+- Hypno Bloom: detailed stats confirmed (90M🪙, 1,599💎, 9kg avg, 23m growth)
+- Auctioneer: Dutch auction, 20-min restock, pet eggs confirmed
+- Homepage: 907M visits, 559,712 favorites, 493K current players, 929K all-time peak CCU
+
+### Known Gaps
+- Hypno Bloom ability exact range/duration — not documented on wiki either (community gap)
+- High-tier Seed Pack (Super/Secret/Mythic/Legendary) drop % — Source TBA (not yet published by wiki)
+- Venom Spitter exact 1kg value — not yet available
+- Summer Harvest Event — upcoming, not yet live; full mechanics pending release
+
+---
+
 ## v1.9 — 2026-06-30
 
 **Type**: Structure fix — added missing systems hub page

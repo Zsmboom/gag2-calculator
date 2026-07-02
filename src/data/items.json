@@ -1,5 +1,5 @@
 {
-  "_comment": "Grow a Garden 2 crop database. 37 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
+  "_comment": "Grow a Garden 2 crop database. 38 crops plus Mega Seed special variant. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
   "items": [
     {
       "slug": "mega-seed",

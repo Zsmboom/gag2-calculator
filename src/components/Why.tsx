@@ -8,7 +8,7 @@ import { config } from '@/lib/games.config';
 const gameName = config.game.name;
 
 const reasons = [
-  `All 36 ${gameName} crops with 1kg values, floor values, and seed costs`,
+  `All 38 ${gameName} crops with 1kg values, floor values, and seed costs`,
   'Working codes updated the moment they drop on Discord',
   'Complete mutation multiplier table — Bloodlit (×80) down to Chained (×4)',
   'Profit calculator using the community-verified sell-price formula',
@@ -20,13 +20,18 @@ const useCases = [
   {
     label: 'Farmers',
     heading: 'Plan your crop investments',
-    body: 'Compare ROI across all 36 crops, see restock odds, and pick the best seed for your current Sheckle count and game phase.',
+    body: 'Compare ROI across all 38 crops, see restock odds, and pick the best seed for your current Sheckle count and game phase.',
   },
   {
     label: 'Mutation hunters',
     heading: 'Time your harvests',
     body: 'Know exactly which weather event triggers which mutation, and how much each multiplier is worth on your highest-value crops.',
   },
+];
+
+const obsidianCoverage = [
+  '💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (38 crops)',
+  '🌾 Database 🌽 All Crops (38 entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog',
 ];
 
 export default function Why() {
@@ -58,6 +63,12 @@ export default function Why() {
                   <FiCheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-600 dark:text-gray-300">{reason}</span>
                 </motion.div>
+              ))}
+            </div>
+
+            <div className="mt-8 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+              {obsidianCoverage.map((item) => (
+                <p key={item}>{item}</p>
               ))}
             </div>
           </motion.div>

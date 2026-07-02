@@ -119,6 +119,13 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 | 2026-06-30 | v1.7 | Added Auctioneer NPC system + homepage stats update + Hypno Bloom detail enrichment |
 | 2026-06-30 | v1.8 | Fixed missing venom-spitter.md → added detail page + seeds list update |
 | 2026-06-30 | v1.9 | Added systems/content.md + fixed stale seed counts in folder table |
+| 2026-07-02 | v2.0 | Summer Harvest Event discovered, homepage stats refreshed, seed packs expanded to 11 types |
+
+### Changed Pages (v2.0)
+- **homepage/content.md** — 🔄 stats refreshed (907M visits, 560K favorites, 929K peak CCU)
+- **updates/content.md** — 🔄 added v1.7 Summer Harvest Event + v1.6 Hypno Bloom & Auctioneer Update
+- **reference-data/seed-packs.md** — 🔄 expanded from 2 to 11 pack types
+- **sources.md** — 🔄 added Game8 Wiki + Summer Harvest Event entry
 
 ### Changed Pages (v1.7)
 - **systems/npcs/list.md** — 🆕 new NPC system list (6 NPCs)

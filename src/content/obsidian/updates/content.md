@@ -12,6 +12,51 @@ images: []
 
 # Grow a Garden 2 — 更新日志
 
+## v1.7 — Summer Harvest Event（2026-06-30 预告，即将上线）☀️
+
+GAG2 即将迎来夏季活动 —— Summer Harvest Event。
+
+**状态**: ⏳ 预告已发布，尚未实装
+
+**泄露内容：**
+- **3种新作物**：Watermelon（西瓜）、Citrus Fruit（柑橘）、Kiwi（猕猴桃）— 疑似高价值限量种子
+- **Big Rainbow T-Rex** 🌈🦖 — 全新活动奖励宠物
+- **玩法**：向 Farmer NPC 交付夏季水果获得公会积分（Guild Points）
+- **Golden 突变作物价值翻倍**（×2 积分）
+
+**交付积分表：**
+
+| 作物 | 积分 |
+|:----|:----:|
+| Strawberry | 1 |
+| Apple | 3 |
+| Coconut | 5 |
+| Mango | 10 |
+| Sunflower | 20 |
+| Pineapple | 35 |
+
+> 数据源：GAG2 Wiki Updates (growagarden2wiki.net) — 2026-06-30 发布
+
+## v1.6 — Hypno Bloom & Auctioneer Update（2026-06-28）
+
+Hypno Bloom 超级种子 + 拍卖行 NPC 更新。
+
+**新增内容：**
+- **Hypno Bloom（催眠花）** — Super 稀有度，多收获作物
+  - 价格：90M 🪙 / 1,599💎 每粒种子，0.275% 商店刷新率
+  - 每株产 2 果，base value 9,500🪙/kg
+  - 生长 23m20s，复果 5m33s，平均重量 9kg，1% Huge 概率
+  - 能力：催眠入侵者（控场效果），具体范围/持续时间待观察
+- **Auctioneer NPC（拍卖师）** — 新 NPC，位于拍卖台
+  - 荷兰式拍卖：6 件随机高级物品，每 20 分钟补货
+  - 起始价极高（可能数十亿🪙），随时间递减
+  - 可拍得：超级洒水器、超级浇水壶、神话种子、超级种子
+  - **Pet Eggs** — 拍卖行可拍得宠物蛋（社区发现）
+- **种子包平衡调整** — 全 11 种 Seed Pack 数据已在参考页面整理
+
+> 数据源：[Beebom Patch Notes](https://beebom.com/grow-a-garden-2-update-patch-notes/)（Updated: June 28, 2026）
+> 详细数据：hypnobloom.md、reference-data/seed-packs.md
+
 ## v1.5 — Mega Moon Update（2026-06-27）
 
 GAG2 的 Mega Moon 更新 — 首次月度大版本。

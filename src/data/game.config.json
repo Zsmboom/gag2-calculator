@@ -5,7 +5,7 @@
     "robloxId": "97598239454123",
     "developer": "Strawberreh Squad / Splitting Point Studios",
     "genre": "Farming Simulator / PvP Raiding",
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-07-02"
   },
   "seo": {
     "siteTitle": "grow-a-garden-2 calculator[2026.07]",
@@ -81,6 +81,6 @@
     { "question": "Are mutations stackable in Grow a Garden 2?", "answer": "No. Unlike GAG1, mutations in GAG2 are mutually exclusive — only one mutation applies per crop at a time. Community data currently tracks values such as Aurora ×1.5, Gold ×10, Electric, Frozen, Rainbow, and Bloodlit." },
     { "question": "How do I redeem codes in Grow a Garden 2?", "answer": "Use the in-game Settings gear and Redeem Code flow when available. The current working code is TEAMGREENBEAN for 3× Green Bean Seeds, and source notes also mention Discord and social/event code drops." },
     { "question": "Can my crops be stolen?", "answer": "Yes. During the 2-minute night phase of the 10-minute day/night cycle, other players can loot unattended gardens. Harvest high-value crops before logging off or deploy defensive pets, plants, and gear." },
-    { "question": "What changed in the latest Obsidian update?", "answer": "The latest content pass added the systems hub, six NPC pages, seed pack references, Venom Spitter detail coverage, and updated homepage stats such as 843M+ visits and 550K+ favorites." }
+    { "question": "What changed in the latest Obsidian update?", "answer": "The latest content pass added the Summer Harvest Event preview, refreshed homepage stats to 907M+ visits and 560K+ favorites, expanded seed packs to 11 types, and added Hypno Bloom and Auctioneer update details." }
   ]
 }

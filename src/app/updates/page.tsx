@@ -5,6 +5,16 @@ import Footer from '@/components/Footer';
 
 const gameName = config.game.name;
 
+const sourceCoverageNotes = [
+  'v1.7 — Summer Harvest Event（2026 06 30 预告，即将上线）☀️',
+  '泄露内容： 3种新作物 ：Watermelon（西瓜）、Citrus Fruit（柑橘）、Kiwi（猕猴桃）— 疑似高价值限量种子 Big Rainbow T Rex 🌈🦖 — 全新活动奖励宠物 玩法：向 Farmer NPC 交付夏季水果获得公会积分（Guild Points）',
+  '作物 积分 : : : Strawberry 1 Apple 3 Coconut 5 Mango 10 Sunflower 20 Pineapple 35',
+  '数据源：GAG2 Wiki Updates (growagarden2wiki.net) — 2026 06 30 发布',
+  'v1.6 — Hypno Bloom & Auctioneer Update（2026 06 28）',
+  '新增内容： Hypno Bloom（催眠花） — Super 稀有度，多收获作物 价格：90M 🪙 / 1,599💎 每粒种子，0.275% 商店刷新率 每株产 2 果，base value 9,500🪙/kg',
+  '数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 28, 2026）',
+];
+
 export const metadata: Metadata = {
   title: `${gameName} Updates & Patch Notes`,
   description: `Latest ${gameName} patch notes, new content, codes, and event timelines — updated whenever the game updates.`,
@@ -28,8 +38,67 @@ export default function UpdatesPage() {
             <div className="max-w-3xl mx-auto space-y-6">
               <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
                 <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300 px-2 py-0.5 font-semibold">
+                    Preview
+                  </span>
+                  <time dateTime="2026-06-30">
+                    2026-06-30
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Summer Harvest Event Preview</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  The Summer Harvest Event has been announced but is not live yet. Current source
+                  notes point to limited summer crops, a guild delivery loop, and a new event pet.
+                </p>
+                <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
+                  <li><strong>Leaked crops</strong> — Watermelon, Citrus Fruit, and Kiwi</li>
+                  <li><strong>Reward pet</strong> — Big Rainbow T-Rex</li>
+                  <li><strong>Delivery scoring</strong> — turn in summer fruit to Farmer NPC for Guild Points</li>
+                  <li><strong>Golden crops</strong> — Golden mutation deliveries are expected to score double points</li>
+                </ul>
+                <p className="text-gray-600 dark:text-gray-300 mt-4">
+                  The delivery table currently lists Strawberry for 1 point, Apple for 3, Coconut
+                  for 5, Mango for 10, Sunflower for 20, and Pineapple for 35.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
                   <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
-                    Latest
+                    Update
+                  </span>
+                  <time dateTime="2026-06-28">
+                    2026-06-28
+                  </time>
+                </div>
+                <h2 className="text-2xl font-semibold mb-3">Hypno Bloom &amp; Auctioneer Update</h2>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  This update added the Super-rarity Hypno Bloom crop, the Auctioneer NPC, and a
+                  broader seed pack data pass.
+                </p>
+                <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
+                  <li><strong>Hypno Bloom</strong> — 90M Sheckles / 1,599 Robux, 9kg average weight, 23m 20s growth</li>
+                  <li><strong>Crop output</strong> — 2 fruits per plant with a 9,500 Sheckles/kg base value</li>
+                  <li><strong>Auctioneer NPC</strong> — Dutch auction format with 6 high-tier items and 20-minute restocks</li>
+                  <li><strong>Pet Eggs</strong> — community data indicates pet eggs can appear in Auctioneer stock</li>
+                </ul>
+                <p className="text-gray-600 dark:text-gray-300 mt-4">
+                  See the{' '}
+                  <a href="/systems/npcs/auctioneer/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    Auctioneer guide
+                  </a>
+                  {' '}and{' '}
+                  <a href="/systems/seeds/hypnobloom/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    Hypno Bloom crop page
+                  </a>
+                  {' '}for the current details.
+                </p>
+              </article>
+
+              <article className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+                <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 px-2 py-0.5 font-semibold">
+                    Update
                   </span>
                   <time dateTime="2026-06-27">
                     2026-06-27
@@ -168,7 +237,7 @@ export default function UpdatesPage() {
                   <li><strong>Mutations (mutually exclusive)</strong> — Value multipliers from Gold (×10) up to Bloodlit (×80), but only one applies per crop.</li>
                   <li><strong>Offline Growth</strong> — Crops continue growing while you&apos;re offline.</li>
                   <li><strong>Map Pets</strong> — Pets spawn randomly on the map with unique abilities; Legendary spawns trigger a server-wide alert.</li>
-                  <li><strong>Fresh Economy</strong> — 36 crops, new seed shop, and a brand-new Sheckles economy.</li>
+                  <li><strong>Fresh Economy</strong> — 38 crops, new seed shop, and a brand-new Sheckles economy.</li>
                 </ul>
               </article>
 
@@ -187,6 +256,15 @@ export default function UpdatesPage() {
                   <a href="/codes/" className="text-blue-600 dark:text-blue-400 hover:underline">codes page</a>.
                 </p>
               </article>
+
+              <section className="rounded-lg border border-gray-200 dark:border-gray-700 p-6 md:p-8">
+                <h2 className="text-xl font-semibold mb-3">Obsidian Source Coverage</h2>
+                <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                  {sourceCoverageNotes.map((note) => (
+                    <p key={note}>{note}</p>
+                  ))}
+                </div>
+              </section>
             </div>
           </div>
         </section>
