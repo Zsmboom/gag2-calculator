@@ -8,7 +8,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `Disclaimer`,
   description: `Legal disclaimer for ${gameName} — a fan-made guide and tools hub for Roblox ${gameName}.`,
-  alternates: { canonical: `${config.seo.baseUrl}/disclaimer/` },
+  alternates: { canonical: `${config.seo.baseUrl}/disclaimer` },
 };
 
 export default function Disclaimer() {

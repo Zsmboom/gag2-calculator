@@ -4,6 +4,7 @@ import codesData from '@/data/codes.json';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 import CopyButton from '@/components/CopyButton';
 
 const gameName = config.game.name;
@@ -11,7 +12,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Codes (Working)`,
   description: `All working ${gameName} codes — updated daily. Redeem for free rewards.`,
-  alternates: { canonical: `${config.seo.baseUrl}/codes/` },
+  alternates: { canonical: `${config.seo.baseUrl}/codes` },
 };
 
 type CodeEntry = {
@@ -30,7 +31,7 @@ export default function CodesPage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Codes', href: '/codes/' }]} />
+            <Breadcrumbs segments={[{ label: 'Codes', href: '/codes' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Codes</h1>
               <p className="subheading">
@@ -138,6 +139,12 @@ export default function CodesPage() {
                 }),
               }}
             />
+          </div>
+        </section>
+
+        <section className="section bg-white dark:bg-gray-900">
+          <div className="container">
+            <ObsidianArticle source="codes/content.md" />
           </div>
         </section>
       </main>

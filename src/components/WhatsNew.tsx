@@ -9,37 +9,37 @@ export default function WhatsNew() {
     {
       title: 'Mega Moon Update',
       description: 'Blue moon night event added Jun 27. Mega Seeds can create giant non-limited crop variants; exact value data is still TBD.',
-      link: '/mega-moon/',
+      link: '/updates',
       date: 'Jun 27',
     },
     {
       title: 'Auctioneer NPC Added',
       description: 'New Dutch auction NPC sells 6 random premium items every 20 minutes. Prices drop over time while stock remains.',
-      link: '/systems/npcs/auctioneer/',
+      link: '/systems/npcs/auctioneer',
       date: 'Jun 28',
     },
     {
       title: 'Systems Hub Added',
       description: 'New /systems/ hub connects seeds, pets, mutations, gear, weather, guilds, NPCs, and offline growth.',
-      link: '/systems/',
+      link: '/systems',
       date: null,
     },
     {
       title: 'Venom Spitter Detail',
       description: 'Missing Mythic defensive crop detail page added with Aurora Event source notes and TBD value markers.',
-      link: '/systems/seeds/venom-spitter/',
+      link: '/systems/seeds/venom-spitter',
       date: null,
     },
     {
       title: 'Picture Frame Crate',
       description: 'Customizable banner props via Roblox decal IDs.',
-      link: '/updates/',
+      link: '/updates',
       date: 'Jun 25',
     },
     {
       title: 'Strawberry Sniper Gear',
       description: 'New gear item, fires strawberry projectiles to knock back thieves.',
-      link: '/systems/gear/',
+      link: '/systems/gear',
       date: 'Jun 22',
     },
   ];

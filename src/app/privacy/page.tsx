@@ -8,7 +8,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `Privacy Policy`,
   description: `Privacy policy for ${gameName} — how we collect, use, and protect your data.`,
-  alternates: { canonical: `${config.seo.baseUrl}/privacy/` },
+  alternates: { canonical: `${config.seo.baseUrl}/privacy` },
 };
 
 export default function PrivacyPolicy() {

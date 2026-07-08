@@ -7,8 +7,17 @@ const gameName = config.game.name;
 const baseUrl = config.seo.baseUrl;
 const description = config.seo.siteDescription;
 
-const hubPages = config.pages.filter((p) => p.isHub);
-const resourcePages = config.pages.filter((p) => !p.isHub && !['/privacy/', '/disclaimer/', '/about/'].includes(p.path));
+const hubPages = config.pages
+  .filter((p) => p.isHub)
+  .map((page) => (page.path === '/guide' ? { ...page, path: '/beginner-guide' } : page));
+const resourcePages = config.pages.filter(
+  (p) =>
+    !p.isHub &&
+    (p.path === '/updates' ||
+      p.path === '/beginner-guide' ||
+      p.path.startsWith('/systems/')) &&
+    !['/privacy', '/disclaimer', '/about'].includes(p.path)
+);
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -104,7 +113,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/privacy/"
+                  href="/privacy"
                   className="text-gray-400 hover:text-white py-2 block"
                 >
                   Privacy Policy
@@ -112,7 +121,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/disclaimer/"
+                  href="/disclaimer"
                   className="text-gray-400 hover:text-white py-2 block"
                 >
                   Disclaimer
@@ -120,7 +129,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/about/"
+                  href="/about"
                   className="text-gray-400 hover:text-white py-2 block"
                 >
                   About

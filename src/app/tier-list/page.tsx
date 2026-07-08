@@ -11,7 +11,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Crop Tier List`,
   description: `Every ${gameName} crop ranked by rarity — Super, Mythic, Legendary, Epic, Rare, Uncommon, and Common — with 1kg values, seed costs, and harvest types.`,
-  alternates: { canonical: `${config.seo.baseUrl}/tier-list/` },
+  alternates: { canonical: `${config.seo.baseUrl}/tier-list` },
 };
 
 type Tier = 'Super' | 'Mythic' | 'Legendary' | 'Epic' | 'Rare' | 'Uncommon' | 'Common' | 'TBD';
@@ -76,7 +76,7 @@ export default function TierListPage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Tier List', href: '/tier-list/' }]} />
+            <Breadcrumbs segments={[{ label: 'Tier List', href: '/tier-list' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Crop Tier List</h1>
               <p className="subheading">
@@ -88,7 +88,7 @@ export default function TierListPage() {
             {items.length === 0 ? (
               <div className="max-w-2xl mx-auto text-center bg-gray-50 dark:bg-gray-800 rounded-lg p-8">
                 <p className="text-gray-600 dark:text-gray-300">
-                  The {gameName} tier list is empty. Add items to <code>src/data/items.json</code>
+                  The {gameName} tier list is empty. Check back after the crop database is refreshed.
                   {' '}and they&apos;ll appear here automatically.
                 </p>
               </div>
@@ -121,7 +121,7 @@ export default function TierListPage() {
                         {byTier[tier].map((it) => (
                           <li key={it.slug}>
                             <Link
-                              href={`/tier-list/${it.slug}/`}
+                              href={`/tier-list/${it.slug}`}
                               className="flex items-center justify-between px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
                             >
                               <span className="font-medium text-gray-900 dark:text-white">

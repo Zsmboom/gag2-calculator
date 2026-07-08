@@ -4,39 +4,40 @@ import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Systems — Game Mechanics & Guides`,
   description: `Browse every ${gameName} system: seeds, pets, mutations, gear, weather, night stealing, guilds, NPCs, bargain bonuses, and offline growth.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems` },
 };
 
 const groups = [
   {
     title: 'Farming & Economy',
     items: [
-      ['Seeds & Crops', '/systems/seeds/', 'Complete database of all 38 crops, rarity, sell value, growth time, harvest type, and seed shop prices.'],
-      ['Pets', '/systems/pets/', '14 map pets with abilities, spawn notes, prices, and defensive value.'],
-      ['Mutations', '/systems/mutations/', '12+ mutation types with value multipliers, triggers, and stacking rules.'],
-      ['Gear', '/systems/gear/', 'Tools, sprinklers, watering cans, and defense gear that affect growth and raids.'],
-      ['Bargain System', '/systems/bargain-system/', 'Sell price bonus mechanics at the final sell stage.'],
+      ['Seeds & Crops', '/systems/seeds', 'Complete database of all 43 crop entries, rarity, sell value, growth time, harvest type, and seed shop prices.'],
+      ['Pets', '/systems/pets', '18 confirmed pets with abilities, spawn notes, prices, and defensive value.'],
+      ['Mutations', '/systems/mutations', '12+ mutation types with value multipliers, triggers, and stacking rules.'],
+      ['Gear', '/systems/gear', 'Tools, sprinklers, watering cans, and defense gear that affect growth and raids.'],
+      ['Bargain System', '/systems/bargain-system', 'Sell price bonus mechanics at the final sell stage.'],
     ],
   },
   {
     title: 'Environment & Events',
     items: [
-      ['Weather', '/systems/weather/', 'Blood Moon, Aurora Borealis, rain, frost, and other weather effects.'],
-      ['Night Stealing', '/systems/night-stealing/', 'Farm by day, defend or raid gardens at night.'],
-      ['Offline Growth', '/systems/offline-growth/', 'How crops keep growing while you are offline.'],
+      ['Weather', '/systems/weather', 'Blood Moon, Aurora Borealis, rain, frost, and other weather effects.'],
+      ['Night Stealing', '/systems/night-stealing', 'Farm by day, defend or raid gardens at night.'],
+      ['Offline Growth', '/systems/offline-growth', 'How crops keep growing while you are offline.'],
     ],
   },
   {
     title: 'Social & Progression',
     items: [
-      ['Guilds', '/systems/guilds/', 'Create or join a guild, compete on leaderboards, and chase weekly rewards.'],
-      ['NPCs', '/systems/npcs/', 'Sam, George, Charlotte, Steven, Gilbert, and the Auctioneer.'],
+      ['Guilds', '/systems/guilds', 'Create or join a guild, compete on leaderboards, and chase weekly rewards.'],
+      ['NPCs', '/systems/npcs', 'Sam, George, Charlotte, Steven, Gilbert, and the Auctioneer.'],
     ],
   },
 ];
@@ -48,7 +49,7 @@ export default function SystemsPage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Systems', href: '/systems/' }]} />
+            <Breadcrumbs segments={[{ label: 'Systems', href: '/systems' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Game Systems</h1>
               <p className="subheading">
@@ -78,6 +79,8 @@ export default function SystemsPage() {
                 </section>
               ))}
             </div>
+
+            <ObsidianArticle source="systems/content.md" className="mt-10" />
           </div>
         </section>
       </main>

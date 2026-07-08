@@ -1,0 +1,3573 @@
+{
+  "schema": "roblox-obsidian-site-manifest.v2",
+  "generated_at": "2026-07-08T01:35:13.068668+00:00",
+  "url_policy": "no-trailing-slash-except-root",
+  "root": "/Users/shiminzhang/Desktop/hermes/roblox/grow-a-garden-2",
+  "pages": [
+    {
+      "file": "calculator/content.md",
+      "route": "/calculator",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Calculator — Free GAG2 Profit Calculator",
+        "keywords": "[\"Grow a Garden 2 calculator\", \"GAG2 profit calculator\", \"GAG2 sell price\", \"GAG2 formula\"]",
+        "primaryKeyword": "Grow a Garden 2 calculator",
+        "targetUrl": "/calculator/",
+        "pageType": "calculator",
+        "system": "calculator",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Calculator — Free GAG2 Profit Calculator",
+        "keywords": "[\"Grow a Garden 2 calculator\", \"GAG2 profit calculator\", \"GAG2 sell price\", \"GAG2 formula\"]",
+        "primaryKeyword": "Grow a Garden 2 calculator"
+      },
+      "headings": [
+        "Full Original Content",
+        "🧮 Grow a Garden 2 — Calculator Guide",
+        "Core Formula (Community-Verified, 2026-06-16)",
+        "BaseFormula (Per-Crop)",
+        "Mutation Multipliers",
+        "Friend Boost",
+        "Bargain Bonus",
+        "Competitor Calculator Comparison",
+        "Required Data for a Calculator",
+        "⚠️ Data Contradictions Found"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Calculator Guide",
+        "Core Formula (Community Verified, 2026 06 16)",
+        "Sell Value = BaseFormula(weight) × Mutation Mult × (1 + FriendBoost%) × Quantity",
+        "Power fit: coeff × weight^exp Quadratic fit: a·w² + b·w + c",
+        "Where exp ranges from 2.0 to ~3.4 depending on the crop.",
+        "Mutation × : : : : None 1 Gold 10 Rainbow 30 Frozen 40 Electric 70 Bloodlit 80",
+        "Critical: Mutations are mutually exclusive (only one per crop) in GAG2.",
+        "Formula: (1 + FriendBoost%) Each online friend adds a flat % bonus to sell price",
+        "Some sources claim a ×1.08 Bargain bonus at final sell stage Being verified for accuracy",
+        "Calculator Model Accuracy Special Features : : : : : : : : growagardencalculate.com Power exp 2.0–3.4, per crop Community fit Individual curves per crop gag2cal",
+        "To build the most accurate GAG2 calculator, we need per crop:",
+        "{ name: string, rarity: \"Common\" \"Uncommon\" \"Rare\" \"Epic\" \"Legendary\" \"Mythic\" \"Super\", base value 1kg: number, curve exp: number (2.0–3.4), single harvest: boo",
+        "Source Weight Formula Mutation Multipliers : : : : growagarden2wiki.net weight² Gold×10, Frozen×40 growagardencalculate.com power fit (exp 2.0–3.4) Rainbow×30, ",
+        "These are all community estimated values — none have official game confirmation. A calculator that independently verified data would have a competitive advantag"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 287
+    },
+    {
+      "file": "changelog.md",
+      "route": "",
+      "frontmatter": {
+        "**Type**": "Major data update — Update 1.13.0 discovered (Fire Fern, Rocket Pop, new pets, Summer Harvest crops listed on wiki)",
+        "**Summary**": "Discovered Update 1.13.0 (Jul 4-5) adding Fire Fern and Rocket Pop Legendary crops. Found 4 new pets (Butterfly, Bald Eagle, Big Bee, Capybara) — pet total now 18. Summer Harvest crops (Watermelon, Citrus Fruit, Kiwi) now listed on wiki. Refreshed homepage stats: 1.0B+ visits, 594K favorites, 579K current players.",
+        "- **homepage/content.md** — Stats refreshed": "907M→1.0B+ visits, 560K→594K favorites, 493K→579K players; crop count 38→45+",
+        "- **systems/pets/list.md** — Pet count 14→18": "added Butterfly, Bald Eagle, Big Bee, Capybara rows",
+        "- Fire Fern": "Legendary, 6M🪙/659💎, 900 S/kg, Multi, Added in Update 1.13.0",
+        "- Rocket Pop": "Legendary, 27.5K🪙/149💎, Single, Released Jul 4",
+        "- Bone Blossom (BB)": "Legendary, Multi, Unreleased",
+        "- Briar Rose": "Mythic, Multi, 4K S/kg, Unreleased (admin only)",
+        "- Butterfly": "Legendary pet (Farming), Bald Eagle: Mythic pet (Defender), Big Bee & Capybara: TBA",
+        "- New wiki pages": "Buttercup, Magic Beanstalk, PartFruit — TBA crops"
+      },
+      "seo_hints": {},
+      "headings": [],
+      "required_phrases": [
+        "Type : Major data update — Summer Harvest Event discovered + stats refresh Summary : Discovered upcoming Summer Harvest Event (3 leaked crops, Big Rainbow T Rex",
+        "Files Modified (3) homepage/content.md — Stats refreshed: 843M→907M visits, 550K→560K favorites, added all time peak CCU (929K), avg play time 23.1→27.46 min, r",
+        "New Data Summer Harvest Event: 3 leaked crops (Watermelon, Citrus Fruit, Kiwi), Big Rainbow T Rex pet, delivery point table Hypno Bloom: detailed stats confirme",
+        "Known Gaps Hypno Bloom ability exact range/duration — not documented on wiki either (community gap) High tier Seed Pack (Super/Secret/Mythic/Legendary) drop % —",
+        "Type : Structure fix — added missing systems hub page Summary : Created systems/content.md for /systems/ URL, fixed stale seed counts in site architecture",
+        "Files Added systems/content.md — Systems hub/landing page (English, internal links to all 10 system modules)",
+        "Files Modified site architecture.md — Page count 60→61, seeds folder: 38→39 pages, 37→38 details, added systems/ row",
+        "Type : Bug fix — missing seed detail page Summary : Found and fixed missing venom spitter.md — referenced in site architecture and items.json but had no corresp",
+        "Files Added systems/seeds/venom spitter.md — New Venom Spitter detail page (Mythic defensive crop, Aurora Event)",
+        "Files Modified systems/seeds/list.md — Added Venom Spitter row to seed table (Mythic, ~30M Sheckles, Multi) site architecture.md — Page count 59→60, v1.8 entry ",
+        "Known Gaps Venom Spitter exact 1kg value — TBD (data not yet available) All existing gaps from v1.7 remain",
+        "Type : Data update — Hypno Bloom & Auctioneer Update (Jun 28) Summary : Added NPC system (6 NPCs total), Seed Pack reference, enriched Hypno Bloom detail, updat",
+        "Files Added systems/npcs/list.md — New NPC system list (Sam, George, Charlotte, Steven, Gilbert, Auctioneer) systems/npcs/auctioneer.md — New Auctioneer detail ",
+        "Files Modified homepage/content.md — Stats updated (visits 174M→843M, added favorites, 36→37 crops) systems/seeds/hypnobloom.md — Enriched with sell value examp",
+        "New Data NPCs: 6 total (Sam/George/Charlotte/Steven/Gilbert/Auctioneer) — 5 new detail pages created Seed Packs: Ghost Pepper Pack (5 drops, 1 50%), Rare Seed P",
+        "Known Gaps Hypno Bloom ability exact range/duration — not documented on wiki either (community gap) High tier Seed Pack (Super/Secret/Mythic/Legendary) drop % —",
+        "Type : Data update — Update 1.06.0 (Hypno Bloom) Summary : Added Hypno Bloom (Super rarity crop) discovered during routine update check. Data sourced from growa",
+        "Files Added systems/seeds/hypnobloom.md — New detail page for Hypno Bloom",
+        "Files Modified reference data/items.json — Added Hypno Bloom entry (36 → 37 crops)",
+        "New Data Items/Pets: 1 added (Hypno Bloom) New source: growagarden2wiki.net (added to sources.md)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 1012
+    },
+    {
+      "file": "codes/content.md",
+      "route": "/codes",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Codes — Active Codes & Rewards",
+        "keywords": "[\"Grow a Garden 2 codes\", \"GAG2 codes\", \"Grow a Garden 2 code list\", \"GAG2 active codes\"]",
+        "primaryKeyword": "Grow a Garden 2 codes",
+        "targetUrl": "/codes/",
+        "pageType": "codes",
+        "system": "codes",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Codes — Active Codes & Rewards",
+        "keywords": "[\"Grow a Garden 2 codes\", \"GAG2 codes\", \"Grow a Garden 2 code list\", \"GAG2 active codes\"]",
+        "primaryKeyword": "Grow a Garden 2 codes"
+      },
+      "headings": [
+        "Full Original Content",
+        "🎁 Grow a Garden 2 — Active Codes",
+        "Current Working Codes",
+        "How to Redeem",
+        "Important Notes",
+        "Where Codes Are Announced",
+        "Grow a Garden 2 — 兑换码页内容",
+        "Codes Data (structured)"
+      ],
+      "required_phrases": [
+        "Code Reward Added Success Rate Status : : : : : : TEAMGREENBEAN 3× Green Bean Seeds Launch 100% ✅ Active",
+        "1. Open the Settings gear icon (top left corner of game screen) 2. Click Redeem Code 3. Enter the code (exact case) 4. Click Redeem",
+        "GAG2 code system is different from GAG1 — codes are distributed through Discord bot (social/event codes) Codes may expire quickly — check the official Discord f",
+        "Channel Description : : 💬 [Official Discord](https://discord.gg/growagarden) Primary source — bot distributed codes 🐦 X/Twitter Developer announcements 📰 Roblox",
+        "兑换码 奖励 状态 添加日期 : : : : TEAMGREENBEAN 3× Green Bean Seeds ✅ active 2026 06 12",
+        "注意：原版 Grow a Garden 的兑换码（STARBUD、RDCAward 等）不适用于 GAG2。",
+        "Code Status Reward Source TEAMGREENBEAN active 3× Green Bean Seeds ?"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://discord.gg/growagarden"
+      ],
+      "word_count": 174
+    },
+    {
+      "file": "guide/content.md",
+      "route": "/beginner-guide",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Beginner Guide — Getting Started",
+        "keywords": "[\"Grow a Garden 2 beginner guide\", \"GAG2 getting started\", \"GAG2 how to play\"]",
+        "primaryKeyword": "Grow a Garden 2 beginner guide",
+        "targetUrl": "/guide/",
+        "pageType": "guide",
+        "system": "guide",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Beginner Guide — Getting Started",
+        "keywords": "[\"Grow a Garden 2 beginner guide\", \"GAG2 getting started\", \"GAG2 how to play\"]",
+        "primaryKeyword": "Grow a Garden 2 beginner guide"
+      },
+      "headings": [
+        "Full Original Content",
+        "🚀 Grow a Garden 2 — Quick Start Guide",
+        "Step 1: Plant Your First Crops",
+        "Step 2: Recommended Progression",
+        "Step 3: Basic Controls",
+        "Step 4: Early Strategy Tips",
+        "Important Notes"
+      ],
+      "required_phrases": [
+        "1. Visit the Seed Shop and buy your first seeds 2. Start with Carrot (costs only 1 Sheckle) 3. Plant in your garden plots 4. Wait for crops to grow (they grow o",
+        "Phase Sheckles Target Crop Seed Cost Why 🟢 Early 0–10K Carrot → Tomato 1 → 200 Fast first cash 🟢 Early 10K–100K Bamboo 700 Dense planting + weather mutations = ",
+        "Action Key : : Move WASD Harvest / Interact E Open Door / Shop E Backpack B Settings / Codes ⚙️ (top left)",
+        "1. Rush Bamboo (700🪙) — Plant densely, wait for weather triggered mutations 2. Use Friend Boost — Have friends join your server for extra sell % 3. Don't over i",
+        "⚠️ Description : : 🚫 GAG2 is a completely separate game from GAG1. No items or progress transfer. 🌙 Crops can be stolen at night. Harvest before logging off or "
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 264
+    },
+    {
+      "file": "homepage/content.md",
+      "route": "/",
+      "frontmatter": {
+        "title": "Grow a Garden 2 (GAG2) — Guides, Codes & Calculator",
+        "keywords": "[\"Grow a Garden 2\", \"GAG2\", \"Grow a Garden 2 guide\", \"GAG2 wiki\", \"Roblox Grow a Garden 2\"]",
+        "primaryKeyword": "Grow a Garden 2 guide",
+        "targetUrl": "/",
+        "pageType": "homepage",
+        "system": "homepage",
+        "internalLinks": "",
+        "- target": "/updates/",
+        "anchor": "GAG2 Update Log",
+        "keyword": "grow a garden 2 update",
+        "images": "",
+        "- filename": "yt-QlsxRp8wNuI.jpg",
+        "description": "BachaBlox Jumbo Rocket Pop thumbnail (not downloaded)"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 (GAG2) — Guides, Codes & Calculator",
+        "keywords": "[\"Grow a Garden 2\", \"GAG2\", \"Grow a Garden 2 guide\", \"GAG2 wiki\", \"Roblox Grow a Garden 2\"]",
+        "primaryKeyword": "Grow a Garden 2 guide",
+        "keyword": "grow a garden 2 update",
+        "description": "BachaBlox Jumbo Rocket Pop thumbnail (not downloaded)"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌱 Grow a Garden 2 — Game Hub",
+        "Quick Facts",
+        "Game Premise",
+        "📚 Documentation",
+        "🆕 Getting Started",
+        "💰 Economy & Values",
+        "🌾 Database",
+        "⚡ Game Mechanics",
+        "📚 Reference",
+        "🛠️ Tools",
+        "🔗 External Resources"
+      ],
+      "required_phrases": [
+        "Attribute Value Full Name Grow a Garden 2 (GAG2) Developer Strawberreh Squad / Splitting Point Studios Platform Roblox Genre Farming Simulator / PvP Raiding Rel",
+        "Grow a Garden 2 is the sequel to the popular Roblox farming game. Key new features:",
+        "Day/Night Cycle — Farm by day, steal crops from other gardens at night Guild System — Team up for weekly rewards Map Pets — Pets spawn randomly on the map with ",
+        "💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (45+ crops)",
+        "🌾 Database 🌽 All Crops (45+ entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog ⚙️ Gear & Tools",
+        "⚡ Game Mechanics 🌙 Night Stealing 🛡️ Guilds 🌤️ Weather Events 💵 Bargain System ⏰ Offline Growth",
+        "📚 Reference 📚 Data Sources & Update Guide",
+        "Resource Link 🎮 Game Page [Roblox](https://www.roblox.com/games/97598239454123/Grow a Garden 2) 💬 Official Discord [Discord.gg](https://discord.gg/growagarden) "
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://discord.gg/growagarden",
+        "https://growagarden2wiki.net/",
+        "https://growagardencalculate.com/grow-a-garden-2",
+        "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2"
+      ],
+      "word_count": 252
+    },
+    {
+      "file": "reference-data/calculator-logic.md",
+      "route": "",
+      "frontmatter": {},
+      "seo_hints": {},
+      "headings": [],
+      "required_phrases": [
+        ": : : Bloodlit ×80 Blood Moon 事件 Electric ×70 雷暴天气 Frozen ×40 Frost 事件（作物必须是 Wet 状态） Rainbow ×30 Rainbow Seed / 自然 0.1% Starstruck ×25 未知事件 Dawnbound ×10 Sunflo",
+        "基础价值：从 Seed Shop 界面提取 突变倍率：社区测试 + YouTube 视频 重量：随机范围，按作物类型分布"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 67
+    },
+    {
+      "file": "reference-data/seed-packs.md",
+      "route": "",
+      "frontmatter": {},
+      "seo_hints": {},
+      "headings": [],
+      "required_phrases": [
+        "Grow a Garden 2 — Seed Pack Drop Reference",
+        "Full Seed Pack Reference (11 Packs Total)",
+        "Pack Tier Price Source Drops Drop Rates : : : : : : : : : : Common Seed Pack COMMON 129 R$ Tutorial Reward TBA TBA Common Seed Pack (Exclusive) COMMON 129 R$ On",
+        "Note : Higher tier pack drop rates (Super/Secret/Mythic/Legendary) are marked \"Source TBA\" on the GAG2 Wiki. Only Ghost Pepper Pack has confirmed percentages.",
+        "Ghost Pepper Pack (Seeds Shop, 99 R$/roll)",
+        "Crop Rarity Drop Chance Odds : : : : : : : : 1 Baby Cactus Rare 50% 1 in 2 2 Horned Melon Rare 30% 1 in 3 3 Glow Mushroom Epic 15% 1 in 7 4 Poison Ivy Legendary",
+        "Source: Seeds Shop — 99 Robux/roll (bulk: 10 roll bundle 799 Robux, best value) Confirmed: In game on launch day (2026 06 12)",
+        "Crop Drop Chance : : : : 1 Banana 10.3% 2 Cactus 10.03% 3 Corn 9.9% 4 Grape 9.15% 5 Pineapple 8.91% 6 Coconut 7.81% 7 Apple 7.51% 8 Mango 6.25% ... (27 drops to",
+        "Source: Vote reward on gag.gg (free) Status: Unverified — community sourced drop rates",
+        "Super Seed Pack — 24 drops (Source TBA) Secret Seed Pack — 22 drops (Source TBA) Mythic Seed Pack — 27 drops (Source TBA) Legendary Seed Pack — 27 drops (Source",
+        "GAG2 Wiki: https://growagarden2wiki.net/seed packs/ (accessed 2026 06 30) https://growagarden2wiki.net/seed packs/ghost pepper pack/ (accessed 2026 06 30) https"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 402
+    },
+    {
+      "file": "site-architecture.md",
+      "route": "",
+      "frontmatter": {},
+      "seo_hints": {},
+      "headings": [],
+      "required_phrases": [
+        "Total pages: 65 Page hierarchy and relationships. Migrated from v1.x structure on 2026 06 29",
+        "Homepage (/) ← \"Grow a Garden 2 guide\" │ ├── /calculator/ ← \"Grow a Garden 2 calculator\" │ ├── /codes/ ← \"Grow a Garden 2 codes\" │ ├── /guide/ ← \"Grow a Garden ",
+        "Folder Page count Target keywords Has detail pages? homepage/ 1 Grow a Garden 2 guide — systems/ 1 Grow a Garden 2 systems — calculator/ 1 Grow a Garden 2 calcu",
+        "System Items count Detail page decision Reason Seeds 38 ✅ Create detail pages Each seed has name, price, growth time, rarity, and description (3+ sentences) Pet",
+        "Date Version Changes 2026 06 29 v1.6 Added Hypno Bloom (Super rarity) — new detail page + items.json + site architecture sync 2026 06 30 v1.7 Added Auctioneer N",
+        "Changed Pages (v2.0) homepage/content.md — 🔄 stats refreshed (907M visits, 560K favorites, 929K peak CCU) updates/content.md — 🔄 added v1.7 Summer Harvest Event",
+        "Changed Pages (v1.7) systems/npcs/list.md — 🆕 new NPC system list (6 NPCs) systems/npcs/auctioneer.md — 🆕 new Auctioneer detail page systems/npcs/sam.md — 🆕 new",
+        "Changed Pages (v2.1) homepage/content.md — 🔄 stats refreshed (1.0B+ visits, 594K favorites, 579K players) systems/seeds/list.md — 🔄 added Fire Fern & Rocket Pop",
+        "Changed Pages (v1.8) systems/seeds/venom spitter.md — 🆕 new detail page (was missing) systems/seeds/list.md — 🔄 added Venom Spitter row site architecture.md — 🔄",
+        "Changed Pages (v1.9) systems/content.md — 🆕 new systems hub/landing page (English) site architecture.md — 🔄 page count 60→61, seeds: 38→39, details: 37→38",
+        "Migrated from v1.x to v2.x structure on 2026 06 29 Old data preserved at: ~/Desktop/龙虾ob/龙虾专用/roblox/grow a garden 2/ 36 original crop pages migrated as detail "
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 1267
+    },
+    {
+      "file": "sources.md",
+      "route": "",
+      "frontmatter": {},
+      "seo_hints": {},
+      "headings": [],
+      "required_phrases": [
+        "Field Value URL https://www.roblox.com/games/97598239454123/Grow a Garden 2 Accessed 2026 06 21 Content collected Game description, developer, genre, visits cou",
+        "Field Value URL https://www.rolimons.com/game/97598239454123 Accessed 2026 06 21 Content collected Online peaks, average play time, CCU history",
+        "Field Value URL https://www.ign.com/articles/grow a garden 2 codes Accessed 2026 06 21 Content collected Codes",
+        "Field Value URL https://progameguides.com/roblox/grow a garden 2 codes/ Accessed 2026 06 22 Content collected Codes, Aurora Event guide",
+        "Field Value URL https://beebom.com/grow a garden 2 codes/ Accessed 2026 06 22 Content collected Codes, patch notes, day/night cycle, seed tier list",
+        "Field Value URL https://www.youtube.com/@KreekCraft Accessed 2026 06 21 Content collected Update 1 coverage, Secret Update content",
+        "Field Value URL https://www.youtube.com/@FoltynFamily Accessed 2026 06 21 Content collected Gameplay demo, content showcase",
+        "Field Value URL https://beebom.com/grow a garden 2 update patch notes/ Accessed 2026 06 25 Content collected Turtle Update, Picture Frame Update, Strawberry Sni",
+        "Field Value URL https://beebom.com/grow a garden 2 mutations/ Accessed 2026 06 25 Content collected Mutation multiplier table (multi source conflict with GAG1)",
+        "Field Value URL https://beebom.com/grow a garden 2 plants tier list/ Accessed 2026 06 25 Content collected 31 seeds ranking + sell price",
+        "Field Value URL https://beebom.com/grow a garden 2 pets/ Accessed 2026 06 25 Content collected 14 pet full table (Updated Jun 24, includes Turtle)",
+        "Field Value URL https://bloxxer.gg/blogs/grow a garden 2/pets guide Accessed 2026 06 25 Content collected 8 main pets spawn chance, price, rarity",
+        "Field Value URL https://www.sportskeeda.com/roblox news/grow garden 2 turtle pet guide Accessed 2026 06 25 Content collected Turtle independent guide: 70K, +10 ",
+        "Field Value URL ~/.openclaw/agents/main/workspace/gag2 calculator/src/data/ Accessed 2026 06 21 Content collected items.json, codes.json, game.config.json",
+        "Field Value URL https://growagarden2wiki.net/crops/hypnobloom/ Accessed 2026 06 29 Content collected Hypno Bloom full stats: price, rarity, weight, growth time,",
+        "Field Value URL https://growagarden2.fandom.com/wiki/Hypnobloom Accessed 2026 06 29 Content collected Hypno Bloom basic info, update 1.06.0 reference",
+        "Field Value URL https://growagarden2wiki.net/updates/ Accessed 2026 06 30 Content collected Hypno Bloom & Auctioneer Update (Jun 28), Seed Pack rebalance detail",
+        "Field Value URL https://growagarden2wiki.net/npcs/auctioneer/ Accessed 2026 06 30 Content collected Auctioneer NPC full description: Dutch auction pricing, 20 m",
+        "Field Value URL https://game8.co/games/Grow a Garden 2 Accessed 2026 07 02 Content collected Codes, pets, plants, weather, crates guides — discovered during upd",
+        "Field Value URL https://growagarden2wiki.net/updates/ Accessed 2026 06 30 Content collected Summer Harvest Event announcement (Jun 30) — 3 leaked crops (Waterme"
+      ],
+      "images": [],
+      "youtube": [
+        "https://www.youtube.com/watch?v=2QEVBflOy00",
+        "https://www.youtube.com/watch?v=QlsxRp8wNuI",
+        "https://www.youtube.com/watch?v=cxu_HdXPkKw",
+        "https://www.youtube.com/watch?v=hfjgN9jxd8E",
+        "https://www.youtube.com/watch?v=tPxFAj22kzY"
+      ],
+      "links": [],
+      "word_count": 892
+    },
+    {
+      "file": "systems/bargain-system/list.md",
+      "route": "/systems/bargain-system",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Bargain System — Sell Bonus Guide",
+        "keywords": "[\"Grow a Garden 2 bargain system\", \"GAG2 sell bonus\", \"GAG2 bargain\"]",
+        "primaryKeyword": "Grow a Garden 2 bargain system",
+        "targetUrl": "/systems/bargain-system/",
+        "pageType": "list",
+        "system": "bargain-system",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Bargain System — Sell Bonus Guide",
+        "keywords": "[\"Grow a Garden 2 bargain system\", \"GAG2 sell bonus\", \"GAG2 bargain\"]",
+        "primaryKeyword": "Grow a Garden 2 bargain system"
+      },
+      "headings": [
+        "Full Original Content",
+        "💵 Bargain System",
+        "Overview",
+        "Current Data"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Mechanics Bargain",
+        "GAG2 introduces a Bargain mechanic that provides a bonus to sell value when harvesting crops. This system did not exist in GAG1.",
+        "Variable Value Source : : : : Bonus multiplier ×1.08 gag2calculator.com Trigger condition Unknown Being researched Active timing Believed to be sell stage —",
+        "Note: Bargain mechanics are in early discovery. Data may change."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 66
+    },
+    {
+      "file": "systems/content.md",
+      "route": "/systems",
+      "frontmatter": {
+        "title": "Grow a Garden 2 — Game Systems & Mechanics",
+        "keywords": "[\"Grow a Garden 2 systems\", \"GAG2 mechanics\", \"Grow a Garden 2 gameplay guide\", \"GAG2 game systems\"]",
+        "primaryKeyword": "Grow a Garden 2 systems",
+        "targetUrl": "/systems/",
+        "pageType": "index",
+        "system": "systems",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 — Game Systems & Mechanics",
+        "keywords": "[\"Grow a Garden 2 systems\", \"GAG2 mechanics\", \"Grow a Garden 2 gameplay guide\", \"GAG2 game systems\"]",
+        "primaryKeyword": "Grow a Garden 2 systems"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌿 Grow a Garden 2 — Game Systems",
+        "🌾 Farming & Economy",
+        "🌤️ Environment & Events",
+        "👥 Social & Progression"
+      ],
+      "required_phrases": [
+        "Grow a Garden 2 introduces a rich set of interconnected systems that build on the original Grow a Garden. From farming and economy to PvP raiding and guild comp",
+        "System Description [Seeds & Crops](/systems/seeds/) Complete database of all 38 crops — rarity, sell value, growth time, harvest type, and seed shop prices [Pet",
+        "System Description [Weather](/systems/weather/) Weather events — Blood Moon, Aurora Borealis, rain, and their effects on crops [Day/Night Cycle](/systems/night ",
+        "System Description [Guilds](/systems/guilds/) Create or join a guild (99 Robux) — compete on the global leaderboard for weekly rewards [NPCs](/systems/npcs/) Al",
+        "Browse individual system pages above for detailed stats, strategies, and data."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 229
+    },
+    {
+      "file": "systems/gear/list.md",
+      "route": "/systems/gear",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Gear — Complete List",
+        "keywords": "[\"Grow a Garden 2 gear\", \"GAG2 gear\", \"Grow a Garden 2 gear guide\"]",
+        "primaryKeyword": "Grow a Garden 2 gear",
+        "targetUrl": "/systems/gear/",
+        "pageType": "list",
+        "system": "gear",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Gear — Complete List",
+        "keywords": "[\"Grow a Garden 2 gear\", \"GAG2 gear\", \"Grow a Garden 2 gear guide\"]",
+        "primaryKeyword": "Grow a Garden 2 gear"
+      },
+      "headings": [
+        "Full Original Content",
+        "⚙️ Grow a Garden 2 — Gear & Tools",
+        "🌊 Sprinklers (Most Important)",
+        "🛡️ Defense Gear",
+        "🔮 Special Items",
+        "🔫 Raid Tools",
+        "📋 Priority Investment Order",
+        "Grow a Garden 2 — 装备与工具"
+      ],
+      "required_phrases": [
+        "Purchased from the Gear Shop and Props Shop. Sprinklers are the most important equipment.",
+        "Name Effect Price : : : : : Basic Sprinkler Increases nearby crop weight (higher harvest value) Low Advanced Sprinkler Stronger growth boost Medium Super Sprink",
+        "Sprinklers increase crop weight — weight scales exponentially with value (power law: weight^exp). This is the most important investment after seeds.",
+        "Item Effect Price : : : : : Megaphone Defends against thieves 8K 🪙 Player Magnet Attracts items and deters thieves 7M 🪙 Vine Wrapper Tangles thieves, slowing th",
+        "Strawberry Sniper added in minor update 2026 06 22. Source: Beebom Patch Notes.",
+        "Item Effect Price : : : : : Pet Teleporters Teleports you to Legendary/Mythic/Super pet locations Robux only",
+        "Tool Use : : : Night only tools Required for stealing from other gardens Various Gear Shop items Utility for farming and raiding",
+        "Order Item Why : : : : : 🥇 1st Sprinklers Increases crop weight → exponential value gain 🥇 2nd Raid tools Needed for night stealing 🥈 3rd Defense gear Protects ",
+        "装备 价格 效果 版本 : : : : : : Megaphone 🆕 8K 🪙 新增装备 Aurora Event Player Magnet 🆕 7M 🪙 新增装备 Aurora Event Pet Teleporters 🆕 Robux 传送至 Legendary/Mythic/Super 宠物 Aurora E"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 245
+    },
+    {
+      "file": "systems/guilds/list.md",
+      "route": "/systems/guilds",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Guilds — System & Rewards",
+        "keywords": "[\"Grow a Garden 2 guilds\", \"GAG2 guilds\", \"GAG2 guild rewards\"]",
+        "primaryKeyword": "Grow a Garden 2 guilds",
+        "targetUrl": "/systems/guilds/",
+        "pageType": "list",
+        "system": "guilds",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Guilds — System & Rewards",
+        "keywords": "[\"Grow a Garden 2 guilds\", \"GAG2 guilds\", \"GAG2 guild rewards\"]",
+        "primaryKeyword": "Grow a Garden 2 guilds"
+      },
+      "headings": [
+        "Full Original Content",
+        "🛡️ Guilds",
+        "Overview",
+        "Known Features",
+        "Strategy"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Mechanics Guilds",
+        "Guilds are a system in GAG2 that allow players to team up and compete for weekly leaderboard rewards .",
+        "Form or join a guild with other players Create a guild costs 99 Robux Compete in weekly leaderboard rankings 9 reward tiers — higher ranking = better rewards To",
+        "Join an active guild early for the weekly rewards The Ice Serpent is one of the rarest obtainable pets — guild competition is the primary source Coordinate with"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 97
+    },
+    {
+      "file": "systems/mutations/list.md",
+      "route": "/systems/mutations",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Mutations — Complete Multiplier List",
+        "keywords": "[\"Grow a Garden 2 mutations\", \"GAG2 mutations\", \"Grow a Garden 2 mutation multipliers\", \"GAG2 mutation list\"]",
+        "primaryKeyword": "Grow a Garden 2 mutations",
+        "targetUrl": "/systems/mutations/",
+        "pageType": "list",
+        "system": "mutations",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Mutations — Complete Multiplier List",
+        "keywords": "[\"Grow a Garden 2 mutations\", \"GAG2 mutations\", \"Grow a Garden 2 mutation multipliers\", \"GAG2 mutation list\"]",
+        "primaryKeyword": "Grow a Garden 2 mutations"
+      },
+      "headings": [
+        "Full Original Content",
+        "💫 Grow a Garden 2 — Mutation System",
+        "⚠️ Critical: GAG2 vs GAG1 Differences",
+        "⚠️ Data Quality Warning: Multipliers From Multiple Sources Conflict",
+        "✅ Confirmed or Community-Estimated GAG2 Mutation Multipliers",
+        "📋 Weather-Triggered Mutations (Base Multipliers)",
+        "🧮 Value Formula",
+        "📊 Mutation Farming Strategy",
+        "❓ Unconfirmed for GAG2",
+        "Mutation Details",
+        "Grow a Garden 2 — 突变倍率指南",
+        "已确认突变",
+        "天气-突变关联",
+        "Mega Moon Event",
+        "Mega Moon 事件 & Mega Seed 变体",
+        "Mega Moon 事件",
+        "Mega Seed 变体",
+        "YouTube 视频参考",
+        "已知信息汇总",
+        "⚠️ 数据缺口",
+        "相关链接"
+      ],
+      "required_phrases": [
+        "Aspect GAG1 (Original) GAG2 : : : : Mutation stacking ✅ Stackable (additive formula) ❌ Mutually exclusive (one per crop) Gold type Variant (×20, separate multip",
+        "⚠️ Data Quality Warning: Multipliers From Multiple Sources Conflict",
+        "The high multipliers (×70 Electric, ×40 Frozen, ×30 Rainbow, ×80 Bloodlit) listed below are GAG1 values carried over without GAG2 verification . Beebom (gaming ",
+        "Mutation Beebom (GAG2) Current Listed Verdict : : : : : : : : Rainbow ×10 ×30 ⚠️ Unconfirmed — may be ×10 Electric ×25 ×70 ⚠️ Unconfirmed — may be ×25 Frozen ×3",
+        "Until community verification confirms GAG2 specific values, treat the high multipliers as estimated/placeholder.",
+        "✅ Confirmed or Community Estimated GAG2 Mutation Multipliers",
+        "Mutation Multiplier Rarity How to Get Confidence : : : : : : : : : Bloodlit 🔥 ×80 (❓) 🟣 Legendary Blood Moon event (every 4h Lunar Glow variation) ⚠️ GAG1 data,",
+        "📋 Weather Triggered Mutations (Base Multipliers)",
+        "These exist in GAG1; being verified for GAG2:",
+        "Mutation × Trigger : : : : : Wet ×2 Rain / Thunderstorm / Sprinklers Chilled ×2 Frost weather / Polar Bear pet Moonlit ×2 Night — Lunar Glow event Pollinated ×3",
+        "Crop Value = BaseFormula(weight) × Mutation Mult × (1 + FriendBoost%) × Quantity",
+        "Where BaseFormula(weight) is a per crop fitted curve: Power fit: coeff × weight^exp (exp ranges 2.0–3.4 per crop) Quadratic fit: a·w² + b·w + c (for some crops)",
+        "Mutations are MUTUALLY EXCLUSIVE. Only one applies at a time. This is the biggest change from GAG1.",
+        "Phase Target Mutation Method : : : 🟢 Early Gold (×10) Mass plant for 1% natural chance 🟡 Mid Frozen (×40 ❓) Frost weather + pre soak crops (Wet) 🔴 Late Electric",
+        "⚠️ Strategy assumes GAG1 values. Actual GAG2 multipliers may be lower.",
+        "Beebom lists Rainbow as ×10 (same as Gold), not ×30 Beebom lists Electric as ×25, not ×70 Beebom lists Frozen as ×3, not ×40 Starstruck and Bloodlit multipliers",
+        "突变 倍率 稀有度 触发方式 : : : : : : Bloodlit ×80 Legendary Blood Moon 事件（每4小时 Lunar Glow 变体） Electric ×70 Legendary 雷暴天气（稀有） Frozen ×40 Epic Frost 事件——作物必须先为 Wet 状态 Rain",
+        "天气 突变链 倍率链 : : Rain Wet → 无突变 — Thunderstorm Wet → Electric ×2 → ×70 Frost Wet → Frozen ×2 → ×40 Blood Moon Bloodlit ×80 Aurora Borealis 🆕 Aurora ×1.5",
+        "首次月度大版本更新 — 2026 06 27 上线 数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 27, 2026）",
+        "属性 值 触发条件 夜间（游戏内 2 分钟夜间周期） 效果 蓝月出现时 Mega 种子掉落概率大幅提升 种子来源 未知 — 🔴 待确认（种子商店刷新 / 天气事件 / 特殊宝箱） 持续时间 整个夜间周期 与 Aurora 事件的兼容性 🔴 待确认 — 是否可在同个夜间共存"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://beebom.com/grow-a-garden-2-update-patch-notes/",
+        "https://www.youtube.com/results?search_query=grow+a+garden+2+mega+moon+update+2026"
+      ],
+      "word_count": 988
+    },
+    {
+      "file": "systems/night-stealing/list.md",
+      "route": "/systems/night-stealing",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Night Stealing — Complete Guide",
+        "keywords": "[\"Grow a Garden 2 night stealing\", \"GAG2 night guide\", \"GAG2 PvP raiding\"]",
+        "primaryKeyword": "Grow a Garden 2 night stealing",
+        "targetUrl": "/systems/night-stealing/",
+        "pageType": "list",
+        "system": "night-stealing",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Night Stealing — Complete Guide",
+        "keywords": "[\"Grow a Garden 2 night stealing\", \"GAG2 night guide\", \"GAG2 PvP raiding\"]",
+        "primaryKeyword": "Grow a Garden 2 night stealing"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌙 Night Stealing",
+        "Day/Night Cycle",
+        "How Stealing Works",
+        "How to Defend",
+        "Night Stealing Page",
+        "Grow a Garden 2 — 夜间偷窃指南",
+        "基础机制",
+        "防御策略",
+        "夜间偷窃技巧"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Mechanics Night Stealing",
+        "Phase Duration : : : : ☀️ Day 7 min 30 sec 🌅 Dusk 30 sec 🌙 Night 2 min Total 10 min cycle",
+        "1. At night, walk up to another player's unattended garden 2. Press E to loot crops 3. Stolen items cannot be teleported — you must walk back to your base",
+        "Method Cost Effectiveness : : : : : Stay inside your garden Free ✅ Best — garden locks at night Harvest before logging off Free ✅ Safe Private server 💎 Paid ✅ 1",
+        "基础机制 10分钟昼夜循环中的2分钟夜间时段 夜间可以偷窃他人的花园 离线时作物仍在生长但无人防守",
+        "防御策略 1. 高价值作物睡前收获 — 避免被偷 2. 种植防御植物 — Venus Flytrap、Cactus、Poison Ivy 3. 使用防御宠物 — Bee、Gnome、Venus Dragonfly、 Bear （Aurora Event 新增） 4. 使用防御装备 — Player Magnet 吸引敌",
+        "夜间偷窃技巧 优先偷 Mythic/Super 稀有度的作物 关注 Legendary 宠物刷新全服警报 多人协作提高偷窃效率"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 165
+    },
+    {
+      "file": "systems/npcs/auctioneer.md",
+      "route": "/systems/npcs/auctioneer",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Auctioneer — Dutch Auction NPC & Premium Items",
+        "keywords": "[\"Auctioneer GAG2\", \"Grow a Garden 2 Auctioneer\", \"GAG2 Dutch auction\", \"GAG2 premium items\"]",
+        "primaryKeyword": "Auctioneer Grow a Garden 2",
+        "targetUrl": "/systems/npcs/auctioneer/",
+        "pageType": "detail",
+        "system": "npcs",
+        "parentList": "/systems/npcs/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Auctioneer — Dutch Auction NPC & Premium Items",
+        "keywords": "[\"Auctioneer GAG2\", \"Grow a Garden 2 Auctioneer\", \"GAG2 Dutch auction\", \"GAG2 premium items\"]",
+        "primaryKeyword": "Auctioneer Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Auctioneer — Grow a Garden 2",
+        "Key Stats",
+        "How the Dutch Auction Works",
+        "Items Available",
+        "Strategy",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "The Auctioneer is an NPC in Grow a Garden 2 who runs a Dutch auction stand with 6 random premium items. Added on June 28, 2026 as part of the Hypno Bloom & Auct",
+        "Field Value Role Auction Location Auction Stand Added 2026 06 28 Restock Cycle Every 20 minutes Items Per Cycle 6 random premium items",
+        "1. When the Auction Stand restocks, each of the 6 items starts at an extremely high price (potentially billions of Sheckles) 2. The price gradually decreases ov",
+        "The Auctioneer sells premium items that can include:",
+        "Super Sprinklers Super Watering Cans Mythical Seeds Super Seeds",
+        "Buy early if you need a rare item and can afford the premium price Wait for a discount if you're patient, but risk someone else buying the stock first Check the",
+        "growagarden2wiki.net: https://growagarden2wiki.net/npcs/auctioneer/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 204
+    },
+    {
+      "file": "systems/npcs/charlotte.md",
+      "route": "/systems/npcs/charlotte",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Charlotte — Props Shop NPC & Decorations",
+        "keywords": "[\"Charlotte GAG2\", \"Grow a Garden 2 Props Shop\", \"GAG2 Charlotte NPC\", \"GAG2 decorations\"]",
+        "primaryKeyword": "Charlotte Grow a Garden 2",
+        "targetUrl": "/systems/npcs/charlotte/",
+        "pageType": "detail",
+        "system": "npcs",
+        "parentList": "/systems/npcs/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Charlotte — Props Shop NPC & Decorations",
+        "keywords": "[\"Charlotte GAG2\", \"Grow a Garden 2 Props Shop\", \"GAG2 Charlotte NPC\", \"GAG2 decorations\"]",
+        "primaryKeyword": "Charlotte Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Charlotte — Grow a Garden 2 Props Shop Vendor",
+        "Key Stats",
+        "What Charlotte Sells",
+        "Location",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "Charlotte — Grow a Garden 2 Props Shop Vendor",
+        "Charlotte is the Props Shop NPC in Grow a Garden 2. She sells decorative and cosmetic props for player gardens. The Props Shop is in the map center near the Sel",
+        "Field Value Role Shop Location Props Shop Added Launch (2026 06 12)",
+        "Charlotte runs the Props Shop and is the only NPC that sells decorative and cosmetic items for player gardens. Specific prop items and their prices are not yet ",
+        "Charlotte is located at the Props Shop in the center of the map, near the Sell Stand and Guild Stand. The central location makes it convenient to visit after se",
+        "GAG2 Wiki: https://growagarden2wiki.net/npcs/charlotte/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 145
+    },
+    {
+      "file": "systems/npcs/george.md",
+      "route": "/systems/npcs/george",
+      "frontmatter": {
+        "title": "Grow a Garden 2 George — Gear Shop NPC & Farming Tools",
+        "keywords": "[\"George GAG2\", \"Grow a Garden 2 Gear Shop\", \"GAG2 George NPC\", \"GAG2 tools vendor\"]",
+        "primaryKeyword": "George Grow a Garden 2",
+        "targetUrl": "/systems/npcs/george/",
+        "pageType": "detail",
+        "system": "npcs",
+        "parentList": "/systems/npcs/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 George — Gear Shop NPC & Farming Tools",
+        "keywords": "[\"George GAG2\", \"Grow a Garden 2 Gear Shop\", \"GAG2 George NPC\", \"GAG2 tools vendor\"]",
+        "primaryKeyword": "George Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "George — Grow a Garden 2 Gear Shop Vendor",
+        "Key Stats",
+        "What George Sells",
+        "Location",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "George — Grow a Garden 2 Gear Shop Vendor",
+        "George is the Gear Shop NPC in Grow a Garden 2. He sells sprinklers, watering cans, and other farming tools priced in Sheckles or Robux. Gear from George affect",
+        "Field Value Role Shop Location Gear Shop Added Launch (2026 06 12)",
+        "George's inventory includes: Sprinklers — Automate crop watering Watering Cans — Manual watering tools (including Super variants) Farming Tools — Various gear t",
+        "Items are priced in either Sheckles (🪙) or Robux (💎).",
+        "George is located at the Gear Shop, a dedicated shop area in the game map.",
+        "GAG2 Wiki: https://growagarden2wiki.net/npcs/george/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 128
+    },
+    {
+      "file": "systems/npcs/gilbert.md",
+      "route": "/systems/npcs/gilbert",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Gilbert — Guild Stand NPC & Guild Management",
+        "keywords": "[\"Gilbert GAG2\", \"Grow a Garden 2 Guild Stand\", \"GAG2 Gilbert NPC\", \"GAG2 guild creation\"]",
+        "primaryKeyword": "Gilbert Grow a Garden 2",
+        "targetUrl": "/systems/npcs/gilbert/",
+        "pageType": "detail",
+        "system": "npcs",
+        "parentList": "/systems/npcs/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Gilbert — Guild Stand NPC & Guild Management",
+        "keywords": "[\"Gilbert GAG2\", \"Grow a Garden 2 Guild Stand\", \"GAG2 Gilbert NPC\", \"GAG2 guild creation\"]",
+        "primaryKeyword": "Gilbert Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Gilbert — Grow a Garden 2 Guild Stand NPC",
+        "Key Stats",
+        "What Gilbert Does",
+        "Location",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "Gilbert — Grow a Garden 2 Guild Stand NPC",
+        "Gilbert is the Guild Stand NPC in Grow a Garden 2. He handles guild creation, the global guild leaderboard, and guild rewards. Guilds are a GAG2 exclusive featu",
+        "Field Value Role Guild Location Guild Stand Added Launch (2026 06 12)",
+        "Create a Guild — Costs 99 Robux . Requires a main title, sub label, and description. View Current Guild — Check your active guild's status and members. Global G",
+        "Gilbert is located at the Guild Stand in the center of the map, near the Sell Stand and Props Shop.",
+        "GAG2 Wiki: https://growagarden2wiki.net/npcs/gilbert/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 143
+    },
+    {
+      "file": "systems/npcs/list.md",
+      "route": "/systems/npcs",
+      "frontmatter": {
+        "title": "Grow a Garden 2 NPCs — All Non-Player Characters",
+        "keywords": "[\"Grow a Garden 2 NPC\", \"GAG2 NPC list\", \"Grow a Garden 2 Auctioneer\"]",
+        "primaryKeyword": "Grow a Garden 2 NPCs",
+        "targetUrl": "/systems/npcs/",
+        "pageType": "list",
+        "system": "npcs",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 NPCs — All Non-Player Characters",
+        "keywords": "[\"Grow a Garden 2 NPC\", \"GAG2 NPC list\", \"Grow a Garden 2 Auctioneer\"]",
+        "primaryKeyword": "Grow a Garden 2 NPCs"
+      },
+      "headings": [
+        "Full Original Content",
+        "🧑‍🌾 Grow a Garden 2 — NPCs",
+        "NPC List",
+        "Sam (Seed Shop)",
+        "George (Gear Shop)",
+        "Charlotte (Props Shop)",
+        "Steven (Sell Stand)",
+        "Gilbert (Guild Stand)",
+        "Auctioneer",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "NPC Location Role Added : : Sam Seed Shop Seed vendor — sells rotating plantable seeds from Common to Legendary Launch George Gear Shop Gear vendor — sells spri",
+        "Sam (Seed Shop) The Seed Shop vendor. Sells rotating plantable seeds from Common to Legendary tiers. Check the live stock tracker on the wiki to see Sam's curre",
+        "George (Gear Shop) The Gear Shop NPC. Sells sprinklers, watering cans, and other farming tools priced in Sheckles or Robux. Gear from George affects crop grow s",
+        "Charlotte (Props Shop) The Props Shop NPC. Sells decorative and cosmetic props for player gardens. Located in the map center near the Sell Stand and Guild Stand",
+        "Steven (Sell Stand) The Sell Stand NPC. Bring harvested crops to him to earn Sheckles. Payout depends on crop base value, weight, mutations, and active server s",
+        "Gilbert (Guild Stand) The Guild Stand NPC. Handles guild creation (costs 99 Robux), the global guild leaderboard, and guild rewards. Guilds are a GAG2 exclusive",
+        "Auctioneer The Auctioneer is a new NPC added in the June 28, 2026 update. Located at the Auction Stand, they sell 6 random premium items that restock every 20 m",
+        "Pricing mechanism: Dutch auction — each item starts at an extremely high price (potentially billions of Sheckles) and gradually decreases over time. Rarer items",
+        "Strategy: Buy early if you need a rare item and can afford the premium, or wait for the price to drop and risk someone else buying it first.",
+        "growagarden2wiki.net: https://growagarden2wiki.net/npcs/auctioneer/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 363
+    },
+    {
+      "file": "systems/npcs/sam.md",
+      "route": "/systems/npcs/sam",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Sam — Seed Shop NPC & Seeds Vendor",
+        "keywords": "[\"Sam GAG2\", \"Grow a Garden 2 Seed Shop\", \"GAG2 Sam NPC\", \"GAG2 seed vendor\"]",
+        "primaryKeyword": "Sam Grow a Garden 2",
+        "targetUrl": "/systems/npcs/sam/",
+        "pageType": "detail",
+        "system": "npcs",
+        "parentList": "/systems/npcs/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Sam — Seed Shop NPC & Seeds Vendor",
+        "keywords": "[\"Sam GAG2\", \"Grow a Garden 2 Seed Shop\", \"GAG2 Sam NPC\", \"GAG2 seed vendor\"]",
+        "primaryKeyword": "Sam Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Sam — Grow a Garden 2 Seed Shop Vendor",
+        "Key Stats",
+        "What Sam Sells",
+        "Location",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "Sam is the Seed Shop vendor in Grow a Garden 2 and usually the first NPC new players interact with. He sells rotating plantable seeds from common to legendary t",
+        "Field Value Role Seller Location Seed Shop Added Launch (2026 06 12)",
+        "Sam sells plantable seeds that rotate on a stock timer. His inventory can include seeds from Common to Legendary tiers depending on the current rotation. Checki",
+        "Sam is located at the Seed Shop. The Seed Shop is where most players start — it stocks seeds that can be planted in your garden. Seed stock refreshes every ~4 5",
+        "GAG2 Wiki: https://growagarden2wiki.net/npcs/sam/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 152
+    },
+    {
+      "file": "systems/npcs/steven.md",
+      "route": "/systems/npcs/steven",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Steven — Sell Stand NPC & Crop Buyer",
+        "keywords": "[\"Steven GAG2\", \"Grow a Garden 2 Sell Stand\", \"GAG2 Steven NPC\", \"GAG2 crop buyer\"]",
+        "primaryKeyword": "Steven Grow a Garden 2",
+        "targetUrl": "/systems/npcs/steven/",
+        "pageType": "detail",
+        "system": "npcs",
+        "parentList": "/systems/npcs/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Steven — Sell Stand NPC & Crop Buyer",
+        "keywords": "[\"Steven GAG2\", \"Grow a Garden 2 Sell Stand\", \"GAG2 Steven NPC\", \"GAG2 crop buyer\"]",
+        "primaryKeyword": "Steven Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Steven — Grow a Garden 2 Sell Stand NPC",
+        "Key Stats",
+        "How the Sell Stand Works",
+        "Location",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "Steven is the Sell Stand NPC in Grow a Garden 2. Bring harvested crops to him to earn Sheckles. Payout depends on crop base value, weight, mutations, and active",
+        "Field Value Role Seller (buyer) Location Sell Stand Added Launch (2026 06 12)",
+        "Steven buys your harvested crops for Sheckles. The final payout is calculated from:",
+        "Crop Base Value — The 1kg base value of the crop Weight — Higher weight = higher payout (non linear curve) Mutations — Active mutations multiply the sell price ",
+        "Steven is located at the Sell Stand in the center of the map, near the Props Shop and Guild Stand.",
+        "GAG2 Wiki: https://growagarden2wiki.net/npcs/steven/ (accessed 2026 06 30)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 152
+    },
+    {
+      "file": "systems/offline-growth/list.md",
+      "route": "/systems/offline-growth",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Offline Growth — Complete Guide",
+        "keywords": "[\"Grow a Garden 2 offline growth\", \"GAG2 offline farming\", \"GAG2 idle\"]",
+        "primaryKeyword": "Grow a Garden 2 offline growth",
+        "targetUrl": "/systems/offline-growth/",
+        "pageType": "list",
+        "system": "offline-growth",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Offline Growth — Complete Guide",
+        "keywords": "[\"Grow a Garden 2 offline growth\", \"GAG2 offline farming\", \"GAG2 idle\"]",
+        "primaryKeyword": "Grow a Garden 2 offline growth"
+      },
+      "headings": [
+        "Full Original Content",
+        "⏰ Offline Growth",
+        "How It Works",
+        "Best Practices"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Mechanics Offline Growth",
+        "GAG2's crops continue growing while you're offline . This means:",
+        "No need to stay online waiting for crops to mature Every login brings a new harvest Crops can still be stolen while you're offline",
+        "Action Why : : ✅ Harvest high value crops before logging off Prevents theft loss ✅ Deploy defensive pets before closing Partial protection ✅ Use Private Server ",
+        "During Chinese night hours (Asia/Shanghai GMT+8), fewer players are active — but Roblox is global, so theft is still possible."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 108
+    },
+    {
+      "file": "systems/pets/list.md",
+      "route": "/systems/pets",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Pets — Complete List",
+        "keywords": "[\"Grow a Garden 2 pets\", \"GAG2 pets\", \"Grow a Garden 2 pets guide\"]",
+        "primaryKeyword": "Grow a Garden 2 pets",
+        "targetUrl": "/systems/pets/",
+        "pageType": "list",
+        "system": "pets",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Pets — Complete List",
+        "keywords": "[\"Grow a Garden 2 pets\", \"GAG2 pets\", \"Grow a Garden 2 pets guide\"]",
+        "primaryKeyword": "Grow a Garden 2 pets"
+      },
+      "headings": [
+        "Full Original Content",
+        "🐾 Grow a Garden 2 — Pet Catalog",
+        "Full Pet List (18 confirmed, +4 new: Butterfly, Bald Eagle, Big Bee, Capybara)",
+        "Additional Pets (Limited Data)",
+        "📊 Value Reference",
+        "Spawn Mechanics",
+        "Pet Investment Strategy",
+        "Grow a Garden 2 — 宠物目录",
+        "增益型宠物",
+        "防御型宠物",
+        "传说宠物"
+      ],
+      "required_phrases": [
+        "⚠️ GAG2 differs from GAG1: Pets spawn randomly on the map rather than in a dedicated shop. Legendary+ spawns trigger a server wide alert.",
+        "Full Pet List (18 confirmed, +4 new: Butterfly, Bald Eagle, Big Bee, Capybara)",
+        "Pet Rarity Price (🪙) Spawn Chance Ability Source : : : : : : : : : : : Frog 🐸 Common 10K — +5 jump height Beebom Bunny 🐰 Common 20K — +5 walk speed Beebom Owl 🦉",
+        "Note: Prices may vary between sources (Beebom vs Bloxxer). Raccoon price varies 5M 15M. Spawn chance data from Bloxxer.gg. Pets marked 0% spawn are not currentl",
+        "Pet Rarity Ability Source : : : : : : Gnome 🧌 Rare Scares away thieves Community Venus Dragonfly Rare Aggressive defensive pet Community Space Dragon 🐉 Legendar",
+        "⚠️ These may be variants, event exclusive, or unconfirmed. Data pending verification.",
+        "When buying pets from the in game shop, all pets are purchaseable directly with Sheckles. The most expensive are Super rarity (Ice Serpent 20M, Raccoon 15M). Ch",
+        "Pets spawn randomly across the game map at fixed percentage chances Higher rarity = rarer but more powerful Big version pets cost double with enhanced abilities",
+        "Phase Recommended Pet Use : : : : 🟢 Early Deer (50K) Speed up early growth 🟡 Mid Bee (1M) Garden defense 🔴 Late Turtle (70K) Inventory expansion for bulk harves",
+        "宠物 稀有度 价格 能力 : : : : : : Deer Common ~10K +10% 植物生长速度 Frog Common ~10K 增加突变概率 Owl Legendary — 夜视 + 稀有刷新警报 Golden Dragonfly Legendary ~3M 双倍 Gold 突变触发率",
+        "宠物 稀有度 能力 : : : : Bee Rare 攻击小偷，触发 Pollinated 突变 Gnome Rare 吓跑小偷 Venus Dragonfly Rare 激进防御宠物 Bear 🐻🆕 Mythic 攻击型防御——攻击偷菜者（Aurora Event 新增）"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 532
+    },
+    {
+      "file": "systems/seeds/acorn.md",
+      "route": "/systems/seeds/acorn",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Acorn — Stats & Price",
+        "keywords": "[\"Acorn GAG2\", \"Grow a Garden 2 Acorn\", \"GAG2 acorn crop value\"]",
+        "primaryKeyword": "Acorn Grow a Garden 2",
+        "targetUrl": "/systems/seeds/acorn/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "acorn.webp",
+        "description": "Acorn crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Acorn — Stats & Price",
+        "keywords": "[\"Acorn GAG2\", \"Grow a Garden 2 Acorn\", \"GAG2 acorn crop value\"]",
+        "primaryKeyword": "Acorn Grow a Garden 2",
+        "description": "Acorn crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌰 Acorn",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Legendary 1kg Value 200 S Floor 180 S Seed 700K🪙 / 379💎 Harvest Multi",
+        "Field Value Rarity Legendary Base Value (1kg) 200 Rarity Legendary 1kg Value 200 Floor 180 Seed Cost 700,000🪙 / 379💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~2.9%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 60
+    },
+    {
+      "file": "systems/seeds/apple.md",
+      "route": "/systems/seeds/apple",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Apple — Stats & Price",
+        "keywords": "[\"Apple GAG2\", \"Grow a Garden 2 Apple\", \"GAG2 apple crop value\"]",
+        "primaryKeyword": "Apple Grow a Garden 2",
+        "targetUrl": "/systems/seeds/apple/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "apple.webp",
+        "description": "Apple crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Apple — Stats & Price",
+        "keywords": "[\"Apple GAG2\", \"Grow a Garden 2 Apple\", \"GAG2 apple crop value\"]",
+        "primaryKeyword": "Apple Grow a Garden 2",
+        "description": "Apple crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍎 Apple",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Uncommon 1kg Value 12 S Floor 11 S Seed 400🪙 / 29💎 Harvest Multi",
+        "An Uncommon multi harvest crop. Stepping stone between basic crops and more valuable mid game options like Bamboo.",
+        "Field Value Rarity Uncommon Base Value (1kg) 12 Rarity Uncommon 1kg Value 12 Floor 11 Seed Cost 400🪙 / 29💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~18%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 77
+    },
+    {
+      "file": "systems/seeds/baby-cactus.md",
+      "route": "/systems/seeds/baby-cactus",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Baby Cactus — Stats & Price",
+        "keywords": "[\"Baby Cactus GAG2\", \"Grow a Garden 2 Baby Cactus\", \"GAG2 baby-cactus crop value\"]",
+        "primaryKeyword": "Baby Cactus Grow a Garden 2",
+        "targetUrl": "/systems/seeds/baby-cactus/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "baby-cactus.webp",
+        "description": "Baby Cactus crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Baby Cactus — Stats & Price",
+        "keywords": "[\"Baby Cactus GAG2\", \"Grow a Garden 2 Baby Cactus\", \"GAG2 baby-cactus crop value\"]",
+        "primaryKeyword": "Baby Cactus Grow a Garden 2",
+        "description": "Baby Cactus crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌵 Baby Cactus",
+        "Ghost Pepper Pack",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Baby Cactus",
+        "Attribute Value : : Rarity Rare 1kg Value 70 S Floor 63 S Seed 99💎 (Ghost Pepper Pack, 50%) Harvest Single",
+        "A Rare single harvest crop from the Ghost Pepper Pack (50% drop). Smaller, cheaper version of Cactus.",
+        "Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 50% (most common pack reward) Obtainment: Ghost Pepper Pack only",
+        "Field Value Rarity Rare Base Value (1kg) 70 Rarity Rare 1kg Value 70 Floor 63 Seed Cost 99💎 (Ghost Pepper Pack, 50%) Harvest Single",
+        "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 50% drop)."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 109
+    },
+    {
+      "file": "systems/seeds/bamboo.md",
+      "route": "/systems/seeds/bamboo",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Bamboo — Stats & Price",
+        "keywords": "[\"Bamboo GAG2\", \"Grow a Garden 2 Bamboo\", \"GAG2 bamboo crop value\"]",
+        "primaryKeyword": "Bamboo Grow a Garden 2",
+        "targetUrl": "/systems/seeds/bamboo/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "bamboo.webp",
+        "description": "Bamboo crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Bamboo — Stats & Price",
+        "keywords": "[\"Bamboo GAG2\", \"Grow a Garden 2 Bamboo\", \"GAG2 bamboo crop value\"]",
+        "primaryKeyword": "Bamboo Grow a Garden 2",
+        "description": "Bamboo crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🎋 Bamboo",
+        "Basic Info",
+        "Description",
+        "Strategy",
+        "Growth Notes",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Rare 🟢 Avg Value (1kg) 800 S Floor Value 722 S Seed Cost 700🪙 / 17💎 Harvest Type Single",
+        "Bamboo is the best early to mid game crop in GAG2. Priced at only 700 Sheckles, it produces 800 S of base value at 1kg — an immediate profit. It can be planted ",
+        "Important: Bamboo has a unique curve exponent of ~1.75 (vs ~2.65 for most crops), meaning its weight value curve is flatter. This favors rapid cycling over weig",
+        "1. Save 700🪙 → buy Bamboo as soon as possible 2. Plant densely in tight clusters 3. Wait for weather mutations (Gold ×10 or Frozen ×40 = massive returns) 4. Sin",
+        "This is the crop that the game's FAQ explicitly recommends as early mid transition crop: \"Rush Bamboo (700 sheckles) as your early scaling crop — plant in tight",
+        "Field Value Rarity Rare Base Value (1kg) 800 Rarity Rare 1kg Value 800 Floor 722 Seed Cost 700🪙 / 17💎 Harvest Single",
+        "Buy from the Seed Shop for 700🪙. Plant densely in tight clusters and wait for weather mutations. Single harvest — replant immediately."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 229
+    },
+    {
+      "file": "systems/seeds/banana.md",
+      "route": "/systems/seeds/banana",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Banana — Stats & Price",
+        "keywords": "[\"Banana GAG2\", \"Grow a Garden 2 Banana\", \"GAG2 banana crop value\"]",
+        "primaryKeyword": "Banana Grow a Garden 2",
+        "targetUrl": "/systems/seeds/banana/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "banana.webp",
+        "description": "Banana crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Banana — Stats & Price",
+        "keywords": "[\"Banana GAG2\", \"Grow a Garden 2 Banana\", \"GAG2 banana crop value\"]",
+        "primaryKeyword": "Banana Grow a Garden 2",
+        "description": "Banana crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍌 Banana",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Epic 1kg Value 35 S Floor 32 S Seed 30K🪙 / 119💎 Harvest Multi",
+        "Epic multi harvest crop. Reliable but unremarkable value for its cost.",
+        "Field Value Rarity Epic Base Value (1kg) 35 Rarity Epic 1kg Value 35 Floor 32 Seed Cost 30,000🪙 / 119💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~9%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 66
+    },
+    {
+      "file": "systems/seeds/beanstalk.md",
+      "route": "/systems/seeds/beanstalk",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Beanstalk — Stats & Price",
+        "keywords": "[\"Beanstalk GAG2\", \"Grow a Garden 2 Beanstalk\", \"GAG2 beanstalk crop value\"]",
+        "primaryKeyword": "Beanstalk Grow a Garden 2",
+        "targetUrl": "/systems/seeds/beanstalk/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "beanstalk.webp",
+        "description": "Beanstalk crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Beanstalk — Stats & Price",
+        "keywords": "[\"Beanstalk GAG2\", \"Grow a Garden 2 Beanstalk\", \"GAG2 beanstalk crop value\"]",
+        "primaryKeyword": "Beanstalk Grow a Garden 2",
+        "description": "Beanstalk crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌱 Beanstalk — Crop",
+        "Info",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Mythic 1kg Value 2,000 S Floor 1,800 S Seed 1,199💎 (Robux only) Harvest Multi",
+        "A Robux only Mythic crop with multi harvest and good base value. Only purchasable with Robux (1,199💎), making it a premium seed.",
+        "Field Value Rarity Mythic Base Value (1kg) 2000 Rarity Mythic 1kg Value 2,000 Floor 1,800 Seed Cost 1,199💎 Harvest Multi",
+        "Purchase with Robux only (1,199💎). Not available for Sheckles."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 93
+    },
+    {
+      "file": "systems/seeds/blueberry.md",
+      "route": "/systems/seeds/blueberry",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Blueberry — Stats & Price",
+        "keywords": "[\"Blueberry GAG2\", \"Grow a Garden 2 Blueberry\", \"GAG2 blueberry crop value\"]",
+        "primaryKeyword": "Blueberry Grow a Garden 2",
+        "targetUrl": "/systems/seeds/blueberry/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "blueberry.webp",
+        "description": "Blueberry crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Blueberry — Stats & Price",
+        "keywords": "[\"Blueberry GAG2\", \"Grow a Garden 2 Blueberry\", \"GAG2 blueberry crop value\"]",
+        "primaryKeyword": "Blueberry Grow a Garden 2",
+        "description": "Blueberry crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🫐 Blueberry",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Common 1kg Value 5 S Floor 5 S Seed 25🪙 / 12💎 Harvest Multi",
+        "A Common multi harvest crop. Slightly more expensive than Carrot (25 vs 1) but same base value. Good for early diversification.",
+        "Field Value Rarity Common Base Value (1kg) 5 Rarity Common 1kg Value 5 Floor 5 Seed Cost 25🪙 / 12💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~20%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 80
+    },
+    {
+      "file": "systems/seeds/bone-blossom.md",
+      "route": "/systems/seeds/bone-blossom",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Bone Blossom — Stats & Price | GAG2",
+        "keywords": "[\"Bone Blossom GAG2\", \"Grow a Garden 2 Bone Blossom\", \"BB GAG2\"]",
+        "primaryKeyword": "Bone Blossom Grow a Garden 2",
+        "targetUrl": "/systems/seeds/bone-blossom/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "[]",
+        "internalLinks": "",
+        "- target": "/calculator/",
+        "anchor": "GAG2 Calculator",
+        "type": "cross_system"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Bone Blossom — Stats & Price | GAG2",
+        "keywords": "[\"Bone Blossom GAG2\", \"Grow a Garden 2 Bone Blossom\", \"BB GAG2\"]",
+        "primaryKeyword": "Bone Blossom Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "💀 Bone Blossom — GAG2 Legendary Crop",
+        "Key Stats",
+        "Overview"
+      ],
+      "required_phrases": [
+        "Bone Blossom is an upcoming Legendary multi harvest crop in Grow a Garden 2. It is currently unreleased and cannot be obtained through standard gameplay. Listed",
+        "Attribute Value Rarity LEGENDARY Seed Price TBA Harvest Type Multi Obtainable Not currently",
+        "Bone Blossom (BB) is an upcoming Legendary multi harvest crop discovered in the GAG2 game files. Currently not obtainable through normal gameplay. Its seed pric",
+        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/bone blossom/) — Updated Jul 3, 2026"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://growagarden2wiki.net/crops/bone-blossom/"
+      ],
+      "word_count": 112
+    },
+    {
+      "file": "systems/seeds/briar-rose.md",
+      "route": "/systems/seeds/briar-rose",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Briar Rose — Stats & Price | GAG2",
+        "keywords": "[\"Briar Rose GAG2\", \"Grow a Garden 2 Briar Rose\", \"Briar Rose price\"]",
+        "primaryKeyword": "Briar Rose Grow a Garden 2",
+        "targetUrl": "/systems/seeds/briar-rose/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "[]",
+        "internalLinks": "",
+        "- target": "/calculator/",
+        "anchor": "GAG2 Calculator",
+        "type": "cross_system"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Briar Rose — Stats & Price | GAG2",
+        "keywords": "[\"Briar Rose GAG2\", \"Grow a Garden 2 Briar Rose\", \"Briar Rose price\"]",
+        "primaryKeyword": "Briar Rose Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌹 Briar Rose — GAG2 Mythic Crop",
+        "Key Stats",
+        "Overview"
+      ],
+      "required_phrases": [
+        "Briar Rose is an unreleased Mythic multi harvest crop in Grow a Garden 2 with an average sell value of 4,000 Sheckles and an average weight of 9 kg . It cannot ",
+        "Attribute Value Rarity MYTHIC Seed Price TBA Average Value 4,000 Sheckles (1kg) Floor Value 3,610 Sheckles Average Weight 9 kg Minimum Weight 6.3 kg Harvest Typ",
+        "Briar Rose is an unreleased Mythic multi harvest crop found in the GAG2 game files. With an estimated base value of 4,000 S at 1kg, it would rank among the high",
+        "Higher value crops nearby: Hypno Bloom, Moon Bloom, Lotus Lower value crops nearby: Venom Spitter, Dragon's Breath, Venus Flytrap",
+        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/briar rose/) — Updated Jun 26, 2026"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://growagarden2wiki.net/crops/briar-rose/"
+      ],
+      "word_count": 173
+    },
+    {
+      "file": "systems/seeds/cactus.md",
+      "route": "/systems/seeds/cactus",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Cactus — Stats & Price",
+        "keywords": "[\"Cactus GAG2\", \"Grow a Garden 2 Cactus\", \"GAG2 cactus crop value\"]",
+        "primaryKeyword": "Cactus Grow a Garden 2",
+        "targetUrl": "/systems/seeds/cactus/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "cactus.webp",
+        "description": "Cactus crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Cactus — Stats & Price",
+        "keywords": "[\"Cactus GAG2\", \"Grow a Garden 2 Cactus\", \"GAG2 cactus crop value\"]",
+        "primaryKeyword": "Cactus Grow a Garden 2",
+        "description": "Cactus crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌵 Cactus — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Rare 1kg Value 40 S Floor 36 S Seed 5K🪙 / 79💎 Harvest Multi",
+        "A defensive crop that also produces income. Multi harvest — regrows after each harvest. Good early defensive plant — thieves get pricked trying to steal.",
+        "Field Value Rarity Rare Base Value (1kg) 40 Rarity Rare 1kg Value 40 Floor 36 Seed Cost 5,000🪙 / 79💎 Harvest Single",
+        "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~10%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 88
+    },
+    {
+      "file": "systems/seeds/carrot.md",
+      "route": "/systems/seeds/carrot",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Carrot — Stats & Price",
+        "keywords": "[\"Carrot GAG2\", \"Grow a Garden 2 Carrot\", \"GAG2 carrot crop value\"]",
+        "primaryKeyword": "Carrot Grow a Garden 2",
+        "targetUrl": "/systems/seeds/carrot/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "carrot.webp",
+        "description": "Carrot crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Carrot — Stats & Price",
+        "keywords": "[\"Carrot GAG2\", \"Grow a Garden 2 Carrot\", \"GAG2 carrot crop value\"]",
+        "primaryKeyword": "Carrot Grow a Garden 2",
+        "description": "Carrot crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🥕 Carrot — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Common 1kg Value 5 S Floor 5 S Seed 1🪙 / 3💎 Harvest Multi",
+        "The cheapest seed in the game (1 Sheckle). Multi harvest. 5× value/seed cost. Perfect starter crop.",
+        "Field Value Rarity Common Base Value (1kg) 5 Rarity Common 1kg Value 5 Floor 5 Seed Cost 1🪙 / 3💎 Harvest Multi",
+        "Buy from the Seed Shop for 1🪙. Restock chance ~30% — very common."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 81
+    },
+    {
+      "file": "systems/seeds/cherry.md",
+      "route": "/systems/seeds/cherry",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Cherry — Stats & Price",
+        "keywords": "[\"Cherry GAG2\", \"Grow a Garden 2 Cherry\", \"GAG2 cherry crop value\"]",
+        "primaryKeyword": "Cherry Grow a Garden 2",
+        "targetUrl": "/systems/seeds/cherry/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "cherry.webp",
+        "description": "Cherry crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Cherry — Stats & Price",
+        "keywords": "[\"Cherry GAG2\", \"Grow a Garden 2 Cherry\", \"GAG2 cherry crop value\"]",
+        "primaryKeyword": "Cherry Grow a Garden 2",
+        "description": "Cherry crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍒 Cherry — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Legendary 1kg Value 350 S Floor 316 S Seed 1.2M🪙 / 479💎 Harvest Multi",
+        "A Legendary multi harvest crop. Mid range Legendary entry point at 1.2M Sheckles. Solid long term value with multi harvest regrowth.",
+        "Field Value Rarity Legendary Base Value (1kg) 350 Rarity Legendary 1kg Value 350 Floor 316 Seed Cost 1,200,000🪙 / 479💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~2.2%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 86
+    },
+    {
+      "file": "systems/seeds/coconut.md",
+      "route": "/systems/seeds/coconut",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Coconut — Stats & Price",
+        "keywords": "[\"Coconut GAG2\", \"Grow a Garden 2 Coconut\", \"GAG2 coconut crop value\"]",
+        "primaryKeyword": "Coconut Grow a Garden 2",
+        "targetUrl": "/systems/seeds/coconut/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "coconut.webp",
+        "description": "Coconut crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Coconut — Stats & Price",
+        "keywords": "[\"Coconut GAG2\", \"Grow a Garden 2 Coconut\", \"GAG2 coconut crop value\"]",
+        "primaryKeyword": "Coconut Grow a Garden 2",
+        "description": "Coconut crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🥥 Coconut",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Epic 1kg Value 60 S Floor 54 S Seed 70K🪙 / 149💎 Harvest Multi",
+        "Epic multi harvest crop. Decent mid game value.",
+        "Field Value Rarity Epic Base Value (1kg) 60 Rarity Epic 1kg Value 60 Floor 54 Seed Cost 70,000🪙 / 149💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~5%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 63
+    },
+    {
+      "file": "systems/seeds/corn.md",
+      "route": "/systems/seeds/corn",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Corn — Stats & Price",
+        "keywords": "[\"Corn GAG2\", \"Grow a Garden 2 Corn\", \"GAG2 corn crop value\"]",
+        "primaryKeyword": "Corn Grow a Garden 2",
+        "targetUrl": "/systems/seeds/corn/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "corn.webp",
+        "description": "Corn crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Corn — Stats & Price",
+        "keywords": "[\"Corn GAG2\", \"Grow a Garden 2 Corn\", \"GAG2 corn crop value\"]",
+        "primaryKeyword": "Corn Grow a Garden 2",
+        "description": "Corn crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌽 Corn — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Rare 1kg Value 34 S Floor 31 S Seed 3K🪙 / 69💎 Harvest Multi",
+        "A Rare multi harvest crop recommended for stable mid game income. Provides reliable returns between Bamboo cycling and saving up for Mushroom.",
+        "Field Value Rarity Rare Base Value (1kg) 34 Rarity Rare 1kg Value 34 Floor 31 Seed Cost 3,000🪙 / 69💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~10%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 83
+    },
+    {
+      "file": "systems/seeds/dragon-fruit.md",
+      "route": "/systems/seeds/dragon-fruit",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Dragon Fruit — Stats & Price",
+        "keywords": "[\"Dragon Fruit GAG2\", \"Grow a Garden 2 Dragon Fruit\", \"GAG2 dragon-fruit crop value\"]",
+        "primaryKeyword": "Dragon Fruit Grow a Garden 2",
+        "targetUrl": "/systems/seeds/dragon-fruit/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "dragon-fruit.webp",
+        "description": "Dragon Fruit crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Dragon Fruit — Stats & Price",
+        "keywords": "[\"Dragon Fruit GAG2\", \"Grow a Garden 2 Dragon Fruit\", \"GAG2 dragon-fruit crop value\"]",
+        "primaryKeyword": "Dragon Fruit Grow a Garden 2",
+        "description": "Dragon Fruit crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🐉 Dragon Fruit — Crop",
+        "Info",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Dragon Fruit",
+        "Attribute Value : : Rarity Legendary 1kg Value 150 S Floor 135 S Seed 120K🪙 / 239💎 Harvest Multi",
+        "A popular Legendary crop that is the first serious high tier investment for transitioning from mid to late game. Reasonable seed cost (120K) with multi harvest ",
+        "Field Value Rarity Legendary Base Value (1kg) 150 Rarity Legendary 1kg Value 150 Floor 135 Seed Cost 120,000🪙 / 239💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~4%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 99
+    },
+    {
+      "file": "systems/seeds/dragons-breath.md",
+      "route": "/systems/seeds/dragons-breath",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Dragon's Breath — Stats & Price",
+        "keywords": "[\"Dragon's Breath GAG2\", \"Grow a Garden 2 Dragon's Breath\", \"GAG2 dragons-breath crop value\"]",
+        "primaryKeyword": "Dragon's Breath Grow a Garden 2",
+        "targetUrl": "/systems/seeds/dragons-breath/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "dragons-breath.webp",
+        "description": "Dragons Breath crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Dragon's Breath — Stats & Price",
+        "keywords": "[\"Dragon's Breath GAG2\", \"Grow a Garden 2 Dragon's Breath\", \"GAG2 dragons-breath crop value\"]",
+        "primaryKeyword": "Dragon's Breath Grow a Garden 2",
+        "description": "Dragons Breath crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🐉 Dragon's Breath",
+        "Basic Info",
+        "Description",
+        "Strategy",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Dragon's Breath",
+        "Attribute Value : : Rarity Super 💎 Avg Value (1kg) 3,400 S Floor Value 3,100 S Seed Cost 90,000,000🪙 / 1,499💎 Harvest Type Single",
+        "Dragon's Breath is the most expensive seed in the game (90M Sheckles) and the other Super rarity crop in GAG2. Single harvest — each seed produces one high valu",
+        "Absolute endgame crop — only viable with maxed economy Requires extreme defense (defensive plants + pets + gear) Single harvest means each seed is a calculated ",
+        "Field Value Rarity Super Base Value (1kg) 3400 Rarity Super 1kg Value 3,400 Floor 3,100 Seed Cost 90,000,000🪙 / 1,499💎 Harvest Single",
+        "Buy from the Seed Shop. Restock chance ~0.275% — extremely rare. Absolute endgame crop; needs extreme defense."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 145
+    },
+    {
+      "file": "systems/seeds/fire-fern.md",
+      "route": "/systems/seeds/fire-fern",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Fire Fern — Stats & Price | GAG2",
+        "keywords": "[\"Fire Fern GAG2\", \"Grow a Garden 2 Fire Fern\", \"Fire Fern price\", \"Fire Fern seed cost\"]",
+        "primaryKeyword": "Fire Fern Grow a Garden 2",
+        "targetUrl": "/systems/seeds/fire-fern/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "[]",
+        "internalLinks": "",
+        "- target": "/calculator/",
+        "anchor": "GAG2 Calculator",
+        "type": "cross_system"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Fire Fern — Stats & Price | GAG2",
+        "keywords": "[\"Fire Fern GAG2\", \"Grow a Garden 2 Fire Fern\", \"Fire Fern price\", \"Fire Fern seed cost\"]",
+        "primaryKeyword": "Fire Fern Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌿 Fire Fern — GAG2 Legendary Crop",
+        "Key Stats",
+        "Overview",
+        "How to Get Fire Fern",
+        "How much is Fire Fern worth?"
+      ],
+      "required_phrases": [
+        "Fire Fern is a Legendary multi harvest crop in Grow a Garden 2, costing 6,000,000 Sheckles or 659 Robux per seed with a restock chance in the seed shop. Added i",
+        "Attribute Value Rarity LEGENDARY Seed Price 6,000,000 🪙 / 659 💎 Average Value 900 Sheckles (1kg) Average Weight 9 kg Harvest Type Multi Obtainable Yes Seed Shop",
+        "Fire Fern is a Legendary multi harvest crop added in Update 1.13.0 (early July 2026). With a 6M Sheckle seed cost, it sits between Cherry (1.2M) and Sunflower (",
+        "Buy from the Seed Shop for 6,000,000 Sheckles or 659 Robux Listed at the seed shop (standard rotation)",
+        "The value is calculated using the standard GAG2 formula: Sell Price = Base Value(1kg) × (Harvest Weight / Avg Weight)² × Mutation Mult × (1 + FriendBoost%) × Qu",
+        "At average weight (9kg): 900 × (9/9)² = 900 Sheckles per unit At max weight (100kg): 900 × (100/9)² ≈ 111,111 Sheckles per unit",
+        "Higher value crops nearby: Romanesco, Pomegranate, Poison Apple Lower value crops nearby: Bamboo, Glow Mushroom, Pumpkin",
+        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/fire fern/) — Updated Jul 4, 2026"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://growagarden2wiki.net/crops/fire-fern/"
+      ],
+      "word_count": 237
+    },
+    {
+      "file": "systems/seeds/ghost-pepper.md",
+      "route": "/systems/seeds/ghost-pepper",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Ghost Pepper — Stats & Price",
+        "keywords": "[\"Ghost Pepper GAG2\", \"Grow a Garden 2 Ghost Pepper\", \"GAG2 ghost-pepper crop value\"]",
+        "primaryKeyword": "Ghost Pepper Grow a Garden 2",
+        "targetUrl": "/systems/seeds/ghost-pepper/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "ghost-pepper.webp",
+        "description": "Ghost Pepper crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Ghost Pepper — Stats & Price",
+        "keywords": "[\"Ghost Pepper GAG2\", \"Grow a Garden 2 Ghost Pepper\", \"GAG2 ghost-pepper crop value\"]",
+        "primaryKeyword": "Ghost Pepper Grow a Garden 2",
+        "description": "Ghost Pepper crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌶️ Ghost Pepper — Crop",
+        "Ghost Pepper Pack",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Ghost Pepper",
+        "Attribute Value : : Rarity Mythic 1kg Value 2,500 S Floor 2,300 S Seed 99💎 (Ghost Pepper Pack, 1%) Harvest Multi",
+        "A Mythic multi harvest crop. Seed obtained from the Ghost Pepper Pack (special seed pack). Multi harvest means it regrows, making it one of the best long term i",
+        "Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 1% (rarest pack reward) Note: This crop names the pack, but is ironically the rarest drop from it.",
+        "Field Value Rarity Mythic Base Value (1kg) 2500 Rarity Mythic 1kg Value 2,500 Floor 2,300 Seed Cost 99💎 (Ghost Pepper Pack, 1%) Harvest Multi",
+        "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 1% drop rate — rarest pack reward)."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 150
+    },
+    {
+      "file": "systems/seeds/glow-mushroom.md",
+      "route": "/systems/seeds/glow-mushroom",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Glow Mushroom — Stats & Price",
+        "keywords": "[\"Glow Mushroom GAG2\", \"Grow a Garden 2 Glow Mushroom\", \"GAG2 glow-mushroom crop value\"]",
+        "primaryKeyword": "Glow Mushroom Grow a Garden 2",
+        "targetUrl": "/systems/seeds/glow-mushroom/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "glow-mushroom.webp",
+        "description": "Glow Mushroom crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Glow Mushroom — Stats & Price",
+        "keywords": "[\"Glow Mushroom GAG2\", \"Grow a Garden 2 Glow Mushroom\", \"GAG2 glow-mushroom crop value\"]",
+        "primaryKeyword": "Glow Mushroom Grow a Garden 2",
+        "description": "Glow Mushroom crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌟 Glow Mushroom — Crop",
+        "Ghost Pepper Pack",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Glow Mushroom",
+        "Attribute Value : : Rarity Epic 1kg Value 700 S Floor 632 S Seed 99💎 (Ghost Pepper Pack, 15%) Harvest Multi",
+        "An Epic crop obtainable only from the Ghost Pepper Pack (15% drop). Multi harvest.",
+        "Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 15% Avg weight: 7.00 kg Min weight: 4.90 kg Obtainment: Ghost Pepper Pack only (not Seed Shop)",
+        "Field Value Rarity Epic Base Value (1kg) 700 Rarity Epic 1kg Value 700 Floor 632 Seed Cost 99💎 (Ghost Pepper Pack, 15%) Harvest Multi",
+        "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 15% drop, avg weight 7.00kg)."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 120
+    },
+    {
+      "file": "systems/seeds/grape.md",
+      "route": "/systems/seeds/grape",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Grape — Stats & Price",
+        "keywords": "[\"Grape GAG2\", \"Grow a Garden 2 Grape\", \"GAG2 grape crop value\"]",
+        "primaryKeyword": "Grape Grow a Garden 2",
+        "targetUrl": "/systems/seeds/grape/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "grape.webp",
+        "description": "Grape crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Grape — Stats & Price",
+        "keywords": "[\"Grape GAG2\", \"Grow a Garden 2 Grape\", \"GAG2 grape crop value\"]",
+        "primaryKeyword": "Grape Grow a Garden 2",
+        "description": "Grape crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍇 Grape",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Epic 1kg Value 45 S Floor 41 S Seed 50K🪙 / 139💎 Harvest Multi",
+        "Field Value Rarity Epic Base Value (1kg) 45 Rarity Epic 1kg Value 45 Floor 41 Seed Cost 50,000🪙 / 139💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~6.6%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 60
+    },
+    {
+      "file": "systems/seeds/green-bean.md",
+      "route": "/systems/seeds/green-bean",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Green Bean — Stats & Price",
+        "keywords": "[\"Green Bean GAG2\", \"Grow a Garden 2 Green Bean\", \"GAG2 green-bean crop value\"]",
+        "primaryKeyword": "Green Bean Grow a Garden 2",
+        "targetUrl": "/systems/seeds/green-bean/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "green-bean.webp",
+        "description": "Green Bean crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Green Bean — Stats & Price",
+        "keywords": "[\"Green Bean GAG2\", \"Grow a Garden 2 Green Bean\", \"GAG2 green-bean crop value\"]",
+        "primaryKeyword": "Green Bean Grow a Garden 2",
+        "description": "Green Bean crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🫘 Green Bean — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Green Bean",
+        "Attribute Value : : Rarity Epic 1kg Value 10 S Floor 9 S Seed 20K🪙 / 99💎 Harvest Multi Code TEAMGREENBEAN gives 3 seeds",
+        "The crop linked to the only active code ( TEAMGREENBEAN ). Despite Epic rarity, its base value (10 S) is surprisingly low. Multi harvest makes it a long term pa",
+        "Field Value Rarity Epic Base Value (1kg) 10 Rarity Epic 1kg Value 10 Floor 9 Seed Cost 20,000🪙 / 99💎 Harvest Multi Code TEAMGREENBEAN grants 3 seeds",
+        "Buy from the Seed Shop, or redeem the code TEAMGREENBEAN for 3 free seeds. Restock chance ~15%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 111
+    },
+    {
+      "file": "systems/seeds/horned-melon.md",
+      "route": "/systems/seeds/horned-melon",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Horned Melon — Stats & Price",
+        "keywords": "[\"Horned Melon GAG2\", \"Grow a Garden 2 Horned Melon\", \"GAG2 horned-melon crop value\"]",
+        "primaryKeyword": "Horned Melon Grow a Garden 2",
+        "targetUrl": "/systems/seeds/horned-melon/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "horned-melon.webp",
+        "description": "Horned Melon crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Horned Melon — Stats & Price",
+        "keywords": "[\"Horned Melon GAG2\", \"Grow a Garden 2 Horned Melon\", \"GAG2 horned-melon crop value\"]",
+        "primaryKeyword": "Horned Melon Grow a Garden 2",
+        "description": "Horned Melon crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍈 Horned Melon",
+        "Ghost Pepper Pack",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Mythic 1kg Value 200 S Floor 180 S Seed 99💎 (Ghost Pepper Pack, 30% chance) Harvest Multi",
+        "A Rare crop obtainable only from the Ghost Pepper Pack. Multi harvest.",
+        "Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 30% Restock: Item Shop only (not Seed Shop)",
+        "Field Value Rarity Mythic Base Value (1kg) 200 Rarity Mythic 1kg Value 200 Floor 180 Seed Cost 99💎 (Ghost Pepper Pack, 30%) Harvest Multi",
+        "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 30% drop)."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 97
+    },
+    {
+      "file": "systems/seeds/hypnobloom.md",
+      "route": "/systems/seeds/hypnobloom",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Hypno Bloom — Stats & Price",
+        "keywords": "[\"Hypno Bloom GAG2\", \"Grow a Garden 2 Hypno Bloom\", \"GAG2 hypnobloom crop value\"]",
+        "primaryKeyword": "Hypno Bloom Grow a Garden 2",
+        "targetUrl": "/systems/seeds/hypnobloom/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Hypno Bloom — Stats & Price",
+        "keywords": "[\"Hypno Bloom GAG2\", \"Grow a Garden 2 Hypno Bloom\", \"GAG2 hypnobloom crop value\"]",
+        "primaryKeyword": "Hypno Bloom Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Ability",
+        "Structured Stats",
+        "How to Get",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "Hypno Bloom is a Super rarity multi harvest crop in Grow a Garden 2, added in Update 1.06.0 on June 27, 2026. It costs 90,000,000 Sheckles or 1,599 Robux per se",
+        "Like Moon Bloom's low gravity launch, Hypno Bloom has a crowd control effect: intruders approaching the plant are affected by a disruption that affects their mo",
+        "Field Value Rarity Super Seed Price 90,000,000🪙 / 1,599💎 Base Value (1kg) 9,500 Floor Value 8,574 Average Weight 9 kg Minimum Weight 6.3 kg Huge Chance 1% Plant",
+        "Buy from the Seed Shop for 90,000,000 Sheckles or 1,599 Robux. Restock chance ~0.275% — extremely rare, on par with Dragon's Breath. Requires a maxed economy.",
+        "growagarden2wiki.net: https://growagarden2wiki.net/crops/hypnobloom/ (accessed 2026 06 29) Fandom Wiki: https://growagarden2.fandom.com/wiki/Hypnobloom (accesse"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 284
+    },
+    {
+      "file": "systems/seeds/list.md",
+      "route": "/systems/seeds",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Seeds — Complete List & Prices",
+        "keywords": "[\"Grow a Garden 2 seeds\", \"GAG2 seeds\", \"Grow a Garden 2 seed list\", \"GAG2 seed prices\"]",
+        "primaryKeyword": "Grow a Garden 2 seeds",
+        "targetUrl": "/systems/seeds/",
+        "pageType": "list",
+        "system": "seeds",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Seeds — Complete List & Prices",
+        "keywords": "[\"Grow a Garden 2 seeds\", \"GAG2 seeds\", \"Grow a Garden 2 seed list\", \"GAG2 seed prices\"]",
+        "primaryKeyword": "Grow a Garden 2 seeds"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌰 Grow a Garden 2 — Seed Shop & Prices",
+        "Shop Info",
+        "✅ Certified Price List (Sheckles)",
+        "Seed Shop Restock Odds",
+        "Special Packs",
+        "Ghost Pepper Pack",
+        "Defense Plant Shop",
+        "Ability Mushroom Shop",
+        "🎯 Seed Investment Strategy",
+        "Crop List",
+        "🌽 Grow a Garden 2 — Complete Crop Database",
+        "🔄 Harvest Types",
+        "📊 Complete Crop List",
+        "SUPER",
+        "MYTHIC",
+        "LEGENDARY",
+        "EPIC",
+        "RARE",
+        "UNCOMMON",
+        "COMMON",
+        "RARITY TBD",
+        "💰 Best Bang-for-Buck (Value ÷ Seed Cost)",
+        "Value Table",
+        "💎 Grow a Garden 2 — Crop Value Table",
+        "🧮 How Crop Value Is Calculated",
+        "📊 Full Value Table (Sorted by Value, Descending)",
+        "📈 Value Calculation Examples",
+        "📊 Best Value-for-Money Crops"
+      ],
+      "required_phrases": [
+        "Last data refresh: 2026 07 07 — Added Fire Fern (Legendary), Rocket Pop (Legendary), Bone Blossom (Legendary), Briar Rose (Mythic), and Summer Harvest crops (Wa",
+        "Restock cycle: Every ~4–5 minutes Currency: Sheckles (🪙) / Robux (💎) Categories: Farming seeds, Defense plants, Ability Mushrooms, Ghost Pepper Pack",
+        "Seed Rarity Sheckles Price Robux Price Harvest Type : : : : : : : : : : Carrot Common 1 3💎 Multi Strawberry Common 10 7💎 Multi Blueberry Common 25 12💎 Multi Pum",
+        "Crop Rarity Restock Chance Typical Supply : : : : : : : : Carrot Common 30% Very Common Strawberry Common 25% Very Common Blueberry Common 20% Common Tomato Unc",
+        "Ghost Pepper Pack Random seed pack — chance to get rare seeds Price: 99💎 per roll",
+        "Defense Plant Shop Sells defensive plants separately: Cactus, Venus Flytrap, Dragon's Breath, etc.",
+        "Ability Mushroom Shop Sells buff type mushrooms (functionality being researched).",
+        "Phase Target Why 🟢 Early Bamboo (700🪙) Plant densely, wait for weather mutations 🟡 Mid Mushroom (15K🪙) Highest Epic base value at 13K/1kg 🔴 Late Dragon Fruit (1",
+        "🌽 Grow a Garden 2 — Complete Crop Database",
+        "Source: growagarden2wiki.net (community tested, unverified estimates) Last updated: 2026 06 16 Total entries: 36 crops",
+        "Multi harvest : Regrows after harvesting — can be repeatedly harvested Single harvest : Die after first harvest — must replant",
+        "SUPER Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 1 🌼 Moon Bloom — 9,000 8,100 65M🪙 / 1,349💎 TBD 2 🐉 Dragon's Breath — 3,4",
+        "MYTHIC Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 3 🌸 Lotus — 6,500 5,900 899🪙 Single 4 🪴 Venus Flytrap Venus Fly Trap 3,",
+        "LEGENDARY Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 11 🌻 Sunflower — 1,800 1,600 5M🪙 / 599💎 Multi 12 🌿 Poison Ivy — 1,70",
+        "EPIC Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 16 🍄 Mushroom — 13,000 🥇 11,700 15K🪙 / 69💎 Multi 17 🌟 Glow Mushroom — 700",
+        "RARE Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 23 🎋 Bamboo — 800 722 700🪙 / 17💎 Single ✅ 24 🌵 Baby Cactus — 70 63 99💎 Pa",
+        "UNCOMMON Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 28 🎃 Pumpkin — 350 316 ~34🪙 Multi 29 🌷 Tulip — 60 54 40🪙 / 4💎 Single ",
+        "COMMON Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 32 🥕 Carrot — 5 5 1🪙 / 3💎 Multi 33 🫐 Blueberry — 5 5 25🪙 / 12💎 Multi 34",
+        "RARITY TBD Crop Alt Name Avg Value (1kg) Floor Seed Cost : : : : : : : : : : : : 35 🌹 Thorn Rose — 140 126 229🪙 36 🌲 Pinetree — 100 90 99🪙",
+        "💰 Best Bang for Buck (Value ÷ Seed Cost)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 1493
+    },
+    {
+      "file": "systems/seeds/lotus.md",
+      "route": "/systems/seeds/lotus",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Lotus — Stats & Price",
+        "keywords": "[\"Lotus GAG2\", \"Grow a Garden 2 Lotus\", \"GAG2 lotus crop value\"]",
+        "primaryKeyword": "Lotus Grow a Garden 2",
+        "targetUrl": "/systems/seeds/lotus/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "lotus.webp",
+        "description": "Lotus crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Lotus — Stats & Price",
+        "keywords": "[\"Lotus GAG2\", \"Grow a Garden 2 Lotus\", \"GAG2 lotus crop value\"]",
+        "primaryKeyword": "Lotus Grow a Garden 2",
+        "description": "Lotus crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌸 Lotus",
+        "Basic Info",
+        "Description",
+        "Strategy",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Mythic 🟣 Avg Value (1kg) 6,500 S Floor Value 5,900 S Seed Cost 899🪙 Harvest Type Single",
+        "Lotus is a Mythic rarity crop with excellent value (6,500 S/1kg) at a surprisingly low seed cost of just 899 Sheckles. Single harvest means it dies after harves",
+        "Best value per Sheckle among high tier crops — 6,500/899 = 7.2× ROI before mutations Single harvest — replant after each harvest Great candidate for mutation fa",
+        "Field Value Rarity Mythic Base Value (1kg) 6500 Rarity Mythic 1kg Value 6,500 Floor 5,900 Seed Cost 899🪙 Harvest Single",
+        "Buy from the Seed Shop. Best value per Sheckle among high tier crops — great candidate for mutation farming."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 148
+    },
+    {
+      "file": "systems/seeds/mango.md",
+      "route": "/systems/seeds/mango",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Mango — Stats & Price",
+        "keywords": "[\"Mango GAG2\", \"Grow a Garden 2 Mango\", \"GAG2 mango crop value\"]",
+        "primaryKeyword": "Mango Grow a Garden 2",
+        "targetUrl": "/systems/seeds/mango/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "mango.webp",
+        "description": "Mango crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Mango — Stats & Price",
+        "keywords": "[\"Mango GAG2\", \"Grow a Garden 2 Mango\", \"GAG2 mango crop value\"]",
+        "primaryKeyword": "Mango Grow a Garden 2",
+        "description": "Mango crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🥭 Mango",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Epic 1kg Value 90 S Floor 81 S Seed 300K🪙 / 199💎 Harvest Multi",
+        "Field Value Rarity Epic Base Value (1kg) 90 Rarity Epic 1kg Value 90 Floor 81 Seed Cost 300,000🪙 / 199💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~5%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 59
+    },
+    {
+      "file": "systems/seeds/moon-bloom.md",
+      "route": "/systems/seeds/moon-bloom",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Moon Bloom — Stats & Price",
+        "keywords": "[\"Moon Bloom GAG2\", \"Grow a Garden 2 Moon Bloom\", \"GAG2 moon-bloom crop value\"]",
+        "primaryKeyword": "Moon Bloom Grow a Garden 2",
+        "targetUrl": "/systems/seeds/moon-bloom/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "moon-bloom.webp",
+        "description": "Moon Bloom crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Moon Bloom — Stats & Price",
+        "keywords": "[\"Moon Bloom GAG2\", \"Grow a Garden 2 Moon Bloom\", \"GAG2 moon-bloom crop value\"]",
+        "primaryKeyword": "Moon Bloom Grow a Garden 2",
+        "description": "Moon Bloom crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌼 Moon Bloom",
+        "Basic Info",
+        "Description",
+        "Strategy",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Moon Bloom",
+        "Attribute Value : : Rarity Super 💎 Avg Value (1kg) 9,000 S Floor Value 8,100 S Seed Cost 65,000,000🪙 / 1,349💎 Harvest Type TBD",
+        "Moon Bloom is one of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (65M Sheckles) but provides extremely high returns.",
+        "Reserve for absolute endgame farming Requires full economic support (Sprinklers, pets, defense) Heavy protection needed",
+        "Field Value Rarity Super Base Value (1kg) 9000 Rarity Super 1kg Value 9,000 Floor 8,100 Seed Cost 65,000,000🪙 / 1,349💎 Harvest TBD",
+        "Buy from the Seed Shop. Restock chance ~0.35% — extremely rare. Requires a maxed economy (Sprinklers, pets, defense)."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 134
+    },
+    {
+      "file": "systems/seeds/mushroom.md",
+      "route": "/systems/seeds/mushroom",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Mushroom — Stats & Price",
+        "keywords": "[\"Mushroom GAG2\", \"Grow a Garden 2 Mushroom\", \"GAG2 mushroom crop value\"]",
+        "primaryKeyword": "Mushroom Grow a Garden 2",
+        "targetUrl": "/systems/seeds/mushroom/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "mushroom.webp",
+        "description": "Mushroom crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Mushroom — Stats & Price",
+        "keywords": "[\"Mushroom GAG2\", \"Grow a Garden 2 Mushroom\", \"GAG2 mushroom crop value\"]",
+        "primaryKeyword": "Mushroom Grow a Garden 2",
+        "description": "Mushroom crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍄 Mushroom",
+        "Basic Info",
+        "Description",
+        "Strategy",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Epic 🟡 Avg Value (1kg) 13,000 S Floor Value 11,700 S Seed Cost 15,000🪙 / 69💎 Harvest Type Multi harvest",
+        "Mushroom has the highest base sell value of any crop in GAG2. Despite the 15K seed cost, its 13K base value at 1kg makes it a strong mid game investment. Multi ",
+        "Purchase once you have 15K🪙+ saved Pair with Frozen (×40) or Electric (×70) mutations for extreme returns Deploy defensive pets/gear — high value crops attract ",
+        "Field Value Rarity Epic Base Value (1kg) 13000 Rarity Epic 1kg Value 13,000 Floor 11,700 Seed Cost 15,000🪙 / 69💎 Harvest Multi",
+        "Buy from the Seed Shop once you have 15K🪙 saved. Pair with Frozen (×40) or Electric (×70) mutations for extreme returns."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 161
+    },
+    {
+      "file": "systems/seeds/pineapple.md",
+      "route": "/systems/seeds/pineapple",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Pineapple — Stats & Price",
+        "keywords": "[\"Pineapple GAG2\", \"Grow a Garden 2 Pineapple\", \"GAG2 pineapple crop value\"]",
+        "primaryKeyword": "Pineapple Grow a Garden 2",
+        "targetUrl": "/systems/seeds/pineapple/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "pineapple.webp",
+        "description": "Pineapple crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Pineapple — Stats & Price",
+        "keywords": "[\"Pineapple GAG2\", \"Grow a Garden 2 Pineapple\", \"GAG2 pineapple crop value\"]",
+        "primaryKeyword": "Pineapple Grow a Garden 2",
+        "description": "Pineapple crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍍 Pineapple",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Rare 1kg Value 30 S Floor 27 S Seed 10K🪙 / 99💎 Harvest Multi",
+        "A Rare multi harvest crop. Seasoning option for mid game. Reliable multi harvest income once you can afford the 10K seed cost.",
+        "Field Value Rarity Rare Base Value (1kg) 30 Rarity Rare 1kg Value 30 Floor 27 Seed Cost 10,000🪙 / 99💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~8%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 82
+    },
+    {
+      "file": "systems/seeds/pinetree.md",
+      "route": "/systems/seeds/pinetree",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Pinetree — Stats & Price",
+        "keywords": "[\"Pinetree GAG2\", \"Grow a Garden 2 Pinetree\", \"GAG2 pinetree crop value\"]",
+        "primaryKeyword": "Pinetree Grow a Garden 2",
+        "targetUrl": "/systems/seeds/pinetree/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "pinetree.webp",
+        "description": "Pinetree crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Pinetree — Stats & Price",
+        "keywords": "[\"Pinetree GAG2\", \"Grow a Garden 2 Pinetree\", \"GAG2 pinetree crop value\"]",
+        "primaryKeyword": "Pinetree Grow a Garden 2",
+        "description": "Pinetree crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌲 Pinetree",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity TBD 1kg Value 100 S Floor 90 S Seed 99🪙 Harvest TBD",
+        "A crop with unconfirmed rarity. Good base value (100 S) at a very low seed cost (99🪙). Status and mechanics TBD.",
+        "Field Value Rarity TBD Base Value (1kg) 100 Rarity TBD 1kg Value 100 Floor 90 Seed Cost 99🪙 Harvest TBD",
+        "Buy from the Seed Shop for 99🪙. Mechanics still being researched."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 76
+    },
+    {
+      "file": "systems/seeds/poison-apple.md",
+      "route": "/systems/seeds/poison-apple",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Poison Apple — Stats & Price",
+        "keywords": "[\"Poison Apple GAG2\", \"Grow a Garden 2 Poison Apple\", \"GAG2 poison-apple crop value\"]",
+        "primaryKeyword": "Poison Apple Grow a Garden 2",
+        "targetUrl": "/systems/seeds/poison-apple/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "poison-apple.webp",
+        "description": "Poison Apple crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Poison Apple — Stats & Price",
+        "keywords": "[\"Poison Apple GAG2\", \"Grow a Garden 2 Poison Apple\", \"GAG2 poison-apple crop value\"]",
+        "primaryKeyword": "Poison Apple Grow a Garden 2",
+        "description": "Poison Apple crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍏 Poison Apple",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Mythic 1kg Value 900 S Floor 812 S Seed 25M🪙 / 1,299💎 Harvest Single",
+        "Mythic single harvest crop. High seed cost but 900 S base value may have defensive poison properties.",
+        "Field Value Rarity Mythic Base Value (1kg) 900 Rarity Mythic 1kg Value 900 Floor 812 Seed Cost 25,000,000🪙 / 1,299💎 Harvest Single",
+        "Buy from the Seed Shop. Restock chance ~0.5%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 77
+    },
+    {
+      "file": "systems/seeds/poison-ivy.md",
+      "route": "/systems/seeds/poison-ivy",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Poison Ivy — Stats & Price",
+        "keywords": "[\"Poison Ivy GAG2\", \"Grow a Garden 2 Poison Ivy\", \"GAG2 poison-ivy crop value\"]",
+        "primaryKeyword": "Poison Ivy Grow a Garden 2",
+        "targetUrl": "/systems/seeds/poison-ivy/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "poison-ivy.webp",
+        "description": "Poison Ivy crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Poison Ivy — Stats & Price",
+        "keywords": "[\"Poison Ivy GAG2\", \"Grow a Garden 2 Poison Ivy\", \"GAG2 poison-ivy crop value\"]",
+        "primaryKeyword": "Poison Ivy Grow a Garden 2",
+        "description": "Poison Ivy crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌿 Poison Ivy — Crop",
+        "Ghost Pepper Pack",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Poison Ivy",
+        "Attribute Value : : Rarity Legendary 1kg Value 1,700 S Floor 1,500 S Seed 99🪙 Harvest Multi",
+        "A Legendary multi harvest crop at only 99 Sheckles per seed. Excellent value (1,700/99 = 17× ROI). Multi harvest regrowth means one seed keeps producing. One of",
+        "Ghost Pepper Pack Pack roll cost: 99💎 Drop chance: 4% (rare pack reward)",
+        "Field Value Rarity Legendary Base Value (1kg) 1700 Rarity Legendary 1kg Value 1,700 Floor 1,500 Seed Cost 99🪙 Harvest Multi",
+        "Buy from the Seed Shop for 99 Sheckles. Also a 4% drop from the Ghost Pepper Pack."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 120
+    },
+    {
+      "file": "systems/seeds/pomegranate.md",
+      "route": "/systems/seeds/pomegranate",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Pomegranate — Stats & Price",
+        "keywords": "[\"Pomegranate GAG2\", \"Grow a Garden 2 Pomegranate\", \"GAG2 pomegranate crop value\"]",
+        "primaryKeyword": "Pomegranate Grow a Garden 2",
+        "targetUrl": "/systems/seeds/pomegranate/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "pomegranate.webp",
+        "description": "Pomegranate crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Pomegranate — Stats & Price",
+        "keywords": "[\"Pomegranate GAG2\", \"Grow a Garden 2 Pomegranate\", \"GAG2 pomegranate crop value\"]",
+        "primaryKeyword": "Pomegranate Grow a Garden 2",
+        "description": "Pomegranate crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍎 Pomegranate — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Pomegranate",
+        "Attribute Value : : Rarity Mythic 1kg Value 900 S Floor 812 S Seed 12M🪙 / 999💎 Harvest Multi",
+        "A Mythic multi harvest crop. High seed cost (12M) but multi harvest provides sustained income. Good late game sustained earner when paired with mutations.",
+        "Field Value Rarity Mythic Base Value (1kg) 900 Rarity Mythic 1kg Value 900 Floor 812 Seed Cost 12,000,000🪙 / 999💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~0.9%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 87
+    },
+    {
+      "file": "systems/seeds/pumpkin.md",
+      "route": "/systems/seeds/pumpkin",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Pumpkin — Stats & Price",
+        "keywords": "[\"Pumpkin GAG2\", \"Grow a Garden 2 Pumpkin\", \"GAG2 pumpkin crop value\"]",
+        "primaryKeyword": "Pumpkin Grow a Garden 2",
+        "targetUrl": "/systems/seeds/pumpkin/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "pumpkin.webp",
+        "description": "Pumpkin crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Pumpkin — Stats & Price",
+        "keywords": "[\"Pumpkin GAG2\", \"Grow a Garden 2 Pumpkin\", \"GAG2 pumpkin crop value\"]",
+        "primaryKeyword": "Pumpkin Grow a Garden 2",
+        "description": "Pumpkin crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🎃 Pumpkin",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Uncommon 1kg Value 350 S Floor 316 S Seed ~34🪙 Harvest Multi",
+        "An Uncommon multi harvest crop with a very surprising 350 S base value. Excellent value for its seed cost (~34 Sheckles). One of the best early game value crops",
+        "Field Value Rarity Uncommon Base Value (1kg) 350 Rarity Uncommon 1kg Value 350 Floor 316 Seed Cost ~34🪙 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~15%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 86
+    },
+    {
+      "file": "systems/seeds/rocket-pop.md",
+      "route": "/systems/seeds/rocket-pop",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Rocket Pop — Stats & Price | GAG2",
+        "keywords": "[\"Rocket Pop GAG2\", \"Grow a Garden 2 Rocket Pop\", \"Rocket Pop price\", \"Rocket Pop seed\"]",
+        "primaryKeyword": "Rocket Pop Grow a Garden 2",
+        "targetUrl": "/systems/seeds/rocket-pop/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "[]",
+        "internalLinks": "",
+        "- target": "/calculator/",
+        "anchor": "GAG2 Calculator",
+        "type": "cross_system"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Rocket Pop — Stats & Price | GAG2",
+        "keywords": "[\"Rocket Pop GAG2\", \"Grow a Garden 2 Rocket Pop\", \"Rocket Pop price\", \"Rocket Pop seed\"]",
+        "primaryKeyword": "Rocket Pop Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "🚀 Rocket Pop — GAG2 Legendary Crop",
+        "Key Stats",
+        "Overview",
+        "How to Get Rocket Pop"
+      ],
+      "required_phrases": [
+        "Rocket Pop is a Legendary single harvest crop in Grow a Garden 2, costing 27,500 Sheckles or 149 Robux per seed. Released on July 4, 2026 .",
+        "Attribute Value Rarity LEGENDARY Seed Price 27,500 🪙 / 149 💎 Harvest Type Single Obtainable Yes Date Added 2026 07 04 Seed Shop Listed",
+        "Rocket Pop is a Legendary single harvest crop released on July 4, 2026 as part of Update 1.13.0. At 27,500 Sheckles per seed, it's one of the most affordable Le",
+        "Buy from the Seed Shop for 27,500 Sheckles or 149 Robux Standard seed shop rotation",
+        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/rocket pop/) — Updated Jul 4, 2026"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://growagarden2wiki.net/crops/rocket-pop/"
+      ],
+      "word_count": 153
+    },
+    {
+      "file": "systems/seeds/romanesco.md",
+      "route": "/systems/seeds/romanesco",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Romanesco — Stats & Price",
+        "keywords": "[\"Romanesco GAG2\", \"Grow a Garden 2 Romanesco\", \"GAG2 romanesco crop value\"]",
+        "primaryKeyword": "Romanesco Grow a Garden 2",
+        "targetUrl": "/systems/seeds/romanesco/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "romanesco.webp",
+        "description": "Romanesco crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Romanesco — Stats & Price",
+        "keywords": "[\"Romanesco GAG2\", \"Grow a Garden 2 Romanesco\", \"GAG2 romanesco crop value\"]",
+        "primaryKeyword": "Romanesco Grow a Garden 2",
+        "description": "Romanesco crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🥦 Romanesco — Crop",
+        "Info",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Mythic 1kg Value 1,500 S Floor 1,400 S Seed 99🪙 (only 99 Sheckles!) Harvest Multi",
+        "THE best ROI crop in the game. A Mythic rarity multi harvest crop that costs only 99 Sheckles per seed, producing 1,500 S at base weight. That's a 15× value/see",
+        "Multi harvest means it regrows — one seed = infinite harvests. This is likely the most under priced seed in GAG2.",
+        "Field Value Rarity Mythic Base Value (1kg) 1500 Rarity Mythic 1kg Value 1,500 Floor 1,400 Seed Cost 99🪙 Harvest Multi",
+        "Buy from the Seed Shop for just 99 Sheckles. One seed = infinite harvests."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 135
+    },
+    {
+      "file": "systems/seeds/strawberry.md",
+      "route": "/systems/seeds/strawberry",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Strawberry — Stats & Price",
+        "keywords": "[\"Strawberry GAG2\", \"Grow a Garden 2 Strawberry\", \"GAG2 strawberry crop value\"]",
+        "primaryKeyword": "Strawberry Grow a Garden 2",
+        "targetUrl": "/systems/seeds/strawberry/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "strawberry.webp",
+        "description": "Strawberry crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Strawberry — Stats & Price",
+        "keywords": "[\"Strawberry GAG2\", \"Grow a Garden 2 Strawberry\", \"GAG2 strawberry crop value\"]",
+        "primaryKeyword": "Strawberry Grow a Garden 2",
+        "description": "Strawberry crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍓 Strawberry — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Strawberry",
+        "Attribute Value : : Rarity Common 1kg Value 3 S Floor 3 S Seed 10🪙 / 7💎 Harvest Multi",
+        "The cheapest Common seed (10 Sheckles), multi harvest, but lowest base value at 3 S/1kg. Quick starter crop.",
+        "Field Value Rarity Common Base Value (1kg) 3 Rarity Common 1kg Value 3 Floor 3 Seed Cost 10🪙 / 7💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~25%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 79
+    },
+    {
+      "file": "systems/seeds/sunflower.md",
+      "route": "/systems/seeds/sunflower",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Sunflower — Stats & Price",
+        "keywords": "[\"Sunflower GAG2\", \"Grow a Garden 2 Sunflower\", \"GAG2 sunflower crop value\"]",
+        "primaryKeyword": "Sunflower Grow a Garden 2",
+        "targetUrl": "/systems/seeds/sunflower/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "sunflower.webp",
+        "description": "Sunflower crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Sunflower — Stats & Price",
+        "keywords": "[\"Sunflower GAG2\", \"Grow a Garden 2 Sunflower\", \"GAG2 sunflower crop value\"]",
+        "primaryKeyword": "Sunflower Grow a Garden 2",
+        "description": "Sunflower crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌻 Sunflower — Crop",
+        "Info",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Legendary 1kg Value 1,800 S Floor 1,600 S Seed 5M🪙 / 599💎 Harvest Multi Special Can receive Dawnbound mutation",
+        "A Legendary multi harvest crop. Notable for being the only crop that can receive the exclusive Dawnbound mutation (event exclusive). An interesting specialty cr",
+        "Field Value Rarity Legendary Base Value (1kg) 1800 Rarity Legendary 1kg Value 1,800 Floor 1,600 Seed Cost 5,000,000🪙 / 599💎 Harvest Multi Special Dawnbound muta",
+        "Buy from the Seed Shop. Restock chance ~1.7%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 106
+    },
+    {
+      "file": "systems/seeds/thorn-rose.md",
+      "route": "/systems/seeds/thorn-rose",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Thorn Rose — Stats & Price",
+        "keywords": "[\"Thorn Rose GAG2\", \"Grow a Garden 2 Thorn Rose\", \"GAG2 thorn-rose crop value\"]",
+        "primaryKeyword": "Thorn Rose Grow a Garden 2",
+        "targetUrl": "/systems/seeds/thorn-rose/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "thorn-rose.webp",
+        "description": "Thorn Rose crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Thorn Rose — Stats & Price",
+        "keywords": "[\"Thorn Rose GAG2\", \"Grow a Garden 2 Thorn Rose\", \"GAG2 thorn-rose crop value\"]",
+        "primaryKeyword": "Thorn Rose Grow a Garden 2",
+        "description": "Thorn Rose crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌹 Thorn Rose",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity TBD 1kg Value 140 S Floor 126 S Seed 229🪙 Harvest TBD",
+        "A crop with unconfirmed rarity. Decent value, may have defensive properties based on the thorn name.",
+        "Field Value Rarity TBD Base Value (1kg) 140 Rarity TBD 1kg Value 140 Floor 126 Seed Cost 229🪙 Harvest TBD",
+        "Buy from the Seed Shop for 229🪙. Mechanics still being researched."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 72
+    },
+    {
+      "file": "systems/seeds/tomato.md",
+      "route": "/systems/seeds/tomato",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Tomato — Stats & Price",
+        "keywords": "[\"Tomato GAG2\", \"Grow a Garden 2 Tomato\", \"GAG2 tomato crop value\"]",
+        "primaryKeyword": "Tomato Grow a Garden 2",
+        "targetUrl": "/systems/seeds/tomato/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "tomato.webp",
+        "description": "Tomato crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Tomato — Stats & Price",
+        "keywords": "[\"Tomato GAG2\", \"Grow a Garden 2 Tomato\", \"GAG2 tomato crop value\"]",
+        "primaryKeyword": "Tomato Grow a Garden 2",
+        "description": "Tomato crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🍅 Tomato — Crop",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Uncommon 1kg Value 9 S Floor 8 S Seed 200🪙 / 15💎 Harvest Multi",
+        "An Uncommon multi harvest crop. One of the recommended early purchases after Carrot. At 200 Sheckles, it's the next step up after basic crops.",
+        "Field Value Rarity Uncommon Base Value (1kg) 9 Rarity Uncommon 1kg Value 9 Floor 8 Seed Cost 200🪙 / 15💎 Harvest Multi",
+        "Buy from the Seed Shop. Restock chance ~20%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 85
+    },
+    {
+      "file": "systems/seeds/tulip.md",
+      "route": "/systems/seeds/tulip",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Tulip — Stats & Price",
+        "keywords": "[\"Tulip GAG2\", \"Grow a Garden 2 Tulip\", \"GAG2 tulip crop value\"]",
+        "primaryKeyword": "Tulip Grow a Garden 2",
+        "targetUrl": "/systems/seeds/tulip/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "tulip.webp",
+        "description": "Tulip crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Tulip — Stats & Price",
+        "keywords": "[\"Tulip GAG2\", \"Grow a Garden 2 Tulip\", \"GAG2 tulip crop value\"]",
+        "primaryKeyword": "Tulip Grow a Garden 2",
+        "description": "Tulip crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌷 Tulip",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Attribute Value : : Rarity Uncommon 1kg Value 60 S Floor 54 S Seed 40🪙 / 4💎 Harvest Single",
+        "An Uncommon single harvest crop. Good 60 S at cheap 40🪙 seed, but single harvest means replanting each time.",
+        "Field Value Rarity Uncommon Base Value (1kg) 60 Rarity Uncommon 1kg Value 60 Floor 54 Seed Cost 40🪙 / 4💎 Harvest Single",
+        "Buy from the Seed Shop. Restock chance ~18%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 78
+    },
+    {
+      "file": "systems/seeds/venom-spitter.md",
+      "route": "/systems/seeds/venom-spitter",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Venom Spitter — Stats & Price",
+        "keywords": "[\"Venom Spitter GAG2\", \"Grow a Garden 2 Venom Spitter\", \"GAG2 venom spitter crop value\"]",
+        "primaryKeyword": "Venom Spitter Grow a Garden 2",
+        "targetUrl": "/systems/seeds/venom-spitter/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Venom Spitter — Stats & Price",
+        "keywords": "[\"Venom Spitter GAG2\", \"Grow a Garden 2 Venom Spitter\", \"GAG2 venom spitter crop value\"]",
+        "primaryKeyword": "Venom Spitter Grow a Garden 2"
+      },
+      "headings": [
+        "Full Original Content",
+        "Structured Stats",
+        "How to Get",
+        "Source Data"
+      ],
+      "required_phrases": [
+        "Venom Spitter is a Mythic rarity defensive crop in Grow a Garden 2, added in the Aurora Event (2026 06 20). It functions as an active defense plant that attacks",
+        "Field Value Rarity Mythic Seed Price ~30,000,000🪙 Base Value (1kg) TBD Floor Value TBD Harvest Type Multi Special Active defense — attacks thieves",
+        "Buy from the Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD.",
+        "Beebom: https://beebom.com/grow a garden 2 update patch notes/ (accessed 2026 06 25)"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 117
+    },
+    {
+      "file": "systems/seeds/venus-flytrap.md",
+      "route": "/systems/seeds/venus-flytrap",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Venus Flytrap — Stats & Price",
+        "keywords": "[\"Venus Flytrap GAG2\", \"Grow a Garden 2 Venus Flytrap\", \"GAG2 venus-flytrap crop value\"]",
+        "primaryKeyword": "Venus Flytrap Grow a Garden 2",
+        "targetUrl": "/systems/seeds/venus-flytrap/",
+        "pageType": "detail",
+        "system": "seeds",
+        "parentList": "/systems/seeds/",
+        "images": "",
+        "- filename": "venus-flytrap.webp",
+        "description": "Venus Flytrap crop image"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Venus Flytrap — Stats & Price",
+        "keywords": "[\"Venus Flytrap GAG2\", \"Grow a Garden 2 Venus Flytrap\", \"GAG2 venus-flytrap crop value\"]",
+        "primaryKeyword": "Venus Flytrap Grow a Garden 2",
+        "description": "Venus Flytrap crop image"
+      },
+      "headings": [
+        "Full Original Content",
+        "🪴 Venus Flytrap — Crop",
+        "Info",
+        "Structured Stats",
+        "How to Get"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Crops Venus Flytrap",
+        "Attribute Value : : Rarity Mythic 1kg Value 3,000 S Floor 2,700 S Seed 7M🪙 / 799💎 Harvest Single Defensive ✅ Eats thieves",
+        "A high value single harvest crop that also attacks thieves at night — rare dual purpose plant. Worth the premium seed cost.",
+        "Field Value Rarity Mythic Base Value (1kg) 3000 Rarity Mythic 1kg Value 3,000 Floor 2,700 Seed Cost 7,000,000🪙 / 799💎 Harvest Single Defensive Eats thieves",
+        "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~1.43%."
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 102
+    },
+    {
+      "file": "systems/weather/list.md",
+      "route": "/systems/weather",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Weather — Events & Effects",
+        "keywords": "[\"Grow a Garden 2 weather\", \"GAG2 weather events\", \"GAG2 weather guide\"]",
+        "primaryKeyword": "Grow a Garden 2 weather",
+        "targetUrl": "/systems/weather/",
+        "pageType": "list",
+        "system": "weather",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Weather — Events & Effects",
+        "keywords": "[\"Grow a Garden 2 weather\", \"GAG2 weather events\", \"GAG2 weather guide\"]",
+        "primaryKeyword": "Grow a Garden 2 weather"
+      },
+      "headings": [
+        "Full Original Content",
+        "🌤️ Weather Events",
+        "Weather Event Table",
+        "Aurora Borealis 极光事件 — 详细机制",
+        "昼夜循环详细时间",
+        "Strategy by Weather",
+        "Weather Page Overview",
+        "Grow a Garden 2 — 天气事件"
+      ],
+      "required_phrases": [
+        "Breadcrumb: Roblox GAG2 Mechanics Weather",
+        "Weather Triggered Mutation × Notes : : : : : : Rain Wet 2 Common weather Thunderstorm Wet → Electric ⚡ 2→70 Can trigger highest non event mutation Frost Chilled",
+        "来源: Beebom, Pro Game Guides (2026 06 20)",
+        "触发条件 : 夜间随机触发 Aurora Borealis 天气事件 效果 : 对部分作物施加 Aurora 突变，×1.5 价值乘数 新种子 — Venom Spitter : Mythic 防御型植物，可攻击偷菜者，多次收获 新宠物 — Bear : Mythic 级，主动攻击入侵花园的窃贼 新装备 : Megap",
+        "阶段 时长 说明 : : : : : 白天 7分30秒 种植、收获、交易 黄昏 30秒 过渡期 夜间 2分钟 可偷窃他人花园 完整周期 10分钟 —",
+        "Rain / Thunderstorm — Plant large batches and wait for Electric proc (×70) Frost — Ensure some crops are Wet beforehand to trigger Frozen Blood Moon — Time your",
+        "天气 效果 突变触发 稀有度 : : : : Rain Wet 突变 ×2 Wet 常见 Thunderstorm Wet → Electric ×70 Electric 稀有 Frost Wet → Frozen ×40 Frozen 稀有 Blood Moon Bloodlit ×80 Bloodlit 传说级 R"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [],
+      "word_count": 295
+    },
+    {
+      "file": "updates/content.md",
+      "route": "/updates",
+      "frontmatter": {
+        "title": "Grow a Garden 2 Update Log — Patch Notes & Events",
+        "keywords": "[\"Grow a Garden 2 update\", \"GAG2 patch notes\", \"Grow a Garden 2 changelog\"]",
+        "primaryKeyword": "Grow a Garden 2 update",
+        "targetUrl": "/updates/",
+        "pageType": "updates",
+        "system": "updates",
+        "images": "[]"
+      },
+      "seo_hints": {
+        "title": "Grow a Garden 2 Update Log — Patch Notes & Events",
+        "keywords": "[\"Grow a Garden 2 update\", \"GAG2 patch notes\", \"Grow a Garden 2 changelog\"]",
+        "primaryKeyword": "Grow a Garden 2 update"
+      },
+      "headings": [
+        "Full Original Content",
+        "Grow a Garden 2 — 更新日志",
+        "v1.13.0 — Fire Fern & Rocket Pop Update（2026-07-04/05）🔥",
+        "v1.6 — Hypno Bloom & Auctioneer Update（2026-06-28）",
+        "v1.5 — Mega Moon Update（2026-06-27）",
+        "v1.4 — Picture Frame Crate Update（2026-06-25）",
+        "v1.2 — Turtle Update（2026-06-24）",
+        "v1.1 — Strawberry Sniper 更新（2026-06-22）",
+        "v1.0 — Aurora Event（2026-06-20）",
+        "v1.0 — Update 1 / Secret Update（~2026-06-18）",
+        "v1.0 — 正式发布（2026-06-12）",
+        "Secret Update Content",
+        "GAG2 网站秘密更新（Secret Website Update）",
+        "概述",
+        "新增功能",
+        "⏰ 昼夜计时器",
+        "🌾 种子库存页面",
+        "🔔 库存通知",
+        "🏆 排行榜",
+        "🐾 最稀有宠物展示",
+        "🥕 金胡萝卜（Golden Carrots）",
+        "👍👎 社区投票",
+        "🎰 Lucky Swiper",
+        "与游戏的关系"
+      ],
+      "required_phrases": [
+        "v1.13.0 — Fire Fern & Rocket Pop Update（2026 07 04/05）🔥",
+        "GAG2 Update 1.13.0 — Released around July 4 5, 2026. Confirmed by multiple YouTube content creators (Codezzy 29K views, BachaBlox 87K views, MrCatPlays).",
+        "新增内容： Fire Fern（火蕨） 🔥 — Legendary 品质，多收获作物 价格：6,000,000 🪙 / 659💎 每粒种子 平均价值：900🪙/kg，平均重量 9kg，Multi 收获 Seed Shop 可购买 Rocket Pop（火箭棒冰） 🚀 — Legendary 品质，单收获作物 价格：27",
+        "数据源：[GAG2 Wiki](https://growagarden2wiki.net/updates/) — 种子列表页更新于 Jul 4, 2026 YouTube 确认：Codezzy (29K views, Jul 4), BachaBlox (87K views, Jul 4), MrCatPlays (7",
+        "泄露内容： 3种新作物 ：Watermelon（西瓜）、Citrus Fruit（柑橘）、Kiwi（猕猴桃）— 疑似高价值限量种子 Big Rainbow T Rex 🌈🦖 — 全新活动奖励宠物 玩法 ：向 Farmer NPC 交付夏季水果获得公会积分（Guild Points） Golden 突变作物价值翻倍 （×",
+        "作物 积分 : : : Strawberry 1 Apple 3 Coconut 5 Mango 10 Sunflower 20 Pineapple 35",
+        "数据源：GAG2 Wiki Updates (growagarden2wiki.net) — 2026 06 30 发布",
+        "v1.6 — Hypno Bloom & Auctioneer Update（2026 06 28）",
+        "新增内容： Hypno Bloom（催眠花） — Super 稀有度，多收获作物 价格：90M 🪙 / 1,599💎 每粒种子，0.275% 商店刷新率 每株产 2 果，base value 9,500🪙/kg 生长 23m20s，复果 5m33s，平均重量 9kg，1% Huge 概率 能力：催眠入侵者（控场效果），",
+        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 28, 2026） 详细数据：hypnobloom.md、reference data/seed packs.md",
+        "新增内容： Mega Moon 事件 — 夜间出现蓝月，大幅增加 Mega 种子获取概率 Mega Seed — 全新种子变体。获得任意非限制作物的巨大版本",
+        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 27, 2026）",
+        "v1.4 — Picture Frame Crate Update（2026 06 25）",
+        "新增内容： Picture Frame Crate — 新箱子，可将图片横幅用作装饰道具。支持通过 Roblox Decal ID 自定义图像。",
+        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）",
+        "新增内容： Turtle（海龟） — 新宠物。速度较慢，但能帮助储存水果（果实在其中安全存放）。",
+        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）",
+        "新增内容： Strawberry Sniper — 新装备。发射草莓弹射物，将玩家击退。",
+        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）",
+        "新增内容： Venom Spitter — Mythic 防御植物，攻击偷菜者，多次收获，种子约 30M Sheckles Bear — Mythic 宠物，主动攻击入侵花园的窃贼 Aurora 突变 — ×1.5 倍率，Aurora Borealis 夜间天气事件触发 Megaphone — 新装备（8K Sheck"
+      ],
+      "images": [],
+      "youtube": [],
+      "links": [
+        "https://beebom.com/grow-a-garden-2-update-patch-notes/",
+        "https://gag.gg",
+        "https://growagarden2wiki.net/updates/"
+      ],
+      "word_count": 879
+    }
+  ],
+  "routes": [
+    "/",
+    "/beginner-guide",
+    "/calculator",
+    "/codes",
+    "/systems",
+    "/systems/bargain-system",
+    "/systems/gear",
+    "/systems/guilds",
+    "/systems/mutations",
+    "/systems/night-stealing",
+    "/systems/npcs",
+    "/systems/npcs/auctioneer",
+    "/systems/npcs/charlotte",
+    "/systems/npcs/george",
+    "/systems/npcs/gilbert",
+    "/systems/npcs/sam",
+    "/systems/npcs/steven",
+    "/systems/offline-growth",
+    "/systems/pets",
+    "/systems/seeds",
+    "/systems/seeds/acorn",
+    "/systems/seeds/apple",
+    "/systems/seeds/baby-cactus",
+    "/systems/seeds/bamboo",
+    "/systems/seeds/banana",
+    "/systems/seeds/beanstalk",
+    "/systems/seeds/blueberry",
+    "/systems/seeds/bone-blossom",
+    "/systems/seeds/briar-rose",
+    "/systems/seeds/cactus",
+    "/systems/seeds/carrot",
+    "/systems/seeds/cherry",
+    "/systems/seeds/coconut",
+    "/systems/seeds/corn",
+    "/systems/seeds/dragon-fruit",
+    "/systems/seeds/dragons-breath",
+    "/systems/seeds/fire-fern",
+    "/systems/seeds/ghost-pepper",
+    "/systems/seeds/glow-mushroom",
+    "/systems/seeds/grape",
+    "/systems/seeds/green-bean",
+    "/systems/seeds/horned-melon",
+    "/systems/seeds/hypnobloom",
+    "/systems/seeds/lotus",
+    "/systems/seeds/mango",
+    "/systems/seeds/moon-bloom",
+    "/systems/seeds/mushroom",
+    "/systems/seeds/pineapple",
+    "/systems/seeds/pinetree",
+    "/systems/seeds/poison-apple",
+    "/systems/seeds/poison-ivy",
+    "/systems/seeds/pomegranate",
+    "/systems/seeds/pumpkin",
+    "/systems/seeds/rocket-pop",
+    "/systems/seeds/romanesco",
+    "/systems/seeds/strawberry",
+    "/systems/seeds/sunflower",
+    "/systems/seeds/thorn-rose",
+    "/systems/seeds/tomato",
+    "/systems/seeds/tulip",
+    "/systems/seeds/venom-spitter",
+    "/systems/seeds/venus-flytrap",
+    "/systems/weather",
+    "/updates"
+  ],
+  "special_files": {
+    "site-architecture.md": "site-architecture.md",
+    "changelog.md": "changelog.md",
+    "sources.md": "sources.md"
+  },
+  "reference_data": {
+    "codes.json": {
+      "codes": [
+        {
+          "code": "TEAMGREENBEAN",
+          "reward": "3× Green Bean Seeds",
+          "status": "active",
+          "addedAt": "2026-06-12"
+        }
+      ]
+    },
+    "items.json": {
+      "_comment": "Grow a Garden 2 crop database. 37 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
+      "items": [
+        {
+          "slug": "mega-seed",
+          "name": "Mega Seed (Variants — see mechanics/mega-moon.md)",
+          "tier": "TBD",
+          "baseValue": "TBD",
+          "description": "A new seed variant introduced in the Mega Moon Update (2026-06-27). Creates a large version of any non-limited crop. Specific multiplier and value data not yet available. See mechanics/mega-moon.md for details.",
+          "stats": {
+            "Rarity": "TBD",
+            "1kg Value": "TBD",
+            "Seed Cost": "TBD",
+            "Harvest": "TBD"
+          },
+          "howToGet": "Mega Moon Event — a blue moon at night increases the chance to get Mega seeds.",
+          "_source": "https://beebom.com/grow-a-garden-2-update-patch-notes/",
+          "_confidence": "reasonable_inference"
+        },
+        {
+          "slug": "hypnobloom",
+          "name": "Hypno Bloom",
+          "tier": "Super",
+          "baseValue": 9500,
+          "description": "A Super-rarity multi-harvest crop added in Update 1.06.0 (June 27, 2026). Produces 2 fruits per plant. Has a crowd-control ability that disrupts intruder movement. Nearly 4x the value of Ghost Pepper at comparable weight.",
+          "stats": {
+            "Rarity": "Super",
+            "1kg Value": "9,500",
+            "Floor": "8,574",
+            "Seed Cost": "90,000,000🪙 / 1,599💎",
+            "Harvest": "Multi (2 fruits)",
+            "Avg Weight": "9 kg",
+            "Growth": "23m 20s",
+            "Fruit Regrowth": "5m 33s"
+          },
+          "howToGet": "Buy from the Seed Shop for 90M Sheckles or 1,599 Robux. Restock chance ~0.275%. Updated Jun 28, 2026 per growagarden2wiki.net."
+        },
+        {
+          "slug": "moon-bloom",
+          "name": "Moon Bloom",
+          "tier": "Super",
+          "baseValue": 9000,
+          "description": "One of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (65M Sheckles) but extremely high returns. Endgame-only crop.",
+          "stats": {
+            "Rarity": "Super",
+            "1kg Value": "9,000",
+            "Floor": "8,100",
+            "Seed Cost": "65,000,000🪙 / 1,349💎",
+            "Harvest": "TBD"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~0.35% — extremely rare. Requires a maxed economy (Sprinklers, pets, defense)."
+        },
+        {
+          "slug": "dragons-breath",
+          "name": "Dragon's Breath",
+          "tier": "Super",
+          "baseValue": 3400,
+          "description": "The most expensive seed in the game (90M Sheckles) and the other Super-rarity crop. Single harvest — each seed produces one high-value crop.",
+          "stats": {
+            "Rarity": "Super",
+            "1kg Value": "3,400",
+            "Floor": "3,100",
+            "Seed Cost": "90,000,000🪙 / 1,499💎",
+            "Harvest": "Single"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~0.275% — extremely rare. Absolute endgame crop; needs extreme defense."
+        },
+        {
+          "slug": "lotus",
+          "name": "Lotus",
+          "tier": "Mythic",
+          "baseValue": 6500,
+          "description": "A Mythic crop with excellent value (6,500 S/1kg) at a surprisingly low seed cost of just 899 Sheckles. Single harvest, but the value/seed ratio is extremely favorable (~7.2× ROI).",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "6,500",
+            "Floor": "5,900",
+            "Seed Cost": "899🪙",
+            "Harvest": "Single"
+          },
+          "howToGet": "Buy from the Seed Shop. Best value-per-Sheckle among high-tier crops — great candidate for mutation farming."
+        },
+        {
+          "slug": "venus-flytrap",
+          "name": "Venus Flytrap",
+          "tier": "Mythic",
+          "baseValue": 3000,
+          "description": "A high-value single-harvest crop that also attacks thieves at night — a rare dual-purpose plant. Worth the premium seed cost.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "3,000",
+            "Floor": "2,700",
+            "Seed Cost": "7,000,000🪙 / 799💎",
+            "Harvest": "Single",
+            "Defensive": "Eats thieves"
+          },
+          "howToGet": "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~1.43%."
+        },
+        {
+          "slug": "ghost-pepper",
+          "name": "Ghost Pepper",
+          "tier": "Mythic",
+          "baseValue": 2500,
+          "description": "A Mythic multi-harvest crop obtained from the Ghost Pepper Pack (99💎 per roll, 1% drop). Multi-harvest makes it one of the best long-term Mythic investments.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "2,500",
+            "Floor": "2,300",
+            "Seed Cost": "99💎 (Ghost Pepper Pack, 1%)",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 1% drop rate — rarest pack reward)."
+        },
+        {
+          "slug": "beanstalk",
+          "name": "Beanstalk",
+          "tier": "Mythic",
+          "baseValue": 2000,
+          "description": "A Robux-only Mythic crop with multi-harvest and good base value. Only purchasable with Robux (1,199💎), making it a premium seed.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "2,000",
+            "Floor": "1,800",
+            "Seed Cost": "1,199💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Purchase with Robux only (1,199💎). Not available for Sheckles."
+        },
+        {
+          "slug": "romanesco",
+          "name": "Romanesco",
+          "tier": "Mythic",
+          "baseValue": 1500,
+          "description": "THE best ROI crop in the game. A Mythic multi-harvest crop costing only 99 Sheckles per seed, producing 1,500 S at base weight — a 15× value/seed ratio. Likely the most under-priced seed in GAG2.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "1,500",
+            "Floor": "1,400",
+            "Seed Cost": "99🪙",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop for just 99 Sheckles. One seed = infinite harvests."
+        },
+        {
+          "slug": "pomegranate",
+          "name": "Pomegranate",
+          "tier": "Mythic",
+          "baseValue": 900,
+          "description": "A Mythic multi-harvest crop. High seed cost (12M) but multi-harvest provides sustained income — a good late-game earner when paired with mutations.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "900",
+            "Floor": "812",
+            "Seed Cost": "12,000,000🪙 / 999💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~0.9%."
+        },
+        {
+          "slug": "poison-apple",
+          "name": "Poison Apple",
+          "tier": "Mythic",
+          "baseValue": 900,
+          "description": "A Mythic single-harvest crop. High seed cost but 900 S base value, with possible defensive poison properties.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "900",
+            "Floor": "812",
+            "Seed Cost": "25,000,000🪙 / 1,299💎",
+            "Harvest": "Single"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~0.5%."
+        },
+        {
+          "slug": "horned-melon",
+          "name": "Horned Melon",
+          "tier": "Mythic",
+          "baseValue": 200,
+          "description": "A Mythic multi-harvest crop obtainable only from the Ghost Pepper Pack (30% drop).",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "200",
+            "Floor": "180",
+            "Seed Cost": "99💎 (Ghost Pepper Pack, 30%)",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 30% drop)."
+        },
+        {
+          "slug": "sunflower",
+          "name": "Sunflower",
+          "tier": "Legendary",
+          "baseValue": 1800,
+          "description": "A Legendary multi-harvest crop, notable as the only crop that can receive the exclusive Dawnbound mutation (event-exclusive). A specialty crop for collectors and mutation farmers.",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "1,800",
+            "Floor": "1,600",
+            "Seed Cost": "5,000,000🪙 / 599💎",
+            "Harvest": "Multi",
+            "Special": "Dawnbound mutation"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~1.7%."
+        },
+        {
+          "slug": "poison-ivy",
+          "name": "Poison Ivy",
+          "tier": "Legendary",
+          "baseValue": 1700,
+          "description": "A Legendary multi-harvest crop at only 99 Sheckles per seed. Excellent value (17× ROI) with multi-harvest regrowth — one of the best early mid-game investments.",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "1,700",
+            "Floor": "1,500",
+            "Seed Cost": "99🪙",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop for 99 Sheckles. Also a 4% drop from the Ghost Pepper Pack."
+        },
+        {
+          "slug": "cherry",
+          "name": "Cherry",
+          "tier": "Legendary",
+          "baseValue": 350,
+          "description": "A Legendary multi-harvest crop. Mid-range Legendary entry point at 1.2M Sheckles with solid long-term value from regrowth.",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "350",
+            "Floor": "316",
+            "Seed Cost": "1,200,000🪙 / 479💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~2.2%."
+        },
+        {
+          "slug": "acorn",
+          "name": "Acorn",
+          "tier": "Legendary",
+          "baseValue": 200,
+          "description": "A Legendary multi-harvest crop.",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "200",
+            "Floor": "180",
+            "Seed Cost": "700,000🪙 / 379💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~2.9%."
+        },
+        {
+          "slug": "dragon-fruit",
+          "name": "Dragon Fruit",
+          "tier": "Legendary",
+          "baseValue": 150,
+          "description": "A popular Legendary crop — the first serious high-tier investment for transitioning from mid to late game. Reasonable seed cost (120K) with multi-harvest returns.",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "150",
+            "Floor": "135",
+            "Seed Cost": "120,000🪙 / 239💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~4%."
+        },
+        {
+          "slug": "mushroom",
+          "name": "Mushroom",
+          "tier": "Epic",
+          "baseValue": 13000,
+          "description": "Has the highest base sell value of any crop in GAG2. Despite the 15K seed cost, its 13K base value at 1kg makes it a strong mid-game investment. Multi-harvest provides recurring income.",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "13,000",
+            "Floor": "11,700",
+            "Seed Cost": "15,000🪙 / 69💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop once you have 15K🪙 saved. Pair with Frozen (×40) or Electric (×70) mutations for extreme returns."
+        },
+        {
+          "slug": "glow-mushroom",
+          "name": "Glow Mushroom",
+          "tier": "Epic",
+          "baseValue": 700,
+          "description": "An Epic multi-harvest crop obtainable only from the Ghost Pepper Pack (15% drop).",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "700",
+            "Floor": "632",
+            "Seed Cost": "99💎 (Ghost Pepper Pack, 15%)",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 15% drop, avg weight 7.00kg)."
+        },
+        {
+          "slug": "mango",
+          "name": "Mango",
+          "tier": "Epic",
+          "baseValue": 90,
+          "description": "An Epic multi-harvest crop.",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "90",
+            "Floor": "81",
+            "Seed Cost": "300,000🪙 / 199💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
+        },
+        {
+          "slug": "coconut",
+          "name": "Coconut",
+          "tier": "Epic",
+          "baseValue": 60,
+          "description": "An Epic multi-harvest crop with decent mid-game value.",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "60",
+            "Floor": "54",
+            "Seed Cost": "70,000🪙 / 149💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~5%."
+        },
+        {
+          "slug": "grape",
+          "name": "Grape",
+          "tier": "Epic",
+          "baseValue": 45,
+          "description": "An Epic multi-harvest crop.",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "45",
+            "Floor": "41",
+            "Seed Cost": "50,000🪙 / 139💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~6.6%."
+        },
+        {
+          "slug": "banana",
+          "name": "Banana",
+          "tier": "Epic",
+          "baseValue": 35,
+          "description": "An Epic multi-harvest crop. Reliable but unremarkable value for its cost.",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "35",
+            "Floor": "32",
+            "Seed Cost": "30,000🪙 / 119💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~9%."
+        },
+        {
+          "slug": "green-bean",
+          "name": "Green Bean",
+          "tier": "Epic",
+          "baseValue": 10,
+          "description": "The crop linked to the only active code (TEAMGREENBEAN). Despite Epic rarity, its base value (10 S) is low, but multi-harvest makes it a long-term passive earner.",
+          "stats": {
+            "Rarity": "Epic",
+            "1kg Value": "10",
+            "Floor": "9",
+            "Seed Cost": "20,000🪙 / 99💎",
+            "Harvest": "Multi",
+            "Code": "TEAMGREENBEAN grants 3 seeds"
+          },
+          "howToGet": "Buy from the Seed Shop, or redeem the code TEAMGREENBEAN for 3 free seeds. Restock chance ~15%."
+        },
+        {
+          "slug": "bamboo",
+          "name": "Bamboo",
+          "tier": "Rare",
+          "baseValue": 800,
+          "description": "The best early-to-mid game crop in GAG2. Priced at only 700 Sheckles, it produces 800 S of base value and can be planted densely — ideal for mutation farming.",
+          "stats": {
+            "Rarity": "Rare",
+            "1kg Value": "800",
+            "Floor": "722",
+            "Seed Cost": "700🪙 / 17💎",
+            "Harvest": "Single"
+          },
+          "howToGet": "Buy from the Seed Shop for 700🪙. Plant densely in tight clusters and wait for weather mutations. Single harvest — replant immediately."
+        },
+        {
+          "slug": "baby-cactus",
+          "name": "Baby Cactus",
+          "tier": "Rare",
+          "baseValue": 70,
+          "description": "A Rare single-harvest crop from the Ghost Pepper Pack (50% drop — the most common pack reward). A smaller, cheaper version of Cactus.",
+          "stats": {
+            "Rarity": "Rare",
+            "1kg Value": "70",
+            "Floor": "63",
+            "Seed Cost": "99💎 (Ghost Pepper Pack, 50%)",
+            "Harvest": "Single"
+          },
+          "howToGet": "Roll the Ghost Pepper Pack in the Item Shop (99💎 per roll, 50% drop)."
+        },
+        {
+          "slug": "cactus",
+          "name": "Cactus",
+          "tier": "Rare",
+          "baseValue": 40,
+          "description": "A defensive crop that also produces income. Thieves get pricked trying to steal — a good early defensive plant.",
+          "stats": {
+            "Rarity": "Rare",
+            "1kg Value": "40",
+            "Floor": "36",
+            "Seed Cost": "5,000🪙 / 79💎",
+            "Harvest": "Single"
+          },
+          "howToGet": "Buy from the Seed Shop or Defense Plant Shop. Restock chance ~10%."
+        },
+        {
+          "slug": "corn",
+          "name": "Corn",
+          "tier": "Rare",
+          "baseValue": 34,
+          "description": "A Rare multi-harvest crop recommended for stable mid-game income. Reliable returns between Bamboo cycling and saving up for Mushroom.",
+          "stats": {
+            "Rarity": "Rare",
+            "1kg Value": "34",
+            "Floor": "31",
+            "Seed Cost": "3,000🪙 / 69💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~10%."
+        },
+        {
+          "slug": "pineapple",
+          "name": "Pineapple",
+          "tier": "Rare",
+          "baseValue": 30,
+          "description": "A Rare multi-harvest crop. A solid mid-game option with reliable multi-harvest income once you can afford the 10K seed cost.",
+          "stats": {
+            "Rarity": "Rare",
+            "1kg Value": "30",
+            "Floor": "27",
+            "Seed Cost": "10,000🪙 / 99💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~8%."
+        },
+        {
+          "slug": "pumpkin",
+          "name": "Pumpkin",
+          "tier": "Uncommon",
+          "baseValue": 350,
+          "description": "An Uncommon multi-harvest crop with a surprising 350 S base value. Excellent value for its ~34 Sheckle seed cost — one of the best early-game value crops.",
+          "stats": {
+            "Rarity": "Uncommon",
+            "1kg Value": "350",
+            "Floor": "316",
+            "Seed Cost": "~34🪙",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~15%."
+        },
+        {
+          "slug": "tulip",
+          "name": "Tulip",
+          "tier": "Uncommon",
+          "baseValue": 60,
+          "description": "An Uncommon single-harvest crop. Good 60 S value at a cheap 40🪙 seed, but single harvest means replanting each time.",
+          "stats": {
+            "Rarity": "Uncommon",
+            "1kg Value": "60",
+            "Floor": "54",
+            "Seed Cost": "40🪙 / 4💎",
+            "Harvest": "Single"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~18%."
+        },
+        {
+          "slug": "apple",
+          "name": "Apple",
+          "tier": "Uncommon",
+          "baseValue": 12,
+          "description": "An Uncommon multi-harvest crop. A stepping stone between basic crops and more valuable mid-game options like Bamboo.",
+          "stats": {
+            "Rarity": "Uncommon",
+            "1kg Value": "12",
+            "Floor": "11",
+            "Seed Cost": "400🪙 / 29💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~18%."
+        },
+        {
+          "slug": "tomato",
+          "name": "Tomato",
+          "tier": "Uncommon",
+          "baseValue": 9,
+          "description": "An Uncommon multi-harvest crop. One of the recommended early purchases after Carrot — the next step up at 200 Sheckles.",
+          "stats": {
+            "Rarity": "Uncommon",
+            "1kg Value": "9",
+            "Floor": "8",
+            "Seed Cost": "200🪙 / 15💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~20%."
+        },
+        {
+          "slug": "carrot",
+          "name": "Carrot",
+          "tier": "Common",
+          "baseValue": 5,
+          "description": "The cheapest seed in the game (1 Sheckle). Multi-harvest with a 5× value/seed cost ratio. The perfect starter crop.",
+          "stats": {
+            "Rarity": "Common",
+            "1kg Value": "5",
+            "Floor": "5",
+            "Seed Cost": "1🪙 / 3💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop for 1🪙. Restock chance ~30% — very common."
+        },
+        {
+          "slug": "blueberry",
+          "name": "Blueberry",
+          "tier": "Common",
+          "baseValue": 5,
+          "description": "A Common multi-harvest crop. Slightly more expensive than Carrot (25 vs 1) but same base value — good for early diversification.",
+          "stats": {
+            "Rarity": "Common",
+            "1kg Value": "5",
+            "Floor": "5",
+            "Seed Cost": "25🪙 / 12💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~20%."
+        },
+        {
+          "slug": "strawberry",
+          "name": "Strawberry",
+          "tier": "Common",
+          "baseValue": 3,
+          "description": "A Common multi-harvest crop with the lowest base value at 3 S/1kg. A quick starter crop.",
+          "stats": {
+            "Rarity": "Common",
+            "1kg Value": "3",
+            "Floor": "3",
+            "Seed Cost": "10🪙 / 7💎",
+            "Harvest": "Multi"
+          },
+          "howToGet": "Buy from the Seed Shop. Restock chance ~25%."
+        },
+        {
+          "slug": "thorn-rose",
+          "name": "Thorn Rose",
+          "tier": "TBD",
+          "baseValue": 140,
+          "description": "A crop with unconfirmed rarity. Decent value, with possible defensive properties based on the thorn name.",
+          "stats": {
+            "Rarity": "TBD",
+            "1kg Value": "140",
+            "Floor": "126",
+            "Seed Cost": "229🪙",
+            "Harvest": "TBD"
+          },
+          "howToGet": "Buy from the Seed Shop for 229🪙. Mechanics still being researched."
+        },
+        {
+          "slug": "pinetree",
+          "name": "Pinetree",
+          "tier": "TBD",
+          "baseValue": 100,
+          "description": "A crop with unconfirmed rarity. Good base value (100 S) at a very low seed cost (99🪙). Status and mechanics TBD.",
+          "stats": {
+            "Rarity": "TBD",
+            "1kg Value": "100",
+            "Floor": "90",
+            "Seed Cost": "99🪙",
+            "Harvest": "TBD"
+          },
+          "howToGet": "Buy from the Seed Shop for 99🪙. Mechanics still being researched."
+        },
+        {
+          "slug": "venom-spitter",
+          "name": "Venom Spitter",
+          "tier": "Mythic",
+          "baseValue": "TBD",
+          "description": "Mythic defensive plant that attacks thieves. Multi-harvest. Added in Aurora Event (2026-06-20). Seed costs ~30M Sheckles.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "TBD",
+            "Floor": "TBD",
+            "Seed Cost": "~30,000,000🪙",
+            "Harvest": "Multi",
+            "Special": "Active defense — attacks thieves"
+          },
+          "howToGet": "Buy from Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD."
+        },
+        {
+          "slug": "fire-fern",
+          "name": "Fire Fern",
+          "tier": "Legendary",
+          "baseValue": 900,
+          "description": "A Legendary multi-harvest crop added in Update 1.13.0 (July 2026).",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "900",
+            "Floor": "TBD",
+            "Seed Cost": "6,000,000 / 659 Robux",
+            "Harvest": "Multi",
+            "Avg Weight": "9 kg"
+          },
+          "howToGet": "Buy from the Seed Shop.",
+          "_source": "https://growagarden2wiki.net/crops/fire-fern/",
+          "_confidence": "wiki_confirmed"
+        },
+        {
+          "slug": "rocket-pop",
+          "name": "Rocket Pop",
+          "tier": "Legendary",
+          "baseValue": "TBD",
+          "description": "A Legendary single-harvest crop released on July 4, 2026 (Update 1.13.0).",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "TBD",
+            "Floor": "TBD",
+            "Seed Cost": "27,500 / 149 Robux",
+            "Harvest": "Single",
+            "Date Added": "2026-07-04"
+          },
+          "howToGet": "Buy from the Seed Shop.",
+          "_source": "https://growagarden2wiki.net/crops/rocket-pop/",
+          "_confidence": "wiki_confirmed"
+        },
+        {
+          "slug": "bone-blossom",
+          "name": "Bone Blossom",
+          "tier": "Legendary",
+          "baseValue": "TBD",
+          "description": "An upcoming Legendary multi-harvest crop. Currently unreleased.",
+          "stats": {
+            "Rarity": "Legendary",
+            "1kg Value": "TBD",
+            "Seed Cost": "TBA",
+            "Harvest": "Multi",
+            "Obtainable": "Not currently"
+          },
+          "howToGet": "Not currently obtainable.",
+          "_source": "https://growagarden2wiki.net/crops/bone-blossom/",
+          "_confidence": "wiki_listed_unreleased"
+        },
+        {
+          "slug": "briar-rose",
+          "name": "Briar Rose",
+          "tier": "Mythic",
+          "baseValue": 4000,
+          "description": "An unreleased Mythic multi-harvest crop with estimated base value of 4,000 S at 1kg.",
+          "stats": {
+            "Rarity": "Mythic",
+            "1kg Value": "4,000",
+            "Floor": "3,610",
+            "Seed Cost": "TBA",
+            "Harvest": "Multi",
+            "Avg Weight": "9 kg"
+          },
+          "howToGet": "Not currently obtainable (admin/testing only).",
+          "_source": "https://growagarden2wiki.net/crops/briar-rose/",
+          "_confidence": "wiki_listed_unreleased"
+        }
+      ]
+    }
+  },
+  "calculator_logic": "reference-data/calculator-logic.md"
+}

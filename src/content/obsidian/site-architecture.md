@@ -1,6 +1,6 @@
 # Site Architecture — Grow a Garden 2
 
-> Total pages: 61
+> Total pages: 65
 > Page hierarchy and relationships.
 > Migrated from v1.x structure on 2026-06-29
 
@@ -19,7 +19,11 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 │
 └── /systems/                             ← Game systems hub
     │
-    ├── /systems/seeds/                   ← "Grow a Garden 2 seeds" (列表页 + 37 detail pages)
+    ├── /systems/seeds/                   ← "Grow a Garden 2 seeds" (列表页 + 42 detail pages)
+    │   ├── /systems/seeds/fire-fern/     ← 🆕 Fire Fern (Legendary, v2.1)
+    │   ├── /systems/seeds/rocket-pop/    ← 🆕 Rocket Pop (Legendary, v2.1)
+    │   ├── /systems/seeds/bone-blossom/  ← 🆕 Bone Blossom (Legendary, v2.1)
+    │   ├── /systems/seeds/briar-rose/    ← 🆕 Briar Rose (Mythic, v2.1)
     │   ├── /systems/seeds/hypnobloom/    ← 🆕 Hypno Bloom (Super, v1.6)
     │   ├── /systems/seeds/moon-bloom/    ← Moon Bloom (Super)
     │   ├── /systems/seeds/dragons-breath/ ← Dragon's Breath (Super)
@@ -85,7 +89,7 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 | guide/ | 1 | Grow a Garden 2 beginner guide | — |
 | codes/ | 1 | Grow a Garden 2 codes | — |
 | updates/ | 1 | Grow a Garden 2 update | — |
-| systems/seeds/ | 39 | Grow a Garden 2 seeds | ✅ 38 detail pages |
+| systems/seeds/ | 43 | Grow a Garden 2 seeds | ✅ 42 detail pages |
 | systems/pets/ | 1 | Grow a Garden 2 pets | ❌ (list only) |
 | systems/mutations/ | 1 | Grow a Garden 2 mutations | ❌ (list only) |
 | systems/gear/ | 1 | Grow a Garden 2 gear | ❌ (list only) |
@@ -119,6 +123,7 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 | 2026-06-30 | v1.7 | Added Auctioneer NPC system + homepage stats update + Hypno Bloom detail enrichment |
 | 2026-06-30 | v1.8 | Fixed missing venom-spitter.md → added detail page + seeds list update |
 | 2026-06-30 | v1.9 | Added systems/content.md + fixed stale seed counts in folder table |
+| 2026-07-07 | v2.1 | Fire Fern, Rocket Pop, 4 new pets, stats refresh, Update 1.13.0 discovered |
 | 2026-07-02 | v2.0 | Summer Harvest Event discovered, homepage stats refreshed, seed packs expanded to 11 types |
 
 ### Changed Pages (v2.0)
@@ -141,6 +146,16 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 - **site-architecture.md** — 🔄 page map updated (51→59 pages, NPCs system expanded)
 - **sources.md** — 🔄 added GAG2 Wiki updates + NPCs + Seed Packs
 - **changelog.md** — 🔄 v1.7 entry expanded
+
+### Changed Pages (v2.1)
+- **homepage/content.md** — 🔄 stats refreshed (1.0B+ visits, 594K favorites, 579K players)
+- **systems/seeds/list.md** — 🔄 added Fire Fern & Rocket Pop rows
+- **systems/seeds/fire-fern.md** — 🆕 new detail page (Legendary, 6M🪙, Update 1.13.0)
+- **systems/seeds/rocket-pop.md** — 🆕 new detail page (Legendary, 27.5K🪙, Jul 4)
+- **systems/seeds/bone-blossom.md** — 🆕 new detail page (Legendary, unreleased)
+- **systems/seeds/briar-rose.md** — 🆕 new detail page (Mythic, unreleased)
+- **systems/pets/list.md** — 🔄 added 4 new pets (18 total)
+- **site-architecture.md** — 🔄 page count 61→65, seeds: 39→43, details: 38→42
 
 ### Changed Pages (v1.8)
 - **systems/seeds/venom-spitter.md** — 🆕 new detail page (was missing)

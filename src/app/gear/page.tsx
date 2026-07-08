@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Gear — Sprinklers, Defense & Tools Guide`,
   description: `Complete ${gameName} gear guide. Sprinklers, defense equipment (Vine Wrapper, Freeze Ray), raid tools, and the investment priority order to maximize your Sheckles.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/gear/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/gear` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -139,16 +140,18 @@ export default function GearPage() {
               <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
                 <p className="text-gray-600 dark:text-gray-300">
                   Pair your gear with the right{' '}
-                  <Link href="/systems/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/pets" className="text-blue-600 dark:text-blue-400 hover:underline">
                     defensive pets
                   </Link>
                   . Learn night raiding on the{' '}
-                  <Link href="/systems/night-stealing/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/night-stealing" className="text-blue-600 dark:text-blue-400 hover:underline">
                     night stealing guide
                   </Link>
                   .
                 </p>
               </div>
+
+              <ObsidianArticle source="systems/gear/list.md" />
             </div>
           </div>
         </section>

@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Guilds — Weekly Rewards & Leaderboard Guide`,
   description: `Complete ${gameName} guild guide. How guilds work, 99 Robux creation cost, 9 reward tiers, the Ice Serpent top reward, and strategy for weekly guild competition.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/guilds/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/guilds` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -125,16 +126,18 @@ export default function GuildsPage() {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   See the{' '}
-                  <Link href="/systems/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/pets" className="text-blue-600 dark:text-blue-400 hover:underline">
                     pet catalog
                   </Link>{' '}
                   for all other obtainable pets, or{' '}
-                  <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/mutations" className="text-blue-600 dark:text-blue-400 hover:underline">
                     mutation multipliers
                   </Link>{' '}
                   to understand how to maximize your per-harvest value for guild competition.
                 </p>
               </div>
+
+              <ObsidianArticle source="systems/guilds/list.md" />
             </div>
           </div>
         </section>

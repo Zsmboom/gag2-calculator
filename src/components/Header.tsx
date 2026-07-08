@@ -50,7 +50,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex">
-            <Link href="/guide/" className="btn btn-primary">
+            <Link href="/beginner-guide" className="btn btn-primary">
               Get Started
             </Link>
           </div>
@@ -91,7 +91,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/guide/"
+              href="/beginner-guide"
               className="block px-3 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 min-h-[50px] flex items-center mb-2"
               onClick={() => setIsMenuOpen(false)}
             >

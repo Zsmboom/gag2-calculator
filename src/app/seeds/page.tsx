@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Seeds — Complete Seed Shop Prices & Guide`,
   description: `Complete ${gameName} seed shop guide. All seed prices in Sheckles and Robux, restock odds, the Ghost Pepper Pack, and recommended purchase strategy by game phase.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/seeds/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/seeds` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -143,7 +143,7 @@ export default function SeedsPage() {
                       {PRICES.map((p) => (
                         <tr key={p.seed} className="border-t border-gray-200 dark:border-gray-700">
                           <td className={`${tdClass} font-medium`}>
-                            <Link href={`/tier-list/${seedSlug(p.seed)}/`} className="text-blue-600 dark:text-blue-400 hover:underline">
+                            <Link href={`/tier-list/${seedSlug(p.seed)}`} className="text-blue-600 dark:text-blue-400 hover:underline">
                               {p.seed}
                             </Link>
                           </td>
@@ -208,7 +208,7 @@ export default function SeedsPage() {
                     of non-limited crops, but the exact source, drop rate, and value behavior are
                     still being verified.
                   </p>
-                  <Link href="/mega-moon/" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                  <Link href="/updates" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Read the Mega Moon guide
                   </Link>
                 </div>

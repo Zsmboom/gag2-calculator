@@ -14,6 +14,8 @@ images: []
 
 **Breadcrumb:** Roblox > GAG2 > Seeds
 
+> **Last data refresh:** 2026-07-07 — Added Fire Fern (Legendary), Rocket Pop (Legendary), Bone Blossom (Legendary), Briar Rose (Mythic), and Summer Harvest crops (Watermelon, Citrus Fruit, Kiwi). Total: 45+ crops.
+
 ## Shop Info
 
 - **Restock cycle:** Every ~4–5 minutes
@@ -54,7 +56,9 @@ images: []
 | Poison Apple | Mythic | 25,000,000 | 1,299💎 | Single |
 | Venom Spitter | Mythic | ~30,000,000 | — | Multi |
 | Moon Bloom | Super | 65,000,000 | 1,349💎 | TBD |
-| Dragon's Breath | Super | 90,000,000 | 1,499💎 | Single |
+|| Dragon's Breath | Super | 90,000,000 | 1,499💎 | Single |
+|| **Fire Fern** 🔥 | **Legendary** | **6,000,000** | **659💎** | **Multi** |
+|| **Rocket Pop** 🚀 | **Legendary** | **27,500** | **149💎** | **Single** |
 
 
 ## Seed Shop Restock Odds

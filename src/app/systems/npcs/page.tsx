@@ -5,13 +5,14 @@ import npcsData from '@/data/npcs.json';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} NPCs — All Non-Player Characters`,
   description: `All ${gameName} NPCs: Sam, George, Charlotte, Steven, Gilbert, and Auctioneer, including locations, roles, and gameplay strategy.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/npcs/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/npcs` },
 };
 
 type Npc = {
@@ -35,8 +36,8 @@ export default function NpcsPage() {
           <div className="container">
             <Breadcrumbs
               segments={[
-                { label: 'Systems', href: '/systems/' },
-                { label: 'NPCs', href: '/systems/npcs/' },
+                { label: 'Systems', href: '/systems' },
+                { label: 'NPCs', href: '/systems/npcs' },
               ]}
             />
             <div className="text-center mb-12">
@@ -62,7 +63,7 @@ export default function NpcsPage() {
                     <tr key={npc.slug} className="border-t border-gray-200 dark:border-gray-700">
                       <td className="px-4 py-3 text-sm font-medium">
                         <Link
-                          href={`/systems/npcs/${npc.slug}/`}
+                          href={`/systems/npcs/${npc.slug}`}
                           className="text-blue-600 dark:text-blue-400 hover:underline"
                         >
                           {npc.name}
@@ -81,7 +82,7 @@ export default function NpcsPage() {
               {npcs.map((npc) => (
                 <Link
                   key={npc.slug}
-                  href={`/systems/npcs/${npc.slug}/`}
+                  href={`/systems/npcs/${npc.slug}`}
                   className="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-5 hover:border-blue-400 dark:hover:border-blue-500 transition-colors"
                 >
                   <h2 className="text-xl font-semibold text-gray-900 dark:text-white">{npc.name}</h2>
@@ -92,6 +93,8 @@ export default function NpcsPage() {
                 </Link>
               ))}
             </div>
+
+            <ObsidianArticle source="systems/npcs/list.md" className="mt-10" />
           </div>
         </section>
       </main>

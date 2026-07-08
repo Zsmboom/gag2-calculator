@@ -10,7 +10,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Mega Moon Update — Mega Seed Guide`,
   description: `Mega Moon event guide for ${gameName}. Learn what the blue moon event does, how Mega Seeds work, and which Mega Seed values are still being verified.`,
-  alternates: { canonical: `${config.seo.baseUrl}/mega-moon/` },
+  alternates: { canonical: `${config.seo.baseUrl}/mega-moon` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -39,7 +39,7 @@ export default function MegaMoonPage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Mega Moon', href: '/mega-moon/' }]} />
+            <Breadcrumbs segments={[{ label: 'Mega Moon', href: '/mega-moon' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Mega Moon Update</h1>
               <p className="subheading">
@@ -79,7 +79,7 @@ export default function MegaMoonPage() {
                     outcomes, but it does not have a confirmed sell value yet. For that reason it is
                     excluded from the profit calculator until reliable numeric data exists.
                   </p>
-                  <Link href="/tier-list/mega-seed/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/tier-list/mega-seed" className="text-blue-600 dark:text-blue-400 hover:underline">
                     View the Mega Seed database entry
                   </Link>
                 </div>
@@ -106,11 +106,11 @@ export default function MegaMoonPage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   Mega Moon is an event mechanic, not a normal mutation. For regular mutation
                   multipliers, use the{' '}
-                  <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/mutations" className="text-blue-600 dark:text-blue-400 hover:underline">
                     mutation guide
                   </Link>
                   , and for weather-triggered effects, check the{' '}
-                  <Link href="/systems/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/weather" className="text-blue-600 dark:text-blue-400 hover:underline">
                     weather page
                   </Link>
                   .

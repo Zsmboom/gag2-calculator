@@ -1,5 +1,5 @@
 {
-  "_comment": "Grow a Garden 2 crop database. 38 crops plus Mega Seed special variant. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
+  "_comment": "Grow a Garden 2 crop database. 37 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
   "items": [
     {
       "slug": "mega-seed",
@@ -14,8 +14,7 @@
         "Harvest": "TBD"
       },
       "howToGet": "Mega Moon Event — a blue moon at night increases the chance to get Mega seeds.",
-      "_source": "https://beebom.com/grow-a-garden-2-update-patch-notes/",
-      "_confidence": "reasonable_inference"
+      "hasImage": false
     },
     {
       "slug": "hypnobloom",
@@ -33,7 +32,8 @@
         "Growth": "23m 20s",
         "Fruit Regrowth": "5m 33s"
       },
-      "howToGet": "Buy from the Seed Shop for 90M Sheckles or 1,599 Robux. Restock chance ~0.275%. Updated Jun 28, 2026 per growagarden2wiki.net."
+      "howToGet": "Buy from the Seed Shop for 90M Sheckles or 1,599 Robux. Restock chance ~0.275%. Updated Jun 28, 2026 per growagarden2wiki.net.",
+      "hasImage": false
     },
     {
       "slug": "moon-bloom",
@@ -592,7 +592,75 @@
         "Harvest": "Multi",
         "Special": "Active defense — attacks thieves"
       },
-      "howToGet": "Buy from Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD."
+      "howToGet": "Buy from Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD.",
+      "hasImage": false
+    },
+    {
+      "slug": "fire-fern",
+      "name": "Fire Fern",
+      "tier": "Legendary",
+      "baseValue": 900,
+      "description": "A Legendary multi-harvest crop added in Update 1.13.0 (July 2026).",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "900",
+        "Floor": "TBD",
+        "Seed Cost": "6,000,000 / 659 Robux",
+        "Harvest": "Multi",
+        "Avg Weight": "9 kg"
+      },
+      "howToGet": "Buy from the Seed Shop.",
+      "hasImage": false
+    },
+    {
+      "slug": "rocket-pop",
+      "name": "Rocket Pop",
+      "tier": "Legendary",
+      "baseValue": "TBD",
+      "description": "A Legendary single-harvest crop released on July 4, 2026 (Update 1.13.0).",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "TBD",
+        "Floor": "TBD",
+        "Seed Cost": "27,500 / 149 Robux",
+        "Harvest": "Single",
+        "Date Added": "2026-07-04"
+      },
+      "howToGet": "Buy from the Seed Shop.",
+      "hasImage": false
+    },
+    {
+      "slug": "bone-blossom",
+      "name": "Bone Blossom",
+      "tier": "Legendary",
+      "baseValue": "TBD",
+      "description": "An upcoming Legendary multi-harvest crop. Currently unreleased.",
+      "stats": {
+        "Rarity": "Legendary",
+        "1kg Value": "TBD",
+        "Seed Cost": "TBA",
+        "Harvest": "Multi",
+        "Obtainable": "Not currently"
+      },
+      "howToGet": "Not currently obtainable.",
+      "hasImage": false
+    },
+    {
+      "slug": "briar-rose",
+      "name": "Briar Rose",
+      "tier": "Mythic",
+      "baseValue": 4000,
+      "description": "An unreleased Mythic multi-harvest crop with estimated base value of 4,000 S at 1kg.",
+      "stats": {
+        "Rarity": "Mythic",
+        "1kg Value": "4,000",
+        "Floor": "3,610",
+        "Seed Cost": "TBA",
+        "Harvest": "Multi",
+        "Avg Weight": "9 kg"
+      },
+      "howToGet": "Not currently obtainable (admin/testing only).",
+      "hasImage": false
     }
   ]
 }

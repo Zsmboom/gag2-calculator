@@ -14,17 +14,17 @@ A Next.js (App Router, static export) fan site for the Roblox game Grow a Garden
 - `/src/app` — pages and routes (App Router)
 - `/src/components` — reusable UI components
 - `/src/lib/games.config.ts` — single config file driving the whole site (game name, SEO, pages, features, FAQs, calculator)
-- `/src/data` — JSON data files (`items.json` = 38 crops plus Mega Seed special variant, `codes.json` = active codes, `game.config.json` = config mirror)
+- `/src/data` — JSON data files (`items.json` = 43 crops plus Mega Seed special variant, `codes.json` = active codes, `game.config.json` = config mirror)
 - `/public` — static assets (favicons, crop images, manifest, robots)
 
 ## Key Pages
 - `/` — Home (Hero, Features, HowTo, Why, FAQ, Share)
 - `/calculator` — Profit calculator (Sell = BaseValue × weight² × Mutation × FriendBoost × Quantity)
 - `/codes` — Active codes (TEAMGREENBEAN)
-- `/tier-list` — 38 crops ranked by GAG2 rarity (Super → Common), each with a detail page
+- `/tier-list` — 43 crops ranked by GAG2 rarity (Super → Common), each with a detail page
 - `/guide` — Quick start walkthrough
 - `/systems` — Systems hub for game mechanics
-- `/systems/seeds` — 38-crop database, seed prices, and seed packs
+- `/systems/seeds` — 43-crop database, seed prices, and seed packs
 - `/systems/npcs` — Sam, George, Charlotte, Steven, Gilbert, and Auctioneer
 - `/systems/mutations` — Mutation multipliers + weather triggers
 - `/systems/pets` — Pet catalog and spawn mechanics

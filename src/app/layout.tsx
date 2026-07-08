@@ -60,9 +60,6 @@ export const metadata: Metadata = {
       noimageindex: false,
     },
   },
-  alternates: {
-    canonical: baseUrl,
-  },
 };
 
 export default function RootLayout({

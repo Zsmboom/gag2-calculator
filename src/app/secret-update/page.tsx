@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} gag.gg — Official Website Features & Golden Carrots`,
   description: `Complete guide to ${gameName}'s official website gag.gg. Day/night timer, seed stock tracker, inventory notifications, leaderboards, Lucky Swiper, and the Golden Carrots currency system.`,
-  alternates: { canonical: `${config.seo.baseUrl}/secret-update/` },
+  alternates: { canonical: `${config.seo.baseUrl}/secret-update` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -81,7 +81,7 @@ export default function SecretUpdatePage() {
                   last-seen timestamps. Track rare seed restocks without being in-game.
                 </p>
                 <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-1">
-                  <li>Shows availability for all 38 crops</li>
+                  <li>Shows availability for all 43 crop entries</li>
                   <li>Timestamps last appearance in the shop</li>
                   <li>Ideal for tracking Moon Bloom, Dragon&apos;s Breath, and other Super/Mythic seeds</li>
                 </ul>
@@ -105,7 +105,7 @@ export default function SecretUpdatePage() {
                   <li>Highest total harvest value</li>
                   <li>Most rare items in inventory</li>
                   <li>Weekly guild rankings (see also the{' '}
-                    <Link href="/systems/guilds/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/systems/guilds" className="text-blue-600 dark:text-blue-400 hover:underline">
                       guild page
                     </Link>
                     )</li>
@@ -191,15 +191,15 @@ export default function SecretUpdatePage() {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   For in-game mechanics, see{' '}
-                  <Link href="/systems/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/weather" className="text-blue-600 dark:text-blue-400 hover:underline">
                     weather events
                   </Link>
                   ,{' '}
-                  <Link href="/systems/pets/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/pets" className="text-blue-600 dark:text-blue-400 hover:underline">
                     pet catalog
                   </Link>
                   , and{' '}
-                  <Link href="/systems/guilds/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/guilds" className="text-blue-600 dark:text-blue-400 hover:underline">
                     guild system
                   </Link>
                   .

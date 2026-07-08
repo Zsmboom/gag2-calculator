@@ -157,8 +157,65 @@
 | Field | Value |
 |-------|-------|
 | URL | https://growagarden2wiki.net/updates/ |
-| Accessed | 2026-07-02 |
+| Accessed | 2026-06-30 |
 | Content collected | Summer Harvest Event announcement (Jun 30) — 3 leaked crops (Watermelon, Citrus Fruit, Kiwi), Big Rainbow T-Rex pet, delivery point table |
+
+## YouTube — Codezzy — July 4 Update Review (Real Link)
+
+| Field | Value |
+|-------|-------|
+| URL | https://www.youtube.com/watch?v=2QEVBflOy00 |
+| Channel | Codezzy (491K subs) |
+| Title | *NEW* 4th of JULY UPDATE JUST BROKE Grow a Garden 2.. |
+| Published | ~2026-07-04 (3 days ago at check) |
+| Views | 29K |
+| Likes | 495 |
+| Content | July 4 update review: holiday crate, Butterfly & Bald Eagle pets, weather events, Fire Fern & Rocket Pop crops confirmed, Sunburst event/mutation, gag.gg companion website (mini-games, trading, calculator) |
+| Thumbnail | yt-2QEVBflOy00.jpg (not downloaded — network blocked) |
+
+## YouTube — MrCatPlays — July 4 Update
+
+| Field | Value |
+|-------|-------|
+| URL | https://www.youtube.com/watch?v=tPxFAj22kzY |
+| Channel | MrCatPlays |
+| Title | THIS NEW SECRET WEATHER Changes EVERYTHING... in Grow a Garden 2! (July 4th Update) |
+| Published | ~2026-07-05 |
+| Views | 789 (approx) |
+| Content | July 4 update coverage: new weather events, new crops and pets |
+
+## YouTube — BachaBlox — Jumbo Rocket Pop
+
+| Field | Value |
+|-------|-------|
+| URL | https://www.youtube.com/watch?v=QlsxRp8wNuI |
+| Channel | BachaBlox |
+| Title | Growing Worlds First JUMBO ROCKET POP on Grow a Garden 2! |
+| Published | ~2026-07-06 (22 hours ago at check) |
+| Views | 87K |
+| Content | "Growing Worlds First JUMBO ROCKET POP" — confirms Rocket Pop is in-game and farmable. Also shows Jumbo (mutation) mechanics on Rocket Pop |
+
+## YouTube — BachaBlox — All Mutations on Rocket Pop
+
+| Field | Value |
+|-------|-------|
+| URL | https://www.youtube.com/watch?v=hfjgN9jxd8E |
+| Channel | BachaBlox |
+| Title | I Grew EVERY MUTATION On ROCKET POP In Roblox Grow A Garden 2... |
+| Published | ~2026-07-06 |
+| Views | Recent |
+| Content | Every mutation variant on Rocket Pop — confirms mutations apply to new crops |
+
+## YouTube — MistyLemon — 4th July Codes
+
+| Field | Value |
+|-------|-------|
+| URL | https://www.youtube.com/watch?v=cxu_HdXPkKw |
+| Channel | MistyLemon |
+| Title | Testing ALL *NEW* Working CODES in Grow a Garden 2 (4th JULY) |
+| Published | ~2026-07-04 |
+| Views | 60K |
+| Content | Code testing for July 4 update — no new codes found beyond existing 3 |
 
 | Field | Value |
 |-------|-------|

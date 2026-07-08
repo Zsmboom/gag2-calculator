@@ -27,6 +27,12 @@ internalLinks:
 images:
   - filename: "homepage-screenshot.png"
     description: "Reference screenshot of GAG2 game"
+  - filename: "yt-codezzy-july4-update-page.png"
+    description: "Codezzy YouTube video — July 4 Update Review"
+  - filename: "yt-2QEVBflOy00.jpg"
+    description: "Codezzy July 4 update thumbnail (not downloaded)"
+  - filename: "yt-QlsxRp8wNuI.jpg"
+    description: "BachaBlox Jumbo Rocket Pop thumbnail (not downloaded)"
 ---
 
 ## Full Original Content
@@ -44,11 +50,11 @@ images:
 | **Platform** | Roblox |
 | **Genre** | Farming Simulator / PvP Raiding |
 | **Release Date** | 2026-06-12 (official launch) |
-| **Current Players** | ~493,000 (2026-07-02) |
-| **24h Peak** | 531,549 |
+| **Current Players** | ~579,806 (2026-07-07) |
+| **24h Peak** | 579,806 |
 | **All-Time Peak CCU** | 929,371 |
-| **Total Visits** | 907M+ |
-| **Favorites** | 560K+ |
+| **Total Visits** | 1.0B+ |
+| **Favorites** | 594K+ |
 | **Rating** | 89% (620K+ ratings) |
 | **Avg Play Time** | 27.46 min |
 
@@ -73,10 +79,10 @@ Grow a Garden 2 is the sequel to the popular Roblox farming game. Key new featur
 
 ### 💰 Economy & Values
 - 🎁 Active Codes
-- 💎 Crop Value Table (38 crops)
+- 💎 Crop Value Table (45+ crops)
 
 ### 🌾 Database
-- 🌽 All Crops (38 entries)
+- 🌽 All Crops (45+ entries)
 - 🌰 Seed Shop & Prices
 - 💫 Mutation System & Multipliers
 - 🐾 Pet Catalog

@@ -8,11 +8,13 @@ import FAQ from '@/components/FAQ';
 import ShareSection from '@/components/ShareSection';
 import Footer from '@/components/Footer';
 import GoogleSearchSchema from '@/components/GoogleSearchSchema';
+import ObsidianArticle from '@/components/ObsidianArticle';
 import { config } from '@/lib/games.config';
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      <link rel="canonical" href={`${config.seo.baseUrl}/`} />
       <Header />
       <main id="main-content">
         <Hero />
@@ -21,6 +23,11 @@ export default function Home() {
         <WhatsNew />
         <Why />
         <FAQ />
+        <section className="section bg-white dark:bg-gray-900">
+          <div className="container">
+            <ObsidianArticle source="homepage/content.md" />
+          </div>
+        </section>
         <ShareSection />
         <GoogleSearchSchema faqs={config.faqs} />
       </main>

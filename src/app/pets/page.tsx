@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Pets — Full Pet Catalog & Guide`,
-  description: `Discover all ${gameName} pets. Learn spawn mechanics, buy prices, and abilities from Deer (growth boost) to Golden Dragonfly (doubles Gold). Legendary spawns trigger a server-wide alert.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/pets/` },
+  description: `Discover all 18 confirmed ${gameName} pets, including Butterfly, Bald Eagle, Big Bee, Capybara, spawn mechanics, buy prices, and abilities.`,
+  alternates: { canonical: `${config.seo.baseUrl}/systems/pets` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -20,6 +21,7 @@ const SUPPORT = [
   { pet: 'Bunny', rarity: 'Common', cost: '20K', ability: '+5 walk speed' },
   { pet: 'Owl', rarity: 'Uncommon', cost: '25K', ability: 'Extends night view by 12.5%, hoots when rare pet spawns' },
   { pet: 'Deer', rarity: 'Rare', cost: '50K', ability: '+10% plant growth speed' },
+  { pet: 'Butterfly', rarity: 'Legendary', cost: 'TBA', ability: 'Farming pet that pollinates crops' },
 ];
 
 const DEFENSIVE = [
@@ -28,12 +30,15 @@ const DEFENSIVE = [
   { pet: 'Bear', rarity: 'Mythic', ability: 'Tackles intruders, pins them down, then throws them away. Buy for 5M🪙' },
   { pet: 'Gnome', rarity: 'Rare', ability: 'Scares away thieves' },
   { pet: 'Venus Dragonfly', rarity: 'Rare', ability: 'Aggressive defensive pet' },
+  { pet: 'Bald Eagle', rarity: 'Mythic', ability: 'Defender pet that attacks thieves' },
 ];
 
 const UTILITY = [
   { pet: 'Robin', rarity: 'Legendary', cost: '75K', ability: 'Flies around eating ripe fruit, sometimes drops seeds' },
   { pet: 'Monkey', rarity: 'Mythic', cost: '3M', ability: 'Brings ripe fruit straight to you' },
   { pet: 'Raccoon', rarity: 'Super', cost: '15M', ability: 'Sneaks out at night to steal from empty gardens, +25 steal limit' },
+  { pet: 'Big Bee', rarity: 'TBA', cost: 'TBA', ability: 'Egg-source pet with role still being verified' },
+  { pet: 'Capybara', rarity: 'TBA', cost: 'TBA', ability: 'Newly listed pet with source and role still being verified' },
 ];
 
 const MUTATION_ENHANCING = [
@@ -67,9 +72,9 @@ export default function PetsPage() {
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Pets</h1>
               <p className="subheading">
-                Every pet, its rarity, cost, and ability. Unlike GAG1, pets spawn randomly on the
-                map rather than in a dedicated shop — and Legendary+ spawns trigger a server-wide
-                alert.
+                Every confirmed pet, its rarity, cost, and ability. The July 2026 refresh expands
+                the catalog to 18 confirmed pets, including Butterfly, Bald Eagle, Big Bee, and
+                Capybara.
               </p>
             </div>
 
@@ -290,27 +295,29 @@ export default function PetsPage() {
                 <div className="flex flex-col gap-2 text-gray-600 dark:text-gray-300">
                   <p>
                     See how pets affect your farming strategy on the{' '}
-                    <Link href="/guide/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/beginner-guide" className="text-blue-600 dark:text-blue-400 hover:underline">
                       beginner guide
                     </Link>
                     .
                   </p>
                   <p>
                     Check the{' '}
-                    <Link href="/systems/gear/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/systems/gear" className="text-blue-600 dark:text-blue-400 hover:underline">
                       gear page
                     </Link>{' '}
                     for defensive equipment that works with your pets.
                   </p>
                   <p>
                     Visit the{' '}
-                    <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/systems/mutations" className="text-blue-600 dark:text-blue-400 hover:underline">
                       mutations page
                     </Link>{' '}
                     to understand how pet abilities interact with mutations.
                   </p>
                 </div>
               </div>
+
+              <ObsidianArticle source="systems/pets/list.md" />
             </div>
           </div>
         </section>

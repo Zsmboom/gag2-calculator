@@ -5,13 +5,14 @@ import itemsData from '@/data/items.json';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `${gameName} Seeds — 38 Crop Database & Seed Packs`,
-  description: `Complete ${gameName} seeds guide with all 38 crops, seed costs, rarity, harvest type, Venom Spitter, Hypno Bloom, Ghost Pepper Pack, and Rare Seed Pack drops.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/seeds/` },
+  title: `${gameName} Seeds — 43 Crop Database & Seed Packs`,
+  description: `Complete ${gameName} seeds guide with 43 crop entries, seed costs, rarity, harvest type, Fire Fern, Rocket Pop, Hypno Bloom, seed packs, and unreleased crop notes.`,
+  alternates: { canonical: `${config.seo.baseUrl}/systems/seeds` },
 };
 
 type SeedItem = {
@@ -24,7 +25,7 @@ type SeedItem = {
 };
 
 const seeds: SeedItem[] = (((itemsData as unknown) as { items: SeedItem[] }).items ?? []).filter(
-  (it) => it && it.slug && it.name
+  (it) => it && it.slug && it.name && it.slug !== 'mega-seed'
 );
 
 const tierOrder: Record<string, number> = {
@@ -47,6 +48,11 @@ const sortedSeeds = [...seeds].sort((a, b) => {
   if (tierDiff !== 0) return tierDiff;
   return numericValue(b.baseValue) - numericValue(a.baseValue);
 });
+
+const cropCount = seeds.length;
+const latestSeeds = ['fire-fern', 'rocket-pop', 'bone-blossom', 'briar-rose']
+  .map((slug) => seeds.find((seed) => seed.slug === slug))
+  .filter((seed): seed is SeedItem => Boolean(seed));
 
 const ghostPepperPack = [
   ['Baby Cactus', 'Rare', '50%', '1 in 2'],
@@ -91,19 +97,46 @@ export default function SystemsSeedsPage() {
           <div className="container">
             <Breadcrumbs
               segments={[
-                { label: 'Systems', href: '/systems/' },
-                { label: 'Seeds', href: '/systems/seeds/' },
+                { label: 'Systems', href: '/systems' },
+                { label: 'Seeds', href: '/systems/seeds' },
               ]}
             />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Seeds &amp; Crops</h1>
               <p className="subheading">
-                Complete database of all 38 crops, including Venom Spitter, Hypno Bloom, Mega Seed,
-                seed costs, harvest type, and seed pack drop references.
+                Complete database of all {cropCount} crop entries, including Fire Fern, Rocket Pop,
+                Bone Blossom, Briar Rose, Hypno Bloom, seed costs, harvest type, and seed pack drop
+                references.
               </p>
             </div>
 
             <div className="max-w-5xl mx-auto space-y-10">
+              {latestSeeds.length > 0 ? (
+                <section className="rounded-lg border border-orange-200 bg-orange-50 p-5 dark:border-orange-900/60 dark:bg-orange-950/30">
+                  <h2 className="text-2xl font-semibold mb-3">Update 1.13.0 Seeds</h2>
+                  <p className="text-gray-700 dark:text-gray-300 mb-4">
+                    The July 2026 data refresh adds two shop-listed Legendary crops and two
+                    unreleased/testing crops. Fire Fern is the standout multi-harvest crop at 6M
+                    Sheckles, while Rocket Pop is a lower-cost single-harvest Legendary.
+                  </p>
+                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                    {latestSeeds.map((seed) => (
+                      <Link
+                        key={seed.slug}
+                        href={`/systems/seeds/${seed.slug}`}
+                        className="rounded-md bg-white p-4 shadow-sm ring-1 ring-orange-100 hover:ring-orange-300 dark:bg-gray-900 dark:ring-orange-900"
+                      >
+                        <p className="font-semibold text-gray-900 dark:text-white">{seed.name}</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-300">
+                          {seed.tier} · {seed.stats?.Harvest ?? 'TBD'} ·{' '}
+                          {seed.stats?.['Seed Cost'] ?? 'TBA'}
+                        </p>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
+
               <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-lg shadow-md">
                 <table className="w-full">
                   <thead className="bg-gray-100 dark:bg-gray-700">
@@ -120,7 +153,7 @@ export default function SystemsSeedsPage() {
                       <tr key={seed.slug} className="border-t border-gray-200 dark:border-gray-700">
                         <td className={`${tdClass} font-medium`}>
                           <Link
-                            href={`/systems/seeds/${seed.slug}/`}
+                            href={`/systems/seeds/${seed.slug}`}
                             className="text-blue-600 dark:text-blue-400 hover:underline"
                           >
                             {seed.name}
@@ -194,6 +227,8 @@ export default function SystemsSeedsPage() {
                   ))}
                 </ul>
               </section>
+
+              <ObsidianArticle source="systems/seeds/list.md" />
             </div>
           </div>
         </section>

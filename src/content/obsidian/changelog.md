@@ -1,4 +1,37 @@
 ---
+## v2.1 — 2026-07-07
+
+**Type**: Major data update — Update 1.13.0 discovered (Fire Fern, Rocket Pop, new pets, Summer Harvest crops listed on wiki)
+**Summary**: Discovered Update 1.13.0 (Jul 4-5) adding Fire Fern and Rocket Pop Legendary crops. Found 4 new pets (Butterfly, Bald Eagle, Big Bee, Capybara) — pet total now 18. Summer Harvest crops (Watermelon, Citrus Fruit, Kiwi) now listed on wiki. Refreshed homepage stats: 1.0B+ visits, 594K favorites, 579K current players.
+
+### Files Modified (3)
+- **homepage/content.md** — Stats refreshed: 907M→1.0B+ visits, 560K→594K favorites, 493K→579K players; crop count 38→45+
+- **systems/seeds/list.md** — Added Fire Fern (6M🪙, Legendary, Multi) and Rocket Pop (27.5K🪙, Legendary, Single) to price table; added data refresh header
+- **systems/pets/list.md** — Pet count 14→18: added Butterfly, Bald Eagle, Big Bee, Capybara rows
+
+### Files Added (4)
+- **systems/seeds/fire-fern.md** — New detail page (Legendary, 6M🪙, 900 S/kg, Multi, Update 1.13.0)
+- **systems/seeds/rocket-pop.md** — New detail page (Legendary, 27.5K🪙, Single, released Jul 4)
+- **systems/seeds/bone-blossom.md** — New detail page (Legendary, multi, unreleased)
+- **systems/seeds/briar-rose.md** — New detail page (Mythic, multi, unreleased, 4K S/kg)
+
+### New Data
+- Fire Fern: Legendary, 6M🪙/659💎, 900 S/kg, Multi, Added in Update 1.13.0
+- Rocket Pop: Legendary, 27.5K🪙/149💎, Single, Released Jul 4
+- Bone Blossom (BB): Legendary, Multi, Unreleased
+- Briar Rose: Mythic, Multi, 4K S/kg, Unreleased (admin only)
+- Butterfly: Legendary pet (Farming), Bald Eagle: Mythic pet (Defender), Big Bee & Capybara: TBA
+- New wiki pages: Buttercup, Magic Beanstalk, PartFruit — TBA crops
+
+### Known Gaps
+- Fire Fern exact restock chance — not documented on wiki
+- Rocket Pop 1kg base value — not documented on wiki
+- Butterfly/Bald Eagle spawn chance and price — wiki has placeholder data
+- Briar Rose/Bone Blossom/Magic Beanstalk/PartFruit/Buttercup — unreleased, no stats
+- Summer Harvest Event — still upcoming; crops now listed as TBA on wiki
+
+---
+
 ## v2.0 — 2026-07-02
 
 **Type**: Major data update — Summer Harvest Event discovered + stats refresh

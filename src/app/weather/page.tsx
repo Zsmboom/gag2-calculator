@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Weather Events — Complete Guide & Mutation Triggers`,
   description: `Complete ${gameName} weather events guide. Every weather type, the mutation it triggers, its multiplier, and strategy tips for Rain, Thunderstorm, Frost, and Blood Moon.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/weather/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/weather` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -86,7 +87,7 @@ export default function WeatherPage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   Mega Moon is a night event that improves Mega Seed chances, not a standard
                   mutation multiplier. Track its current data on the{' '}
-                  <Link href="/mega-moon/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/updates" className="text-blue-600 dark:text-blue-400 hover:underline">
                     Mega Moon guide
                   </Link>
                   .
@@ -137,12 +138,14 @@ export default function WeatherPage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   Mutations are mutually exclusive in {gameName} — only one applies per crop. See the
                   full multiplier breakdown on the{' '}
-                  <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/mutations" className="text-blue-600 dark:text-blue-400 hover:underline">
                     mutations page
                   </Link>
                   .
                 </p>
               </div>
+
+              <ObsidianArticle source="systems/weather/list.md" />
             </div>
           </div>
         </section>

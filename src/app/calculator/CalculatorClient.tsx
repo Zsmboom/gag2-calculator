@@ -155,7 +155,7 @@ export default function CalculatorClient({
 
       {crops.length === 0 ? (
         <p className="mt-6 text-sm text-gray-500 dark:text-gray-400 text-center">
-          No crops with base values found in <code>src/data/items.json</code>.
+          No crop value data is available yet.
         </p>
       ) : null}
     </div>

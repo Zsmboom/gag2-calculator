@@ -4,6 +4,7 @@ import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 import CalculatorClient from './CalculatorClient';
 
 const gameName = config.game.name;
@@ -12,7 +13,7 @@ const calculatorType = config.calculator?.type ?? 'stat';
 export const metadata: Metadata = {
   title: `Grow a Garden 2 Calculator \u2014 Free GAG2 Profit Calculator`,
   description: `Free Grow a Garden 2 profit calculator. Estimate sell prices with the community-verified formula: weight, mutations, and friend boost. Instant browser-side results.`,
-  alternates: { canonical: `${config.seo.baseUrl}/calculator/` },
+  alternates: { canonical: `${config.seo.baseUrl}/calculator` },
 };
 
 export default function CalculatorPage() {
@@ -22,7 +23,7 @@ export default function CalculatorPage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Calculator', href: '/calculator/' }]} />
+            <Breadcrumbs segments={[{ label: 'Calculator', href: '/calculator' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Calculator</h1>
               <p className="subheading">
@@ -96,15 +97,21 @@ export default function CalculatorPage() {
           <div className="container max-w-3xl">
             <p className="text-gray-600 dark:text-gray-300 text-center">
               View the full{' '}
-              <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+              <Link href="/systems/mutations" className="text-blue-600 dark:text-blue-400 hover:underline">
                 mutation multiplier list
               </Link>{' '}
               and{' '}
-              <Link href="/crops/" className="text-blue-600 dark:text-blue-400 hover:underline">
+              <Link href="/systems/seeds" className="text-blue-600 dark:text-blue-400 hover:underline">
                 crop database
               </Link>
               .
             </p>
+          </div>
+        </section>
+
+        <section className="section bg-gray-50 dark:bg-gray-800">
+          <div className="container">
+            <ObsidianArticle source="calculator/content.md" />
           </div>
         </section>
       </main>

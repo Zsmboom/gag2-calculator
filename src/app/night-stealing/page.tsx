@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Night Stealing — Guide & Defense Strategies`,
   description: `Complete ${gameName} night stealing guide. Day/night cycle, how stealing works, and every defense method ranked by effectiveness — from staying in your garden to private servers.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/night-stealing/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/night-stealing` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -109,7 +110,6 @@ export default function NightStealingPage() {
                   safety.
                 </p>
               </div>
-            </div>
 
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
                 <h2 className="text-xl font-semibold mb-3">Double or Nothing</h2>
@@ -117,7 +117,10 @@ export default function NightStealingPage() {
                   When selling crops at the shop (Aurora Event added June 2026), you have the option to risk the sale for a <strong>Double or Nothing</strong> gamble. Accepting doubles your Sheckles if you win, but you lose everything if you lose. Best used on moderate-value crops where you can afford to lose.
                 </p>
               </div>
+
+              <ObsidianArticle source="systems/night-stealing/list.md" />
             </div>
+          </div>
         </section>
       </main>
       <Footer />

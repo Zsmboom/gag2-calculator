@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
@@ -18,7 +19,7 @@ const sourceCoverageNotes = [
 export const metadata: Metadata = {
   title: `${gameName} Updates & Patch Notes`,
   description: `Latest ${gameName} patch notes, new content, codes, and event timelines — updated whenever the game updates.`,
-  alternates: { canonical: `${config.seo.baseUrl}/updates/` },
+  alternates: { canonical: `${config.seo.baseUrl}/updates` },
 };
 
 export default function UpdatesPage() {
@@ -84,11 +85,11 @@ export default function UpdatesPage() {
                 </ul>
                 <p className="text-gray-600 dark:text-gray-300 mt-4">
                   See the{' '}
-                  <a href="/systems/npcs/auctioneer/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <a href="/systems/npcs/auctioneer" className="text-blue-600 dark:text-blue-400 hover:underline">
                     Auctioneer guide
                   </a>
                   {' '}and{' '}
-                  <a href="/systems/seeds/hypnobloom/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <a href="/systems/seeds/hypnobloom" className="text-blue-600 dark:text-blue-400 hover:underline">
                     Hypno Bloom crop page
                   </a>
                   {' '}for the current details.
@@ -116,7 +117,7 @@ export default function UpdatesPage() {
                 </ul>
                 <p className="text-gray-600 dark:text-gray-300 mt-4">
                   See the{' '}
-                  <a href="/mega-moon/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <a href="/updates" className="text-blue-600 dark:text-blue-400 hover:underline">
                     Mega Moon guide
                   </a>
                   {' '}for the current confirmed details.
@@ -237,7 +238,7 @@ export default function UpdatesPage() {
                   <li><strong>Mutations (mutually exclusive)</strong> — Value multipliers from Gold (×10) up to Bloodlit (×80), but only one applies per crop.</li>
                   <li><strong>Offline Growth</strong> — Crops continue growing while you&apos;re offline.</li>
                   <li><strong>Map Pets</strong> — Pets spawn randomly on the map with unique abilities; Legendary spawns trigger a server-wide alert.</li>
-                  <li><strong>Fresh Economy</strong> — 38 crops, new seed shop, and a brand-new Sheckles economy.</li>
+                  <li><strong>Fresh Economy</strong> — 43 crop entries, new seed shop, and a brand-new Sheckles economy.</li>
                 </ul>
               </article>
 
@@ -253,7 +254,7 @@ export default function UpdatesPage() {
                   The first working code dropped at launch. Redeem <code>TEAMGREENBEAN</code> through
                   the Discord bot for 3× Green Bean Seeds. New codes are expected during major
                   updates, seasonal events, and milestone celebrations — see the{' '}
-                  <a href="/codes/" className="text-blue-600 dark:text-blue-400 hover:underline">codes page</a>.
+                  <a href="/codes" className="text-blue-600 dark:text-blue-400 hover:underline">codes page</a>.
                 </p>
               </article>
 
@@ -265,6 +266,8 @@ export default function UpdatesPage() {
                   ))}
                 </div>
               </section>
+
+              <ObsidianArticle source="updates/content.md" />
             </div>
           </div>
         </section>

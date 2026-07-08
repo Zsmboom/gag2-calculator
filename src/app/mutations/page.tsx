@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `${gameName} Mutations — All Multipliers & How to Get Them`,
+  title: `${gameName} Mutations — Complete Multiplier List`,
   description: `Complete ${gameName} mutation guide. Confirmed multipliers from Bloodlit (×80) to Gold (×10), weather triggers, and the key GAG1 vs GAG2 difference: mutations are mutually exclusive.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/mutations/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/mutations` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -67,10 +68,11 @@ export default function MutationsPage() {
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
             <div className="text-center mb-12">
-              <h1 className="heading">{gameName} Mutations</h1>
+              <h1 className="heading">{gameName} Mutations Complete Multiplier List</h1>
               <p className="subheading">
-                Every confirmed mutation multiplier, what triggers it, and how to farm mutations
-                efficiently. The biggest change from GAG1: mutations are mutually exclusive.
+                Every confirmed GAG2 mutation multiplier, what triggers it, and how to farm
+                mutations efficiently. The biggest change from GAG1: mutations are mutually
+                exclusive.
               </p>
             </div>
 
@@ -196,16 +198,18 @@ export default function MutationsPage() {
                 </code>
                 <p className="text-gray-600 dark:text-gray-300">
                   Try it yourself with the{' '}
-                  <Link href="/calculator/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/calculator" className="text-blue-600 dark:text-blue-400 hover:underline">
                     profit calculator
                   </Link>
                   , and see the full weather breakdown on the{' '}
-                  <Link href="/systems/weather/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/weather" className="text-blue-600 dark:text-blue-400 hover:underline">
                     weather page
                   </Link>
                   .
                 </p>
               </div>
+
+              <ObsidianArticle source="systems/mutations/list.md" />
             </div>
           </div>
         </section>

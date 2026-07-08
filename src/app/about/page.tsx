@@ -9,7 +9,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `About`,
   description: `Learn about ${gameName} Guides & Tools — a fan-made, community-data-driven resource hub for Roblox ${gameName} players, updated daily.`,
-  alternates: { canonical: `${config.seo.baseUrl}/about/` },
+  alternates: { canonical: `${config.seo.baseUrl}/about` },
 };
 
 export default function About() {

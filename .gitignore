@@ -67,3 +67,6 @@ iniclick.ini
 # Claude Code local files
 .claude/settings.local.json
 .claude/launch.json
+
+# Agent local files
+.agents/

@@ -12,7 +12,47 @@ images: []
 
 # Grow a Garden 2 — 更新日志
 
-## v1.7 — Summer Harvest Event（2026-06-30 预告，即将上线）☀️
+## v1.13.0 — Fire Fern & Rocket Pop Update（2026-07-04/05）🔥
+
+GAG2 Update 1.13.0 — Released around July 4-5, 2026. Confirmed by multiple YouTube content creators (Codezzy 29K views, BachaBlox 87K views, MrCatPlays).
+
+**新增内容：**
+- **Fire Fern（火蕨）** 🔥 — Legendary 品质，多收获作物
+  - 价格：6,000,000 🪙 / 659💎 每粒种子
+  - 平均价值：900🪙/kg，平均重量 9kg，Multi 收获
+  - Seed Shop 可购买
+- **Rocket Pop（火箭棒冰）** 🚀 — Legendary 品质，单收获作物
+  - 价格：27,500 🪙 / 149💎 每粒种子
+  - 单次收获，2026-07-04 上线
+  - ✅ YouTube 视频确认（BachaBlox: "Growing Worlds First JUMBO ROCKET POP", 87K views; 多条 Shorts）
+- **July 4 Holiday Crate** 🎆 — 节日限定箱子
+  - Codezzy video 提及，具体内容待查
+- **Butterfly 🦋 & Bald Eagle 🦅** — 新宠物确认实装
+  - Butterfly: Legendary, Wild Farming 型
+  - Bald Eagle: Mythic, Wild Defender 型
+  - ✅ YouTube 视频确认（Codezzy, MrCatPlays）
+- **Sunburst** 🌟 — 疑似新事件/突变
+  - 出现在视频标题 "Sunburst & More"（GAG2 Live Update），但 wiki 尚未记录
+  - 可能是新天气事件或突变类型，待确认
+- **gag.gg 配套网站重大更新**（Codezzy 提及）：
+  - 新增小游戏（mini-games）
+  - 交易系统（trading system）
+  - 综合计算器（comprehensive calculator for plant/pet values）
+  - 非游戏内更新，但影响玩家社区
+- **New Leaked/Unreleased Crops**（在 Wiki 列出但尚未可获取）：
+  - Bone Blossom (BB) — Legendary, Multi, TBA price
+  - Briar Rose — Mythic, Multi, unreleased (admin only)
+  - Buttercup, Magic Beanstalk, PartFruit — TBA rarity
+  - Summer Harvest 作物已列出：Watermelon (W), Citrus Fruit (CF), Kiwi (K)
+- **新宠物**（Wiki 已列出）：
+  - Butterfly 🦋 — Legendary, 野生 Farming 型
+  - Bald Eagle 🦅 — Mythic, 野生 Defender 型
+  - Big Bee 🐝 — TBA, Egg 来源
+  - Capybara — TBA
+
+> 数据源：[GAG2 Wiki](https://growagarden2wiki.net/updates/) — 种子列表页更新于 Jul 4, 2026
+> YouTube 确认：Codezzy (29K views, Jul 4), BachaBlox (87K views, Jul 4), MrCatPlays (789 views, Jul 5)
+> 游戏最后更新 2026-07-05（Roblox 商店页）
 
 GAG2 即将迎来夏季活动 —— Summer Harvest Event。
 

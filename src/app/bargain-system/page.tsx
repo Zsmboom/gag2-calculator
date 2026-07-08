@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Bargain System — Sell Bonus Explained`,
   description: `How the ${gameName} Bargain mechanic works. The ×1.08 sell bonus, when it triggers, and how it compares to the base value formula.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/bargain-system/` },
+  alternates: { canonical: `${config.seo.baseUrl}/systems/bargain-system` },
 };
 
 export default function BargainSystemPage() {
@@ -102,16 +103,18 @@ export default function BargainSystemPage() {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   For the full value formula without Bargain, see the{' '}
-                  <Link href="/systems/mutations/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/systems/mutations" className="text-blue-600 dark:text-blue-400 hover:underline">
                     mutations page
                   </Link>
                   . Use the{' '}
-                  <Link href="/calculator/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href="/calculator" className="text-blue-600 dark:text-blue-400 hover:underline">
                     profit calculator
                   </Link>{' '}
                   to estimate harvest values.
                 </p>
               </div>
+
+              <ObsidianArticle source="systems/bargain-system/list.md" />
             </div>
           </div>
         </section>

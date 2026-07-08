@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${item.name} — ${gameName} ${item.tier} Crop`,
     description: item.description ?? `${item.name} value, seed cost, harvest type, and how to get it in the ${gameName} crop tier list.`,
-    alternates: { canonical: `${config.seo.baseUrl}/tier-list/${item.slug}/` },
+    alternates: { canonical: `${config.seo.baseUrl}/tier-list/${item.slug}` },
   };
 }
 
@@ -74,8 +74,8 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
           <div className="container">
             <Breadcrumbs
               segments={[
-                { label: 'Tier List', href: '/tier-list/' },
-                { label: item.name, href: `/tier-list/${item.slug}/` },
+                { label: 'Tier List', href: '/tier-list' },
+                { label: item.name, href: `/tier-list/${item.slug}` },
               ]}
             />
             <div className="mt-6 max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
@@ -123,7 +123,7 @@ export default async function TierListDetailPage({ params }: { params: Promise<{
                 <p className="text-gray-600 dark:text-gray-300 mb-6">{item.description}</p>
               ) : (
                 <p className="text-gray-500 dark:text-gray-400 mb-6 italic">
-                  No description yet. Edit <code>src/data/items.json</code> to add one.
+                  No description is available for this crop yet.
                 </p>
               )}
 

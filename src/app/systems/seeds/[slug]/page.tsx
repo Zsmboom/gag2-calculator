@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Picture from '@/components/Picture';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
@@ -20,12 +21,10 @@ type SeedItem = {
   howToGet?: string;
   patchNotes?: string;
   hasImage?: boolean;
-  _source?: string;
-  _confidence?: string;
 };
 
 const seeds: SeedItem[] = (((itemsData as unknown) as { items: SeedItem[] }).items ?? []).filter(
-  (it) => it && it.slug
+  (it) => it && it.slug && it.slug !== 'mega-seed'
 );
 
 export function generateStaticParams() {
@@ -38,11 +37,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!seed) return { title: 'Seed not found' };
 
   return {
-    title: `${seed.name} — ${gameName} Seed Stats & Price`,
+    title: `${gameName} ${seed.name} Stats & Price`,
     description:
       seed.description ??
       `${seed.name} rarity, 1kg value, seed cost, harvest type, and how to get it in ${gameName}.`,
-    alternates: { canonical: `${config.seo.baseUrl}/systems/seeds/${seed.slug}/` },
+    alternates: { canonical: `${config.seo.baseUrl}/systems/seeds/${seed.slug}` },
   };
 }
 
@@ -68,9 +67,9 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
           <div className="container">
             <Breadcrumbs
               segments={[
-                { label: 'Systems', href: '/systems/' },
-                { label: 'Seeds', href: '/systems/seeds/' },
-                { label: seed.name, href: `/systems/seeds/${seed.slug}/` },
+                { label: 'Systems', href: '/systems' },
+                { label: 'Seeds', href: '/systems/seeds' },
+                { label: seed.name, href: `/systems/seeds/${seed.slug}` },
               ]}
             />
 
@@ -96,7 +95,7 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
                     {seed.tier} seed
                   </p>
                   <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-1">
-                    {seed.name}
+                    {`${gameName} ${seed.name} Stats & Price`}
                   </h1>
                   {seed.description ? (
                     <p className="text-gray-600 dark:text-gray-300 mt-4">{seed.description}</p>
@@ -130,27 +129,17 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
                 </section>
               ) : null}
 
-              {seed.patchNotes || seed._source || seed._confidence ? (
+              {seed.patchNotes ? (
                 <section className="mb-8 rounded-md bg-gray-50 dark:bg-gray-900/50 p-4">
-                  <h2 className="text-lg font-semibold mb-2">Source Notes</h2>
-                  {seed.patchNotes ? (
-                    <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{seed.patchNotes}</p>
-                  ) : null}
-                  {seed._source ? (
-                    <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
-                      Source: <span className="break-all">{seed._source}</span>
-                    </p>
-                  ) : null}
-                  {seed._confidence ? (
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
-                      Confidence: {seed._confidence}
-                    </p>
-                  ) : null}
+                  <h2 className="text-lg font-semibold mb-2">Update Notes</h2>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">{seed.patchNotes}</p>
                 </section>
               ) : null}
 
+              <ObsidianArticle source={`systems/seeds/${seed.slug}.md`} className="mb-8 border-0 p-0 shadow-none dark:bg-gray-800" />
+
               <nav className="border-t border-gray-200 dark:border-gray-700 pt-6">
-                <Link href="/systems/seeds/" className="text-blue-600 dark:text-blue-400 hover:underline">
+                <Link href="/systems/seeds" className="text-blue-600 dark:text-blue-400 hover:underline">
                   Back to Grow a Garden 2 Seeds
                 </Link>
                 <h2 className="text-lg font-semibold mt-6 mb-3">Related Seeds</h2>
@@ -158,14 +147,14 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
                   {relatedSeeds(seed).map((related) => (
                     <Link
                       key={related.slug}
-                      href={`/systems/seeds/${related.slug}/`}
+                      href={`/systems/seeds/${related.slug}`}
                       className="rounded-md bg-blue-50 dark:bg-blue-900/30 px-3 py-2 text-sm font-medium text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/50"
                     >
                       {related.name}
                     </Link>
                   ))}
                   <Link
-                    href="/calculator/"
+                    href="/calculator"
                     className="rounded-md bg-gray-100 dark:bg-gray-700 px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600"
                   >
                     Check Calculator

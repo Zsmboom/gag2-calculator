@@ -3,13 +3,14 @@ import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import ObsidianArticle from '@/components/ObsidianArticle';
 
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `${gameName} Beginner Guide`,
+  title: `${gameName} Beginner Guide — Quick Start & Getting Started`,
   description: `New to ${gameName}? Start here — beginner-friendly walkthrough covering the basics, early-game priorities, and the most common mistakes.`,
-  alternates: { canonical: `${config.seo.baseUrl}/guide/` },
+  alternates: { canonical: `${config.seo.baseUrl}/beginner-guide` },
 };
 
 export default function BeginnerGuidePage() {
@@ -19,12 +20,13 @@ export default function BeginnerGuidePage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/guide/' }]} />
+            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/beginner-guide' }]} />
             <div className="text-center mb-12">
-              <h1 className="heading">{gameName} Beginner Guide</h1>
+              <h1 className="heading">{gameName} Beginner Guide: Quick Start &amp; Getting Started</h1>
               <p className="subheading">
-                Just started {gameName} on Roblox? This walkthrough covers the first 30 minutes:
-                what to do, what to skip, and the early-game priorities that actually matter.
+                Just started {gameName} on Roblox? This GAG2 getting started walkthrough covers the
+                first 30 minutes: what to do, what to skip, and the early-game priorities that
+                actually matter.
               </p>
             </div>
 
@@ -112,6 +114,8 @@ export default function BeginnerGuidePage() {
                 </ul>
               </article>
             </div>
+
+            <ObsidianArticle source="guide/content.md" className="mt-10" />
           </div>
         </section>
       </main>

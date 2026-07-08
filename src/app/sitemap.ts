@@ -8,9 +8,9 @@ export const dynamic = 'force-static';
 type ItemEntry = { slug?: string };
 type NpcEntry = { slug?: string };
 
-function withTrailingSlash(path: string): string {
-  if (path === '/' || path.endsWith('/')) return path;
-  return `${path}/`;
+function cleanPath(path: string): string {
+  if (path === '/') return path;
+  return path.replace(/\/+$/, '');
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date().toISOString().split('T')[0];
 
   const pageEntries: MetadataRoute.Sitemap = config.pages.map((page) => ({
-    url: `${baseUrl}${withTrailingSlash(page.path)}`,
+    url: `${baseUrl}${cleanPath(page.path)}`,
     lastModified: today,
     changeFrequency: page.priority >= 0.9 ? 'weekly' : page.priority >= 0.6 ? 'monthly' : 'yearly',
     priority: page.priority,
@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const itemEntries: MetadataRoute.Sitemap = items
     .filter((it) => !!it.slug)
     .map((it) => ({
-      url: `${baseUrl}/systems/seeds/${it.slug}/`,
+      url: `${baseUrl}/systems/seeds/${it.slug}`,
       lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const npcEntries: MetadataRoute.Sitemap = npcs
     .filter((npc) => !!npc.slug)
     .map((npc) => ({
-      url: `${baseUrl}/systems/npcs/${npc.slug}/`,
+      url: `${baseUrl}/systems/npcs/${npc.slug}`,
       lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.6,

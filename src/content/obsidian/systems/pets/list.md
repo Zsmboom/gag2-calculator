@@ -16,7 +16,7 @@ images: []
 
 > ⚠️ **GAG2 differs from GAG1:** Pets spawn randomly on the map rather than in a dedicated shop. Legendary+ spawns trigger a server-wide alert.
 
-## Full Pet List (14 confirmed)
+## Full Pet List (18 confirmed, +4 new: Butterfly, Bald Eagle, Big Bee, Capybara)
 
 | Pet | Rarity | Price (🪙) | Spawn Chance | Ability | Source |
 |:---:|:------:|:----------:|:------------:|:--------|:------:|
@@ -34,6 +34,10 @@ images: []
 | **Raccoon** 🦝 | Super | 5-15M | 0.24% | Sneaks out at night to steal from empty gardens, +25 steal limit | Beebom, Bloxxer |
 | **Black Dragon** 🐉 | Super | Guild Reward | 0% | Flies around garden, breathes fire on thieves. Guild-only reward | Beebom |
 | **Ice Serpent** 🐍 | Super | 20M | 0% | Frost breath defense. Guild reward / event reward (Jun 21) | Beebom, Bloxxer |
+| **Butterfly** 🦋 | Legendary | — | — | Farming — pollinates crops | GAG2 Wiki |
+| **Bald Eagle** 🦅 | Mythic | — | — | Defender — attacks thieves | GAG2 Wiki |
+| **Big Bee** 🐝 | TBA | — | — | Egg source, role TBA | GAG2 Wiki |
+| **Capybara** | TBA | — | — | Source/role TBA | GAG2 Wiki |
 
 > Note: Prices may vary between sources (Beebom vs Bloxxer). Raccoon price varies 5M-15M.
 > Spawn chance data from Bloxxer.gg. Pets marked 0% spawn are not currently obtainable via map spawn.

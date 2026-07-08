@@ -8,7 +8,7 @@ import { config } from '@/lib/games.config';
 const gameName = config.game.name;
 
 const reasons = [
-  `All 38 ${gameName} crops with 1kg values, floor values, and seed costs`,
+  `All 43 ${gameName} crop entries with 1kg values, floor values, and seed costs`,
   'Working codes updated the moment they drop on Discord',
   'Complete mutation multiplier table — Bloodlit (×80) down to Chained (×4)',
   'Profit calculator using the community-verified sell-price formula',
@@ -20,7 +20,7 @@ const useCases = [
   {
     label: 'Farmers',
     heading: 'Plan your crop investments',
-    body: 'Compare ROI across all 38 crops, see restock odds, and pick the best seed for your current Sheckle count and game phase.',
+    body: 'Compare ROI across all 43 crop entries, see restock odds, and pick the best seed for your current Sheckle count and game phase.',
   },
   {
     label: 'Mutation hunters',
@@ -30,8 +30,8 @@ const useCases = [
 ];
 
 const obsidianCoverage = [
-  '💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (38 crops)',
-  '🌾 Database 🌽 All Crops (38 entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog',
+  '💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (43 crop entries)',
+  '🌾 Database 🌽 All Crops (43 entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog',
 ];
 
 export default function Why() {

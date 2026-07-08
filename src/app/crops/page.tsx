@@ -10,7 +10,7 @@ const gameName = config.game.name;
 export const metadata: Metadata = {
   title: `${gameName} Crops — Complete Crop Database`,
   description: `All ${gameName} crops ranked by value. Super, Mythic, Legendary, Epic, Rare, and Common tiers with 1kg sell prices, floor values, seed costs, and harvest types.`,
-  alternates: { canonical: `${config.seo.baseUrl}/crops/` },
+  alternates: { canonical: `${config.seo.baseUrl}/crops` },
 };
 
 const thClass = 'px-4 py-3 text-left text-sm font-semibold';
@@ -103,7 +103,7 @@ export default function CropsPage() {
                           >
                             <td className={`${tdClass} font-medium`}>
                               <Link
-                                href={`/tier-list/${crop.slug}/`}
+                                href={`/tier-list/${crop.slug}`}
                                 className="text-blue-600 dark:text-blue-400 hover:underline"
                               >
                                 {crop.name}

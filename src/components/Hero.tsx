@@ -22,13 +22,13 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 justify-center md:justify-start">
               <Link
-                href="/guide/"
+                href="/beginner-guide"
                 className="btn btn-primary text-center py-3 sm:py-2 min-h-[50px] sm:min-h-[44px] flex items-center justify-center"
               >
                 Get Started
               </Link>
               <Link
-                href="/systems/seeds/"
+                href="/systems/seeds"
                 className="btn bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 text-center py-3 sm:py-2 min-h-[50px] sm:min-h-[44px] flex items-center justify-center"
               >
                 View Seeds
@@ -53,24 +53,24 @@ export default function Hero() {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              907M+
+              1.0B+
             </p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Visits</p>
           </div>
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              560K+
+              594K+
             </p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Favorites</p>
           </div>
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              493K
+              579K
             </p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Current Players</p>
           </div>
           <div className="p-2 sm:p-4">
-            <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">38</p>
+            <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">43</p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Crops</p>
           </div>
         </div>
