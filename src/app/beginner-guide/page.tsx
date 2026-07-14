@@ -20,7 +20,7 @@ export default function BeginnerGuidePage() {
       <main id="main-content" className="flex-grow">
         <section className="section bg-white dark:bg-gray-900">
           <div className="container">
-            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/beginner-guide' }]} />
+            <Breadcrumbs segments={[{ label: 'Beginner Guide', href: '/guide' }]} />
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Beginner Guide: Quick Start &amp; Getting Started</h1>
               <p className="subheading">

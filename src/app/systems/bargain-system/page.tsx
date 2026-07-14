@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
 import BargainSystemPage from '@/app/bargain-system/page';
 import { config } from '@/lib/games.config';
+import { pageMetadata } from '@/lib/page-seo';
 
-export const metadata: Metadata = {
-  title: `${config.game.name} Bargain System — Sell Bonus Guide`,
-  description: `How the ${config.game.name} Bargain mechanic works, including the community-estimated sell bonus and current unknowns.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/bargain-system` },
-};
+export const metadata: Metadata = pageMetadata('/systems/bargain-system', 'Grow a Garden 2 Bargain System — Sell Bonus Guide', 'Grow a Garden 2 bargain system guide covering the estimated sell bonus and current unknowns.');
 
 export default BargainSystemPage;

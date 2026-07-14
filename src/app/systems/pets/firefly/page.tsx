@@ -5,14 +5,15 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
-export const metadata: Metadata = {
-  title: `${gameName} Firefly Pet — Stats & Ability`,
-  description: `Learn how to find the Mythic Firefly pet in ${gameName}, what its plant-growth ability does, and how it fits a farming build.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/pets/firefly` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/systems/pets/firefly',
+  'Grow a Garden 2 Firefly Pet — Stats & Price',
+  'Firefly Grow a Garden 2 Mythic pet guide with wild spawn source, farming role, and plant-growth ability.',
+);
 
 export default function FireflyPage() {
   return (
@@ -34,7 +35,7 @@ export default function FireflyPage() {
                 Mythic farming pet
               </p>
               <h1 className="mt-2 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">
-                {gameName} Firefly Pet
+                Firefly Grow a Garden 2 Pet
               </h1>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
                 Firefly is a wild-spawn Mythic pet from the July 13 Merging Update. Its farming
@@ -67,7 +68,7 @@ export default function FireflyPage() {
                   <Link href="/systems/seeds" className="rounded-md bg-gray-100 px-3 py-2 text-sm dark:bg-gray-700">
                     Compare crop growth investments
                   </Link>
-                  <Link href="/beginner-guide" className="rounded-md bg-gray-100 px-3 py-2 text-sm dark:bg-gray-700">
+                  <Link href="/guide" className="rounded-md bg-gray-100 px-3 py-2 text-sm dark:bg-gray-700">
                     Read the beginner guide
                   </Link>
                 </div>

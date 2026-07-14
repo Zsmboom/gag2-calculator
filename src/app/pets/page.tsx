@@ -302,7 +302,7 @@ export default function PetsPage() {
                 <div className="flex flex-col gap-2 text-gray-600 dark:text-gray-300">
                   <p>
                     See how pets affect your farming strategy on the{' '}
-                    <Link href="/beginner-guide" className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href="/guide" className="text-blue-600 dark:text-blue-400 hover:underline">
                       beginner guide
                     </Link>
                     .

@@ -10,6 +10,7 @@ import Footer from '@/components/Footer';
 import Picture from '@/components/Picture';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
@@ -37,16 +38,30 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const seed = seeds.find((it) => it.slug === slug);
   if (!seed) return { title: 'Seed not found' };
 
-  return {
-    title: `${gameName} ${seed.name} Stats & Price`,
-    description:
-      seed.description ??
-      `${seed.name} rarity, 1kg value, seed cost, harvest type, and how to get it in ${gameName}.`,
-    alternates: { canonical: `${config.seo.baseUrl}/systems/seeds/${seed.slug}` },
-  };
+  const title = seedContractTitle(seed.slug, seed.name);
+  const description = seed.description
+    ? `${seed.name} Grow a Garden 2: ${seed.description}`
+    : `${seed.name} Grow a Garden 2 rarity, 1kg value, seed cost, harvest type, and how to get it.`;
+  return pageMetadata(`/systems/seeds/${seed.slug}`, title, description);
+}
+
+function seedContractTitle(slug: string, name: string): string {
+  const gag2Suffix = new Set(['bone-blossom', 'briar-rose', 'fire-fern', 'rocket-pop']);
+  return `${gameName} ${name} — Stats & Price${gag2Suffix.has(slug) ? ' | GAG2' : ''}`;
 }
 
 function relatedSeeds(seed: SeedItem): SeedItem[] {
+  const declared: Record<string, string[]> = {
+    'bone-blossom': ['briar-rose', 'fire-fern', 'rocket-pop'],
+    'briar-rose': ['bone-blossom', 'ghost-pepper', 'venom-spitter'],
+    'fire-fern': ['rocket-pop', 'bone-blossom', 'acorn'],
+    'rocket-pop': ['fire-fern', 'cherry', 'sunflower'],
+  };
+  if (declared[seed.slug]) {
+    return declared[seed.slug]
+      .map((slug) => seeds.find((item) => item.slug === slug))
+      .filter((item): item is SeedItem => Boolean(item));
+  }
   const sameTier = seeds.filter((it) => it.slug !== seed.slug && it.tier === seed.tier).slice(0, 3);
   if (sameTier.length >= 3) return sameTier;
   return [...sameTier, ...seeds.filter((it) => it.slug !== seed.slug && it.tier !== seed.tier)].slice(0, 3);
@@ -80,7 +95,7 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
                   {hasCropImage ? (
                     <Picture
                       src={imageSrc}
-                      alt={`${seed.name} crop in Grow a Garden 2`}
+                      alt={`${seed.name === "Dragon's Breath" ? 'Dragons Breath' : seed.name} crop image`}
                       width={96}
                       height={96}
                       className="object-cover w-full h-full"
@@ -96,7 +111,7 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
                     {seed.tier} seed
                   </p>
                   <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-1">
-                    {`${gameName} ${seed.name} Stats & Price`}
+                    {`${seed.name} Grow a Garden 2 Stats & Price`}
                   </h1>
                   {seed.description ? (
                     <p className="text-gray-600 dark:text-gray-300 mt-4">{seed.description}</p>

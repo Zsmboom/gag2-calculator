@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
@@ -31,11 +32,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const npc = npcs.find((item) => item.slug === slug);
   if (!npc) return { title: 'NPC not found' };
 
-  return {
-    title: npcHeading(npc),
-    description: `${npc.name} in ${gameName}: ${npc.location}, ${npc.role}, gameplay function, and strategy.`,
-    alternates: { canonical: `${config.seo.baseUrl}/systems/npcs/${npc.slug}` },
+  return pageMetadata(
+    `/systems/npcs/${npc.slug}`,
+    npcContractTitle(npc),
+    `${npc.name} Grow a Garden 2 guide: ${npc.location}, ${npc.role}, gameplay function, and strategy.`,
+  );
+}
+
+function npcContractTitle(npc: Npc): string {
+  const titles: Record<string, string> = {
+    sam: `${gameName} Sam — Seed Shop NPC & Seeds Vendor`,
+    george: `${gameName} George — Gear Shop NPC & Farming Tools`,
+    charlotte: `${gameName} Charlotte — Props Shop NPC & Decorations`,
+    steven: `${gameName} Steven — Sell Stand NPC & Crop Buyer`,
+    gilbert: `${gameName} Gilbert — Guild Stand NPC & Guild Management`,
+    auctioneer: `${gameName} Auctioneer — Dutch Auction NPC & Premium Items`,
   };
+  return titles[npc.slug] ?? `${gameName} ${npc.name} NPC Guide`;
 }
 
 function relatedNpcs(current: Npc): Npc[] {
@@ -98,7 +111,7 @@ export default async function NpcDetailPage({ params }: { params: Promise<{ slug
                 {npc.location}
               </p>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-1">
-                {npcHeading(npc)}
+                {`${npc.name} Grow a Garden 2 — ${npc.role}`}
               </h1>
               <p className="text-gray-600 dark:text-gray-300 mt-4">{keywordSummary(npc)}</p>
 

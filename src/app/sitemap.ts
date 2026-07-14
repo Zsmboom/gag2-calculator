@@ -52,5 +52,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...pageEntries, ...itemEntries, ...npcEntries, ...petEntries];
+  const contractEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/guide`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+  ];
+
+  const entries = [...pageEntries, ...contractEntries, ...itemEntries, ...npcEntries, ...petEntries];
+  return entries.filter((entry, index) => entries.findIndex((item) => item.url === entry.url) === index);
 }

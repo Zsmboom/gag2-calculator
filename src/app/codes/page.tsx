@@ -6,14 +6,15 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
 import CopyButton from '@/components/CopyButton';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
-export const metadata: Metadata = {
-  title: `${gameName} Codes (Working)`,
-  description: `All working ${gameName} codes — updated daily. Redeem for free rewards.`,
-  alternates: { canonical: `${config.seo.baseUrl}/codes` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/codes',
+  'Grow a Garden 2 Codes — Active Codes & Rewards',
+  'Grow a Garden 2 codes with active rewards, redemption instructions, and expired code history.',
+);
 
 type CodeEntry = {
   code: string;

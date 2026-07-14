@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import BeginnerGuidePage from '@/app/beginner-guide/page';
 import { config } from '@/lib/games.config';
+import { pageMetadata } from '@/lib/page-seo';
 
-export const metadata: Metadata = {
-  title: `${config.game.name} Beginner Guide — Getting Started`,
-  description: `New to ${config.game.name}? Start here with the first crops, early progression, controls, strategy tips, and common mistakes.`,
-  alternates: { canonical: `${config.seo.baseUrl}/guide` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/guide',
+  'Grow a Garden 2 Beginner Guide — Getting Started',
+  'Grow a Garden 2 beginner guide covering early crops, progression, controls, strategy, night defense, and common mistakes.',
+);
 
 export default BeginnerGuidePage;

@@ -9,12 +9,12 @@ const description = config.seo.siteDescription;
 
 const hubPages = config.pages
   .filter((p) => p.isHub)
-  .map((page) => (page.path === '/guide' ? { ...page, path: '/beginner-guide' } : page));
+  .map((page) => page);
 const resourcePages = config.pages.filter(
   (p) =>
     !p.isHub &&
     (p.path === '/updates' ||
-      p.path === '/beginner-guide' ||
+      p.path === '/guide' ||
       p.path.startsWith('/systems/')) &&
     !['/privacy', '/disclaimer', '/about'].includes(p.path)
 );

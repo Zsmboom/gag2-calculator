@@ -3,6 +3,7 @@ import { config } from '@/lib/games.config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
@@ -14,11 +15,11 @@ const sourceCoverageNotes = [
   'Hypno Bloom is a Super multi-harvest crop priced at 150M Sheckles or 1,599 Robux, with 2 fruits per plant and a 9,500 Sheckles base value per kilogram.',
 ];
 
-export const metadata: Metadata = {
-  title: `${gameName} Updates & Patch Notes`,
-  description: `Latest ${gameName} patch notes, new content, codes, and event timelines — updated whenever the game updates.`,
-  alternates: { canonical: `${config.seo.baseUrl}/updates` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/updates',
+  'Grow a Garden 2 Update Log — Patch Notes & Events',
+  'Grow a Garden 2 update log with patch notes, events, seeds, pets, codes, timelines, and explicit known gaps.',
+);
 
 export default function UpdatesPage() {
   return (

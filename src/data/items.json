@@ -14,8 +14,7 @@
         "Harvest": "TBD"
       },
       "howToGet": "Mega Moon Event — a blue moon at night increases the chance to get Mega seeds.",
-      "_source": "https://beebom.com/grow-a-garden-2-update-patch-notes/",
-      "_confidence": "reasonable_inference"
+      "verification": "Community estimate; exact values remain unknown"
     },
     {
       "slug": "hypnobloom",
@@ -609,8 +608,7 @@
         "Avg Weight": "9 kg"
       },
       "howToGet": "Buy from the Seed Shop.",
-      "_source": "https://growagarden2wiki.net/crops/fire-fern/",
-      "_confidence": "wiki_confirmed"
+      "verification": "Confirmed"
     },
     {
       "slug": "rocket-pop",
@@ -627,8 +625,7 @@
         "Date Added": "2026-07-04"
       },
       "howToGet": "Buy from the Seed Shop.",
-      "_source": "https://growagarden2wiki.net/crops/rocket-pop/",
-      "_confidence": "wiki_confirmed"
+      "verification": "Confirmed"
     },
     {
       "slug": "bone-blossom",
@@ -644,8 +641,7 @@
         "Obtainable": "Not currently"
       },
       "howToGet": "Not currently obtainable.",
-      "_source": "https://growagarden2wiki.net/crops/bone-blossom/",
-      "_confidence": "wiki_listed_unreleased"
+      "verification": "Listed but unreleased"
     },
     {
       "slug": "briar-rose",
@@ -662,8 +658,7 @@
         "Avg Weight": "9 kg"
       },
       "howToGet": "Not currently obtainable (admin/testing only).",
-      "_source": "https://growagarden2wiki.net/crops/briar-rose/",
-      "_confidence": "wiki_listed_unreleased"
+      "verification": "Listed but unreleased"
     },
     {
       "slug": "star-fruit",

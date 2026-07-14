@@ -6,14 +6,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
-export const metadata: Metadata = {
-  title: `${gameName} NPCs — All Non-Player Characters`,
-  description: `All ${gameName} NPCs: Sam, George, Charlotte, Steven, Gilbert, and Auctioneer, including locations, roles, and gameplay strategy.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/npcs` },
-};
+export const metadata: Metadata = pageMetadata('/systems/npcs', 'Grow a Garden 2 NPCs — All Non-Player Characters', 'Grow a Garden 2 NPCs including Sam, George, Charlotte, Steven, Gilbert, and Auctioneer with locations, roles, and strategy.');
 
 type Npc = {
   slug: string;

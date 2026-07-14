@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
 import MutationsPage from '@/app/mutations/page';
 import { config } from '@/lib/games.config';
+import { pageMetadata } from '@/lib/page-seo';
 
-export const metadata: Metadata = {
-  title: `${config.game.name} Mutations — Multipliers & Weather Triggers`,
-  description: `Complete ${config.game.name} mutation guide with multipliers, weather triggers, and GAG2 mutually exclusive mutation rules.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/mutations` },
-};
+export const metadata: Metadata = pageMetadata('/systems/mutations', 'Grow a Garden 2 Mutations — Complete Multiplier List', 'Grow a Garden 2 mutations complete multiplier list with weather triggers and mutually exclusive mutation rules.');
 
 export default MutationsPage;

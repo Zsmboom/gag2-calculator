@@ -6,14 +6,15 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
-export const metadata: Metadata = {
-  title: `${gameName} Seeds — 46 Crop Database & Seed Packs`,
-  description: `Complete ${gameName} seeds guide with 46 crop pages, seed costs, rarity, harvest type, Star Fruit, Sun Bloom, Eclipse Bloom, seed packs, and unreleased crop notes.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems/seeds` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/systems/seeds',
+  'Grow a Garden 2 Seeds — Complete List & Prices',
+  'Grow a Garden 2 seeds complete list with crop prices, rarity, harvest type, detail guides, seed packs, and unreleased crop notes.',
+);
 
 type SeedItem = {
   slug: string;

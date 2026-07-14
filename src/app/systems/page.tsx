@@ -5,14 +5,15 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 
-export const metadata: Metadata = {
-  title: `${gameName} Systems — Game Mechanics & Guides`,
-  description: `Browse every ${gameName} system: seeds, pets, mutations, gear, weather, night stealing, guilds, NPCs, bargain bonuses, and offline growth.`,
-  alternates: { canonical: `${config.seo.baseUrl}/systems` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/systems',
+  'Grow a Garden 2 — Game Systems & Mechanics',
+  'Grow a Garden 2 systems covering seeds, pets, mutations, gear, weather, stealing, guilds, NPCs, bargains, and offline growth.',
+);
 
 const groups = [
   {

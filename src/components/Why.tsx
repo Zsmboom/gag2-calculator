@@ -36,7 +36,7 @@ const obsidianCoverage = [
 
 export default function Why() {
   return (
-    <section id="why" className="section bg-white dark:bg-gray-900">
+    <section id="why" className="section overflow-x-clip bg-white dark:bg-gray-900">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div

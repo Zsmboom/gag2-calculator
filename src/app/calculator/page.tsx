@@ -6,15 +6,16 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import ObsidianArticle from '@/components/ObsidianArticle';
 import CalculatorClient from './CalculatorClient';
+import { pageMetadata } from '@/lib/page-seo';
 
 const gameName = config.game.name;
 const calculatorType = config.calculator?.type ?? 'stat';
 
-export const metadata: Metadata = {
-  title: `Grow a Garden 2 Calculator \u2014 Free GAG2 Profit Calculator`,
-  description: `Free Grow a Garden 2 profit calculator. Estimate sell prices with the community-verified formula: weight, mutations, and friend boost. Instant browser-side results.`,
-  alternates: { canonical: `${config.seo.baseUrl}/calculator` },
-};
+export const metadata: Metadata = pageMetadata(
+  '/calculator',
+  'Grow a Garden 2 Calculator — Free GAG2 Profit Calculator',
+  'Free Grow a Garden 2 calculator for crop sell prices using weight, mutation, friend boost, and quantity.',
+);
 
 export default function CalculatorPage() {
   return (

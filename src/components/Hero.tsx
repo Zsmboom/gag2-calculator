@@ -22,7 +22,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 justify-center md:justify-start">
               <Link
-                href="/beginner-guide"
+                href="/guide"
                 className="btn btn-primary text-center py-3 sm:py-2 min-h-[50px] sm:min-h-[44px] flex items-center justify-center"
               >
                 Get Started

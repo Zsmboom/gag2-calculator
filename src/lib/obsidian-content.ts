@@ -70,7 +70,7 @@ function normalizeInternalUrl(url: string): string {
 
   const clean = base.replace(/\/+$/, '');
   const canonicalRoutes: Record<string, string> = {
-    '/guide': '/beginner-guide',
+    '/guide': '/guide',
     '/crops': '/systems/seeds',
     '/seeds': '/systems/seeds',
     '/gear': '/systems/gear',
