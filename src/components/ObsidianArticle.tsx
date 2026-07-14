@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { readObsidianMarkdown } from '@/lib/obsidian-content';
 
 type ObsidianArticleProps = {
@@ -17,6 +18,7 @@ export default function ObsidianArticle({ source, className = '' }: ObsidianArti
   return (
     <section className={`max-w-4xl mx-auto rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800 md:p-8 ${className}`}>
       <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
         components={{
           h1: ({ children }) => <h2 className={`${headingClass} mt-0 mb-4 text-3xl`}>{children}</h2>,
           h2: ({ children }) => <h2 className={`${headingClass} mt-8 mb-4 text-2xl`}>{children}</h2>,
@@ -67,7 +69,6 @@ export default function ObsidianArticle({ source, className = '' }: ObsidianArti
       >
         {markdown}
       </ReactMarkdown>
-      <div className="sr-only whitespace-pre-wrap">{markdown}</div>
     </section>
   );
 }

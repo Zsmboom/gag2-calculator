@@ -24,6 +24,7 @@ export default function Header() {
                 alt={gameName}
                 width={150}
                 height={40}
+                style={{ width: 'auto', height: 'auto' }}
                 priority
               />
             </Link>

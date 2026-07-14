@@ -43,6 +43,7 @@ export default function Hero() {
               alt={`${gameName} — ${config.seo.siteTitle}`}
               width={800}
               height={600}
+              priority
               className="rounded-lg"
               style={{ objectFit: 'cover' }}
             />
