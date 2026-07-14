@@ -19,9 +19,9 @@ const tdClass = 'px-4 py-3 text-sm';
 const CONFIRMED = [
   { name: 'Aurora', mult: '×1.5', rarity: 'Mythic', how: 'Aurora Borealis night weather event' },
   { name: 'Bloodlit', mult: '×80 (unconfirmed)', rarity: 'Legendary', how: 'Blood Moon event (every 4h Lunar Glow variation)' },
-  { name: 'Electric', mult: '×25 (Beebom 2026)', rarity: 'Legendary', how: 'Thunderstorm weather (rare)' },
-  { name: 'Frozen', mult: '×3 (Beebom 2026)', rarity: 'Epic', how: 'Frost event — crop must already be Wet' },
-  { name: 'Rainbow', mult: '×10 (Beebom 2026)', rarity: 'Epic', how: 'Rainbow Seed trigger / natural 0.1%' },
+  { name: 'Electric', mult: '×25 (community estimate)', rarity: 'Legendary', how: 'Thunderstorm weather (rare)' },
+  { name: 'Frozen', mult: '×3 (community estimate)', rarity: 'Epic', how: 'Frost event — crop must already be Wet' },
+  { name: 'Rainbow', mult: '×10 (community estimate)', rarity: 'Epic', how: 'Rainbow Seed trigger / natural 0.1%' },
   { name: 'Starstruck', mult: 'TBA', rarity: 'Epic', how: 'Unknown event' },
   { name: 'Gold', mult: '×10', rarity: 'Rare', how: 'Gold Seed trigger / natural 1% / Dragonfly pet' },
 ];
@@ -29,8 +29,8 @@ const CONFIRMED = [
 const WEATHER = [
   { weather: 'Aurora Borealis', mutation: 'Aurora', mult: '×1.5' },
   { weather: 'Rain', mutation: 'Wet', mult: '×2' },
-  { weather: 'Thunderstorm', mutation: 'Wet → Electric', mult: '×2 → ×25 (Beebom 2026)' },
-  { weather: 'Frost', mutation: 'Chilled → Frozen', mult: '×2 → ×3 (Beebom 2026)' },
+  { weather: 'Thunderstorm', mutation: 'Wet → Electric', mult: '×2 → ×25 (estimated)' },
+  { weather: 'Frost', mutation: 'Chilled → Frozen', mult: '×2 → ×3 (estimated)' },
   { weather: 'Blood Moon', mutation: 'Bloodlit', mult: '×80' },
   { weather: 'Lunar Glow', mutation: 'Moonlit', mult: '×2' },
   { weather: 'Sandstorm', mutation: 'Sandy', mult: '×3' },

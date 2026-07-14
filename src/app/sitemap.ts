@@ -43,5 +43,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     }));
 
-  return [...pageEntries, ...itemEntries, ...npcEntries];
+  const petEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/systems/pets/firefly`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+  ];
+
+  return [...pageEntries, ...itemEntries, ...npcEntries, ...petEntries];
 }

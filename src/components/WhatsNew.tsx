@@ -7,6 +7,18 @@ import Link from 'next/link';
 export default function WhatsNew() {
   const updates = [
     {
+      title: 'Merging Update',
+      description: 'Star Fruit and Sun Bloom join the Super tier, Eclipse Bloom introduces the Secret tier, and Firefly arrives as a Mythic farming pet.',
+      link: '/systems/seeds/eclipse-bloom',
+      date: 'Jul 13',
+    },
+    {
+      title: 'Firefly Pet Added',
+      description: 'The new Mythic Firefly spawns in the wild and promotes plant growth in your garden.',
+      link: '/systems/pets/firefly',
+      date: 'Jul 13',
+    },
+    {
       title: 'Mega Moon Update',
       description: 'Blue moon night event added Jun 27. Mega Seeds can create giant non-limited crop variants; exact value data is still TBD.',
       link: '/updates',

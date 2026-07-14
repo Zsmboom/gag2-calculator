@@ -9,7 +9,7 @@ const gameName = config.game.name;
 
 export const metadata: Metadata = {
   title: `${gameName} Pets — Full Pet Catalog & Guide`,
-  description: `Discover all 18 confirmed ${gameName} pets, including Butterfly, Bald Eagle, Big Bee, Capybara, spawn mechanics, buy prices, and abilities.`,
+  description: `Discover all 19 confirmed ${gameName} pets, including the Mythic Firefly, Butterfly, Bald Eagle, Big Bee, Capybara, spawn mechanics, prices, and abilities.`,
   alternates: { canonical: `${config.seo.baseUrl}/systems/pets` },
 };
 
@@ -22,6 +22,7 @@ const SUPPORT = [
   { pet: 'Owl', rarity: 'Uncommon', cost: '25K', ability: 'Extends night view by 12.5%, hoots when rare pet spawns' },
   { pet: 'Deer', rarity: 'Rare', cost: '50K', ability: '+10% plant growth speed' },
   { pet: 'Butterfly', rarity: 'Legendary', cost: 'TBA', ability: 'Farming pet that pollinates crops' },
+  { pet: 'Firefly', rarity: 'Mythic', cost: 'Wild spawn', ability: 'Promotes plant growth', href: '/systems/pets/firefly' },
 ];
 
 const DEFENSIVE = [
@@ -73,8 +74,8 @@ export default function PetsPage() {
               <h1 className="heading">{gameName} Pets</h1>
               <p className="subheading">
                 Every confirmed pet, its rarity, cost, and ability. The July 2026 refresh expands
-                the catalog to 18 confirmed pets, including Butterfly, Bald Eagle, Big Bee, and
-                Capybara.
+                the catalog to 19 confirmed pets, including the Mythic Firefly, Butterfly, Bald
+                Eagle, Big Bee, and Capybara.
               </p>
             </div>
 
@@ -94,7 +95,13 @@ export default function PetsPage() {
                     <tbody>
                       {SUPPORT.map((p) => (
                         <tr key={p.pet} className="border-t border-gray-200 dark:border-gray-700">
-                          <td className={`${tdClass} font-medium`}>{p.pet}</td>
+                          <td className={`${tdClass} font-medium`}>
+                            {'href' in p && p.href ? (
+                              <Link href={p.href} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                {p.pet}
+                              </Link>
+                            ) : p.pet}
+                          </td>
                           <td className={tdClass}>{p.rarity}</td>
                           <td className={tdClass}>{p.cost}</td>
                           <td className={tdClass}>{p.ability}</td>

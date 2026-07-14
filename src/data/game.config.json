@@ -5,11 +5,11 @@
     "robloxId": "97598239454123",
     "developer": "Strawberreh Squad / Splitting Point Studios",
     "genre": "Farming Simulator / PvP Raiding",
-    "lastUpdated": "2026-07-02"
+    "lastUpdated": "2026-07-14"
   },
   "seo": {
     "siteTitle": "grow-a-garden-2 calculator[2026.07]",
-    "siteDescription": "Free Grow a Garden 2 calculator, active GAG2 codes, 43-crop seed database, NPC guides, mutation multipliers, and complete Roblox GAG2 wiki for 2026.07.",
+    "siteDescription": "Free Grow a Garden 2 calculator, active GAG2 codes, 46-page crop database, Merging Update seeds, pet guides, and complete Roblox GAG2 wiki for 2026.07.",
     "baseUrl": "https://gag2-calculator.com",
     "primaryKeywords": [
       "Grow a Garden 2",
@@ -34,7 +34,7 @@
     { "path": "/codes", "title": "Codes", "description": "Grow a Garden 2 Codes", "priority": 0.9, "isHub": true },
     { "path": "/beginner-guide", "title": "Guide", "description": "Grow a Garden 2 Beginner Guide", "priority": 0.8, "isHub": true },
     { "path": "/systems", "title": "Systems", "description": "Grow a Garden 2 Game Systems", "priority": 0.85, "isHub": true },
-    { "path": "/systems/seeds", "title": "Seeds", "description": "Grow a Garden 2 43-Crop Seed Database", "priority": 0.8, "isHub": true },
+    { "path": "/systems/seeds", "title": "Seeds", "description": "Grow a Garden 2 46-Page Crop Database", "priority": 0.8, "isHub": true },
     { "path": "/systems/npcs", "title": "NPCs", "description": "Grow a Garden 2 NPC Guide", "priority": 0.7 },
     { "path": "/systems/mutations", "title": "Mutations", "description": "Grow a Garden 2 Mutation Multipliers", "priority": 0.7 },
     { "path": "/systems/pets", "title": "Pets", "description": "Grow a Garden 2 Pet Catalog", "priority": 0.7 },
@@ -70,7 +70,7 @@
   },
   "features": [
     { "title": "Active Codes", "path": "/codes", "description": "Working Grow a Garden 2 codes like TEAMGREENBEAN, updated the moment they drop on Discord or events.", "icon": "FiGift" },
-    { "title": "43-Crop Seed Database", "path": "/systems/seeds", "description": "Every crop ranked by rarity — Super to Common — with 1kg values, floor values, and harvest types.", "icon": "FiList" },
+    { "title": "46-Page Crop Database", "path": "/systems/seeds", "description": "Every crop ranked from Secret to Common, including Star Fruit, Sun Bloom, Eclipse Bloom, prices, values, and harvest types.", "icon": "FiList" },
     { "title": "Profit Calculator", "path": "/calculator", "description": "Estimate sell prices with the community-verified formula: weight, mutations, and friend boost.", "icon": "FiCalculator" },
     { "title": "Mutation Multipliers", "path": "/systems/mutations", "description": "All confirmed and community-estimated GAG2 mutations from Aurora to Bloodlit, plus weather triggers.", "icon": "FiZap" },
     { "title": "Pet Catalog", "path": "/systems/pets", "description": "Spawn mechanics, abilities, and costs for every pet.", "icon": "FiHeart" },
@@ -81,6 +81,6 @@
     { "question": "Are mutations stackable in Grow a Garden 2?", "answer": "No. Unlike GAG1, mutations in GAG2 are mutually exclusive — only one mutation applies per crop at a time. Community data currently tracks values such as Aurora ×1.5, Gold ×10, Electric, Frozen, Rainbow, and Bloodlit." },
     { "question": "How do I redeem codes in Grow a Garden 2?", "answer": "Use the in-game Settings gear and Redeem Code flow when available. The current working code is TEAMGREENBEAN for 3× Green Bean Seeds, and source notes also mention Discord and social/event code drops." },
     { "question": "Can my crops be stolen?", "answer": "Yes. During the 2-minute night phase of the 10-minute day/night cycle, other players can loot unattended gardens. Harvest high-value crops before logging off or deploy defensive pets, plants, and gear." },
-    { "question": "What changed in the latest Obsidian update?", "answer": "The latest content pass added the Summer Harvest Event preview, refreshed homepage stats to 1.0B+ visits and 594K+ favorites, expanded seed packs to 11 types, and added Hypno Bloom and Auctioneer update details." }
+    { "question": "What changed in the latest update?", "answer": "The Merging Update added Star Fruit, Sun Bloom, the first Secret crop Eclipse Bloom, and the Mythic Firefly pet. Homepage stats and Super crop prices were also refreshed on July 14, 2026." }
   ]
 }

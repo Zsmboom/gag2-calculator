@@ -42,11 +42,9 @@
         "Mutation × : : : : None 1 Gold 10 Rainbow 30 Frozen 40 Electric 70 Bloodlit 80",
         "Critical: Mutations are mutually exclusive (only one per crop) in GAG2.",
         "Formula: (1 + FriendBoost%) Each online friend adds a flat % bonus to sell price",
-        "Some sources claim a ×1.08 Bargain bonus at final sell stage Being verified for accuracy",
         "Calculator Model Accuracy Special Features : : : : : : : : growagardencalculate.com Power exp 2.0–3.4, per crop Community fit Individual curves per crop gag2cal",
         "To build the most accurate GAG2 calculator, we need per crop:",
         "{ name: string, rarity: \"Common\" \"Uncommon\" \"Rare\" \"Epic\" \"Legendary\" \"Mythic\" \"Super\", base value 1kg: number, curve exp: number (2.0–3.4), single harvest: boo",
-        "Source Weight Formula Mutation Multipliers : : : : growagarden2wiki.net weight² Gold×10, Frozen×40 growagardencalculate.com power fit (exp 2.0–3.4) Rainbow×30, ",
         "These are all community estimated values — none have official game confirmation. A calculator that independently verified data would have a competitive advantag"
       ],
       "images": [],
@@ -65,16 +63,12 @@
         "Files Modified (3) homepage/content.md — Stats refreshed: 1.0B+→1.214B visits, 594K→607.8K favorites, current players 579K→334K systems/seeds/list.md — Added St",
         "Files Added (4) systems/seeds/star fruit.md — New detail page (Super, 315M🪙, 1,899💎, Multi, Merging Update) systems/seeds/sun bloom.md — New detail page (Super,",
         "New Data Star Fruit: Super, 315M🪙/1,899💎, Multi, Starfall mutation, night defense Sun Bloom: Super, 110M🪙/1,549💎, Multi, Eclipse Bloom parent (merge with Moon B",
-        "Known Gaps Fire Fern exact restock chance — not documented on wiki Rocket Pop 1kg base value — not documented on wiki Butterfly/Bald Eagle spawn chance and pric",
-        "Type : Major data update — Update 1.13.0 discovered (Fire Fern, Rocket Pop, new pets, Summer Harvest crops listed on wiki) Summary : Discovered Update 1.13.0 (J",
         "Files Modified (3) homepage/content.md — Stats refreshed: 907M→1.0B+ visits, 560K→594K favorites, 493K→579K players; crop count 38→45+ systems/seeds/list.md — A",
         "Files Added (4) systems/seeds/fire fern.md — New detail page (Legendary, 6M🪙, 900 S/kg, Multi, Update 1.13.0) systems/seeds/rocket pop.md — New detail page (Leg",
         "New Data Fire Fern: Legendary, 6M🪙/659💎, 900 S/kg, Multi, Added in Update 1.13.0 Rocket Pop: Legendary, 27.5K🪙/149💎, Single, Released Jul 4 Bone Blossom (BB): L",
-        "Known Gaps Fire Fern exact restock chance — not documented on wiki Rocket Pop 1kg base value — not documented on wiki Butterfly/Bald Eagle spawn chance and pric",
         "Type : Major data update — Summer Harvest Event discovered + stats refresh Summary : Discovered upcoming Summer Harvest Event (3 leaked crops, Big Rainbow T Rex",
         "Files Modified (3) homepage/content.md — Stats refreshed: 843M→907M visits, 550K→560K favorites, added all time peak CCU (929K), avg play time 23.1→27.46 min, r",
         "New Data Summer Harvest Event: 3 leaked crops (Watermelon, Citrus Fruit, Kiwi), Big Rainbow T Rex pet, delivery point table Hypno Bloom: detailed stats confirme",
-        "Known Gaps Hypno Bloom ability exact range/duration — not documented on wiki either (community gap) High tier Seed Pack (Super/Secret/Mythic/Legendary) drop % —",
         "Type : Structure fix — added missing systems hub page Summary : Created systems/content.md for /systems/ URL, fixed stale seed counts in site architecture",
         "Files Added systems/content.md — Systems hub/landing page (English, internal links to all 10 system modules)",
         "Files Modified site architecture.md — Page count 60→61, seeds folder: 38→39 pages, 37→38 details, added systems/ row",
@@ -118,10 +112,8 @@
         "Code Reward Added Success Rate Status : : : : : : TEAMGREENBEAN 3× Green Bean Seeds Launch 100% ✅ Active",
         "1. Open the Settings gear icon (top left corner of game screen) 2. Click Redeem Code 3. Enter the code (exact case) 4. Click Redeem",
         "GAG2 code system is different from GAG1 — codes are distributed through Discord bot (social/event codes) Codes may expire quickly — check the official Discord f",
-        "Channel Description : : 💬 [Official Discord](https://discord.gg/growagarden) Primary source — bot distributed codes 🐦 X/Twitter Developer announcements 📰 Roblox",
         "兑换码 奖励 状态 添加日期 : : : : TEAMGREENBEAN 3× Green Bean Seeds ✅ active 2026 06 12",
-        "注意：原版 Grow a Garden 的兑换码（STARBUD、RDCAward 等）不适用于 GAG2。",
-        "Code Status Reward Source TEAMGREENBEAN active 3× Green Bean Seeds ?"
+        "注意：原版 Grow a Garden 的兑换码（STARBUD、RDCAward 等）不适用于 GAG2。"
       ],
       "images": [],
       "youtube": [],
@@ -204,8 +196,7 @@
         "🌾 Database",
         "⚡ Game Mechanics",
         "📚 Reference",
-        "🛠️ Tools",
-        "🔗 External Resources"
+        "🛠️ Tools"
       ],
       "required_phrases": [
         "Attribute Value Full Name Grow a Garden 2 (GAG2) Developer Strawberreh Squad / Splitting Point Studios Platform Roblox Genre Farming Simulator / PvP Raiding Rel",
@@ -213,9 +204,7 @@
         "Day/Night Cycle — Farm by day, steal crops from other gardens at night Guild System — Team up for weekly rewards Map Pets — Pets spawn randomly on the map with ",
         "💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (45+ crops)",
         "🌾 Database 🌽 All Crops (45+ entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog ⚙️ Gear & Tools",
-        "⚡ Game Mechanics 🌙 Night Stealing 🛡️ Guilds 🌤️ Weather Events 💵 Bargain System ⏰ Offline Growth",
-        "📚 Reference 📚 Data Sources & Update Guide",
-        "Resource Link 🎮 Game Page [Roblox](https://www.roblox.com/games/97598239454123/Grow a Garden 2) 💬 Official Discord [Discord.gg](https://discord.gg/growagarden) "
+        "⚡ Game Mechanics 🌙 Night Stealing 🛡️ Guilds 🌤️ Weather Events 💵 Bargain System ⏰ Offline Growth"
       ],
       "images": [],
       "youtube": [],
@@ -251,15 +240,9 @@
       "required_phrases": [
         "Grow a Garden 2 — Seed Pack Drop Reference",
         "Full Seed Pack Reference (11 Packs Total)",
-        "Pack Tier Price Source Drops Drop Rates : : : : : : : : : : Common Seed Pack COMMON 129 R$ Tutorial Reward TBA TBA Common Seed Pack (Exclusive) COMMON 129 R$ On",
-        "Note : Higher tier pack drop rates (Super/Secret/Mythic/Legendary) are marked \"Source TBA\" on the GAG2 Wiki. Only Ghost Pepper Pack has confirmed percentages.",
         "Ghost Pepper Pack (Seeds Shop, 99 R$/roll)",
         "Crop Rarity Drop Chance Odds : : : : : : : : 1 Baby Cactus Rare 50% 1 in 2 2 Horned Melon Rare 30% 1 in 3 3 Glow Mushroom Epic 15% 1 in 7 4 Poison Ivy Legendary",
-        "Source: Seeds Shop — 99 Robux/roll (bulk: 10 roll bundle 799 Robux, best value) Confirmed: In game on launch day (2026 06 12)",
-        "Crop Drop Chance : : : : 1 Banana 10.3% 2 Cactus 10.03% 3 Corn 9.9% 4 Grape 9.15% 5 Pineapple 8.91% 6 Coconut 7.81% 7 Apple 7.51% 8 Mango 6.25% ... (27 drops to",
-        "Source: Vote reward on gag.gg (free) Status: Unverified — community sourced drop rates",
-        "Super Seed Pack — 24 drops (Source TBA) Secret Seed Pack — 22 drops (Source TBA) Mythic Seed Pack — 27 drops (Source TBA) Legendary Seed Pack — 27 drops (Source",
-        "GAG2 Wiki: https://growagarden2wiki.net/seed packs/ (accessed 2026 06 30) https://growagarden2wiki.net/seed packs/ghost pepper pack/ (accessed 2026 06 30) https"
+        "Crop Drop Chance : : : : 1 Banana 10.3% 2 Cactus 10.03% 3 Corn 9.9% 4 Grape 9.15% 5 Pineapple 8.91% 6 Coconut 7.81% 7 Apple 7.51% 8 Mango 6.25% ... (27 drops to"
       ],
       "images": [],
       "youtube": [],
@@ -297,26 +280,7 @@
       "seo_hints": {},
       "headings": [],
       "required_phrases": [
-        "Field Value URL https://www.roblox.com/games/97598239454123/Grow a Garden 2 Accessed 2026 06 21 Content collected Game description, developer, genre, visits cou",
-        "Field Value URL https://www.rolimons.com/game/97598239454123 Accessed 2026 06 21 Content collected Online peaks, average play time, CCU history",
-        "Field Value URL https://www.ign.com/articles/grow a garden 2 codes Accessed 2026 06 21 Content collected Codes",
-        "Field Value URL https://progameguides.com/roblox/grow a garden 2 codes/ Accessed 2026 06 22 Content collected Codes, Aurora Event guide",
-        "Field Value URL https://beebom.com/grow a garden 2 codes/ Accessed 2026 06 22 Content collected Codes, patch notes, day/night cycle, seed tier list",
-        "Field Value URL https://www.youtube.com/@KreekCraft Accessed 2026 06 21 Content collected Update 1 coverage, Secret Update content",
-        "Field Value URL https://www.youtube.com/@FoltynFamily Accessed 2026 06 21 Content collected Gameplay demo, content showcase",
-        "Field Value URL https://beebom.com/grow a garden 2 update patch notes/ Accessed 2026 06 25 Content collected Turtle Update, Picture Frame Update, Strawberry Sni",
-        "Field Value URL https://beebom.com/grow a garden 2 mutations/ Accessed 2026 06 25 Content collected Mutation multiplier table (multi source conflict with GAG1)",
-        "Field Value URL https://beebom.com/grow a garden 2 plants tier list/ Accessed 2026 06 25 Content collected 31 seeds ranking + sell price",
-        "Field Value URL https://beebom.com/grow a garden 2 pets/ Accessed 2026 06 25 Content collected 14 pet full table (Updated Jun 24, includes Turtle)",
-        "Field Value URL https://bloxxer.gg/blogs/grow a garden 2/pets guide Accessed 2026 06 25 Content collected 8 main pets spawn chance, price, rarity",
-        "Field Value URL https://www.sportskeeda.com/roblox news/grow garden 2 turtle pet guide Accessed 2026 06 25 Content collected Turtle independent guide: 70K, +10 ",
-        "Field Value URL ~/.openclaw/agents/main/workspace/gag2 calculator/src/data/ Accessed 2026 06 21 Content collected items.json, codes.json, game.config.json",
-        "Field Value URL https://growagarden2wiki.net/crops/hypnobloom/ Accessed 2026 06 29 Content collected Hypno Bloom full stats: price, rarity, weight, growth time,",
-        "Field Value URL https://growagarden2.fandom.com/wiki/Hypnobloom Accessed 2026 06 29 Content collected Hypno Bloom basic info, update 1.06.0 reference",
-        "Field Value URL https://growagarden2wiki.net/updates/ Accessed 2026 06 30 Content collected Hypno Bloom & Auctioneer Update (Jun 28), Seed Pack rebalance detail",
-        "Field Value URL https://growagarden2wiki.net/npcs/auctioneer/ Accessed 2026 06 30 Content collected Auctioneer NPC full description: Dutch auction pricing, 20 m",
-        "Field Value URL https://game8.co/games/Grow a Garden 2 Accessed 2026 07 02 Content collected Codes, pets, plants, weather, crates guides — discovered during upd",
-        "Field Value URL https://growagarden2wiki.net/updates/ Accessed 2026 06 30 Content collected Summer Harvest Event announcement (Jun 30) — 3 leaked crops (Waterme"
+        "Field Value URL ~/.openclaw/agents/main/workspace/gag2 calculator/src/data/ Accessed 2026 06 21 Content collected items.json, codes.json, game.config.json"
       ],
       "images": [],
       "youtube": [
@@ -355,7 +319,6 @@
       "required_phrases": [
         "Breadcrumb: Roblox GAG2 Mechanics Bargain",
         "GAG2 introduces a Bargain mechanic that provides a bonus to sell value when harvesting crops. This system did not exist in GAG1.",
-        "Variable Value Source : : : : Bonus multiplier ×1.08 gag2calculator.com Trigger condition Unknown Being researched Active timing Believed to be sell stage —",
         "Note: Bargain mechanics are in early discovery. Data may change."
       ],
       "images": [],
@@ -431,7 +394,6 @@
         "Name Effect Price : : : : : Basic Sprinkler Increases nearby crop weight (higher harvest value) Low Advanced Sprinkler Stronger growth boost Medium Super Sprink",
         "Sprinklers increase crop weight — weight scales exponentially with value (power law: weight^exp). This is the most important investment after seeds.",
         "Item Effect Price : : : : : Megaphone Defends against thieves 8K 🪙 Player Magnet Attracts items and deters thieves 7M 🪙 Vine Wrapper Tangles thieves, slowing th",
-        "Strawberry Sniper added in minor update 2026 06 22. Source: Beebom Patch Notes.",
         "Item Effect Price : : : : : Pet Teleporters Teleports you to Legendary/Mythic/Super pet locations Robux only",
         "Tool Use : : : Night only tools Required for stealing from other gardens Various Gear Shop items Utility for farming and raiding",
         "Order Item Why : : : : : 🥇 1st Sprinklers Increases crop weight → exponential value gain 🥇 2nd Raid tools Needed for night stealing 🥈 3rd Defense gear Protects ",
@@ -469,8 +431,7 @@
       "required_phrases": [
         "Breadcrumb: Roblox GAG2 Mechanics Guilds",
         "Guilds are a system in GAG2 that allow players to team up and compete for weekly leaderboard rewards .",
-        "Form or join a guild with other players Create a guild costs 99 Robux Compete in weekly leaderboard rankings 9 reward tiers — higher ranking = better rewards To",
-        "Join an active guild early for the weekly rewards The Ice Serpent is one of the rarest obtainable pets — guild competition is the primary source Coordinate with"
+        "Form or join a guild with other players Create a guild costs 99 Robux Compete in weekly leaderboard rankings 9 reward tiers — higher ranking = better rewards To"
       ],
       "images": [],
       "youtube": [],
@@ -498,7 +459,6 @@
         "Full Original Content",
         "💫 Grow a Garden 2 — Mutation System",
         "⚠️ Critical: GAG2 vs GAG1 Differences",
-        "⚠️ Data Quality Warning: Multipliers From Multiple Sources Conflict",
         "✅ Confirmed or Community-Estimated GAG2 Mutation Multipliers",
         "📋 Weather-Triggered Mutations (Base Multipliers)",
         "🧮 Value Formula",
@@ -519,9 +479,6 @@
       ],
       "required_phrases": [
         "Aspect GAG1 (Original) GAG2 : : : : Mutation stacking ✅ Stackable (additive formula) ❌ Mutually exclusive (one per crop) Gold type Variant (×20, separate multip",
-        "⚠️ Data Quality Warning: Multipliers From Multiple Sources Conflict",
-        "The high multipliers (×70 Electric, ×40 Frozen, ×30 Rainbow, ×80 Bloodlit) listed below are GAG1 values carried over without GAG2 verification . Beebom (gaming ",
-        "Mutation Beebom (GAG2) Current Listed Verdict : : : : : : : : Rainbow ×10 ×30 ⚠️ Unconfirmed — may be ×10 Electric ×25 ×70 ⚠️ Unconfirmed — may be ×25 Frozen ×3",
         "Until community verification confirms GAG2 specific values, treat the high multipliers as estimated/placeholder.",
         "✅ Confirmed or Community Estimated GAG2 Mutation Multipliers",
         "Mutation Multiplier Rarity How to Get Confidence : : : : : : : : : Bloodlit 🔥 ×80 (❓) 🟣 Legendary Blood Moon event (every 4h Lunar Glow variation) ⚠️ GAG1 data,",
@@ -533,11 +490,8 @@
         "Mutations are MUTUALLY EXCLUSIVE. Only one applies at a time. This is the biggest change from GAG1.",
         "Phase Target Mutation Method : : : 🟢 Early Gold (×10) Mass plant for 1% natural chance 🟡 Mid Frozen (×40 ❓) Frost weather + pre soak crops (Wet) 🔴 Late Electric",
         "⚠️ Strategy assumes GAG1 values. Actual GAG2 multipliers may be lower.",
-        "Beebom lists Rainbow as ×10 (same as Gold), not ×30 Beebom lists Electric as ×25, not ×70 Beebom lists Frozen as ×3, not ×40 Starstruck and Bloodlit multipliers",
         "突变 倍率 稀有度 触发方式 : : : : : : Bloodlit ×80 Legendary Blood Moon 事件（每4小时 Lunar Glow 变体） Electric ×70 Legendary 雷暴天气（稀有） Frozen ×40 Epic Frost 事件——作物必须先为 Wet 状态 Rain",
-        "天气 突变链 倍率链 : : Rain Wet → 无突变 — Thunderstorm Wet → Electric ×2 → ×70 Frost Wet → Frozen ×2 → ×40 Blood Moon Bloodlit ×80 Aurora Borealis 🆕 Aurora ×1.5",
-        "首次月度大版本更新 — 2026 06 27 上线 数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 27, 2026）",
-        "属性 值 触发条件 夜间（游戏内 2 分钟夜间周期） 效果 蓝月出现时 Mega 种子掉落概率大幅提升 种子来源 未知 — 🔴 待确认（种子商店刷新 / 天气事件 / 特殊宝箱） 持续时间 整个夜间周期 与 Aurora 事件的兼容性 🔴 待确认 — 是否可在同个夜间共存"
+        "天气 突变链 倍率链 : : Rain Wet → 无突变 — Thunderstorm Wet → Electric ×2 → ×70 Frost Wet → Frozen ×2 → ×40 Blood Moon Bloodlit ×80 Aurora Borealis 🆕 Aurora ×1.5"
       ],
       "images": [],
       "youtube": [],
@@ -614,8 +568,7 @@
         "Key Stats",
         "How the Dutch Auction Works",
         "Items Available",
-        "Strategy",
-        "Source Data"
+        "Strategy"
       ],
       "required_phrases": [
         "The Auctioneer is an NPC in Grow a Garden 2 who runs a Dutch auction stand with 6 random premium items. Added on June 28, 2026 as part of the Hypno Bloom & Auct",
@@ -623,8 +576,7 @@
         "1. When the Auction Stand restocks, each of the 6 items starts at an extremely high price (potentially billions of Sheckles) 2. The price gradually decreases ov",
         "The Auctioneer sells premium items that can include:",
         "Super Sprinklers Super Watering Cans Mythical Seeds Super Seeds",
-        "Buy early if you need a rare item and can afford the premium price Wait for a discount if you're patient, but risk someone else buying the stock first Check the",
-        "growagarden2wiki.net: https://growagarden2wiki.net/npcs/auctioneer/ (accessed 2026 06 30)"
+        "Buy early if you need a rare item and can afford the premium price Wait for a discount if you're patient, but risk someone else buying the stock first Check the"
       ],
       "images": [],
       "youtube": [],
@@ -654,16 +606,14 @@
         "Charlotte — Grow a Garden 2 Props Shop Vendor",
         "Key Stats",
         "What Charlotte Sells",
-        "Location",
-        "Source Data"
+        "Location"
       ],
       "required_phrases": [
         "Charlotte — Grow a Garden 2 Props Shop Vendor",
         "Charlotte is the Props Shop NPC in Grow a Garden 2. She sells decorative and cosmetic props for player gardens. The Props Shop is in the map center near the Sel",
         "Field Value Role Shop Location Props Shop Added Launch (2026 06 12)",
         "Charlotte runs the Props Shop and is the only NPC that sells decorative and cosmetic items for player gardens. Specific prop items and their prices are not yet ",
-        "Charlotte is located at the Props Shop in the center of the map, near the Sell Stand and Guild Stand. The central location makes it convenient to visit after se",
-        "GAG2 Wiki: https://growagarden2wiki.net/npcs/charlotte/ (accessed 2026 06 30)"
+        "Charlotte is located at the Props Shop in the center of the map, near the Sell Stand and Guild Stand. The central location makes it convenient to visit after se"
       ],
       "images": [],
       "youtube": [],
@@ -693,8 +643,7 @@
         "George — Grow a Garden 2 Gear Shop Vendor",
         "Key Stats",
         "What George Sells",
-        "Location",
-        "Source Data"
+        "Location"
       ],
       "required_phrases": [
         "George — Grow a Garden 2 Gear Shop Vendor",
@@ -702,8 +651,7 @@
         "Field Value Role Shop Location Gear Shop Added Launch (2026 06 12)",
         "George's inventory includes: Sprinklers — Automate crop watering Watering Cans — Manual watering tools (including Super variants) Farming Tools — Various gear t",
         "Items are priced in either Sheckles (🪙) or Robux (💎).",
-        "George is located at the Gear Shop, a dedicated shop area in the game map.",
-        "GAG2 Wiki: https://growagarden2wiki.net/npcs/george/ (accessed 2026 06 30)"
+        "George is located at the Gear Shop, a dedicated shop area in the game map."
       ],
       "images": [],
       "youtube": [],
@@ -733,16 +681,14 @@
         "Gilbert — Grow a Garden 2 Guild Stand NPC",
         "Key Stats",
         "What Gilbert Does",
-        "Location",
-        "Source Data"
+        "Location"
       ],
       "required_phrases": [
         "Gilbert — Grow a Garden 2 Guild Stand NPC",
         "Gilbert is the Guild Stand NPC in Grow a Garden 2. He handles guild creation, the global guild leaderboard, and guild rewards. Guilds are a GAG2 exclusive featu",
         "Field Value Role Guild Location Guild Stand Added Launch (2026 06 12)",
         "Create a Guild — Costs 99 Robux . Requires a main title, sub label, and description. View Current Guild — Check your active guild's status and members. Global G",
-        "Gilbert is located at the Guild Stand in the center of the map, near the Sell Stand and Props Shop.",
-        "GAG2 Wiki: https://growagarden2wiki.net/npcs/gilbert/ (accessed 2026 06 30)"
+        "Gilbert is located at the Guild Stand in the center of the map, near the Sell Stand and Props Shop."
       ],
       "images": [],
       "youtube": [],
@@ -775,20 +721,17 @@
         "Charlotte (Props Shop)",
         "Steven (Sell Stand)",
         "Gilbert (Guild Stand)",
-        "Auctioneer",
-        "Source Data"
+        "Auctioneer"
       ],
       "required_phrases": [
         "NPC Location Role Added : : Sam Seed Shop Seed vendor — sells rotating plantable seeds from Common to Legendary Launch George Gear Shop Gear vendor — sells spri",
-        "Sam (Seed Shop) The Seed Shop vendor. Sells rotating plantable seeds from Common to Legendary tiers. Check the live stock tracker on the wiki to see Sam's curre",
         "George (Gear Shop) The Gear Shop NPC. Sells sprinklers, watering cans, and other farming tools priced in Sheckles or Robux. Gear from George affects crop grow s",
         "Charlotte (Props Shop) The Props Shop NPC. Sells decorative and cosmetic props for player gardens. Located in the map center near the Sell Stand and Guild Stand",
         "Steven (Sell Stand) The Sell Stand NPC. Bring harvested crops to him to earn Sheckles. Payout depends on crop base value, weight, mutations, and active server s",
         "Gilbert (Guild Stand) The Guild Stand NPC. Handles guild creation (costs 99 Robux), the global guild leaderboard, and guild rewards. Guilds are a GAG2 exclusive",
         "Auctioneer The Auctioneer is a new NPC added in the June 28, 2026 update. Located at the Auction Stand, they sell 6 random premium items that restock every 20 m",
         "Pricing mechanism: Dutch auction — each item starts at an extremely high price (potentially billions of Sheckles) and gradually decreases over time. Rarer items",
-        "Strategy: Buy early if you need a rare item and can afford the premium, or wait for the price to drop and risk someone else buying it first.",
-        "growagarden2wiki.net: https://growagarden2wiki.net/npcs/auctioneer/ (accessed 2026 06 30)"
+        "Strategy: Buy early if you need a rare item and can afford the premium, or wait for the price to drop and risk someone else buying it first."
       ],
       "images": [],
       "youtube": [],
@@ -818,15 +761,13 @@
         "Sam — Grow a Garden 2 Seed Shop Vendor",
         "Key Stats",
         "What Sam Sells",
-        "Location",
-        "Source Data"
+        "Location"
       ],
       "required_phrases": [
         "Sam is the Seed Shop vendor in Grow a Garden 2 and usually the first NPC new players interact with. He sells rotating plantable seeds from common to legendary t",
         "Field Value Role Seller Location Seed Shop Added Launch (2026 06 12)",
         "Sam sells plantable seeds that rotate on a stock timer. His inventory can include seeds from Common to Legendary tiers depending on the current rotation. Checki",
-        "Sam is located at the Seed Shop. The Seed Shop is where most players start — it stocks seeds that can be planted in your garden. Seed stock refreshes every ~4 5",
-        "GAG2 Wiki: https://growagarden2wiki.net/npcs/sam/ (accessed 2026 06 30)"
+        "Sam is located at the Seed Shop. The Seed Shop is where most players start — it stocks seeds that can be planted in your garden. Seed stock refreshes every ~4 5"
       ],
       "images": [],
       "youtube": [],
@@ -856,16 +797,14 @@
         "Steven — Grow a Garden 2 Sell Stand NPC",
         "Key Stats",
         "How the Sell Stand Works",
-        "Location",
-        "Source Data"
+        "Location"
       ],
       "required_phrases": [
         "Steven is the Sell Stand NPC in Grow a Garden 2. Bring harvested crops to him to earn Sheckles. Payout depends on crop base value, weight, mutations, and active",
         "Field Value Role Seller (buyer) Location Sell Stand Added Launch (2026 06 12)",
         "Steven buys your harvested crops for Sheckles. The final payout is calculated from:",
         "Crop Base Value — The 1kg base value of the crop Weight — Higher weight = higher payout (non linear curve) Mutations — Active mutations multiply the sell price ",
-        "Steven is located at the Sell Stand in the center of the map, near the Props Shop and Guild Stand.",
-        "GAG2 Wiki: https://growagarden2wiki.net/npcs/steven/ (accessed 2026 06 30)"
+        "Steven is located at the Sell Stand in the center of the map, near the Props Shop and Guild Stand."
       ],
       "images": [],
       "youtube": [],
@@ -933,7 +872,6 @@
         "Strategy"
       ],
       "required_phrases": [
-        "Attribute Value : : Rarity Mythic Source Wild (map spawn) Role Farming — promotes plant growth",
         "Firefly is a Mythic rarity pet in Grow a Garden 2, added in the Merging Update (July 13, 2026). It spawns in the wild and provides a plant growth ability, helpi",
         "Wild spawn — requires map exploration to find Farming role makes it valuable for growth speed Mythic rarity means rare spawn"
       ],
@@ -975,9 +913,6 @@
       "required_phrases": [
         "⚠️ GAG2 differs from GAG1: Pets spawn randomly on the map rather than in a dedicated shop. Legendary+ spawns trigger a server wide alert.",
         "Full Pet List (19 confirmed: Butterfly, Bald Eagle, Firefly, Big Bee, Capybara)",
-        "Pet Rarity Price (🪙) Spawn Chance Ability Source : : : : : : : : : : : Frog 🐸 Common 10K — +5 jump height Beebom Bunny 🐰 Common 20K — +5 walk speed Beebom Owl 🦉",
-        "Note: Prices may vary between sources (Beebom vs Bloxxer). Raccoon price varies 5M 15M. Spawn chance data from Bloxxer.gg. Pets marked 0% spawn are not currentl",
-        "Pet Rarity Ability Source : : : : : : Gnome 🧌 Rare Scares away thieves Community Venus Dragonfly Rare Aggressive defensive pet Community Space Dragon 🐉 Legendar",
         "⚠️ These may be variants, event exclusive, or unconfirmed. Data pending verification.",
         "When buying pets from the in game shop, all pets are purchaseable directly with Sheckles. The most expensive are Super rarity (Ice Serpent 20M, Raccoon 15M). Ch",
         "Pets spawn randomly across the game map at fixed percentage chances Higher rarity = rarer but more powerful Big version pets cost double with enhanced abilities",
@@ -1297,8 +1232,7 @@
       "required_phrases": [
         "Bone Blossom is an upcoming Legendary multi harvest crop in Grow a Garden 2. It is currently unreleased and cannot be obtained through standard gameplay. Listed",
         "Attribute Value Rarity LEGENDARY Seed Price TBA Harvest Type Multi Obtainable Not currently",
-        "Bone Blossom (BB) is an upcoming Legendary multi harvest crop discovered in the GAG2 game files. Currently not obtainable through normal gameplay. Its seed pric",
-        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/bone blossom/) — Updated Jul 3, 2026"
+        "Bone Blossom (BB) is an upcoming Legendary multi harvest crop discovered in the GAG2 game files. Currently not obtainable through normal gameplay. Its seed pric"
       ],
       "images": [],
       "youtube": [],
@@ -1339,8 +1273,7 @@
         "Briar Rose is an unreleased Mythic multi harvest crop in Grow a Garden 2 with an average sell value of 4,000 Sheckles and an average weight of 9 kg . It cannot ",
         "Attribute Value Rarity MYTHIC Seed Price TBA Average Value 4,000 Sheckles (1kg) Floor Value 3,610 Sheckles Average Weight 9 kg Minimum Weight 6.3 kg Harvest Typ",
         "Briar Rose is an unreleased Mythic multi harvest crop found in the GAG2 game files. With an estimated base value of 4,000 S at 1kg, it would rank among the high",
-        "Higher value crops nearby: Hypno Bloom, Moon Bloom, Lotus Lower value crops nearby: Venom Spitter, Dragon's Breath, Venus Flytrap",
-        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/briar rose/) — Updated Jun 26, 2026"
+        "Higher value crops nearby: Hypno Bloom, Moon Bloom, Lotus Lower value crops nearby: Venom Spitter, Dragon's Breath, Venus Flytrap"
       ],
       "images": [],
       "youtube": [],
@@ -1698,8 +1631,7 @@
         "Buy from the Seed Shop for 6,000,000 Sheckles or 659 Robux Listed at the seed shop (standard rotation)",
         "The value is calculated using the standard GAG2 formula: Sell Price = Base Value(1kg) × (Harvest Weight / Avg Weight)² × Mutation Mult × (1 + FriendBoost%) × Qu",
         "At average weight (9kg): 900 × (9/9)² = 900 Sheckles per unit At max weight (100kg): 900 × (100/9)² ≈ 111,111 Sheckles per unit",
-        "Higher value crops nearby: Romanesco, Pomegranate, Poison Apple Lower value crops nearby: Bamboo, Glow Mushroom, Pumpkin",
-        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/fire fern/) — Updated Jul 4, 2026"
+        "Higher value crops nearby: Romanesco, Pomegranate, Poison Apple Lower value crops nearby: Bamboo, Glow Mushroom, Pumpkin"
       ],
       "images": [],
       "youtube": [],
@@ -1928,15 +1860,13 @@
         "Full Original Content",
         "Ability",
         "Structured Stats",
-        "How to Get",
-        "Source Data"
+        "How to Get"
       ],
       "required_phrases": [
         "Hypno Bloom is a Super rarity multi harvest crop in Grow a Garden 2, added in Update 1.06.0 on June 27, 2026. It costs 90,000,000 Sheckles or 1,599 Robux per se",
         "Like Moon Bloom's low gravity launch, Hypno Bloom has a crowd control effect: intruders approaching the plant are affected by a disruption that affects their mo",
         "Field Value Rarity Super Seed Price 90,000,000🪙 / 1,599💎 Base Value (1kg) 9,500 Floor Value 8,574 Average Weight 9 kg Minimum Weight 6.3 kg Huge Chance 1% Plant",
-        "Buy from the Seed Shop for 90,000,000 Sheckles or 1,599 Robux. Restock chance ~0.275% — extremely rare, on par with Dragon's Breath. Requires a maxed economy.",
-        "growagarden2wiki.net: https://growagarden2wiki.net/crops/hypnobloom/ (accessed 2026 06 29) Fandom Wiki: https://growagarden2.fandom.com/wiki/Hypnobloom (accesse"
+        "Buy from the Seed Shop for 90,000,000 Sheckles or 1,599 Robux. Restock chance ~0.275% — extremely rare, on par with Dragon's Breath. Requires a maxed economy."
       ],
       "images": [],
       "youtube": [],
@@ -2002,7 +1932,6 @@
         "Ability Mushroom Shop Sells buff type mushrooms (functionality being researched).",
         "Phase Target Why 🟢 Early Bamboo (700🪙) Plant densely, wait for weather mutations 🟡 Mid Mushroom (15K🪙) Highest Epic base value at 13K/1kg 🔴 Late Dragon Fruit (1",
         "🌽 Grow a Garden 2 — Complete Crop Database",
-        "Source: growagarden2wiki.net (community tested, unverified estimates) Last updated: 2026 06 16 Total entries: 39 crops (3 new: Star Fruit, Sun Bloom, Eclipse Bl",
         "Multi harvest : Regrows after harvesting — can be repeatedly harvested Single harvest : Die after first harvest — must replant",
         "SUPER Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 1 🌼 Moon Bloom — 9,000 8,100 85M🪙 / 1,499💎 Multi 2 🐉 Dragon's Breath — 3",
         "MYTHIC Crop Alt Name Avg Value (1kg) Floor Seed Cost Harvest : : : : : : : : : : : : : : 3 🌸 Lotus — 6,500 5,900 899🪙 Single 4 🪴 Venus Flytrap Venus Fly Trap 3,",
@@ -2448,8 +2377,7 @@
         "Rocket Pop is a Legendary single harvest crop in Grow a Garden 2, costing 27,500 Sheckles or 149 Robux per seed. Released on July 4, 2026 .",
         "Attribute Value Rarity LEGENDARY Seed Price 27,500 🪙 / 149 💎 Harvest Type Single Obtainable Yes Date Added 2026 07 04 Seed Shop Listed",
         "Rocket Pop is a Legendary single harvest crop released on July 4, 2026 as part of Update 1.13.0. At 27,500 Sheckles per seed, it's one of the most affordable Le",
-        "Buy from the Seed Shop for 27,500 Sheckles or 149 Robux Standard seed shop rotation",
-        "Source: [growagarden2wiki.net](https://growagarden2wiki.net/crops/rocket pop/) — Updated Jul 4, 2026"
+        "Buy from the Seed Shop for 27,500 Sheckles or 149 Robux Standard seed shop rotation"
       ],
       "images": [],
       "youtube": [],
@@ -2785,14 +2713,12 @@
       "headings": [
         "Full Original Content",
         "Structured Stats",
-        "How to Get",
-        "Source Data"
+        "How to Get"
       ],
       "required_phrases": [
         "Venom Spitter is a Mythic rarity defensive crop in Grow a Garden 2, added in the Aurora Event (2026 06 20). It functions as an active defense plant that attacks",
         "Field Value Rarity Mythic Seed Price ~30,000,000🪙 Base Value (1kg) TBD Floor Value TBD Harvest Type Multi Special Active defense — attacks thieves",
-        "Buy from the Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD.",
-        "Beebom: https://beebom.com/grow a garden 2 update patch notes/ (accessed 2026 06 25)"
+        "Buy from the Defense Plant Shop or Seed Shop. Aurora Event exclusive. Exact price TBD."
       ],
       "images": [],
       "youtube": [],
@@ -2869,7 +2795,6 @@
       "required_phrases": [
         "Breadcrumb: Roblox GAG2 Mechanics Weather",
         "Weather Triggered Mutation × Notes : : : : : : Rain Wet 2 Common weather Thunderstorm Wet → Electric ⚡ 2→70 Can trigger highest non event mutation Frost Chilled",
-        "来源: Beebom, Pro Game Guides (2026 06 20)",
         "触发条件 : 夜间随机触发 Aurora Borealis 天气事件 效果 : 对部分作物施加 Aurora 突变，×1.5 价值乘数 新种子 — Venom Spitter : Mythic 防御型植物，可攻击偷菜者，多次收获 新宠物 — Bear : Mythic 级，主动攻击入侵花园的窃贼 新装备 : Megap",
         "阶段 时长 说明 : : : : : 白天 7分30秒 种植、收获、交易 黄昏 30秒 过渡期 夜间 2分钟 可偷窃他人花园 完整周期 10分钟 —",
         "Rain / Thunderstorm — Plant large batches and wait for Electric proc (×70) Frost — Ensure some crops are Wet beforehand to trigger Frozen Blood Moon — Time your",
@@ -2927,22 +2852,15 @@
         "v1.13.0 — Fire Fern & Rocket Pop Update（2026 07 04/05）🔥",
         "GAG2 Update 1.13.0 — Released around July 4 5, 2026. Confirmed by multiple YouTube content creators (Codezzy 29K views, BachaBlox 87K views, MrCatPlays).",
         "新增内容： Fire Fern（火蕨） 🔥 — Legendary 品质，多收获作物 价格：6,000,000 🪙 / 659💎 每粒种子 平均价值：900🪙/kg，平均重量 9kg，Multi 收获 Seed Shop 可购买 Rocket Pop（火箭棒冰） 🚀 — Legendary 品质，单收获作物 价格：27",
-        "数据源：[GAG2 Wiki](https://growagarden2wiki.net/updates/) — 种子列表页更新于 Jul 4, 2026 YouTube 确认：Codezzy (29K views, Jul 4), BachaBlox (87K views, Jul 4), MrCatPlays (7",
         "泄露内容： 3种新作物 ：Watermelon（西瓜）、Citrus Fruit（柑橘）、Kiwi（猕猴桃）— 疑似高价值限量种子 Big Rainbow T Rex 🌈🦖 — 全新活动奖励宠物 玩法 ：向 Farmer NPC 交付夏季水果获得公会积分（Guild Points） Golden 突变作物价值翻倍 （×",
         "作物 积分 : : : Strawberry 1 Apple 3 Coconut 5 Mango 10 Sunflower 20 Pineapple 35",
-        "数据源：GAG2 Wiki Updates (growagarden2wiki.net) — 2026 06 30 发布",
         "v1.6 — Hypno Bloom & Auctioneer Update（2026 06 28）",
         "新增内容： Hypno Bloom（催眠花） — Super 稀有度，多收获作物 价格：90M 🪙 / 1,599💎 每粒种子，0.275% 商店刷新率 每株产 2 果，base value 9,500🪙/kg 生长 23m20s，复果 5m33s，平均重量 9kg，1% Huge 概率 能力：催眠入侵者（控场效果），",
-        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 28, 2026） 详细数据：hypnobloom.md、reference data/seed packs.md",
         "新增内容： Mega Moon 事件 — 夜间出现蓝月，大幅增加 Mega 种子获取概率 Mega Seed — 全新种子变体。获得任意非限制作物的巨大版本",
-        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 27, 2026）",
         "v1.4 — Picture Frame Crate Update（2026 06 25）",
         "新增内容： Picture Frame Crate — 新箱子，可将图片横幅用作装饰道具。支持通过 Roblox Decal ID 自定义图像。",
-        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）",
         "新增内容： Turtle（海龟） — 新宠物。速度较慢，但能帮助储存水果（果实在其中安全存放）。",
-        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）",
         "新增内容： Strawberry Sniper — 新装备。发射草莓弹射物，将玩家击退。",
-        "数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 25, 2026）",
         "新增内容： Venom Spitter — Mythic 防御植物，攻击偷菜者，多次收获，种子约 30M Sheckles Bear — Mythic 宠物，主动攻击入侵花园的窃贼 Aurora 突变 — ×1.5 倍率，Aurora Borealis 夜间天气事件触发 Megaphone — 新装备（8K Sheck"
       ],
       "images": [],

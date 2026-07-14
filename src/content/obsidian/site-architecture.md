@@ -1,6 +1,6 @@
 # Site Architecture — Grow a Garden 2
 
-> Total pages: 65
+> Total pages: 69
 > Page hierarchy and relationships.
 > Migrated from v1.x structure on 2026-06-29
 
@@ -19,9 +19,11 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 │
 └── /systems/                             ← Game systems hub
     │
-    ├── /systems/seeds/                   ← "Grow a Garden 2 seeds" (列表页 + 42 detail pages)
+    ├── /systems/seeds/                   ← "Grow a Garden 2 seeds" (列表页 + 45 detail pages)
     │   ├── /systems/seeds/fire-fern/     ← 🆕 Fire Fern (Legendary, v2.1)
     │   ├── /systems/seeds/rocket-pop/    ← 🆕 Rocket Pop (Legendary, v2.1)
+    │   ├── /systems/seeds/star-fruit/    ← 🆕 Star Fruit (Super, v3.0)
+    │   ├── /systems/seeds/sun-bloom/     ← 🆕 Sun Bloom (Super, v3.0)
     │   ├── /systems/seeds/bone-blossom/  ← 🆕 Bone Blossom (Legendary, v2.1)
     │   ├── /systems/seeds/briar-rose/    ← 🆕 Briar Rose (Mythic, v2.1)
     │   ├── /systems/seeds/hypnobloom/    ← 🆕 Hypno Bloom (Super, v1.6)
@@ -89,8 +91,8 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 | guide/ | 1 | Grow a Garden 2 beginner guide | — |
 | codes/ | 1 | Grow a Garden 2 codes | — |
 | updates/ | 1 | Grow a Garden 2 update | — |
-| systems/seeds/ | 43 | Grow a Garden 2 seeds | ✅ 42 detail pages |
-| systems/pets/ | 1 | Grow a Garden 2 pets | ❌ (list only) |
+| systems/seeds/ | 46 | Grow a Garden 2 seeds | ✅ 45 detail pages |
+| systems/pets/ | 2 | Grow a Garden 2 pets | ✅ 1 detail page |
 | systems/mutations/ | 1 | Grow a Garden 2 mutations | ❌ (list only) |
 | systems/gear/ | 1 | Grow a Garden 2 gear | ❌ (list only) |
 | systems/weather/ | 1 | Grow a Garden 2 weather | ❌ (list only) |
@@ -104,8 +106,8 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 
 | System | Items count | Detail page decision | Reason |
 |--------|-----------|---------------------|--------|
-| Seeds | 38 | ✅ Create detail pages | Each seed has name, price, growth time, rarity, and description (3+ sentences) |
-| Pets | 14 | ❌ List only | Each pet has name, rarity, price, spawn chance — ~2 sentences each, insufficient for detail page |
+| Seeds | 41 | ✅ Create detail pages | Each seed has name, price, growth time, rarity, and description (3+ sentences) |
+| Pets | 19 | ✅ 1 detail page (Firefly) | Firefly has enough detail for a separate page; others remain list-only |
 | Mutations | 12+ | ❌ List only | Each mutation has name, multiplier, trigger — 1 line each, insufficient for detail page |
 | Gear | 6+ | ❌ List only | Each gear item has name, price, effect — ~1-2 sentences each, insufficient for detail page |
 | Weather | 6 | ❌ List only | Each weather event has name, effect, trigger — 1 paragraph, insufficient for detail page |
@@ -123,6 +125,7 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 | 2026-06-30 | v1.7 | Added Auctioneer NPC system + homepage stats update + Hypno Bloom detail enrichment |
 | 2026-06-30 | v1.8 | Fixed missing venom-spitter.md → added detail page + seeds list update |
 | 2026-06-30 | v1.9 | Added systems/content.md + fixed stale seed counts in folder table |
+| 2026-07-14 | v3.0 | Merging Update: Star Fruit, Sun Bloom, Eclipse Bloom (Secret), Firefly pet, SUPER price corrections, stats refresh |
 | 2026-07-07 | v2.1 | Fire Fern, Rocket Pop, 4 new pets, stats refresh, Update 1.13.0 discovered |
 | 2026-07-02 | v2.0 | Summer Harvest Event discovered, homepage stats refreshed, seed packs expanded to 11 types |
 
@@ -147,6 +150,16 @@ Homepage (/)                              ← "Grow a Garden 2 guide"
 - **sources.md** — 🔄 added GAG2 Wiki updates + NPCs + Seed Packs
 - **changelog.md** — 🔄 v1.7 entry expanded
 
+
+### Changed Pages (v3.0)
+- **homepage/content.md** — 🔄 stats refreshed (1.214B visits, 607.8K favorites)
+- **systems/seeds/list.md** — 🔄 added Star Fruit, Sun Bloom, Eclipse Bloom; updated SUPER prices
+- **systems/seeds/star-fruit.md** — 🆕 new detail page (Super, 315M🪙, Merging Update)
+- **systems/seeds/sun-bloom.md** — 🆕 new detail page (Super, 110M🪙, Eclipse Bloom parent)
+- **systems/seeds/eclipse-bloom.md** — 🆕 new detail page (Secret, merge Sun+Moon Bloom)
+- **systems/pets/list.md** — 🔄 added Firefly (19 total)
+- **systems/pets/firefly.md** — 🆕 new pet detail page (Mythic, Farming)
+- **site-architecture.md** — 🔄 page count 65→69, seeds: 43→46, pets: 1→2
 ### Changed Pages (v2.1)
 - **homepage/content.md** — 🔄 stats refreshed (1.0B+ visits, 594K favorites, 579K players)
 - **systems/seeds/list.md** — 🔄 added Fire Fern & Rocket Pop rows

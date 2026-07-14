@@ -53,24 +53,24 @@ export default function Hero() {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              1.0B+
+              1.214B+
             </p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Visits</p>
           </div>
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              594K+
+              607.8K+
             </p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Favorites</p>
           </div>
           <div className="p-2 sm:p-4">
             <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-              579K
+              334K
             </p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Current Players</p>
           </div>
           <div className="p-2 sm:p-4">
-            <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">43</p>
+            <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">46</p>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Crops</p>
           </div>
         </div>

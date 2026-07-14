@@ -7,13 +7,11 @@ import ObsidianArticle from '@/components/ObsidianArticle';
 const gameName = config.game.name;
 
 const sourceCoverageNotes = [
-  'v1.7 — Summer Harvest Event（2026 06 30 预告，即将上线）☀️',
-  '泄露内容： 3种新作物 ：Watermelon（西瓜）、Citrus Fruit（柑橘）、Kiwi（猕猴桃）— 疑似高价值限量种子 Big Rainbow T Rex 🌈🦖 — 全新活动奖励宠物 玩法：向 Farmer NPC 交付夏季水果获得公会积分（Guild Points）',
-  '作物 积分 : : : Strawberry 1 Apple 3 Coconut 5 Mango 10 Sunflower 20 Pineapple 35',
-  '数据源：GAG2 Wiki Updates (growagarden2wiki.net) — 2026 06 30 发布',
-  'v1.6 — Hypno Bloom & Auctioneer Update（2026 06 28）',
-  '新增内容： Hypno Bloom（催眠花） — Super 稀有度，多收获作物 价格：90M 🪙 / 1,599💎 每粒种子，0.275% 商店刷新率 每株产 2 果，base value 9,500🪙/kg',
-  '数据源：[Beebom Patch Notes](https://beebom.com/grow a garden 2 update patch notes/)（Updated: June 28, 2026）',
+  'v1.7 — Summer Harvest Event preview announced on June 30, 2026.',
+  'Preview content includes Watermelon, Citrus Fruit, Kiwi, and the Big Rainbow T-Rex event pet. Deliver summer fruit to the Farmer NPC for Guild Points.',
+  'Delivery points: Strawberry 1, Apple 3, Coconut 5, Mango 10, Sunflower 20, and Pineapple 35.',
+  'v1.6 — Hypno Bloom & Auctioneer Update released on June 28, 2026.',
+  'Hypno Bloom is a Super multi-harvest crop priced at 150M Sheckles or 1,599 Robux, with 2 fruits per plant and a 9,500 Sheckles base value per kilogram.',
 ];
 
 export const metadata: Metadata = {
@@ -48,8 +46,8 @@ export default function UpdatesPage() {
                 </div>
                 <h2 className="text-2xl font-semibold mb-3">Summer Harvest Event Preview</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  The Summer Harvest Event has been announced but is not live yet. Current source
-                  notes point to limited summer crops, a guild delivery loop, and a new event pet.
+                  The Summer Harvest Event has been announced but is not live yet. The preview
+                  includes limited summer crops, a guild delivery loop, and a new event pet.
                 </p>
                 <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
                   <li><strong>Leaked crops</strong> — Watermelon, Citrus Fruit, and Kiwi</li>
@@ -238,7 +236,7 @@ export default function UpdatesPage() {
                   <li><strong>Mutations (mutually exclusive)</strong> — Value multipliers from Gold (×10) up to Bloodlit (×80), but only one applies per crop.</li>
                   <li><strong>Offline Growth</strong> — Crops continue growing while you&apos;re offline.</li>
                   <li><strong>Map Pets</strong> — Pets spawn randomly on the map with unique abilities; Legendary spawns trigger a server-wide alert.</li>
-                  <li><strong>Fresh Economy</strong> — 43 crop entries, new seed shop, and a brand-new Sheckles economy.</li>
+                  <li><strong>Fresh Economy</strong> — a growing crop database, new seed shop, and a brand-new Sheckles economy.</li>
                 </ul>
               </article>
 

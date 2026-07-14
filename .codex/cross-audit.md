@@ -1,6 +1,8 @@
 # Cross Audit Report
 
-Manifest: `.codex/obsidian-manifest.json`
+> Public-policy manifest excludes source-attribution-only headings and phrases that must remain internal; gameplay facts are still checked against the full manifest by content_compare.py.
+
+Manifest: `.codex/obsidian-manifest-public.json`
 Project: `/Users/shiminzhang/Desktop/game/Grow-a-Garden-2`
 Static output: `/Users/shiminzhang/Desktop/game/Grow-a-Garden-2/out`
 Base URL: `https://gag2-calculator.com`
@@ -10,12 +12,12 @@ Base URL: `https://gag2-calculator.com`
 - `/calculator`: H1=1, links=36, images=1, SEO hints=yes
 - `/codes`: H1=1, links=35, images=1, SEO hints=yes
 - `/beginner-guide`: H1=1, links=34, images=1, SEO hints=yes
-- `/`: H1=1, links=54, images=2, SEO hints=yes
+- `/`: H1=1, links=56, images=2, SEO hints=yes
 - `/systems/bargain-system`: H1=1, links=35, images=1, SEO hints=yes
 - `/systems`: H1=1, links=54, images=1, SEO hints=yes
 - `/systems/gear`: H1=1, links=35, images=1, SEO hints=yes
 - `/systems/guilds`: H1=1, links=35, images=1, SEO hints=yes
-- `/systems/mutations`: H1=1, links=38, images=1, SEO hints=yes
+- `/systems/mutations`: H1=1, links=35, images=1, SEO hints=yes
 - `/systems/night-stealing`: H1=1, links=33, images=1, SEO hints=yes
 - `/systems/npcs/auctioneer`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/npcs/charlotte`: H1=1, links=41, images=1, SEO hints=yes
@@ -25,7 +27,8 @@ Base URL: `https://gag2-calculator.com`
 - `/systems/npcs/sam`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/npcs/steven`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/offline-growth`: H1=1, links=36, images=1, SEO hints=yes
-- `/systems/pets`: H1=1, links=36, images=1, SEO hints=yes
+- `/systems/pets/firefly`: H1=1, links=39, images=1, SEO hints=yes
+- `/systems/pets`: H1=1, links=37, images=1, SEO hints=yes
 - `/systems/seeds/acorn`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/apple`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/baby-cactus`: H1=1, links=41, images=2, SEO hints=yes
@@ -33,8 +36,8 @@ Base URL: `https://gag2-calculator.com`
 - `/systems/seeds/banana`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/beanstalk`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/blueberry`: H1=1, links=41, images=2, SEO hints=yes
-- `/systems/seeds/bone-blossom`: H1=1, links=42, images=1, SEO hints=yes
-- `/systems/seeds/briar-rose`: H1=1, links=42, images=1, SEO hints=yes
+- `/systems/seeds/bone-blossom`: H1=1, links=41, images=1, SEO hints=yes
+- `/systems/seeds/briar-rose`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/seeds/cactus`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/carrot`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/cherry`: H1=1, links=41, images=2, SEO hints=yes
@@ -42,14 +45,15 @@ Base URL: `https://gag2-calculator.com`
 - `/systems/seeds/corn`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/dragon-fruit`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/dragons-breath`: H1=1, links=41, images=2, SEO hints=yes
-- `/systems/seeds/fire-fern`: H1=1, links=42, images=1, SEO hints=yes
+- `/systems/seeds/eclipse-bloom`: H1=1, links=41, images=1, SEO hints=yes
+- `/systems/seeds/fire-fern`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/seeds/ghost-pepper`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/glow-mushroom`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/grape`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/green-bean`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/horned-melon`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/hypnobloom`: H1=1, links=41, images=1, SEO hints=yes
-- `/systems/seeds`: H1=1, links=81, images=1, SEO hints=yes
+- `/systems/seeds`: H1=1, links=83, images=1, SEO hints=yes
 - `/systems/seeds/lotus`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/mango`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/moon-bloom`: H1=1, links=41, images=2, SEO hints=yes
@@ -60,9 +64,11 @@ Base URL: `https://gag2-calculator.com`
 - `/systems/seeds/poison-ivy`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/pomegranate`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/pumpkin`: H1=1, links=41, images=2, SEO hints=yes
-- `/systems/seeds/rocket-pop`: H1=1, links=42, images=1, SEO hints=yes
+- `/systems/seeds/rocket-pop`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/seeds/romanesco`: H1=1, links=41, images=2, SEO hints=yes
+- `/systems/seeds/star-fruit`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/seeds/strawberry`: H1=1, links=41, images=2, SEO hints=yes
+- `/systems/seeds/sun-bloom`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/seeds/sunflower`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/thorn-rose`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/seeds/tomato`: H1=1, links=41, images=2, SEO hints=yes
@@ -70,7 +76,7 @@ Base URL: `https://gag2-calculator.com`
 - `/systems/seeds/venom-spitter`: H1=1, links=41, images=1, SEO hints=yes
 - `/systems/seeds/venus-flytrap`: H1=1, links=41, images=2, SEO hints=yes
 - `/systems/weather`: H1=1, links=35, images=1, SEO hints=yes
-- `/updates`: H1=1, links=44, images=1, SEO hints=yes
+- `/updates`: H1=1, links=38, images=1, SEO hints=yes
 
 ## Evidence Matrix
 
@@ -184,6 +190,12 @@ Base URL: `https://gag2-calculator.com`
 | PASS | /systems/offline-growth (systems/offline-growth/list.md) | canonical matches public URL |
 | REVIEW | /systems/offline-growth (systems/offline-growth/list.md) | SEO hints present; verify final metadata is original and intent-matched |
 | PASS | /systems/offline-growth (systems/offline-growth/list.md) | no obvious dead local links among parsed hrefs |
+| PASS | /systems/pets/firefly (systems/pets/firefly.md) | built HTML exists: systems/pets/firefly.html |
+| PASS | /systems/pets/firefly (systems/pets/firefly.md) | sitemap includes https://gag2-calculator.com/systems/pets/firefly |
+| PASS | /systems/pets/firefly (systems/pets/firefly.md) | single H1: Grow a Garden 2 Firefly Pet |
+| PASS | /systems/pets/firefly (systems/pets/firefly.md) | canonical matches public URL |
+| REVIEW | /systems/pets/firefly (systems/pets/firefly.md) | SEO hints present; verify final metadata is original and intent-matched |
+| PASS | /systems/pets/firefly (systems/pets/firefly.md) | no obvious dead local links among parsed hrefs |
 | PASS | /systems/pets (systems/pets/list.md) | built HTML exists: systems/pets.html |
 | PASS | /systems/pets (systems/pets/list.md) | sitemap includes https://gag2-calculator.com/systems/pets |
 | PASS | /systems/pets (systems/pets/list.md) | single H1: Grow a Garden 2 Pets |
@@ -286,6 +298,12 @@ Base URL: `https://gag2-calculator.com`
 | PASS | /systems/seeds/dragons-breath (systems/seeds/dragons-breath.md) | canonical matches public URL |
 | REVIEW | /systems/seeds/dragons-breath (systems/seeds/dragons-breath.md) | SEO hints present; verify final metadata is original and intent-matched |
 | PASS | /systems/seeds/dragons-breath (systems/seeds/dragons-breath.md) | no obvious dead local links among parsed hrefs |
+| PASS | /systems/seeds/eclipse-bloom (systems/seeds/eclipse-bloom.md) | built HTML exists: systems/seeds/eclipse-bloom.html |
+| PASS | /systems/seeds/eclipse-bloom (systems/seeds/eclipse-bloom.md) | sitemap includes https://gag2-calculator.com/systems/seeds/eclipse-bloom |
+| PASS | /systems/seeds/eclipse-bloom (systems/seeds/eclipse-bloom.md) | single H1: Grow a Garden 2 Eclipse Bloom Stats & Price |
+| PASS | /systems/seeds/eclipse-bloom (systems/seeds/eclipse-bloom.md) | canonical matches public URL |
+| REVIEW | /systems/seeds/eclipse-bloom (systems/seeds/eclipse-bloom.md) | SEO hints present; verify final metadata is original and intent-matched |
+| PASS | /systems/seeds/eclipse-bloom (systems/seeds/eclipse-bloom.md) | no obvious dead local links among parsed hrefs |
 | PASS | /systems/seeds/fire-fern (systems/seeds/fire-fern.md) | built HTML exists: systems/seeds/fire-fern.html |
 | PASS | /systems/seeds/fire-fern (systems/seeds/fire-fern.md) | sitemap includes https://gag2-calculator.com/systems/seeds/fire-fern |
 | PASS | /systems/seeds/fire-fern (systems/seeds/fire-fern.md) | single H1: Grow a Garden 2 Fire Fern Stats & Price |
@@ -406,12 +424,24 @@ Base URL: `https://gag2-calculator.com`
 | PASS | /systems/seeds/romanesco (systems/seeds/romanesco.md) | canonical matches public URL |
 | REVIEW | /systems/seeds/romanesco (systems/seeds/romanesco.md) | SEO hints present; verify final metadata is original and intent-matched |
 | PASS | /systems/seeds/romanesco (systems/seeds/romanesco.md) | no obvious dead local links among parsed hrefs |
+| PASS | /systems/seeds/star-fruit (systems/seeds/star-fruit.md) | built HTML exists: systems/seeds/star-fruit.html |
+| PASS | /systems/seeds/star-fruit (systems/seeds/star-fruit.md) | sitemap includes https://gag2-calculator.com/systems/seeds/star-fruit |
+| PASS | /systems/seeds/star-fruit (systems/seeds/star-fruit.md) | single H1: Grow a Garden 2 Star Fruit Stats & Price |
+| PASS | /systems/seeds/star-fruit (systems/seeds/star-fruit.md) | canonical matches public URL |
+| REVIEW | /systems/seeds/star-fruit (systems/seeds/star-fruit.md) | SEO hints present; verify final metadata is original and intent-matched |
+| PASS | /systems/seeds/star-fruit (systems/seeds/star-fruit.md) | no obvious dead local links among parsed hrefs |
 | PASS | /systems/seeds/strawberry (systems/seeds/strawberry.md) | built HTML exists: systems/seeds/strawberry.html |
 | PASS | /systems/seeds/strawberry (systems/seeds/strawberry.md) | sitemap includes https://gag2-calculator.com/systems/seeds/strawberry |
 | PASS | /systems/seeds/strawberry (systems/seeds/strawberry.md) | single H1: Grow a Garden 2 Strawberry Stats & Price |
 | PASS | /systems/seeds/strawberry (systems/seeds/strawberry.md) | canonical matches public URL |
 | REVIEW | /systems/seeds/strawberry (systems/seeds/strawberry.md) | SEO hints present; verify final metadata is original and intent-matched |
 | PASS | /systems/seeds/strawberry (systems/seeds/strawberry.md) | no obvious dead local links among parsed hrefs |
+| PASS | /systems/seeds/sun-bloom (systems/seeds/sun-bloom.md) | built HTML exists: systems/seeds/sun-bloom.html |
+| PASS | /systems/seeds/sun-bloom (systems/seeds/sun-bloom.md) | sitemap includes https://gag2-calculator.com/systems/seeds/sun-bloom |
+| PASS | /systems/seeds/sun-bloom (systems/seeds/sun-bloom.md) | single H1: Grow a Garden 2 Sun Bloom Stats & Price |
+| PASS | /systems/seeds/sun-bloom (systems/seeds/sun-bloom.md) | canonical matches public URL |
+| REVIEW | /systems/seeds/sun-bloom (systems/seeds/sun-bloom.md) | SEO hints present; verify final metadata is original and intent-matched |
+| PASS | /systems/seeds/sun-bloom (systems/seeds/sun-bloom.md) | no obvious dead local links among parsed hrefs |
 | PASS | /systems/seeds/sunflower (systems/seeds/sunflower.md) | built HTML exists: systems/seeds/sunflower.html |
 | PASS | /systems/seeds/sunflower (systems/seeds/sunflower.md) | sitemap includes https://gag2-calculator.com/systems/seeds/sunflower |
 | PASS | /systems/seeds/sunflower (systems/seeds/sunflower.md) | single H1: Grow a Garden 2 Sunflower Stats & Price |

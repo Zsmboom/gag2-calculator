@@ -96,9 +96,8 @@ export default function MegaMoonPage() {
 
               <div className="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 p-4 rounded">
                 <p className="text-sm text-gray-700 dark:text-gray-200">
-                  <strong>Source note:</strong> The baseline Mega Moon and Mega Seed information
-                  comes from Beebom patch notes updated on June 27, 2026, plus community reports
-                  gathered in the local source folder. Unknown numbers stay marked as TBD.
+                  Exact Mega Seed multipliers and sell values have not been confirmed. Unknown
+                  numbers remain marked as TBD rather than estimated.
                 </p>
               </div>
 

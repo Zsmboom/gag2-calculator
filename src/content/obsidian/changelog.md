@@ -1,4 +1,43 @@
+---## v3.0 — 2026-07-14
+
+**Type**: Major data update — Merging Update discovered (Star Fruit, Sun Bloom, Eclipse Bloom, Firefly)
+**Summary**: Discovered Merging Update (Jul 13-14) adding 3 new crops (Star Fruit Super, Sun Bloom Super, Eclipse Bloom Secret) and Firefly pet. Updated all SUPER crop prices from latest Wiki data. Homepage stats refreshed: 1.214B visits, 607.8K favorites. No new codes. Summer Harvest Event still upcoming.
+
+### Files Modified (3)
+- **homepage/content.md** — Stats refreshed: 1.0B+→1.214B visits, 594K→607.8K favorites, current players 579K→334K
+- **systems/seeds/list.md** — Added Star Fruit (315M🪙, Super), Sun Bloom (110M🪙, Super), Eclipse Bloom (Secret) to price table; updated SUPER prices: Moon Bloom 65M→85M, Dragon's Breath 90M→225M, Hypno Bloom 90M→150M; added Secret tier section
+- **systems/pets/list.md** — Pet count 18→19: added Firefly (Mythic, Wild, Farming); updated Butterfly (Legendary), Bald Eagle (Mythic), Big Bee (Egg source) status from TBA to confirmed
+
+### Files Added (4)
+- **systems/seeds/star-fruit.md** — New detail page (Super, 315M🪙, 1,899💎, Multi, Merging Update)
+- **systems/seeds/sun-bloom.md** — New detail page (Super, 110M🪙, 1,549💎, Multi, Eclipse Bloom parent)
+- **systems/seeds/eclipse-bloom.md** — New detail page (Secret 🆕, merge Sun Bloom+Moon Bloom, Multi)
+- **systems/pets/firefly.md** — New detail page (Mythic, Wild spawn, Farming role)
+
+### New Data
+- Star Fruit: Super, 315M🪙/1,899💎, Multi, Starfall mutation, night defense
+- Sun Bloom: Super, 110M🪙/1,549💎, Multi, Eclipse Bloom parent (merge with Moon Bloom)
+- Eclipse Bloom: Secret (first crop in new tier), merge Sun Bloom+Moon Bloom (both destroyed), Multi
+- Firefly: Mythic pet, Wild spawn, Farming role (promotes plant growth)
+- Homepage: 1.214B visits, 607.8K favorites, 334K current players
+- Price correction: Moon Bloom 65M→85M, Dragon's Breath 90M→225M, Hypno Bloom 90M→150M
+
+### Known Gaps
+- Fire Fern exact restock chance — not documented on wiki
+- Rocket Pop 1kg base value — not documented on wiki
+- Butterfly/Bald Eagle spawn chance and price — still unconfirmed on wiki
+- Briar Rose/Bone Blossom/Magic Beanstalk/PartFruit/Buttercup — unreleased, no stats
+- Summer Harvest Event — still upcoming (no start date)
+- Sun Bloom restock chance — new gap
+- Eclipse Bloom exact stats/value — new gap
+- Star Fruit 1kg value — new gap
+- Firefly spawn chance/price — new gap
+- Premium grappling hook gear — mentioned in YouTube, not yet on wiki
+- Starfall mutation mechanics — mentioned for Star Fruit, no detail on wiki
+
 ---
+
+
 ## v2.1 — 2026-07-07
 
 **Type**: Major data update — Update 1.13.0 discovered (Fire Fern, Rocket Pop, new pets, Summer Harvest crops listed on wiki)

@@ -10,8 +10,8 @@ import ObsidianArticle from '@/components/ObsidianArticle';
 const gameName = config.game.name;
 
 export const metadata: Metadata = {
-  title: `${gameName} Seeds — 43 Crop Database & Seed Packs`,
-  description: `Complete ${gameName} seeds guide with 43 crop entries, seed costs, rarity, harvest type, Fire Fern, Rocket Pop, Hypno Bloom, seed packs, and unreleased crop notes.`,
+  title: `${gameName} Seeds — 46 Crop Database & Seed Packs`,
+  description: `Complete ${gameName} seeds guide with 46 crop pages, seed costs, rarity, harvest type, Star Fruit, Sun Bloom, Eclipse Bloom, seed packs, and unreleased crop notes.`,
   alternates: { canonical: `${config.seo.baseUrl}/systems/seeds` },
 };
 
@@ -29,14 +29,15 @@ const seeds: SeedItem[] = (((itemsData as unknown) as { items: SeedItem[] }).ite
 );
 
 const tierOrder: Record<string, number> = {
-  Super: 0,
-  Mythic: 1,
-  Legendary: 2,
-  Epic: 3,
-  Rare: 4,
-  Uncommon: 5,
-  Common: 6,
-  TBD: 7,
+  Secret: 0,
+  Super: 1,
+  Mythic: 2,
+  Legendary: 3,
+  Epic: 4,
+  Rare: 5,
+  Uncommon: 6,
+  Common: 7,
+  TBD: 8,
 };
 
 function numericValue(value: number | string | undefined): number {
@@ -50,7 +51,7 @@ const sortedSeeds = [...seeds].sort((a, b) => {
 });
 
 const cropCount = seeds.length;
-const latestSeeds = ['fire-fern', 'rocket-pop', 'bone-blossom', 'briar-rose']
+const latestSeeds = ['star-fruit', 'sun-bloom', 'eclipse-bloom']
   .map((slug) => seeds.find((seed) => seed.slug === slug))
   .filter((seed): seed is SeedItem => Boolean(seed));
 
@@ -104,22 +105,21 @@ export default function SystemsSeedsPage() {
             <div className="text-center mb-12">
               <h1 className="heading">{gameName} Seeds &amp; Crops</h1>
               <p className="subheading">
-                Complete database of all {cropCount} crop entries, including Fire Fern, Rocket Pop,
-                Bone Blossom, Briar Rose, Hypno Bloom, seed costs, harvest type, and seed pack drop
-                references.
+                Complete database of all {cropCount} crop entries, including Star Fruit, Sun Bloom,
+                Eclipse Bloom, updated Super-tier prices, harvest types, and seed pack references.
               </p>
             </div>
 
             <div className="max-w-5xl mx-auto space-y-10">
               {latestSeeds.length > 0 ? (
                 <section className="rounded-lg border border-orange-200 bg-orange-50 p-5 dark:border-orange-900/60 dark:bg-orange-950/30">
-                  <h2 className="text-2xl font-semibold mb-3">Update 1.13.0 Seeds</h2>
+                  <h2 className="text-2xl font-semibold mb-3">Merging Update Seeds</h2>
                   <p className="text-gray-700 dark:text-gray-300 mb-4">
-                    The July 2026 data refresh adds two shop-listed Legendary crops and two
-                    unreleased/testing crops. Fire Fern is the standout multi-harvest crop at 6M
-                    Sheckles, while Rocket Pop is a lower-cost single-harvest Legendary.
+                    The July 13 Merging Update adds Star Fruit and Sun Bloom to the Super tier,
+                    plus Eclipse Bloom as the first Secret crop. Eclipse Bloom is created by
+                    merging Sun Bloom with Moon Bloom, consuming both parent plants.
                   </p>
-                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                     {latestSeeds.map((seed) => (
                       <Link
                         key={seed.slug}

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import fs from 'fs';
+import path from 'path';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { config } from '@/lib/games.config';
@@ -20,7 +22,6 @@ type SeedItem = {
   stats?: Record<string, string | number>;
   howToGet?: string;
   patchNotes?: string;
-  hasImage?: boolean;
 };
 
 const seeds: SeedItem[] = (((itemsData as unknown) as { items: SeedItem[] }).items ?? []).filter(
@@ -57,7 +58,7 @@ export default async function SeedDetailPage({ params }: { params: Promise<{ slu
   if (!seed) notFound();
 
   const imageSrc = `/images/crops/${seed.slug}.webp`;
-  const hasCropImage = seed.hasImage !== false;
+  const hasCropImage = fs.existsSync(path.join(process.cwd(), 'public', imageSrc));
 
   return (
     <div className="flex flex-col min-h-screen">

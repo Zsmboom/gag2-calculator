@@ -56,13 +56,13 @@ export const defaultConfig: GameSiteConfig = {
     robloxId: "97598239454123",
     developer: "Strawberreh Squad / Splitting Point Studios",
     genre: "Farming Simulator / PvP Raiding",
-    lastUpdated: "2026-07-07",
+    lastUpdated: "2026-07-14",
   },
   seo: {
     siteTitle:
       "grow-a-garden-2 calculator[2026.07]",
     siteDescription:
-      "Free Grow a Garden 2 calculator, active GAG2 codes, 43-crop seed database, NPC guides, mutation multipliers, and complete Roblox GAG2 wiki for 2026.07.",
+      "Free Grow a Garden 2 calculator, active GAG2 codes, 46-page crop database, Merging Update seeds, pet guides, and complete Roblox GAG2 wiki for 2026.07.",
     baseUrl: "https://gag2-calculator.com",
     primaryKeywords: [
       "Grow a Garden 2",
@@ -81,12 +81,12 @@ export const defaultConfig: GameSiteConfig = {
     ],
   },
   pages: [
-    { path: "/", title: "grow-a-garden-2 calculator[2026.07]", description: "Free Grow a Garden 2 calculator, active GAG2 codes, 43-crop seed database, NPC guides, mutation multipliers, and complete Roblox GAG2 wiki for 2026.07.", priority: 1.0, isHub: true },
+    { path: "/", title: "grow-a-garden-2 calculator[2026.07]", description: "Free Grow a Garden 2 calculator, active GAG2 codes, 46-page crop database, Merging Update seeds, pet guides, and complete Roblox GAG2 wiki for 2026.07.", priority: 1.0, isHub: true },
     { path: "/calculator", title: "Calculator", description: "Free Grow a Garden 2 profit calculator. Estimate sell prices with the community-verified formula: weight, mutations, and friend boost. Instant browser-side results.", priority: 0.9, isHub: true },
     { path: "/codes", title: "Codes", description: "Grow a Garden 2 Codes", priority: 0.9, isHub: true },
     { path: "/beginner-guide", title: "Guide", description: "Grow a Garden 2 Beginner Guide", priority: 0.8, isHub: true },
     { path: "/systems", title: "Systems", description: "Grow a Garden 2 Game Systems", priority: 0.85, isHub: true },
-    { path: "/systems/seeds", title: "Seeds", description: "Grow a Garden 2 43-Crop Seed Database", priority: 0.8, isHub: true },
+    { path: "/systems/seeds", title: "Seeds", description: "Grow a Garden 2 46-Page Crop Database", priority: 0.8, isHub: true },
     { path: "/systems/npcs", title: "NPCs", description: "Grow a Garden 2 NPC Guide", priority: 0.7 },
     { path: "/systems/mutations", title: "Mutations", description: "Grow a Garden 2 Mutation Multipliers", priority: 0.7 },
     { path: "/systems/pets", title: "Pets", description: "Grow a Garden 2 Pet Catalog", priority: 0.7 },
@@ -129,8 +129,8 @@ export const defaultConfig: GameSiteConfig = {
       path: "/codes",
     },
     {
-      title: "43-Crop Seed Database",
-      description: "Every crop ranked by rarity — Super to Common — with Update 1.13.0 seeds, 1kg values, floor values, and harvest types.",
+      title: "46-Page Crop Database",
+      description: "Every crop ranked from Secret to Common, including Star Fruit, Sun Bloom, Eclipse Bloom, prices, values, and harvest types.",
       icon: "FiList",
       path: "/systems/seeds",
     },
@@ -148,7 +148,7 @@ export const defaultConfig: GameSiteConfig = {
     },
     {
       title: "Pet Catalog",
-      description: "Spawn mechanics, abilities, and costs for every confirmed pet, including Butterfly, Bald Eagle, Big Bee, and Capybara.",
+      description: "Spawn mechanics, abilities, and costs for all 19 confirmed pets, including the Mythic Firefly.",
       icon: "FiHeart",
       path: "/systems/pets",
     },

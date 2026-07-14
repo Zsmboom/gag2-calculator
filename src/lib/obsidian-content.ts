@@ -7,6 +7,57 @@ const FRONTMATTER_RE = /^---\s*\n[\s\S]*?\n---\s*\n?/;
 const MD_IMAGE_RE = /!\[([^\]]*)\]\(([^)]+)\)/g;
 const MD_LINK_RE = /(\[[^\]]+\]\()([^)]+)(\))/g;
 const WIKI_IMAGE_RE = /!\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g;
+const PUBLIC_SOURCE_HEADING_RE = /^(#{1,6})\s+(?:data\s+sources?|sources?|source\s+data|references?|related\s+links|采集来源|数据来源|已知信息汇总|相关链接)\s*:?[\s#]*$/i;
+const PUBLIC_SOURCE_LINE_RE = /^\s*(?:[-*]\s+)?(?:📚\s*)?(?:data\s+sources?|source\s+data|sources?|采集来源|数据来源|数据源|来源)(?:\s*&\s*update\s+guide)?\s*[:：]?.*$/i;
+const PUBLIC_SOURCE_QUOTE_RE = /^\s*>\s*(?:\*{0,2}(?:data\s+source|source|sources|last\s+updated|total\s+entries)\*{0,2}|来源)\s*:.*$/i;
+const PUBLIC_ATTRIBUTION_NOTE_RE = /^\s*>.*(?:between\s+sources|data\s+from|beebom|bloxxer|sportskeeda|pro\s+game\s+guides|gag2\s+wiki|fandom\s+wiki)/i;
+const INTERNAL_DATA_PATH_RE = /^\s*>?.*(?:src\/data\/|reference-data\/|\.md(?:\s|、|,|$))/i;
+
+function removeSourceTableColumns(markdown: string): string {
+  const lines = markdown.split('\n');
+  for (let index = 0; index < lines.length - 1; index += 1) {
+    if (!lines[index].trim().startsWith('|') || !/^\s*\|?[\s:|-]+\|\s*$/.test(lines[index + 1])) continue;
+    const headers = lines[index].split('|').map((cell) => cell.trim());
+    const sourceIndex = headers.findIndex((cell) => /^(?:(?:data|information)\s+)?source(?:s)?$|^信息来源$/i.test(cell));
+    if (sourceIndex < 0) continue;
+
+    for (let row = index; row < lines.length && lines[row].trim().startsWith('|'); row += 1) {
+      const cells = lines[row].split('|');
+      if (sourceIndex < cells.length) cells.splice(sourceIndex, 1);
+      lines[row] = cells.join('|');
+    }
+  }
+  return lines.join('\n');
+}
+
+function stripPublicSourceNotes(markdown: string): string {
+  const lines = markdown.split('\n');
+  const kept: string[] = [];
+  let skippedHeadingLevel: number | null = null;
+
+  for (const line of lines) {
+    const heading = line.match(/^(#{1,6})\s+/);
+    if (skippedHeadingLevel !== null) {
+      if (!heading || heading[1].length > skippedHeadingLevel) continue;
+      skippedHeadingLevel = null;
+    }
+
+    const sourceHeading = line.match(PUBLIC_SOURCE_HEADING_RE);
+    if (sourceHeading) {
+      skippedHeadingLevel = sourceHeading[1].length;
+      continue;
+    }
+    if (
+      PUBLIC_SOURCE_LINE_RE.test(line) ||
+      PUBLIC_SOURCE_QUOTE_RE.test(line) ||
+      PUBLIC_ATTRIBUTION_NOTE_RE.test(line) ||
+      INTERNAL_DATA_PATH_RE.test(line)
+    ) continue;
+    kept.push(line);
+  }
+
+  return removeSourceTableColumns(kept.join('\n')).replace(/\n{3,}/g, '\n\n');
+}
 
 function normalizeInternalUrl(url: string): string {
   const [base, hash = ''] = url.split('#');
@@ -78,7 +129,7 @@ export function readObsidianMarkdown(sourceFile: string): string {
     return '';
   }
 
-  const raw = fs.readFileSync(fullPath, 'utf8');
+  const raw = stripPublicSourceNotes(fs.readFileSync(fullPath, 'utf8'));
   return raw
     .replace(FRONTMATTER_RE, '')
     .replace(/\r\n/g, '\n')

@@ -14,7 +14,7 @@ images: []
 
 **Breadcrumb:** Roblox > GAG2 > Seeds
 
-> **Last data refresh:** 2026-07-07 — Added Fire Fern (Legendary), Rocket Pop (Legendary), Bone Blossom (Legendary), Briar Rose (Mythic), and Summer Harvest crops (Watermelon, Citrus Fruit, Kiwi). Total: 45+ crops.
+> **Last data refresh:** 2026-07-14 — Merging Update: Added Star Fruit (Super), Sun Bloom (Super), Eclipse Bloom (Secret), Firefly (Mythic pet). Updated SUPER prices: Moon Bloom 65M→85M, Dragon's Breath 90M→225M, Hypno Bloom 90M→150M. Total: 48+ crops.
 
 ## Shop Info
 
@@ -121,7 +121,7 @@ Sells buff-type mushrooms (functionality being researched).
 
 > **Source:** growagarden2wiki.net (community-tested, unverified estimates)
 > **Last updated:** 2026-06-16
-> **Total entries:** 36 crops
+> **Total entries:** 39 crops (3 new: Star Fruit, Sun Bloom, Eclipse Bloom)
 
 ## 🔄 Harvest Types
 
@@ -133,8 +133,11 @@ Sells buff-type mushrooms (functionality being researched).
 ### SUPER
 | # | Crop | Alt Name | Avg Value (1kg) | Floor | Seed Cost | Harvest |
 |:-:|:----:|:--------:|:----------------:|:-----:|:---------:|:-------:|
-| 1 | 🌼 Moon Bloom | — | **9,000** | 8,100 | 65M🪙 / 1,349💎 | TBD |
-| 2 | 🐉 Dragon's Breath | — | **3,400** | 3,100 | 90M🪙 / 1,499💎 | Single |
+| 1 | 🌼 Moon Bloom | — | **9,000** | 8,100 | 85M🪙 / 1,499💎 | Multi |
+| 2 | 🐉 Dragon's Breath | — | **3,400** | 3,100 | 225M🪙 / 1,599💎 | Single |
+| 3 | 🍈 Hypno Bloom | — | **TBD** | TBD | 150M🪙 / 1,599💎 | Multi |
+| 4 | 🌻 Sun Bloom | — | **TBD** | TBD | 110M🪙 / 1,549💎 | Multi |
+| 5 | ⭐ Star Fruit | — | **TBD** | TBD | 315M🪙 / 1,899💎 | Multi |
 
 ### MYTHIC
 | # | Crop | Alt Name | Avg Value (1kg) | Floor | Seed Cost | Harvest |
@@ -198,6 +201,11 @@ Sells buff-type mushrooms (functionality being researched).
 | 35 | 🌹 Thorn Rose | — | **140** | 126 | 229🪙 |
 | 36 | 🌲 Pinetree | — | **100** | 90 | 99🪙 |
 
+### SECRET
+| # | Crop | Alt Name | Avg Value (1kg) | Floor | Seed Cost |
+|:-:|:----:|:--------:|:----------------:|:-----:|:---------:|
+| 37 | 🌑 Eclipse Bloom | — | **TBD** | TBD | Merge Sun Bloom + Moon Bloom |
+
 ## 💰 Best Bang-for-Buck (Value ÷ Seed Cost)
 
 | Crop | 1kg Value | Seed Cost | Ratio | Notes |
@@ -237,9 +245,12 @@ Where `exp` ranges from **2.0 to ~3.4** depending on the crop.
 | # | Crop | Rarity | Avg (1kg) | Floor | Seed 🪙 | Seed 💎 |
 |:-:|:----:|:------:|:---------:|:-----:|:-------:|:-------:|
 | 1 | 🍄 Mushroom | EPIC | **13,000** | 11,700 | 15K | 69 |
-| 2 | 🌼 Moon Bloom | SUPER | **9,000** | 8,100 | 65M | 1,349 |
+| 2 | 🌼 Moon Bloom | SUPER | **9,000** | 8,100 | 85M | 1,499 |
 | 3 | 🌸 Lotus | MYTHIC | **6,500** | 5,900 | 899 | — |
-| 4 | 🐉 Dragon's Breath | SUPER | **3,400** | 3,100 | 90M | 1,499 |
+| 4 | 🐉 Dragon's Breath | SUPER | **3,400** | 3,100 | 225M | 1,599 |
+| 5 | ⭐ Star Fruit | SUPER | **TBD** | TBD | 315M | 1,899 |
+| 6 | 🌻 Sun Bloom | SUPER | **TBD** | TBD | 110M | 1,549 |
+| 7 | 🍈 Hypno Bloom | SUPER | **TBD** | TBD | 150M | 1,599 |
 | 5 | 🪴 Venus Flytrap | MYTHIC | **3,000** | 2,700 | 7M | 799 |
 | 6 | 🌶️ Ghost Pepper | MYTHIC | **2,500** | 2,300 | 99💎 Pack | — |
 | 7 | 🌱 Beanstalk | MYTHIC | **2,000** | 1,800 | — | 1,199 |

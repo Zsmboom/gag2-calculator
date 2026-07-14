@@ -20,7 +20,7 @@ const useCases = [
   {
     label: 'Farmers',
     heading: 'Plan your crop investments',
-    body: 'Compare ROI across all 43 crop entries, see restock odds, and pick the best seed for your current Sheckle count and game phase.',
+    body: 'Compare ROI across the full crop database, see restock odds, and pick the best seed for your current Sheckle count and game phase.',
   },
   {
     label: 'Mutation hunters',
@@ -30,7 +30,7 @@ const useCases = [
 ];
 
 const obsidianCoverage = [
-  '💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (43 crop entries)',
+  '💰 Economy & Values 🎁 Active Codes 💎 Crop Value Table (46 crop pages)',
   '🌾 Database 🌽 All Crops (43 entries) 🌰 Seed Shop & Prices 💫 Mutation System & Multipliers 🐾 Pet Catalog',
 ];
 

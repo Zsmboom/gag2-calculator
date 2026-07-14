@@ -50,11 +50,11 @@ images:
 | **Platform** | Roblox |
 | **Genre** | Farming Simulator / PvP Raiding |
 | **Release Date** | 2026-06-12 (official launch) |
-| **Current Players** | ~579,806 (2026-07-07) |
+| **Current Players** | ~334,000 (2026-07-14) |
 | **24h Peak** | 579,806 |
 | **All-Time Peak CCU** | 929,371 |
-| **Total Visits** | 1.0B+ |
-| **Favorites** | 594K+ |
+| **Total Visits** | 1.214B+ |
+| **Favorites** | 607.8K+ |
 | **Rating** | 89% (620K+ ratings) |
 | **Avg Play Time** | 27.46 min |
 

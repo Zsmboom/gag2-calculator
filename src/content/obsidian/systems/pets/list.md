@@ -16,7 +16,7 @@ images: []
 
 > ⚠️ **GAG2 differs from GAG1:** Pets spawn randomly on the map rather than in a dedicated shop. Legendary+ spawns trigger a server-wide alert.
 
-## Full Pet List (18 confirmed, +4 new: Butterfly, Bald Eagle, Big Bee, Capybara)
+## Full Pet List (19 confirmed: Butterfly, Bald Eagle, Firefly, Big Bee, Capybara)
 
 | Pet | Rarity | Price (🪙) | Spawn Chance | Ability | Source |
 |:---:|:------:|:----------:|:------------:|:--------|:------:|

@@ -18,8 +18,8 @@ const groups = [
   {
     title: 'Farming & Economy',
     items: [
-      ['Seeds & Crops', '/systems/seeds', 'Complete database of all 43 crop entries, rarity, sell value, growth time, harvest type, and seed shop prices.'],
-      ['Pets', '/systems/pets', '18 confirmed pets with abilities, spawn notes, prices, and defensive value.'],
+      ['Seeds & Crops', '/systems/seeds', 'Complete database with 46 crop pages, rarity, sell value, growth time, harvest type, and seed shop prices.'],
+      ['Pets', '/systems/pets', '19 confirmed pets with abilities, spawn notes, prices, and defensive value.'],
       ['Mutations', '/systems/mutations', '12+ mutation types with value multipliers, triggers, and stacking rules.'],
       ['Gear', '/systems/gear', 'Tools, sprinklers, watering cans, and defense gear that affect growth and raids.'],
       ['Bargain System', '/systems/bargain-system', 'Sell price bonus mechanics at the final sell stage.'],

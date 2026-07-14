@@ -1,5 +1,5 @@
 {
-  "_comment": "Grow a Garden 2 crop database. 37 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
+  "_comment": "Grow a Garden 2 crop database. 40 crops. tier uses GAG2 rarity (Super/Mythic/Legendary/Epic/Rare/Uncommon/Common/TBD). baseValue = 1kg sell value, used by the profit calculator.",
   "items": [
     {
       "slug": "mega-seed",
@@ -27,26 +27,26 @@
         "Rarity": "Super",
         "1kg Value": "9,500",
         "Floor": "8,574",
-        "Seed Cost": "90,000,000🪙 / 1,599💎",
+        "Seed Cost": "150,000,000🪙 / 1,599💎",
         "Harvest": "Multi (2 fruits)",
         "Avg Weight": "9 kg",
         "Growth": "23m 20s",
         "Fruit Regrowth": "5m 33s"
       },
-      "howToGet": "Buy from the Seed Shop for 90M Sheckles or 1,599 Robux. Restock chance ~0.275%. Updated Jun 28, 2026 per growagarden2wiki.net."
+      "howToGet": "Buy from the Seed Shop for 150M Sheckles or 1,599 Robux. Restock chance ~0.275%. Updated Jun 28, 2026 per growagarden2wiki.net."
     },
     {
       "slug": "moon-bloom",
       "name": "Moon Bloom",
       "tier": "Super",
       "baseValue": 9000,
-      "description": "One of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (65M Sheckles) but extremely high returns. Endgame-only crop.",
+      "description": "One of only two Super rarity crops in GAG2 (alongside Dragon's Breath). Astronomical seed cost (85M Sheckles) but extremely high returns. Endgame-only crop.",
       "stats": {
         "Rarity": "Super",
         "1kg Value": "9,000",
         "Floor": "8,100",
-        "Seed Cost": "65,000,000🪙 / 1,349💎",
-        "Harvest": "TBD"
+        "Seed Cost": "85,000,000🪙 / 1,499💎",
+        "Harvest": "Multi"
       },
       "howToGet": "Buy from the Seed Shop. Restock chance ~0.35% — extremely rare. Requires a maxed economy (Sprinklers, pets, defense)."
     },
@@ -55,12 +55,12 @@
       "name": "Dragon's Breath",
       "tier": "Super",
       "baseValue": 3400,
-      "description": "The most expensive seed in the game (90M Sheckles) and the other Super-rarity crop. Single harvest — each seed produces one high-value crop.",
+      "description": "The most expensive seed in the game (225M Sheckles) and the other Super-rarity crop. Single harvest — each seed produces one high-value crop.",
       "stats": {
         "Rarity": "Super",
         "1kg Value": "3,400",
         "Floor": "3,100",
-        "Seed Cost": "90,000,000🪙 / 1,499💎",
+        "Seed Cost": "225,000,000🪙 / 1,599💎",
         "Harvest": "Single"
       },
       "howToGet": "Buy from the Seed Shop. Restock chance ~0.275% — extremely rare. Absolute endgame crop; needs extreme defense."
@@ -664,6 +664,48 @@
       "howToGet": "Not currently obtainable (admin/testing only).",
       "_source": "https://growagarden2wiki.net/crops/briar-rose/",
       "_confidence": "wiki_listed_unreleased"
+    },
+    {
+      "slug": "star-fruit",
+      "name": "Star Fruit",
+      "tier": "Super",
+      "baseValue": "TBD",
+      "description": "Super rarity crop added in Merging Update (Jul 13, 2026). Glows at night, strikes players with starlight every 5-10s, triggers Starfall mutation. Price 315M🪙/1,899💎. Multi-harvest. Listed in Seed Shop.",
+      "stats": {
+        "Rarity": "Super",
+        "1kg Value": "TBD",
+        "Seed Cost": "315,000,000🪙 / 1,899💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop. Super rarity restock chance."
+    },
+    {
+      "slug": "sun-bloom",
+      "name": "Sun Bloom",
+      "tier": "Super",
+      "baseValue": "TBD",
+      "description": "Super rarity crop added in Merging Update (Jul 13, 2026). Price 110M🪙/1,549💎. Multi-harvest. Can be merged with Moon Bloom to create Eclipse Bloom (both parents destroyed).",
+      "stats": {
+        "Rarity": "Super",
+        "1kg Value": "TBD",
+        "Seed Cost": "110,000,000🪙 / 1,549💎",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Buy from the Seed Shop."
+    },
+    {
+      "slug": "eclipse-bloom",
+      "name": "Eclipse Bloom",
+      "tier": "Secret",
+      "baseValue": "TBD",
+      "description": "First Secret-rarity crop (new tier above Super). Multi-harvest. Cannot be bought — obtained by merging Sun Bloom + Moon Bloom (both destroyed). Added Jul 13, 2026.",
+      "stats": {
+        "Rarity": "Secret",
+        "1kg Value": "TBD",
+        "Seed Cost": "Merge Sun Bloom + Moon Bloom",
+        "Harvest": "Multi"
+      },
+      "howToGet": "Merge Sun Bloom (110M🪙) + Moon Bloom (85M🪙). Both parents are consumed."
     }
   ]
 }

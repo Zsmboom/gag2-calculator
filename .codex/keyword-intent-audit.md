@@ -25,7 +25,8 @@ Minimum coverage: `20%` of inferred page keyword set
 - `/systems/npcs/sam`: keywords=['grow a garden 2 sam seed shop npc seeds vendor', 'sam gag2', 'grow a garden 2 seed shop', 'gag2 sam npc', 'gag2 seed vendor', 'sam grow a garden 2', 'full original content', 'sam grow a garden 2 seed shop vendor'], coverage=6/8 (75%)
 - `/systems/npcs/steven`: keywords=['grow a garden 2 steven sell stand npc crop buyer', 'steven gag2', 'grow a garden 2 sell stand', 'gag2 steven npc', 'gag2 crop buyer', 'steven grow a garden 2', 'full original content', 'steven grow a garden 2 sell stand npc'], coverage=6/8 (75%)
 - `/systems/offline-growth`: keywords=['grow a garden 2 offline growth complete', 'grow a garden 2 offline growth', 'gag2 offline farming', 'gag2 idle', 'full original content', 'offline growth', 'it works', 'best practices'], coverage=5/8 (62%)
-- `/systems/pets`: keywords=['grow a garden 2 pets complete list', 'grow a garden 2 pets', 'gag2 pets', 'full original content', 'grow a garden 2 pet catalog', 'full pet list 18 confirmed 4 butterfly bald eagle big bee capybara', 'additional pets limited data', 'system'], coverage=6/8 (75%)
+- `/systems/pets/firefly`: keywords=['grow a garden 2 firefly pet stats price', 'firefly gag2', 'grow a garden 2 firefly pet', 'gag2 firefly mythic pet', 'firefly farming pet', 'firefly grow a garden 2', 'full original content', 'firefly'], coverage=3/8 (38%)
+- `/systems/pets`: keywords=['grow a garden 2 pets complete list', 'grow a garden 2 pets', 'gag2 pets', 'full original content', 'grow a garden 2 pet catalog', 'full pet list 19 confirmed butterfly bald eagle firefly big bee capybara', 'additional pets limited data', 'system'], coverage=7/8 (88%)
 - `/systems/seeds/acorn`: keywords=['grow a garden 2 acorn stats price', 'acorn gag2', 'grow a garden 2 acorn', 'gag2 acorn crop value', 'acorn grow a garden 2', 'acorn crop image', 'full original content', 'acorn'], coverage=4/8 (50%)
 - `/systems/seeds/apple`: keywords=['grow a garden 2 apple stats price', 'apple gag2', 'grow a garden 2 apple', 'gag2 apple crop value', 'apple grow a garden 2', 'apple crop image', 'full original content', 'apple'], coverage=4/8 (50%)
 - `/systems/seeds/baby-cactus`: keywords=['grow a garden 2 baby cactus stats price', 'baby cactus gag2', 'grow a garden 2 baby cactus', 'gag2 baby cactus crop value', 'baby cactus grow a garden 2', 'baby cactus crop image', 'full original content', 'baby cactus'], coverage=4/8 (50%)
@@ -42,6 +43,7 @@ Minimum coverage: `20%` of inferred page keyword set
 - `/systems/seeds/corn`: keywords=['grow a garden 2 corn stats price', 'corn gag2', 'grow a garden 2 corn', 'gag2 corn crop value', 'corn grow a garden 2', 'corn crop image', 'full original content', 'corn crop'], coverage=4/8 (50%)
 - `/systems/seeds/dragon-fruit`: keywords=['grow a garden 2 dragon fruit stats price', 'dragon fruit gag2', 'grow a garden 2 dragon fruit', 'gag2 dragon fruit crop value', 'dragon fruit grow a garden 2', 'dragon fruit crop image', 'full original content', 'dragon fruit crop'], coverage=4/8 (50%)
 - `/systems/seeds/dragons-breath`: keywords=['grow a garden 2 dragon s breath stats price', 'dragon s breath gag2', 'grow a garden 2 dragon s breath', 'gag2 dragons breath crop value', 'dragon s breath grow a garden 2', 'dragons breath crop image', 'full original content', 'dragon s breath'], coverage=4/8 (50%)
+- `/systems/seeds/eclipse-bloom`: keywords=['grow a garden 2 eclipse bloom stats price', 'eclipse bloom gag2', 'grow a garden 2 eclipse bloom', 'gag2 eclipse bloom secret rarity', 'secret crop gag2', 'eclipse bloom grow a garden 2', 'full original content', 'eclipse bloom'], coverage=4/8 (50%)
 - `/systems/seeds/fire-fern`: keywords=['grow a garden 2 fire fern stats price', 'gag2', 'fire fern gag2', 'grow a garden 2 fire fern', 'fire fern price', 'fire fern seed cost', 'fire fern grow a garden 2', 'full original content'], coverage=5/8 (62%)
 - `/systems/seeds/ghost-pepper`: keywords=['grow a garden 2 ghost pepper stats price', 'ghost pepper gag2', 'grow a garden 2 ghost pepper', 'gag2 ghost pepper crop value', 'ghost pepper grow a garden 2', 'ghost pepper crop image', 'full original content', 'ghost pepper crop'], coverage=4/8 (50%)
 - `/systems/seeds/glow-mushroom`: keywords=['grow a garden 2 glow mushroom stats price', 'glow mushroom gag2', 'grow a garden 2 glow mushroom', 'gag2 glow mushroom crop value', 'glow mushroom grow a garden 2', 'glow mushroom crop image', 'full original content', 'glow mushroom crop'], coverage=4/8 (50%)
@@ -62,12 +64,14 @@ Minimum coverage: `20%` of inferred page keyword set
 - `/systems/seeds/pumpkin`: keywords=['grow a garden 2 pumpkin stats price', 'pumpkin gag2', 'grow a garden 2 pumpkin', 'gag2 pumpkin crop value', 'pumpkin grow a garden 2', 'pumpkin crop image', 'full original content', 'pumpkin'], coverage=4/8 (50%)
 - `/systems/seeds/rocket-pop`: keywords=['grow a garden 2 rocket pop stats price', 'gag2', 'rocket pop gag2', 'grow a garden 2 rocket pop', 'rocket pop price', 'rocket pop seed', 'rocket pop grow a garden 2', 'full original content'], coverage=5/8 (62%)
 - `/systems/seeds/romanesco`: keywords=['grow a garden 2 romanesco stats price', 'romanesco gag2', 'grow a garden 2 romanesco', 'gag2 romanesco crop value', 'romanesco grow a garden 2', 'romanesco crop image', 'full original content', 'romanesco crop'], coverage=4/8 (50%)
+- `/systems/seeds/star-fruit`: keywords=['grow a garden 2 star fruit stats price', 'star fruit gag2', 'grow a garden 2 star fruit', 'gag2 star fruit crop value', 'star fruit super rarity', 'star fruit grow a garden 2', 'full original content', 'star fruit'], coverage=4/8 (50%)
 - `/systems/seeds/strawberry`: keywords=['grow a garden 2 strawberry stats price', 'strawberry gag2', 'grow a garden 2 strawberry', 'gag2 strawberry crop value', 'strawberry grow a garden 2', 'strawberry crop image', 'full original content', 'strawberry crop'], coverage=4/8 (50%)
+- `/systems/seeds/sun-bloom`: keywords=['grow a garden 2 sun bloom stats price', 'sun bloom gag2', 'grow a garden 2 sun bloom', 'gag2 sun bloom crop value', 'sun bloom super rarity', 'sun bloom grow a garden 2', 'full original content', 'sun bloom'], coverage=4/8 (50%)
 - `/systems/seeds/sunflower`: keywords=['grow a garden 2 sunflower stats price', 'sunflower gag2', 'grow a garden 2 sunflower', 'gag2 sunflower crop value', 'sunflower grow a garden 2', 'sunflower crop image', 'full original content', 'sunflower crop'], coverage=4/8 (50%)
 - `/systems/seeds/thorn-rose`: keywords=['grow a garden 2 thorn rose stats price', 'thorn rose gag2', 'grow a garden 2 thorn rose', 'gag2 thorn rose crop value', 'thorn rose grow a garden 2', 'thorn rose crop image', 'full original content', 'thorn rose'], coverage=4/8 (50%)
 - `/systems/seeds/tomato`: keywords=['grow a garden 2 tomato stats price', 'tomato gag2', 'grow a garden 2 tomato', 'gag2 tomato crop value', 'tomato grow a garden 2', 'tomato crop image', 'full original content', 'tomato crop'], coverage=4/8 (50%)
 - `/systems/seeds/tulip`: keywords=['grow a garden 2 tulip stats price', 'tulip gag2', 'grow a garden 2 tulip', 'gag2 tulip crop value', 'tulip grow a garden 2', 'tulip crop image', 'full original content', 'tulip'], coverage=4/8 (50%)
-- `/systems/seeds/venom-spitter`: keywords=['grow a garden 2 venom spitter stats price', 'venom spitter gag2', 'grow a garden 2 venom spitter', 'gag2 venom spitter crop value', 'venom spitter grow a garden 2', 'full original content', 'structured stats', 'source data'], coverage=5/8 (62%)
+- `/systems/seeds/venom-spitter`: keywords=['grow a garden 2 venom spitter stats price', 'venom spitter gag2', 'grow a garden 2 venom spitter', 'gag2 venom spitter crop value', 'venom spitter grow a garden 2', 'full original content', 'structured stats', 'source data'], coverage=4/8 (50%)
 - `/systems/seeds/venus-flytrap`: keywords=['grow a garden 2 venus flytrap stats price', 'venus flytrap gag2', 'grow a garden 2 venus flytrap', 'gag2 venus flytrap crop value', 'venus flytrap grow a garden 2', 'venus flytrap crop image', 'full original content', 'venus flytrap crop'], coverage=4/8 (50%)
 - `/systems/weather`: keywords=['grow a garden 2 weather events effects', 'grow a garden 2 weather', 'gag2 weather events', 'gag2 weather', 'full original content', 'weather events', 'weather event table', 'aurora borealis'], coverage=5/8 (62%)
 - `/updates`: keywords=['grow a garden 2 update log patch notes events', 'grow a garden 2 update', 'gag2 patch notes', 'grow a garden 2 changelog', 'full original content', 'grow a garden 2', 'v1 13 0 fire fern rocket pop update 2026 07 04 05', 'v1 6 hypno bloom auctioneer update 2026 06 28'], coverage=5/8 (62%)
@@ -113,7 +117,9 @@ Minimum coverage: `20%` of inferred page keyword set
 | PASS | `/systems/npcs/steven` | title/H1 keyword evidence: grow a garden 2 steven sell stand npc crop buyer |
 | PASS | `/systems/offline-growth` | keyword intent coverage 5/8 (62%); present: grow a garden 2 offline growth, full original content, offline growth, it works, best practices |
 | PASS | `/systems/offline-growth` | title/H1 keyword evidence: grow a garden 2 offline growth |
-| PASS | `/systems/pets` | keyword intent coverage 6/8 (75%); present: grow a garden 2 pets, gag2 pets, full original content, grow a garden 2 pet catalog, additional pets limited data, system |
+| PASS | `/systems/pets/firefly` | keyword intent coverage 3/8 (38%); present: grow a garden 2 firefly pet, full original content, firefly |
+| PASS | `/systems/pets/firefly` | title/H1 keyword evidence: grow a garden 2 firefly pet |
+| PASS | `/systems/pets` | keyword intent coverage 7/8 (88%); present: grow a garden 2 pets, gag2 pets, full original content, grow a garden 2 pet catalog, full pet list 19 confirmed butterfly bald eagle firefly big bee capybara, additional pets limited data |
 | PASS | `/systems/pets` | title/H1 keyword evidence: grow a garden 2 pets |
 | PASS | `/systems/seeds/acorn` | keyword intent coverage 4/8 (50%); present: grow a garden 2 acorn stats price, grow a garden 2 acorn, full original content, acorn |
 | PASS | `/systems/seeds/acorn` | title/H1 keyword evidence: grow a garden 2 acorn stats price, grow a garden 2 acorn |
@@ -147,6 +153,8 @@ Minimum coverage: `20%` of inferred page keyword set
 | PASS | `/systems/seeds/dragon-fruit` | title/H1 keyword evidence: grow a garden 2 dragon fruit stats price, grow a garden 2 dragon fruit |
 | PASS | `/systems/seeds/dragons-breath` | keyword intent coverage 4/8 (50%); present: grow a garden 2 dragon s breath stats price, grow a garden 2 dragon s breath, full original content, dragon s breath |
 | PASS | `/systems/seeds/dragons-breath` | title/H1 keyword evidence: grow a garden 2 dragon s breath stats price, grow a garden 2 dragon s breath |
+| PASS | `/systems/seeds/eclipse-bloom` | keyword intent coverage 4/8 (50%); present: grow a garden 2 eclipse bloom stats price, grow a garden 2 eclipse bloom, full original content, eclipse bloom |
+| PASS | `/systems/seeds/eclipse-bloom` | title/H1 keyword evidence: grow a garden 2 eclipse bloom stats price, grow a garden 2 eclipse bloom |
 | PASS | `/systems/seeds/fire-fern` | keyword intent coverage 5/8 (62%); present: grow a garden 2 fire fern stats price, gag2, fire fern gag2, grow a garden 2 fire fern, full original content |
 | PASS | `/systems/seeds/fire-fern` | title/H1 keyword evidence: grow a garden 2 fire fern stats price, grow a garden 2 fire fern |
 | PASS | `/systems/seeds/ghost-pepper` | keyword intent coverage 4/8 (50%); present: grow a garden 2 ghost pepper stats price, grow a garden 2 ghost pepper, full original content, ghost pepper crop |
@@ -187,8 +195,12 @@ Minimum coverage: `20%` of inferred page keyword set
 | PASS | `/systems/seeds/rocket-pop` | title/H1 keyword evidence: grow a garden 2 rocket pop stats price, grow a garden 2 rocket pop |
 | PASS | `/systems/seeds/romanesco` | keyword intent coverage 4/8 (50%); present: grow a garden 2 romanesco stats price, grow a garden 2 romanesco, full original content, romanesco crop |
 | PASS | `/systems/seeds/romanesco` | title/H1 keyword evidence: grow a garden 2 romanesco stats price, grow a garden 2 romanesco |
+| PASS | `/systems/seeds/star-fruit` | keyword intent coverage 4/8 (50%); present: grow a garden 2 star fruit stats price, grow a garden 2 star fruit, full original content, star fruit |
+| PASS | `/systems/seeds/star-fruit` | title/H1 keyword evidence: grow a garden 2 star fruit stats price, grow a garden 2 star fruit |
 | PASS | `/systems/seeds/strawberry` | keyword intent coverage 4/8 (50%); present: grow a garden 2 strawberry stats price, grow a garden 2 strawberry, full original content, strawberry crop |
 | PASS | `/systems/seeds/strawberry` | title/H1 keyword evidence: grow a garden 2 strawberry stats price, grow a garden 2 strawberry |
+| PASS | `/systems/seeds/sun-bloom` | keyword intent coverage 4/8 (50%); present: grow a garden 2 sun bloom stats price, grow a garden 2 sun bloom, full original content, sun bloom |
+| PASS | `/systems/seeds/sun-bloom` | title/H1 keyword evidence: grow a garden 2 sun bloom stats price, grow a garden 2 sun bloom |
 | PASS | `/systems/seeds/sunflower` | keyword intent coverage 4/8 (50%); present: grow a garden 2 sunflower stats price, grow a garden 2 sunflower, full original content, sunflower crop |
 | PASS | `/systems/seeds/sunflower` | title/H1 keyword evidence: grow a garden 2 sunflower stats price, grow a garden 2 sunflower |
 | PASS | `/systems/seeds/thorn-rose` | keyword intent coverage 4/8 (50%); present: grow a garden 2 thorn rose stats price, grow a garden 2 thorn rose, full original content, thorn rose |
@@ -197,7 +209,7 @@ Minimum coverage: `20%` of inferred page keyword set
 | PASS | `/systems/seeds/tomato` | title/H1 keyword evidence: grow a garden 2 tomato stats price, grow a garden 2 tomato |
 | PASS | `/systems/seeds/tulip` | keyword intent coverage 4/8 (50%); present: grow a garden 2 tulip stats price, grow a garden 2 tulip, full original content, tulip |
 | PASS | `/systems/seeds/tulip` | title/H1 keyword evidence: grow a garden 2 tulip stats price, grow a garden 2 tulip |
-| PASS | `/systems/seeds/venom-spitter` | keyword intent coverage 5/8 (62%); present: grow a garden 2 venom spitter stats price, grow a garden 2 venom spitter, full original content, structured stats, source data |
+| PASS | `/systems/seeds/venom-spitter` | keyword intent coverage 4/8 (50%); present: grow a garden 2 venom spitter stats price, grow a garden 2 venom spitter, full original content, structured stats |
 | PASS | `/systems/seeds/venom-spitter` | title/H1 keyword evidence: grow a garden 2 venom spitter stats price, grow a garden 2 venom spitter |
 | PASS | `/systems/seeds/venus-flytrap` | keyword intent coverage 4/8 (50%); present: grow a garden 2 venus flytrap stats price, grow a garden 2 venus flytrap, full original content, venus flytrap crop |
 | PASS | `/systems/seeds/venus-flytrap` | title/H1 keyword evidence: grow a garden 2 venus flytrap stats price, grow a garden 2 venus flytrap |
